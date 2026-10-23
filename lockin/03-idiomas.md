@@ -858,7 +858,7 @@ El acento circunflejo casi siempre marca una s perdida: forêt (floresta), île 
 | quitter | quitar | dejar, salir de (quitar = enlever) |
 | la pile | la pila | sí, pila; pero "à pile" = justo, en punto |
 
-Ventaja portuguesa: rua, janela (no), chegar → arriver (no), pero sí: chapeau (chapéu), jardin (jardim), sonido j y ch idénticos, nasales casi iguales.
+Ventaja portuguesa: rua → rue, chapéu → chapeau, jardim → jardin, chave → clé (no), sonidos j y ch idénticos, nasales casi iguales.
 
 ## 2.3 Pronunciación francesa para hispanohablantes y lusófonos
 
