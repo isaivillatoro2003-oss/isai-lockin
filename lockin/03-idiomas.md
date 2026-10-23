@@ -9,7 +9,7 @@ Ventaja de partida: español, inglés y portugués. Eso ya te da el 60% del voca
 ## Índice
 
 1. Árabe libanés
-   1. Tabla de Arabizi
+   1. Tabla de Arabizi y cómo leer las palabras con números
    2. Pronunciación
    3. Gramática mínima para hablar ya
    4. Las 420 palabras y frases más frecuentes
@@ -21,7 +21,9 @@ Ventaja de partida: español, inglés y portugués. Eso ya te da el 60% del voca
    2. Falsos amigos
    3. Pronunciación
    4. Francés hablado real
-   5. Recursos (incluye la identificación del "Profesor Baba")
+   5. Francés escrito tipo WhatsApp (abreviaturas y pronunciación)
+   6. Las 110 frases más frecuentes en francés
+   7. Recursos (incluye la identificación del "Profesor Baba")
 3. Técnicas (todas, con cómo aplicarlas)
 4. Plan intensivo de 12 semanas (los dos idiomas, ≈ 5 h 30 diarias)
 5. Horario diario
@@ -66,6 +68,44 @@ Reglas para leer rápido:
 2. Un número suelto o con espacios es un número de verdad.
 3. No hay ortografía oficial: acepta variantes (kifak, kifek, keefak).
 
+### Cómo leer las palabras con números
+
+En todas las tablas de árabe, cada palabra aparece dos veces: como la escriben los libaneses en WhatsApp (con números) y en la columna "Cómo se lee", con letras del español. Cada número se convierte en una letra fija:
+
+| En WhatsApp | En "Cómo se lee" | Cómo suena |
+|---|---|---|
+| 2 | ' | corte de voz, la pausa de "uh-oh" |
+| 3 | ʕ | "a" apretada desde la garganta |
+| 5 o kh | J | jota española fuerte ("jamón") |
+| 7 | H | h fuerte de garganta, como empañar un espejo |
+| 8 o gh | R | r francesa, de garganta |
+| 9 | Q | k profunda (casi no se usa en Beirut) |
+| 6 | T | t enfática |
+| j | zh | j francesa o portuguesa ("janela") |
+| sh / ch | sh | sh inglés |
+| h | h | h inglesa suave ("hello"); nunca es muda |
+| ll | l·l | dos eles separadas, no la "ll" del español |
+| z | z | zumbido, como "zoo" en inglés |
+| letra doble | se alarga | b7ebbik: la b se sostiene |
+| e al final | se pronuncia | 7elwe se lee "Helwe" |
+
+Palabras desglosadas:
+
+| WhatsApp | Desglose | Se lee | Significa |
+|---|---|---|---|
+| 7elwe | 7 + elwe | Helwe | linda |
+| b7ebbik | b + 7 + ebbik | bHebbik | te amo (a mujer) |
+| 3am | 3 + am | ʕam | estoy (progresivo) |
+| 2albe | 2 + albe | 'albe | mi corazón |
+| khalas / 5alas | kh o 5 + alas | Jalas | ya, listo |
+| ghele / 8ali | gh o 8 + ele | Rele | caro |
+| ma3leh | ma + 3 + leh | maʕleh | no importa |
+| l7amdella | l + 7 + amdella | lHamdel·la | bien, gracias a Dios |
+| sa7tein | sa + 7 + tein | saHtein | buen provecho |
+| jdid | j + did | zhdid | nuevo |
+| la2 | la + 2 | la' | no |
+| 3a rase | 3 + a rase | ʕa rase | con gusto |
+
 ## 1.2 Pronunciación libanesa (Beirut, jóvenes)
 
 1. **q → 2**: qalb → 2alb, qahwe → 2ahwe. Si dices la q fuerte suenas a beduino o a druso de montaña.
@@ -108,490 +148,490 @@ Criterio: frecuencia en conversación y WhatsApp de jóvenes de Beirut, más lo 
 
 ### A. Saludos y despedidas (1 a 30)
 
-| # | Arabizi | Español |
-|---|---|---|
-| 1 | marhaba | hola |
-| 2 | hi / hiii | hola (muy usado) |
-| 3 | bonjour | hola / buenos días |
-| 4 | bonsoir | buenas noches (saludo) |
-| 5 | ahla w sahla / ahlan | bienvenido / hola |
-| 6 | kifak? | ¿cómo estás? (m) |
-| 7 | kifik? | ¿cómo estás? (f) |
-| 8 | kifkon? | ¿cómo están? |
-| 9 | ça va? | ¿qué tal? |
-| 10 | kif el 7al? | ¿cómo va todo? |
-| 11 | shu el akhbar? | ¿qué noticias? |
-| 12 | shu fi ma fi? | ¿qué hay de nuevo? |
-| 13 | mni7 / mni7a | bien (m / f) |
-| 14 | l7amdella | bien, gracias a Dios |
-| 15 | tamem | perfecto, bien |
-| 16 | mashi l7al | ahí vamos |
-| 17 | sabe7 el kheir | buenos días |
-| 18 | saba7 el nour | buenos días (respuesta) |
-| 19 | masa el kheir | buenas tardes |
-| 20 | masa el nour | buenas tardes (respuesta) |
-| 21 | tesba7 / tesba7e 3a kheir | buenas noches, al despedirse (m / f) |
-| 22 | w enta / w ente | ¿y tú? (m / f) |
-| 23 | yalla bye | bueno, adiós |
-| 24 | bye / bay | adiós |
-| 25 | ma3 el salame | adiós (ve en paz) |
-| 26 | allah ma3ak / ma3ik | ve con Dios (m / f) |
-| 27 | bshufak / bshufik ba3den | nos vemos luego (m / f) |
-| 28 | la ba3den | hasta luego |
-| 29 | nharak / nharik sa3id | buen día (m / f) |
-| 30 | ahlan fik / fike | hola a ti también (m / f) |
+| # | Arabizi | Cómo se lee | Español |
+|---|---|---|---|
+| 1 | marhaba | marhaba | hola |
+| 2 | hi / hiii | jái / jáii | hola (muy usado) |
+| 3 | bonjour | bonzhúr | hola / buenos días |
+| 4 | bonsoir | bonsuár | buenas noches (saludo) |
+| 5 | ahla w sahla / ahlan | ahla w sahla / ahlan | bienvenido / hola |
+| 6 | kifak? | kifak? | ¿cómo estás? (m) |
+| 7 | kifik? | kifik? | ¿cómo estás? (f) |
+| 8 | kifkon? | kifkon? | ¿cómo están? |
+| 9 | ça va? | sa va? | ¿qué tal? |
+| 10 | kif el 7al? | kif el Hal? | ¿cómo va todo? |
+| 11 | shu el akhbar? | shu el aJbar? | ¿qué noticias? |
+| 12 | shu fi ma fi? | shu fi ma fi? | ¿qué hay de nuevo? |
+| 13 | mni7 / mni7a | mniH / mniHa | bien (m / f) |
+| 14 | l7amdella | lHamdel·la | bien, gracias a Dios |
+| 15 | tamem | tamem | perfecto, bien |
+| 16 | mashi l7al | mashi lHal | ahí vamos |
+| 17 | sabe7 el kheir | sabeH el Jeir | buenos días |
+| 18 | saba7 el nour | sabaH el nur | buenos días (respuesta) |
+| 19 | masa el kheir | masa el Jeir | buenas tardes |
+| 20 | masa el nour | masa el nur | buenas tardes (respuesta) |
+| 21 | tesba7 / tesba7e 3a kheir | tesbaH / tesbaHe ʕa Jeir | buenas noches, al despedirse (m / f) |
+| 22 | w enta / w ente | w enta / w ente | ¿y tú? (m / f) |
+| 23 | yalla bye | yal·la bái | bueno, adiós |
+| 24 | bye / bay | bái / bái | adiós |
+| 25 | ma3 el salame | maʕ el salame | adiós (ve en paz) |
+| 26 | allah ma3ak / ma3ik | al·lah maʕak / maʕik | ve con Dios (m / f) |
+| 27 | bshufak / bshufik ba3den | bshufak / bshufik baʕden | nos vemos luego (m / f) |
+| 28 | la ba3den | la baʕden | hasta luego |
+| 29 | nharak / nharik sa3id | nharak / nharik saʕid | buen día (m / f) |
+| 30 | ahlan fik / fike | ahlan fik / fike | hola a ti también (m / f) |
 
 ### B. Cortesía y respuestas básicas (31 a 60)
 
-| # | Arabizi | Español |
-|---|---|---|
-| 31 | merci | gracias |
-| 32 | merci ktir | muchas gracias |
-| 33 | yislamo | gracias |
-| 34 | yislamo idek / idayki | gracias por lo que hiciste (m / f) |
-| 35 | 3afwan | de nada / perdón |
-| 36 | tikram / tikrame | con gusto (m / f) |
-| 37 | pardon | perdón |
-| 38 | sorry | perdón |
-| 39 | ma3leh | no importa / ni modo |
-| 40 | law sama7t / sama7te | disculpa, por favor (m / f) |
-| 41 | please | por favor |
-| 42 | tfaddal / tfaddale | adelante, sírvete (m / f) |
-| 43 | eh | sí |
-| 44 | la2 | no |
-| 45 | akid | claro |
-| 46 | tab3an | por supuesto |
-| 47 | mazbout | correcto, exacto |
-| 48 | ok / okay | ok |
-| 49 | tayyeb / tab | bueno, vale |
-| 50 | ma ba3ref | no sé |
-| 51 | ba3ref | sé |
-| 52 | fhemt | entendí |
-| 53 | ma fhemt | no entendí |
-| 54 | 3id please | repite por favor |
-| 55 | shway shway | despacio |
-| 56 | ma fi mshkle | no hay problema |
-| 57 | inshallah | ojalá, si Dios quiere |
-| 58 | mashallah | qué maravilla (admiración) |
-| 59 | sa7tein | buen provecho / salud (al comer, beber o estrenar algo) |
-| 60 | 3a rase | con gusto (lit. sobre mi cabeza) |
+| # | Arabizi | Cómo se lee | Español |
+|---|---|---|---|
+| 31 | merci | mersí | gracias |
+| 32 | merci ktir | mersí ktir | muchas gracias |
+| 33 | yislamo | yislamo | gracias |
+| 34 | yislamo idek / idayki | yislamo idek / idayki | gracias por lo que hiciste (m / f) |
+| 35 | 3afwan | ʕafwan | de nada / perdón |
+| 36 | tikram / tikrame | tikram / tikrame | con gusto (m / f) |
+| 37 | pardon | pardón | perdón |
+| 38 | sorry | sóri | perdón |
+| 39 | ma3leh | maʕleh | no importa / ni modo |
+| 40 | law sama7t / sama7te | law samaHt / samaHte | disculpa, por favor (m / f) |
+| 41 | please | plíis | por favor |
+| 42 | tfaddal / tfaddale | tfaddal / tfaddale | adelante, sírvete (m / f) |
+| 43 | eh | eh | sí |
+| 44 | la2 | la' | no |
+| 45 | akid | akid | claro |
+| 46 | tab3an | tabʕan | por supuesto |
+| 47 | mazbout | mazbut | correcto, exacto |
+| 48 | ok / okay | okéi / okéi | ok |
+| 49 | tayyeb / tab | tayyeb / tab | bueno, vale |
+| 50 | ma ba3ref | ma baʕref | no sé |
+| 51 | ba3ref | baʕref | sé |
+| 52 | fhemt | fhemt | entendí |
+| 53 | ma fhemt | ma fhemt | no entendí |
+| 54 | 3id please | ʕid plíis | repite por favor |
+| 55 | shway shway | shway shway | despacio |
+| 56 | ma fi mshkle | ma fi mshkle | no hay problema |
+| 57 | inshallah | inshal·lah | ojalá, si Dios quiere |
+| 58 | mashallah | mashal·lah | qué maravilla (admiración) |
+| 59 | sa7tein | saHtein | buen provecho / salud (al comer, beber o estrenar algo) |
+| 60 | 3a rase | ʕa rase | con gusto (lit. sobre mi cabeza) |
 
 ### C. Pronombres, posesivos y demostrativos (61 a 85)
 
-| # | Arabizi | Español |
-|---|---|---|
-| 61 | ana | yo |
-| 62 | enta | tú (m) |
-| 63 | ente | tú (f) |
-| 64 | huwwe | él |
-| 65 | hiyye | ella |
-| 66 | ne7na | nosotros |
-| 67 | ento | ustedes |
-| 68 | henne | ellos |
-| 69 | bayte | mi casa (-e = mi) |
-| 70 | baytak | tu casa (m) |
-| 71 | baytik | tu casa (f) |
-| 72 | bayto | su casa (de él) |
-| 73 | bayta | su casa (de ella) |
-| 74 | baytna | nuestra casa |
-| 75 | baytkon | su casa (de ustedes) |
-| 76 | bayton | su casa (de ellos) |
-| 77 | taba3 / tabe3 | de (posesión): el phone taba3e = mi teléfono |
-| 78 | hayda | este |
-| 79 | hayde | esta |
-| 80 | hawde | estos |
-| 81 | haydak / haydike | ese / esa |
-| 82 | kel | todo, cada |
-| 83 | kel shi | todo |
-| 84 | wala shi | nada |
-| 85 | 7ada / wala 7ada | alguien / nadie |
+| # | Arabizi | Cómo se lee | Español |
+|---|---|---|---|
+| 61 | ana | ana | yo |
+| 62 | enta | enta | tú (m) |
+| 63 | ente | ente | tú (f) |
+| 64 | huwwe | huwwe | él |
+| 65 | hiyye | hiyye | ella |
+| 66 | ne7na | neHna | nosotros |
+| 67 | ento | ento | ustedes |
+| 68 | henne | henne | ellos |
+| 69 | bayte | bayte | mi casa (-e = mi) |
+| 70 | baytak | baytak | tu casa (m) |
+| 71 | baytik | baytik | tu casa (f) |
+| 72 | bayto | bayto | su casa (de él) |
+| 73 | bayta | bayta | su casa (de ella) |
+| 74 | baytna | baytna | nuestra casa |
+| 75 | baytkon | baytkon | su casa (de ustedes) |
+| 76 | bayton | bayton | su casa (de ellos) |
+| 77 | taba3 / tabe3 | tabaʕ / tabeʕ | de (posesión): el phone taba3e = mi teléfono |
+| 78 | hayda | hayda | este |
+| 79 | hayde | hayde | esta |
+| 80 | hawde | hawde | estos |
+| 81 | haydak / haydike | haydak / haydike | ese / esa |
+| 82 | kel | kel | todo, cada |
+| 83 | kel shi | kel shi | todo |
+| 84 | wala shi | wala shi | nada |
+| 85 | 7ada / wala 7ada | Hada / wala Hada | alguien / nadie |
 
 ### D. Preguntas (86 a 110)
 
-| # | Arabizi | Español |
-|---|---|---|
-| 86 | shu? / chou? | ¿qué? |
-| 87 | shu hayda? | ¿qué es esto? |
-| 88 | lesh? / lech? | ¿por qué? |
-| 89 | wen? | ¿dónde? |
-| 90 | wenak? / wenik? | ¿dónde estás? (m / f) |
-| 91 | emta? | ¿cuándo? |
-| 92 | kif? | ¿cómo? |
-| 93 | min? | ¿quién? |
-| 94 | 2adde? | ¿cuánto? |
-| 95 | 2addesh? | ¿cuánto? (precio, tiempo) |
-| 96 | 2addesh el se3a? | ¿qué hora es? |
-| 97 | ayya wa7ad? | ¿cuál? |
-| 98 | men wen? | ¿de dónde? |
-| 99 | men wen enta / ente? | ¿de dónde eres? (m / f) |
-| 100 | shu esmak / esmik? | ¿cómo te llamas? (m / f) |
-| 101 | esme ... | me llamo ... |
-| 102 | shu 3am ta3mel / ta3mle? | ¿qué haces? (m / f) |
-| 103 | shu baddak / baddik? | ¿qué quieres? (m / f) |
-| 104 | fik / fike tse3edne? | ¿puedes ayudarme? (m / f) |
-| 105 | btehke englizi / frense? | ¿hablas inglés / francés? |
-| 106 | fi ...? | ¿hay ...? |
-| 107 | 3anjad? | ¿en serio? |
-| 108 | mesh hek? | ¿verdad? ¿no? |
-| 109 | shu ya3ne ...? | ¿qué significa ...? |
-| 110 | kif bt2oul ... bel 3arabe? | ¿cómo se dice ... en árabe? |
+| # | Arabizi | Cómo se lee | Español |
+|---|---|---|---|
+| 86 | shu? / chou? | shu? / shu? | ¿qué? |
+| 87 | shu hayda? | shu hayda? | ¿qué es esto? |
+| 88 | lesh? / lech? | lesh? / lesh? | ¿por qué? |
+| 89 | wen? | wen? | ¿dónde? |
+| 90 | wenak? / wenik? | wenak? / wenik? | ¿dónde estás? (m / f) |
+| 91 | emta? | emta? | ¿cuándo? |
+| 92 | kif? | kif? | ¿cómo? |
+| 93 | min? | min? | ¿quién? |
+| 94 | 2adde? | 'adde? | ¿cuánto? |
+| 95 | 2addesh? | 'addesh? | ¿cuánto? (precio, tiempo) |
+| 96 | 2addesh el se3a? | 'addesh el seʕa? | ¿qué hora es? |
+| 97 | ayya wa7ad? | ayya waHad? | ¿cuál? |
+| 98 | men wen? | men wen? | ¿de dónde? |
+| 99 | men wen enta / ente? | men wen enta / ente? | ¿de dónde eres? (m / f) |
+| 100 | shu esmak / esmik? | shu esmak / esmik? | ¿cómo te llamas? (m / f) |
+| 101 | esme ... | esme ... | me llamo ... |
+| 102 | shu 3am ta3mel / ta3mle? | shu ʕam taʕmel / taʕmle? | ¿qué haces? (m / f) |
+| 103 | shu baddak / baddik? | shu baddak / baddik? | ¿qué quieres? (m / f) |
+| 104 | fik / fike tse3edne? | fik / fike tseʕedne? | ¿puedes ayudarme? (m / f) |
+| 105 | btehke englizi / frense? | btehke englizi / frense? | ¿hablas inglés / francés? |
+| 106 | fi ...? | fi ...? | ¿hay ...? |
+| 107 | 3anjad? | ʕanzhad? | ¿en serio? |
+| 108 | mesh hek? | mesh hek? | ¿verdad? ¿no? |
+| 109 | shu ya3ne ...? | shu yaʕne ...? | ¿qué significa ...? |
+| 110 | kif bt2oul ... bel 3arabe? | kif bt'ul ... bel ʕarabe? | ¿cómo se dice ... en árabe? |
 
 ### E. Tiempo, días y frecuencia (111 a 145)
 
-| # | Arabizi | Español |
-|---|---|---|
-| 111 | hala2 | ahora |
-| 112 | ba3den | después |
-| 113 | 2abel | antes |
-| 114 | lyom | hoy |
-| 115 | bukra | mañana |
-| 116 | mbere7 | ayer |
-| 117 | ba3d bukra | pasado mañana |
-| 118 | awwal mbere7 | anteayer |
-| 119 | el se3a | la hora / el reloj |
-| 120 | se3a | una hora |
-| 121 | d2i2a | minuto |
-| 122 | nhar | día |
-| 123 | lele | noche |
-| 124 | jem3a | semana (también viernes y universidad) |
-| 125 | shaher | mes |
-| 126 | sene | año |
-| 127 | el sob7 | la mañana |
-| 128 | el dohr | mediodía |
-| 129 | ba3d el dohr | la tarde |
-| 130 | el masa | el atardecer |
-| 131 | el tanein | lunes |
-| 132 | el tlete | martes |
-| 133 | el arb3a | miércoles |
-| 134 | el khamis | jueves |
-| 135 | el jem3a | viernes |
-| 136 | el sabt | sábado |
-| 137 | el a7ad | domingo |
-| 138 | daymen | siempre |
-| 139 | abadan | nunca |
-| 140 | marrat | a veces |
-| 141 | marra | una vez |
-| 142 | ba3d shway | en un rato |
-| 143 | bakkir | temprano |
-| 144 | ta2akhart | llegué tarde |
-| 145 | 3a tool | enseguida, directo |
+| # | Arabizi | Cómo se lee | Español |
+|---|---|---|---|
+| 111 | hala2 | hala' | ahora |
+| 112 | ba3den | baʕden | después |
+| 113 | 2abel | 'abel | antes |
+| 114 | lyom | lyom | hoy |
+| 115 | bukra | bukra | mañana |
+| 116 | mbere7 | mbereH | ayer |
+| 117 | ba3d bukra | baʕd bukra | pasado mañana |
+| 118 | awwal mbere7 | awwal mbereH | anteayer |
+| 119 | el se3a | el seʕa | la hora / el reloj |
+| 120 | se3a | seʕa | una hora |
+| 121 | d2i2a | d'i'a | minuto |
+| 122 | nhar | nhar | día |
+| 123 | lele | lele | noche |
+| 124 | jem3a | zhemʕa | semana (también viernes y universidad) |
+| 125 | shaher | shaher | mes |
+| 126 | sene | sene | año |
+| 127 | el sob7 | el sobH | la mañana |
+| 128 | el dohr | el dohr | mediodía |
+| 129 | ba3d el dohr | baʕd el dohr | la tarde |
+| 130 | el masa | el masa | el atardecer |
+| 131 | el tanein | el tanein | lunes |
+| 132 | el tlete | el tlete | martes |
+| 133 | el arb3a | el arbʕa | miércoles |
+| 134 | el khamis | el Jamis | jueves |
+| 135 | el jem3a | el zhemʕa | viernes |
+| 136 | el sabt | el sabt | sábado |
+| 137 | el a7ad | el aHad | domingo |
+| 138 | daymen | daymen | siempre |
+| 139 | abadan | abadan | nunca |
+| 140 | marrat | marrat | a veces |
+| 141 | marra | marra | una vez |
+| 142 | ba3d shway | baʕd shway | en un rato |
+| 143 | bakkir | bakkir | temprano |
+| 144 | ta2akhart | ta'aJart | llegué tarde |
+| 145 | 3a tool | ʕa tul | enseguida, directo |
 
 ### F. Números y dinero (146 a 175)
 
-| # | Arabizi | Español |
-|---|---|---|
-| 146 | sefr | 0 |
-| 147 | wa7ad | 1 |
-| 148 | tnein | 2 |
-| 149 | tlete | 3 |
-| 150 | arb3a | 4 |
-| 151 | khamse | 5 |
-| 152 | sette | 6 |
-| 153 | sab3a | 7 |
-| 154 | tmene | 8 |
-| 155 | tes3a | 9 |
-| 156 | 3ashra | 10 |
-| 157 | 7da3sh | 11 |
-| 158 | tna3sh | 12 |
-| 159 | khamsta3sh | 15 |
-| 160 | 3eshrin | 20 |
-| 161 | wa7ad w 3eshrin | 21 |
-| 162 | tletin | 30 |
-| 163 | arb3in | 40 |
-| 164 | khamsin | 50 |
-| 165 | miyye | 100 |
-| 166 | mitein | 200 |
-| 167 | alf | 1000 |
-| 168 | malyoun | millón |
-| 169 | nos | medio, la mitad |
-| 170 | rebe3 | un cuarto |
-| 171 | awwal | primero |
-| 172 | tene | segundo |
-| 173 | akhir | último |
-| 174 | lira / dollar / fresh | lira, dólar, "fresh dollars" (efectivo real) |
-| 175 | ktir ghele! | ¡muy caro! |
+| # | Arabizi | Cómo se lee | Español |
+|---|---|---|---|
+| 146 | sefr | sefr | 0 |
+| 147 | wa7ad | waHad | 1 |
+| 148 | tnein | tnein | 2 |
+| 149 | tlete | tlete | 3 |
+| 150 | arb3a | arbʕa | 4 |
+| 151 | khamse | Jamse | 5 |
+| 152 | sette | sette | 6 |
+| 153 | sab3a | sabʕa | 7 |
+| 154 | tmene | tmene | 8 |
+| 155 | tes3a | tesʕa | 9 |
+| 156 | 3ashra | ʕashra | 10 |
+| 157 | 7da3sh | Hdaʕsh | 11 |
+| 158 | tna3sh | tnaʕsh | 12 |
+| 159 | khamsta3sh | Jamstaʕsh | 15 |
+| 160 | 3eshrin | ʕeshrin | 20 |
+| 161 | wa7ad w 3eshrin | waHad w ʕeshrin | 21 |
+| 162 | tletin | tletin | 30 |
+| 163 | arb3in | arbʕin | 40 |
+| 164 | khamsin | Jamsin | 50 |
+| 165 | miyye | miyye | 100 |
+| 166 | mitein | mitein | 200 |
+| 167 | alf | alf | 1000 |
+| 168 | malyoun | malyun | millón |
+| 169 | nos | nos | medio, la mitad |
+| 170 | rebe3 | rebeʕ | un cuarto |
+| 171 | awwal | awwal | primero |
+| 172 | tene | tene | segundo |
+| 173 | akhir | aJir | último |
+| 174 | lira / dollar / fresh | líra / dólar / fresh | lira, dólar, "fresh dollars" (efectivo real) |
+| 175 | ktir ghele! | ktir Rele! | ¡muy caro! |
 
 ### G. Verbos clave (176 a 225)
 
-| # | Arabizi | Español |
-|---|---|---|
-| 176 | bade / baddak / baddik | quiero / quieres (m / f) |
-| 177 | fiye / fik / fike | puedo / puedes (m / f) |
-| 178 | b7ebb | me gusta / amo |
-| 179 | ma b7ebb | no me gusta |
-| 180 | ba3ref | sé, conozco |
-| 181 | bfham | entiendo |
-| 182 | be7ke | hablo |
-| 183 | brou7 | voy |
-| 184 | ra7 rou7 | voy a ir |
-| 185 | ra7t | fui |
-| 186 | jeye / jeyye | vengo, ya voy (m / f) |
-| 187 | ta3a / ta3e | ven (m / f) |
-| 188 | bekol | como |
-| 189 | akalt | comí |
-| 190 | beshrab | bebo |
-| 191 | bnem | duermo |
-| 192 | nemt | dormí |
-| 193 | bshuf | veo |
-| 194 | shefet | vi |
-| 195 | shuf / shufe | mira (m / f) |
-| 196 | 2elt | dije |
-| 197 | 2elle / 2ilile | dime (m / f) |
-| 198 | ba3mel | hago |
-| 199 | 3melt | hice |
-| 200 | 3am ... | estoy ...ndo (3am bekol = estoy comiendo) |
-| 201 | stanna / stanne | espera (m / f) |
-| 202 | bshte8el | trabajo |
-| 203 | bedros | estudio |
-| 204 | bet3allam | aprendo |
-| 205 | 2a3od / 2e3de | siéntate (m / f) |
-| 206 | 2um / 2ume | levántate (m / f) |
-| 207 | bfout | entro |
-| 208 | betla3 | salgo, subo |
-| 209 | benzal | bajo |
-| 210 | beshtre | compro |
-| 211 | bedfa3 | pago |
-| 212 | bettesel fik / fike | te llamo (m / f) |
-| 213 | ba3atlak / ba3atlik message | te mando mensaje (m / f) |
-| 214 | belbes | me visto |
-| 215 | bes2al | pregunto |
-| 216 | bjeweb | respondo |
-| 217 | betzakkar | recuerdo |
-| 218 | nsit | olvidé |
-| 219 | eshta2tellak / eshta2tellik | te extrañé (m / f) |
-| 220 | bfakker | pienso |
-| 221 | be2ra | leo |
-| 222 | bektob | escribo |
-| 223 | bsou2 | manejo |
-| 224 | bsefer | viajo |
-| 225 | bse3ed | ayudo |
+| # | Arabizi | Cómo se lee | Español |
+|---|---|---|---|
+| 176 | bade / baddak / baddik | bade / baddak / baddik | quiero / quieres (m / f) |
+| 177 | fiye / fik / fike | fiye / fik / fike | puedo / puedes (m / f) |
+| 178 | b7ebb | bHebb | me gusta / amo |
+| 179 | ma b7ebb | ma bHebb | no me gusta |
+| 180 | ba3ref | baʕref | sé, conozco |
+| 181 | bfham | bfham | entiendo |
+| 182 | be7ke | beHke | hablo |
+| 183 | brou7 | bruH | voy |
+| 184 | ra7 rou7 | raH ruH | voy a ir |
+| 185 | ra7t | raHt | fui |
+| 186 | jeye / jeyye | zheye / zheyye | vengo, ya voy (m / f) |
+| 187 | ta3a / ta3e | taʕa / taʕe | ven (m / f) |
+| 188 | bekol | bekol | como |
+| 189 | akalt | akalt | comí |
+| 190 | beshrab | beshrab | bebo |
+| 191 | bnem | bnem | duermo |
+| 192 | nemt | nemt | dormí |
+| 193 | bshuf | bshuf | veo |
+| 194 | shefet | shefet | vi |
+| 195 | shuf / shufe | shuf / shufe | mira (m / f) |
+| 196 | 2elt | 'elt | dije |
+| 197 | 2elle / 2ilile | 'el·le / 'ilile | dime (m / f) |
+| 198 | ba3mel | baʕmel | hago |
+| 199 | 3melt | ʕmelt | hice |
+| 200 | 3am ... | ʕam ... | estoy ...ndo (3am bekol = estoy comiendo) |
+| 201 | stanna / stanne | stanna / stanne | espera (m / f) |
+| 202 | bshte8el | bshteRel | trabajo |
+| 203 | bedros | bedros | estudio |
+| 204 | bet3allam | betʕal·lam | aprendo |
+| 205 | 2a3od / 2e3de | 'aʕod / 'eʕde | siéntate (m / f) |
+| 206 | 2um / 2ume | 'um / 'ume | levántate (m / f) |
+| 207 | bfout | bfut | entro |
+| 208 | betla3 | betlaʕ | salgo, subo |
+| 209 | benzal | benzal | bajo |
+| 210 | beshtre | beshtre | compro |
+| 211 | bedfa3 | bedfaʕ | pago |
+| 212 | bettesel fik / fike | bettesel fik / fike | te llamo (m / f) |
+| 213 | ba3atlak / ba3atlik message | baʕatlak / baʕatlik mésech | te mando mensaje (m / f) |
+| 214 | belbes | belbes | me visto |
+| 215 | bes2al | bes'al | pregunto |
+| 216 | bjeweb | bzheweb | respondo |
+| 217 | betzakkar | betzakkar | recuerdo |
+| 218 | nsit | nsit | olvidé |
+| 219 | eshta2tellak / eshta2tellik | eshta'tel·lak / eshta'tel·lik | te extrañé (m / f) |
+| 220 | bfakker | bfakker | pienso |
+| 221 | be2ra | be'ra | leo |
+| 222 | bektob | bektob | escribo |
+| 223 | bsou2 | bsu' | manejo |
+| 224 | bsefer | bsefer | viajo |
+| 225 | bse3ed | bseʕed | ayudo |
 
 ### H. Adjetivos y estados (226 a 265)
 
-| # | Arabizi | Español |
-|---|---|---|
-| 226 | mni7 / mni7a | bueno / buena |
-| 227 | mesh mni7 | no está bien, malo |
-| 228 | 7elo / 7elwe | bonito / bonita |
-| 229 | ktir 7elwe | muy linda |
-| 230 | kbir / kbire | grande |
-| 231 | zghir / zghire | pequeño |
-| 232 | jdid / jdide | nuevo |
-| 233 | 2adim / 2adime | viejo (cosa) |
-| 234 | khetyar / khetyara | viejo (persona) |
-| 235 | zghir bel 3omr | joven |
-| 236 | sa3b / sa3be | difícil |
-| 237 | sahel / sahle | fácil |
-| 238 | ghele / ghelye | caro |
-| 239 | rkhis / rkhise | barato |
-| 240 | sokhn / sokhne | caliente |
-| 241 | bared / barde | frío |
-| 242 | shob | hace calor |
-| 243 | fi berd | hace frío |
-| 244 | ta3ban / ta3bene | cansado / cansada |
-| 245 | mabsout / mabsouta | contento / contenta |
-| 246 | za3lan / za3lene | triste, molesto |
-| 247 | m3assab / m3assabe | estresado, nervioso |
-| 248 | jou3an / jou3ane | con hambre |
-| 249 | 3atshan / 3atshane | con sed |
-| 250 | mashghoul / mashghoule | ocupado |
-| 251 | fadi / fadye | libre (de tiempo) |
-| 252 | mrid / mride | enfermo |
-| 253 | zaki / zakiyye | delicioso |
-| 254 | tayyeb / tayybe | rico, buena persona |
-| 255 | mesh ma32oul! | ¡increíble! (lit. no es razonable) |
-| 256 | bjanen | buenísimo (lit. vuelve loco) |
-| 257 | ktir | muy, mucho |
-| 258 | shwayye | un poco |
-| 259 | a7san | mejor |
-| 260 | aswa2 | peor |
-| 261 | metel | como, igual que |
-| 262 | nafs el shi | lo mismo |
-| 263 | sa7 | correcto |
-| 264 | ghalat | incorrecto, error |
-| 265 | 2arib / ba3id | cerca / lejos |
+| # | Arabizi | Cómo se lee | Español |
+|---|---|---|---|
+| 226 | mni7 / mni7a | mniH / mniHa | bueno / buena |
+| 227 | mesh mni7 | mesh mniH | no está bien, malo |
+| 228 | 7elo / 7elwe | Helo / Helwe | bonito / bonita |
+| 229 | ktir 7elwe | ktir Helwe | muy linda |
+| 230 | kbir / kbire | kbir / kbire | grande |
+| 231 | zghir / zghire | zRir / zRire | pequeño |
+| 232 | jdid / jdide | zhdid / zhdide | nuevo |
+| 233 | 2adim / 2adime | 'adim / 'adime | viejo (cosa) |
+| 234 | khetyar / khetyara | Jetyar / Jetyara | viejo (persona) |
+| 235 | zghir bel 3omr | zRir bel ʕomr | joven |
+| 236 | sa3b / sa3be | saʕb / saʕbe | difícil |
+| 237 | sahel / sahle | sahel / sahle | fácil |
+| 238 | ghele / ghelye | Rele / Relye | caro |
+| 239 | rkhis / rkhise | rJis / rJise | barato |
+| 240 | sokhn / sokhne | soJn / soJne | caliente |
+| 241 | bared / barde | bared / barde | frío |
+| 242 | shob | shob | hace calor |
+| 243 | fi berd | fi berd | hace frío |
+| 244 | ta3ban / ta3bene | taʕban / taʕbene | cansado / cansada |
+| 245 | mabsout / mabsouta | mabsut / mabsuta | contento / contenta |
+| 246 | za3lan / za3lene | zaʕlan / zaʕlene | triste, molesto |
+| 247 | m3assab / m3assabe | mʕassab / mʕassabe | estresado, nervioso |
+| 248 | jou3an / jou3ane | zhuʕan / zhuʕane | con hambre |
+| 249 | 3atshan / 3atshane | ʕatshan / ʕatshane | con sed |
+| 250 | mashghoul / mashghoule | mashRul / mashRule | ocupado |
+| 251 | fadi / fadye | fadi / fadye | libre (de tiempo) |
+| 252 | mrid / mride | mrid / mride | enfermo |
+| 253 | zaki / zakiyye | zaki / zakiyye | delicioso |
+| 254 | tayyeb / tayybe | tayyeb / tayybe | rico, buena persona |
+| 255 | mesh ma32oul! | mesh maʕ'ul! | ¡increíble! (lit. no es razonable) |
+| 256 | bjanen | bzhanen | buenísimo (lit. vuelve loco) |
+| 257 | ktir | ktir | muy, mucho |
+| 258 | shwayye | shwayye | un poco |
+| 259 | a7san | aHsan | mejor |
+| 260 | aswa2 | aswa' | peor |
+| 261 | metel | metel | como, igual que |
+| 262 | nafs el shi | nafs el shi | lo mismo |
+| 263 | sa7 | saH | correcto |
+| 264 | ghalat | Ralat | incorrecto, error |
+| 265 | 2arib / ba3id | 'arib / baʕid | cerca / lejos |
 
 ### I. Lugares y ciudad (266 a 290)
 
-| # | Arabizi | Español |
-|---|---|---|
-| 266 | bayt | casa |
-| 267 | rayi7 3al bayt | voy a casa (m; f: rayi7a) |
-| 268 | shi8el | trabajo |
-| 269 | jem3a | universidad |
-| 270 | madrase | escuela |
-| 271 | mat3am | restaurante |
-| 272 | 2ahwe | café (lugar) |
-| 273 | dekkene | tiendita |
-| 274 | supermarket | supermercado |
-| 275 | sayyara | coche |
-| 276 | service | taxi compartido de Beirut |
-| 277 | taxi | taxi |
-| 278 | tari2 | camino |
-| 279 | share3 | calle |
-| 280 | ba7er | mar |
-| 281 | el jabal | la montaña |
-| 282 | day3a | el pueblo (de la familia) |
-| 283 | Bayrut | Beirut |
-| 284 | Hamra, Mar Mkhayel, Gemmayze, Achrafieh, Badaro | barrios de Beirut |
-| 285 | shames | sol |
-| 286 | ba7r w shames | playa y sol |
-| 287 | 3al yamin | a la derecha |
-| 288 | 3al shmel | a la izquierda |
-| 289 | dighre | derecho |
-| 290 | hon / honik | aquí / allá |
+| # | Arabizi | Cómo se lee | Español |
+|---|---|---|---|
+| 266 | bayt | bayt | casa |
+| 267 | rayi7 3al bayt | rayiH ʕal bayt | voy a casa (m; f: rayi7a) |
+| 268 | shi8el | shiRel | trabajo |
+| 269 | jem3a | zhemʕa | universidad |
+| 270 | madrase | madrase | escuela |
+| 271 | mat3am | matʕam | restaurante |
+| 272 | 2ahwe | 'ahwe | café (lugar) |
+| 273 | dekkene | dekkene | tiendita |
+| 274 | supermarket | súpermarket | supermercado |
+| 275 | sayyara | sayyara | coche |
+| 276 | service | servís | taxi compartido de Beirut |
+| 277 | taxi | táksi | taxi |
+| 278 | tari2 | tari' | camino |
+| 279 | share3 | shareʕ | calle |
+| 280 | ba7er | baHer | mar |
+| 281 | el jabal | el zhabal | la montaña |
+| 282 | day3a | dayʕa | el pueblo (de la familia) |
+| 283 | Bayrut | bairút | Beirut |
+| 284 | Hamra, Mar Mkhayel, Gemmayze, Achrafieh, Badaro | Hámra, mar mJáiel, zhemmáize, ashrafíe, badáro | barrios de Beirut |
+| 285 | shames | shames | sol |
+| 286 | ba7r w shames | baHr w shames | playa y sol |
+| 287 | 3al yamin | ʕal yamin | a la derecha |
+| 288 | 3al shmel | ʕal shmel | a la izquierda |
+| 289 | dighre | diRre | derecho |
+| 290 | hon / honik | hon / honik | aquí / allá |
 
 ### J. Comida y bebida (291 a 325)
 
-| # | Arabizi | Español |
-|---|---|---|
-| 291 | akl | comida |
-| 292 | 2ahwe | café (bebida) |
-| 293 | shay | té |
-| 294 | kesset mayy | vaso de agua |
-| 295 | khebez | pan |
-| 296 | man2oushe | pan con za3tar (desayuno típico) |
-| 297 | za3tar | mezcla de tomillo y sésamo |
-| 298 | labne | yogur colado |
-| 299 | 7ommos | hummus |
-| 300 | tabbouleh | tabulé |
-| 301 | fattoush | ensalada con pan frito |
-| 302 | kebbe | kibbeh |
-| 303 | shawarma | shawarma |
-| 304 | falafel | falafel |
-| 305 | mezze | entradas variadas |
-| 306 | 3ara2 | arak |
-| 307 | bira | cerveza |
-| 308 | nbid | vino |
-| 309 | 3asir | jugo |
-| 310 | sekkar | azúcar |
-| 311 | mele7 | sal |
-| 312 | la7me | carne |
-| 313 | djej | pollo |
-| 314 | samak | pescado |
-| 315 | khodra | verduras |
-| 316 | fawake | fruta |
-| 317 | teffe7 | manzana |
-| 318 | jebne | queso |
-| 319 | bayd | huevo |
-| 320 | rez | arroz |
-| 321 | 7elo (el 7elo) | postre, dulce |
-| 322 | el 7seb please | la cuenta, por favor |
-| 323 | bade ... please | quiero ..., por favor |
-| 324 | shu bte2ta7? / shu bte2tar7e? | ¿qué recomiendas? (m / f) |
-| 325 | ya3tik el 3afye | que Dios te dé salud (a quien cocinó o trabajó) |
+| # | Arabizi | Cómo se lee | Español |
+|---|---|---|---|
+| 291 | akl | akl | comida |
+| 292 | 2ahwe | 'ahwe | café (bebida) |
+| 293 | shay | shay | té |
+| 294 | kesset mayy | kesset mayy | vaso de agua |
+| 295 | khebez | Jebez | pan |
+| 296 | man2oushe | man'ushe | pan con za3tar (desayuno típico) |
+| 297 | za3tar | zaʕtar | mezcla de tomillo y sésamo |
+| 298 | labne | labne | yogur colado |
+| 299 | 7ommos | Hommos | hummus |
+| 300 | tabbouleh | tabbúle | tabulé |
+| 301 | fattoush | fattúsh | ensalada con pan frito |
+| 302 | kebbe | kebbe | kibbeh |
+| 303 | shawarma | shawárma | shawarma |
+| 304 | falafel | faláfel | falafel |
+| 305 | mezze | mézze | entradas variadas |
+| 306 | 3ara2 | ʕara' | arak |
+| 307 | bira | bira | cerveza |
+| 308 | nbid | nbid | vino |
+| 309 | 3asir | ʕasir | jugo |
+| 310 | sekkar | sekkar | azúcar |
+| 311 | mele7 | meleH | sal |
+| 312 | la7me | laHme | carne |
+| 313 | djej | dzhezh | pollo |
+| 314 | samak | samak | pescado |
+| 315 | khodra | Jodra | verduras |
+| 316 | fawake | fawake | fruta |
+| 317 | teffe7 | teffeH | manzana |
+| 318 | jebne | zhebne | queso |
+| 319 | bayd | bayd | huevo |
+| 320 | rez | rez | arroz |
+| 321 | 7elo (el 7elo) | Helo (el Helo) | postre, dulce |
+| 322 | el 7seb please | el Hseb plíis | la cuenta, por favor |
+| 323 | bade ... please | bade ... plíis | quiero ..., por favor |
+| 324 | shu bte2ta7? / shu bte2tar7e? | shu bte'taH? / shu bte'tarHe? | ¿qué recomiendas? (m / f) |
+| 325 | ya3tik el 3afye | yaʕtik el ʕafye | que Dios te dé salud (a quien cocinó o trabajó) |
 
 ### K. Familia, amigos y la familia de tu novia (326 a 355)
 
-| # | Arabizi | Español |
-|---|---|---|
-| 326 | 3ayle | familia |
-| 327 | ahel | los padres, la familia cercana |
-| 328 | ahla | su familia (de ella) |
-| 329 | emme / mama | mi mamá |
-| 330 | bayye / papa | mi papá |
-| 331 | khayye | mi hermano (y "bro") |
-| 332 | ekhte | mi hermana |
-| 333 | ebne | mi hijo |
-| 334 | bente | mi hija |
-| 335 | jeddo | abuelo |
-| 336 | teta | abuela |
-| 337 | 3ammo | tío paterno |
-| 338 | 3ammto | tía paterna |
-| 339 | khalo | tío materno |
-| 340 | khalto | tía materna |
-| 341 | ebn 3amm / bent 3amm | primo / prima (paternos) |
-| 342 | sa7be | mi amigo |
-| 343 | sa7bte | mi amiga |
-| 344 | el shabeb | los chicos, el grupo |
-| 345 | el sabaya | las chicas |
-| 346 | jar / jara | vecino / vecina |
-| 347 | jowze / jowzik | mi esposo / tu esposo |
-| 348 | marte | mi esposa |
-| 349 | khatib / khatibe | prometido / prometida |
-| 350 | 3ers | boda |
-| 351 | tsharrafna | mucho gusto |
-| 352 | ahla w sahla fik | bienvenido (respuesta cordial) |
-| 353 | allah ykhallik / ykhallike | gracias, por favor (lit. Dios te guarde, m / f) |
-| 354 | wlad | niños |
-| 355 | betmanna ... | te deseo ... / espero que ... |
+| # | Arabizi | Cómo se lee | Español |
+|---|---|---|---|
+| 326 | 3ayle | ʕayle | familia |
+| 327 | ahel | ahel | los padres, la familia cercana |
+| 328 | ahla | ahla | su familia (de ella) |
+| 329 | emme / mama | emme / máma | mi mamá |
+| 330 | bayye / papa | bayye / pápa | mi papá |
+| 331 | khayye | Jayye | mi hermano (y "bro") |
+| 332 | ekhte | eJte | mi hermana |
+| 333 | ebne | ebne | mi hijo |
+| 334 | bente | bente | mi hija |
+| 335 | jeddo | zheddo | abuelo |
+| 336 | teta | teta | abuela |
+| 337 | 3ammo | ʕammo | tío paterno |
+| 338 | 3ammto | ʕammto | tía paterna |
+| 339 | khalo | Jalo | tío materno |
+| 340 | khalto | Jalto | tía materna |
+| 341 | ebn 3amm / bent 3amm | ebn ʕamm / bent ʕamm | primo / prima (paternos) |
+| 342 | sa7be | saHbe | mi amigo |
+| 343 | sa7bte | saHbte | mi amiga |
+| 344 | el shabeb | el shabeb | los chicos, el grupo |
+| 345 | el sabaya | el sabaya | las chicas |
+| 346 | jar / jara | zhar / zhara | vecino / vecina |
+| 347 | jowze / jowzik | zhowze / zhowzik | mi esposo / tu esposo |
+| 348 | marte | marte | mi esposa |
+| 349 | khatib / khatibe | Jatib / Jatibe | prometido / prometida |
+| 350 | 3ers | ʕers | boda |
+| 351 | tsharrafna | tsharrafna | mucho gusto |
+| 352 | ahla w sahla fik | ahla w sahla fik | bienvenido (respuesta cordial) |
+| 353 | allah ykhallik / ykhallike | al·lah yJal·lik / yJal·like | gracias, por favor (lit. Dios te guarde, m / f) |
+| 354 | wlad | wlad | niños |
+| 355 | betmanna ... | betmanna ... | te deseo ... / espero que ... |
 
 ### L. Amor y pareja (356 a 385)
 
 Con tu novia todo va en femenino.
 
-| # | Arabizi | Español |
-|---|---|---|
-| 356 | b7ebbik | te amo (a mujer) |
-| 357 | b7ebbak | te amo (a hombre) |
-| 358 | ana b7ebbik ktir | te amo mucho |
-| 359 | eshta2tellik | te extrañé |
-| 360 | habibte / 7abibte | mi amor (a mujer) |
-| 361 | habibi / 7abibi | mi amor (a hombre); también amigo |
-| 362 | 2albe | mi corazón |
-| 363 | 7ayete | mi vida |
-| 364 | 3omre | mi vida (lit. mi edad) |
-| 365 | rou7e | mi alma |
-| 366 | to2borne | te quiero tanto (lit. entiérrame: que yo muera antes que tú) |
-| 367 | ya 2amar | eres una luna (= hermosa) |
-| 368 | ente ktir 7elwe | eres muy hermosa |
-| 369 | 3younik 7elwin | tus ojos son lindos |
-| 370 | 3am fakker fike | estoy pensando en ti |
-| 371 | wenik? eshta2tellik | ¿dónde estás? te extrañé |
-| 372 | tesba7e 3a kheir habibte | buenas noches, mi amor |
-| 373 | sabe7 el kheir ya 2albe | buenos días, mi corazón |
-| 374 | shu 3am ta3mle? | ¿qué haces? |
-| 375 | fadye lyom? | ¿estás libre hoy? |
-| 376 | bade shufik | quiero verte |
-| 377 | yalla nrou7 3a ... | vamos a ... |
-| 378 | ana fakhour fike | estoy orgulloso de ti |
-| 379 | sorry habibte, ma ken 2asde | perdón, no era mi intención |
-| 380 | ana ma3ik | estoy contigo |
-| 381 | ma t3asbe | no te enojes, no te estreses |
-| 382 | ma tkhafe | no tengas miedo, no te preocupes |
-| 383 | kel shi ra7 ykoun mni7 | todo va a estar bien |
-| 384 | ente a7la shi b7ayete | eres lo más lindo de mi vida |
-| 385 | bas ente | solo tú |
+| # | Arabizi | Cómo se lee | Español |
+|---|---|---|---|
+| 356 | b7ebbik | bHebbik | te amo (a mujer) |
+| 357 | b7ebbak | bHebbak | te amo (a hombre) |
+| 358 | ana b7ebbik ktir | ana bHebbik ktir | te amo mucho |
+| 359 | eshta2tellik | eshta'tel·lik | te extrañé |
+| 360 | habibte / 7abibte | Habibte / Habibte | mi amor (a mujer) |
+| 361 | habibi / 7abibi | Habibi / Habibi | mi amor (a hombre); también amigo |
+| 362 | 2albe | 'albe | mi corazón |
+| 363 | 7ayete | Hayete | mi vida |
+| 364 | 3omre | ʕomre | mi vida (lit. mi edad) |
+| 365 | rou7e | ruHe | mi alma |
+| 366 | to2borne | to'borne | te quiero tanto (lit. entiérrame: que yo muera antes que tú) |
+| 367 | ya 2amar | ya 'amar | eres una luna (= hermosa) |
+| 368 | ente ktir 7elwe | ente ktir Helwe | eres muy hermosa |
+| 369 | 3younik 7elwin | ʕyunik Helwin | tus ojos son lindos |
+| 370 | 3am fakker fike | ʕam fakker fike | estoy pensando en ti |
+| 371 | wenik? eshta2tellik | wenik? eshta'tel·lik | ¿dónde estás? te extrañé |
+| 372 | tesba7e 3a kheir habibte | tesbaHe ʕa Jeir Habibte | buenas noches, mi amor |
+| 373 | sabe7 el kheir ya 2albe | sabeH el Jeir ya 'albe | buenos días, mi corazón |
+| 374 | shu 3am ta3mle? | shu ʕam taʕmle? | ¿qué haces? |
+| 375 | fadye lyom? | fadye lyom? | ¿estás libre hoy? |
+| 376 | bade shufik | bade shufik | quiero verte |
+| 377 | yalla nrou7 3a ... | yal·la nruH ʕa ... | vamos a ... |
+| 378 | ana fakhour fike | ana faJur fike | estoy orgulloso de ti |
+| 379 | sorry habibte, ma ken 2asde | sóri Habibte, ma ken 'asde | perdón, no era mi intención |
+| 380 | ana ma3ik | ana maʕik | estoy contigo |
+| 381 | ma t3asbe | ma tʕasbe | no te enojes, no te estreses |
+| 382 | ma tkhafe | ma tJafe | no tengas miedo, no te preocupes |
+| 383 | kel shi ra7 ykoun mni7 | kel shi raH ykun mniH | todo va a estar bien |
+| 384 | ente a7la shi b7ayete | ente aHla shi bHayete | eres lo más lindo de mi vida |
+| 385 | bas ente | bas ente | solo tú |
 
 ### M. Muletillas, conectores y frases de conversación (386 a 420)
 
-| # | Arabizi | Español |
-|---|---|---|
-| 386 | yalla | vamos, ándale |
-| 387 | ya3ne | o sea, es decir |
-| 388 | wallah | lo juro, en serio |
-| 389 | khalas | ya, basta, listo |
-| 390 | ba2a | pues, ya (yalla ba2a! = ¡ya, vámonos!) |
-| 391 | hek | así |
-| 392 | hek w hek | más o menos |
-| 393 | ya zalame | ¡hombre! ¡amigo! |
-| 394 | ya khayye | bro |
-| 395 | shu el 2esse? | ¿qué pasó? ¿cuál es la historia? |
-| 396 | 3anjad | en serio |
-| 397 | bta3ref / bta3rfe | ¿sabes? (m / f, muletilla) |
-| 398 | tab | bueno |
-| 399 | ya ret | ojalá |
-| 400 | a7la! | ¡qué bien! ¡genial! |
-| 401 | ma fi shi | no pasa nada |
-| 402 | shu bak? / shu bik? | ¿qué te pasa? (m / f) |
-| 403 | ma 3ende fekra | no tengo idea |
-| 404 | 3endak / 3endik | tienes (m / f) |
-| 405 | 3ende | tengo |
-| 406 | ma 3ende | no tengo |
-| 407 | fi | hay |
-| 408 | ma fi | no hay |
-| 409 | mesh / mish | no (con nombres y adjetivos) |
-| 410 | bas | pero, solo |
-| 411 | aw | o |
-| 412 | w | y |
-| 413 | kamen | también |
-| 414 | la2anno | porque |
-| 415 | iza | si (condicional) |
-| 416 | ma3 | con |
-| 417 | bala | sin |
-| 418 | ktir mni7! | ¡muy bien! |
-| 419 | bravo 3alek / 3aleke | ¡bravo! (m / f) |
-| 420 | ma t2ekhzne / ma t2ekhzine | disculpa (lit. no me lo tomes a mal, m / f) |
+| # | Arabizi | Cómo se lee | Español |
+|---|---|---|---|
+| 386 | yalla | yal·la | vamos, ándale |
+| 387 | ya3ne | yaʕne | o sea, es decir |
+| 388 | wallah | wal·lah | lo juro, en serio |
+| 389 | khalas | Jalas | ya, basta, listo |
+| 390 | ba2a | ba'a | pues, ya (yalla ba2a! = ¡ya, vámonos!) |
+| 391 | hek | hek | así |
+| 392 | hek w hek | hek w hek | más o menos |
+| 393 | ya zalame | ya zalame | ¡hombre! ¡amigo! |
+| 394 | ya khayye | ya Jayye | bro |
+| 395 | shu el 2esse? | shu el 'esse? | ¿qué pasó? ¿cuál es la historia? |
+| 396 | 3anjad | ʕanzhad | en serio |
+| 397 | bta3ref / bta3rfe | btaʕref / btaʕrfe | ¿sabes? (m / f, muletilla) |
+| 398 | tab | tab | bueno |
+| 399 | ya ret | ya ret | ojalá |
+| 400 | a7la! | aHla! | ¡qué bien! ¡genial! |
+| 401 | ma fi shi | ma fi shi | no pasa nada |
+| 402 | shu bak? / shu bik? | shu bak? / shu bik? | ¿qué te pasa? (m / f) |
+| 403 | ma 3ende fekra | ma ʕende fekra | no tengo idea |
+| 404 | 3endak / 3endik | ʕendak / ʕendik | tienes (m / f) |
+| 405 | 3ende | ʕende | tengo |
+| 406 | ma 3ende | ma ʕende | no tengo |
+| 407 | fi | fi | hay |
+| 408 | ma fi | ma fi | no hay |
+| 409 | mesh / mish | mesh / mish | no (con nombres y adjetivos) |
+| 410 | bas | bas | pero, solo |
+| 411 | aw | aw | o |
+| 412 | w | w | y |
+| 413 | kamen | kamen | también |
+| 414 | la2anno | la'anno | porque |
+| 415 | iza | iza | si (condicional) |
+| 416 | ma3 | maʕ | con |
+| 417 | bala | bala | sin |
+| 418 | ktir mni7! | ktir mniH! | ¡muy bien! |
+| 419 | bravo 3alek / 3aleke | brávo ʕalek / ʕaleke | ¡bravo! (m / f) |
+| 420 | ma t2ekhzne / ma t2ekhzine | ma t'eJzne / ma t'eJzine | disculpa (lit. no me lo tomes a mal, m / f) |
 
 ## 1.5 La mezcla árabe/francés/inglés de Beirut
 
@@ -620,30 +660,30 @@ La frase emblema: **"Hi, kifak, ça va?"** (inglés + árabe + francés en tres 
 
 **3. Verbos ingleses o franceses con morfología árabe** (prefijo b-/3am, sufijos de persona):
 
-| Arabizi mixto | Significado |
-|---|---|
-| 3am be-check el emails | estoy revisando los correos |
-| cancelna el reservation | cancelamos la reserva |
-| ma t-stresse | no te estreses (f) |
-| ba3atlik el location | te mandé la ubicación (f) |
-| save-ta el number? | ¿guardaste el número? (m) |
-| bta3mel shopping ma3e? | ¿vas de compras conmigo? (m) |
-| 3am be-flirt ma3a | está coqueteando con ella |
+| Arabizi mixto | Cómo se lee | Significado |
+|---|---|---|
+| 3am be-check el emails | ʕam be-chék el ímeils | estoy revisando los correos |
+| cancelna el reservation | kanselna el reservéishen | cancelamos la reserva |
+| ma t-stresse | ma t-strésse | no te estreses (f) |
+| ba3atlik el location | baʕatlik el lokéishen | te mandé la ubicación (f) |
+| save-ta el number? | séiv-ta el námber? | ¿guardaste el número? (m) |
+| bta3mel shopping ma3e? | btaʕmel shóping maʕe? | ¿vas de compras conmigo? (m) |
+| 3am be-flirt ma3a | ʕam be-flért maʕa | está coqueteando con ella |
 
 **4. Frases reales de ejemplo**:
 
-| Frase | Traducción |
-|---|---|
-| Hi, kifik, ça va? | Hola, ¿cómo estás?, ¿qué tal? |
-| Yalla bye, merci ktir! | Bueno adiós, ¡muchas gracias! |
-| Ana ktir tired lyom, ma fiye e3mol shi | Estoy muy cansado hoy, no puedo hacer nada |
-| Shu ra2yik nrou7 3a Mar Mkhayel? Fi bar ktir cool | ¿Qué opinas si vamos a Mar Mkhayel? Hay un bar muy cool |
-| Merci habibte, t'es trop gentille | Gracias mi amor, eres muy linda |
-| Khalas, on se voit ba3den | Ya, nos vemos luego |
-| Ma t-stresse, kel shi ra7 ykoun okay | No te estreses, todo va a estar bien |
-| Sorry ta2akhart, ken fi traffic ktir | Perdón, llegué tarde, había mucho tráfico |
-| C'est pas grave, ma3leh | No pasa nada |
-| Bonne nuit habibte, b7ebbik | Buenas noches mi amor, te amo |
+| Frase | Cómo se lee | Traducción |
+|---|---|---|
+| Hi, kifik, ça va? | Jái, kifik, sa va? | Hola, ¿cómo estás?, ¿qué tal? |
+| Yalla bye, merci ktir! | Yal·la bái, mersí ktir! | Bueno adiós, ¡muchas gracias! |
+| Ana ktir tired lyom, ma fiye e3mol shi | Ana ktir táird lyom, ma fiye eʕmol shi | Estoy muy cansado hoy, no puedo hacer nada |
+| Shu ra2yik nrou7 3a Mar Mkhayel? Fi bar ktir cool | Shu ra'yik nruH ʕa Mar mJáiel? Fi bar ktir kul | ¿Qué opinas si vamos a Mar Mkhayel? Hay un bar muy cool |
+| Merci habibte, t'es trop gentille | Mersí Habibte, te tro zhãtíy | Gracias mi amor, eres muy linda |
+| Khalas, on se voit ba3den | Jalas, õ se vuá baʕden | Ya, nos vemos luego |
+| Ma t-stresse, kel shi ra7 ykoun okay | Ma t-strésse, kel shi raH ykun okéi | No te estreses, todo va a estar bien |
+| Sorry ta2akhart, ken fi traffic ktir | Sóri ta'aJart, ken fi tráfik ktir | Perdón, llegué tarde, había mucho tráfico |
+| C'est pas grave, ma3leh | Se pa grav, maʕleh | No pasa nada |
+| Bonne nuit habibte, b7ebbik | Bon nuí Habibte, bHebbik | Buenas noches mi amor, te amo |
 
 Regla práctica para ti: si no sabes una palabra en árabe, dila en francés o inglés dentro de la frase árabe. En Beirut eso suena natural, no a error.
 
@@ -653,34 +693,34 @@ Diferencias por comunidad: zonas cristianas (Achrafieh, Metn) mezclan más franc
 
 ### Slang de jóvenes
 
-| Slang | Significado |
-|---|---|
-| yalla | vamos, ándale, ya |
-| ya zalame | ¡hombre! (sorpresa o queja) |
-| khayye / khayyo | bro |
-| habibi / habibte | amigo, cariño (no siempre romántico) |
-| 3anjad? | ¿en serio? |
-| bjanen | está buenísimo |
-| mesh ma32oul | increíble |
-| shu el 2esse? | ¿qué onda? ¿qué pasó? |
-| ma ba3ref shu bade 2ellak | no sé ni qué decirte |
-| ma bta3ref! | ¡no sabes! (¡fue increíble!) |
-| 3a rase | con todo gusto |
-| tfeh | qué asco (desprecio) |
-| ya 3ayb el shoum | qué vergüenza |
-| 5ara / khara | mierda (vulgar) |
-| ya 7aram | pobrecito / qué pena |
-| tayyeb | ok, bueno |
-| ma tkoun sa5if | no seas tonto (sa5if = tonto, insípido) |
-| za3bar / za3ran | malandro, macarra |
-| ktir cute | muy lindo |
-| shi ktir cringe | algo muy vergonzoso |
-| hayda el sa7 | eso es lo correcto |
-| ba3d 3omre | (forma de cariño, lit. después de mi vida) |
-| to2borne | te quiero muchísimo |
-| ya albe / ya 2albe | mi corazón (cariño o ironía) |
-| eh wallah | sí, de verdad |
-| la2 ba2a | ¡no, ya basta! |
+| Slang | Cómo se lee | Significado |
+|---|---|---|
+| yalla | yal·la | vamos, ándale, ya |
+| ya zalame | ya zalame | ¡hombre! (sorpresa o queja) |
+| khayye / khayyo | Jayye / Jayyo | bro |
+| habibi / habibte | Habibi / Habibte | amigo, cariño (no siempre romántico) |
+| 3anjad? | ʕanzhad? | ¿en serio? |
+| bjanen | bzhanen | está buenísimo |
+| mesh ma32oul | mesh maʕ'ul | increíble |
+| shu el 2esse? | shu el 'esse? | ¿qué onda? ¿qué pasó? |
+| ma ba3ref shu bade 2ellak | ma baʕref shu bade 'el·lak | no sé ni qué decirte |
+| ma bta3ref! | ma btaʕref! | ¡no sabes! (¡fue increíble!) |
+| 3a rase | ʕa rase | con todo gusto |
+| tfeh | tfeh | qué asco (desprecio) |
+| ya 3ayb el shoum | ya ʕayb el shum | qué vergüenza |
+| 5ara / khara | Jara / Jara | mierda (vulgar) |
+| ya 7aram | ya Haram | pobrecito / qué pena |
+| tayyeb | tayyeb | ok, bueno |
+| ma tkoun sa5if | ma tkun saJif | no seas tonto (sa5if = tonto, insípido) |
+| za3bar / za3ran | zaʕbar / zaʕran | malandro, macarra |
+| ktir cute | ktir kiút | muy lindo |
+| shi ktir cringe | shi ktir krinch | algo muy vergonzoso |
+| hayda el sa7 | hayda el saH | eso es lo correcto |
+| ba3d 3omre | baʕd ʕomre | (forma de cariño, lit. después de mi vida) |
+| to2borne | to'borne | te quiero muchísimo |
+| ya albe / ya 2albe | ya albe / ya 'albe | mi corazón (cariño o ironía) |
+| eh wallah | eh wal·lah | sí, de verdad |
+| la2 ba2a | la' ba'a | ¡no, ya basta! |
 
 ### Abreviaturas de WhatsApp
 
@@ -697,8 +737,8 @@ Diferencias por comunidad: zonas cristianas (Achrafieh, Metn) mezclan más franc
 | bdk / bdik | baddak / baddik | quieres |
 | shu / sh | shu | qué |
 | ma b3rf | ma ba3ref | no sé |
-| hbb / hbibi | habibi | amigo, amor |
-| hbbte | habibte | amor (f) |
+| hbb / hbibi | Habibi | amigo, amor |
+| hbbte | Habibte | amor (f) |
 | tkrm | tikram | de nada |
 | 7md / l7md | l7amdella | bien, gracias a Dios |
 | bb / byee | bye bye | adiós |
@@ -909,7 +949,234 @@ Ventaja portuguesa: rua → rue, chapéu → chapeau, jardim → jardin, chave �
 
 Esto también te sirve en Beirut: los libaneses francófonos usan ça va, bon, bref, t'inquiète, bisous.
 
-## 2.5 Recursos de francés
+## 2.5 Francés escrito tipo WhatsApp
+
+Cómo leer la columna "Se pronuncia" (letras del español con 6 símbolos extra):
+
+| Símbolo | Suena como |
+|---|---|
+| ü | "i" con los labios en forma de "u" (tu, rue) |
+| ö | "e" con los labios redondos (peu, deux) |
+| ã | "an" nasal, como "mãe" en portugués (enfant, temps) |
+| õ | "on" nasal, como "bom" en portugués (bon, non) |
+| ẽ | "en" nasal abierta (vin, pain, demain) |
+| zh | j francesa o portuguesa ("janela") |
+| sh | sh inglés (chat, chérie) |
+| ñ | igual que en español (gn: magnifique) |
+| r | r de garganta, como el 8 del Arabizi |
+| tilde | la sílaba fuerte; en francés casi siempre es la última |
+
+### Abreviaturas de chat en Francia
+
+| Abreviatura | Completo | Se pronuncia | Español |
+|---|---|---|---|
+| slt | salut | salü | hola |
+| cc | coucou | kukú | holi |
+| bjr | bonjour | bonzhúr | buenos días |
+| bsr | bonsoir | bonsuár | buenas noches (saludo) |
+| cv ? | ça va ? | sa va? | ¿qué tal? |
+| tkt / tqt | t'inquiète | tẽkiét | no te preocupes |
+| jsp | je sais pas | shepá | no sé |
+| jpp | j'en peux plus | zhã pö plü | ya no puedo (de risa o cansancio) |
+| mdr | mort de rire | mor de rir | jajaja |
+| ptdr | pété de rire | peté de rir | jajaja fuerte |
+| stp / svp | s'il te plaît / s'il vous plaît | siltplé / silvuplé | por favor (tú / usted) |
+| pk / pq | pourquoi | purkuá | por qué |
+| pcq | parce que | pars ke | porque |
+| bcp | beaucoup | bokú | mucho |
+| dsl | désolé | dezolé | perdón |
+| jtm | je t'aime | zhe tem | te amo |
+| jtd | je t'adore | zhe tadór | te adoro |
+| mtn | maintenant | mẽtnã | ahora |
+| ajd / auj | aujourd'hui | ozhurdüí | hoy |
+| dm1 / a2m1 | demain / à demain | demẽ / a demẽ | mañana / hasta mañana |
+| rdv | rendez-vous | rãdevú | cita |
+| qqn | quelqu'un | kelkẽ | alguien |
+| qqch | quelque chose | kelkeshóz | algo |
+| tjrs | toujours | tuzhúr | siempre |
+| jms | jamais | zhamé | nunca |
+| vrmt | vraiment | vremã | en serio |
+| ptet | peut-être | pötétr | quizás |
+| dc | du coup / donc | dü ku / dõk | entonces |
+| tt | tout / tous | tu | todo |
+| ds | dans | dã | en |
+| vs | vous | vu | ustedes, usted |
+| c | c'est | se | es |
+| g | j'ai | zhé | tengo |
+| koi / kwa | quoi | kuá | qué |
+| ki | qui | ki | quién |
+| chui / chuis | je suis | shüí | soy, estoy |
+| jvais | je vais | zhvé | voy |
+| tfk ? | tu fais quoi ? | tü fe kuá? | ¿qué haces? |
+| t ou ? | t'es où ? | te u? | ¿dónde estás? |
+| osef | on s'en fout | õ sã fu | nos vale |
+| askip | à ce qu'il paraît | askíp | según dicen |
+| wsh | wesh | uésh | qué onda (habla de calle) |
+| oklm | au calme | okálm | tranqui |
+| bg | beau gosse | bo gos | guapo |
+| a+ / @+ | à plus | a plüs | nos vemos |
+| biz / bsx | bisous | bizú | besos |
+| ué | ouais | ué | sí |
+| nn | non | nõ | no |
+| ptn | putain | putẽ | carajo (vulgar) |
+
+Las mismas abreviaturas francesas (mdr, tkt, jsp, stp, bsx, cc) las usan los libaneses francófonos en sus chats en Arabizi.
+
+## 2.6 Las 110 frases más frecuentes en francés (normal, WhatsApp y pronunciación)
+
+"igual" = en chat se escribe igual.
+
+### Saludos (1 a 15)
+
+| # | Francés | Tipo WhatsApp | Se pronuncia | Español |
+|---|---|---|---|---|
+| 1 | Bonjour | bjr | bonzhúr | buenos días, hola |
+| 2 | Salut | slt | salü | hola |
+| 3 | Coucou | cc | kukú | holi |
+| 4 | Bonsoir | bsr | bonsuár | buenas noches (saludo) |
+| 5 | Ça va ? | cv ? | sa va? | ¿qué tal? |
+| 6 | Ça va bien, et toi ? | cv bien et toi ? | sa va biẽ, e tuá? | bien, ¿y tú? |
+| 7 | Comment tu vas ? | cmt tu vas ? | komã tü va? | ¿cómo estás? |
+| 8 | Quoi de neuf ? | koi de 9 ? | kuá de nöf? | ¿qué hay de nuevo? |
+| 9 | Enchanté(e) | igual | ãshãté | mucho gusto |
+| 10 | Bienvenue | igual | biẽvenü | bienvenido |
+| 11 | Au revoir | igual | o revuár | adiós |
+| 12 | À plus tard | a+ | a plü tar | hasta luego |
+| 13 | À demain | a2m1 | a demẽ | hasta mañana |
+| 14 | Bonne nuit | bne nuit | bon nuí | buenas noches (al dormir) |
+| 15 | Bonne journée | bne journée | bon zhurné | buen día |
+
+### Cortesía y respuestas (16 a 30)
+
+| # | Francés | Tipo WhatsApp | Se pronuncia | Español |
+|---|---|---|---|---|
+| 16 | Merci | mrc | mersí | gracias |
+| 17 | Merci beaucoup | mrc bcp | mersí bokú | muchas gracias |
+| 18 | De rien | 2 rien | de riẽ | de nada |
+| 19 | S'il te plaît | stp | siltplé | por favor (tú) |
+| 20 | S'il vous plaît | svp | silvuplé | por favor (usted) |
+| 21 | Pardon | igual | pardõ | perdón |
+| 22 | Excuse-moi | igual | exküs muá | disculpa |
+| 23 | Désolé(e) | dsl | dezolé | lo siento |
+| 24 | Pas de problème | pas 2 pb | pa de problém | no hay problema |
+| 25 | Oui / Ouais | ué | ui / ué | sí |
+| 26 | Non | nn | nõ | no |
+| 27 | D'accord | dac | dakór | de acuerdo |
+| 28 | Bien sûr | igual | biẽ sür | claro |
+| 29 | Ça marche | igual | sa marsh | va, sale |
+| 30 | Avec plaisir | igual | avek plezír | con gusto |
+
+### Preguntas (31 a 45)
+
+| # | Francés | Tipo WhatsApp | Se pronuncia | Español |
+|---|---|---|---|---|
+| 31 | Comment tu t'appelles ? | cmt tu t'appelles ? | komã tü tapél? | ¿cómo te llamas? |
+| 32 | Je m'appelle Isaí | jm'appelle Isaí | zhe mapél Isaí | me llamo Isaí |
+| 33 | Tu viens d'où ? | igual | tü viẽ du? | ¿de dónde eres? |
+| 34 | Je viens de ... | jviens de ... | zhe viẽ de ... | soy de ... |
+| 35 | Qu'est-ce que c'est ? | ksk c ? | keske sé? | ¿qué es esto? |
+| 36 | Pourquoi ? | pk ? | purkuá? | ¿por qué? |
+| 37 | Où ? | igual | u? | ¿dónde? |
+| 38 | Quand ? | qd ? | kã? | ¿cuándo? |
+| 39 | Combien ça coûte ? | cb ? | kombiẽ sa kut? | ¿cuánto cuesta? |
+| 40 | Qui ? | ki ? | ki? | ¿quién? |
+| 41 | Tu parles anglais ? | igual | tü parl ãglé? | ¿hablas inglés? |
+| 42 | Tu peux répéter ? | igual | tü pö repeté? | ¿puedes repetir? |
+| 43 | Ça veut dire quoi ? | ça veut dire koi ? | sa vö dir kuá? | ¿qué significa? |
+| 44 | Comment on dit ... en français ? | cmt on dit ... ? | komã õ di ... ã frãsé? | ¿cómo se dice ... en francés? |
+| 45 | Tu fais quoi ? | tfk ? | tü fe kuá? | ¿qué haces? |
+
+### Entender y hablar (46 a 55)
+
+| # | Francés | Tipo WhatsApp | Se pronuncia | Español |
+|---|---|---|---|---|
+| 46 | Je ne comprends pas | jcomprends pas | zhe ne komprã pa | no entiendo |
+| 47 | J'ai compris | g compris | zhé komprí | entendí |
+| 48 | Je ne sais pas | jsp | shepá | no sé |
+| 49 | Je sais | jsais | zhe sé | sé |
+| 50 | Plus lentement, s'il te plaît | + lentement stp | plü lãtmã, siltplé | más despacio, por favor |
+| 51 | J'apprends le français | igual | zhaprã le frãsé | estoy aprendiendo francés |
+| 52 | Je parle un peu français | jparle un peu français | zhe parl ẽ pö frãsé | hablo un poco de francés |
+| 53 | Il y a | y'a | ilia / ia | hay |
+| 54 | Il n'y a pas | y'a pas | ia pa | no hay |
+| 55 | C'est ça | c ça | se sa | eso es |
+
+### Verbos y frases del día (56 a 75)
+
+| # | Francés | Tipo WhatsApp | Se pronuncia | Español |
+|---|---|---|---|---|
+| 56 | Je veux ... | jveux ... | zhe vö | quiero ... |
+| 57 | Je voudrais ... | jvoudrais ... | zhe vudré | quisiera ... |
+| 58 | Je peux ... ? | jpeux ... ? | zhe pö? | ¿puedo ...? |
+| 59 | J'ai besoin de ... | g besoin 2 ... | zhé bezuẽ de | necesito ... |
+| 60 | J'aime ... | igual | zhem | me gusta ... |
+| 61 | Je n'aime pas ... | j'aime pas ... | zhem pa | no me gusta ... |
+| 62 | Je vais ... | jvais ... | zhvé | voy a ... |
+| 63 | On y va ? | igual | õ ni va? | ¿vamos? |
+| 64 | Je suis fatigué(e) | chui fatigué | shüí fatigé | estoy cansado |
+| 65 | J'ai faim | g faim | zhé fẽ | tengo hambre |
+| 66 | J'ai soif | g soif | zhé suaf | tengo sed |
+| 67 | Je suis en retard | chui en retard | shüí ã retár | voy tarde |
+| 68 | J'arrive | jarrive | zharív | ya llego, ya voy |
+| 69 | Attends | att | atã | espera |
+| 70 | Regarde | igual | regárd | mira |
+| 71 | Viens | igual | viẽ | ven |
+| 72 | Je t'appelle | jt'appelle | zhe tapél | te llamo |
+| 73 | Je t'envoie un message | jt'envoie un msg | zhe tãvuá ẽ mesázh | te mando un mensaje |
+| 74 | J'ai oublié | g oublié | zhé ublié | olvidé |
+| 75 | Je pense que ... | jpense que ... | zhe pãs ke | creo que ... |
+
+### Tiempo (76 a 85)
+
+| # | Francés | Tipo WhatsApp | Se pronuncia | Español |
+|---|---|---|---|---|
+| 76 | Maintenant | mtn | mẽtnã | ahora |
+| 77 | Aujourd'hui | ajd | ozhurdüí | hoy |
+| 78 | Demain | dm1 | demẽ | mañana |
+| 79 | Hier | igual | iér | ayer |
+| 80 | Plus tard | + tard | plü tar | más tarde |
+| 81 | Tout de suite | tt de suite | tutsüít | enseguida |
+| 82 | Toujours | tjrs | tuzhúr | siempre |
+| 83 | Jamais | jms | zhamé | nunca |
+| 84 | Ce soir | igual | se suár | esta noche |
+| 85 | Ce week-end | ce we | se uikénd | este fin de semana |
+
+### Pareja (86 a 95)
+
+| # | Francés | Tipo WhatsApp | Se pronuncia | Español |
+|---|---|---|---|---|
+| 86 | Je t'aime | jtm | zhe tem | te amo |
+| 87 | Je t'adore | jtd | zhe tadór | te adoro |
+| 88 | Tu me manques | tu me manques | tü me mãk | te extraño |
+| 89 | Mon amour | igual | mon amúr | mi amor |
+| 90 | Ma chérie | igual | ma sherí | mi cariño |
+| 91 | Tu es magnifique | t magnifique | te mañifík | eres hermosa |
+| 92 | Bisous | biz / bsx | bizú | besos |
+| 93 | Gros bisous | gros biz | gro bizú | besotes |
+| 94 | Je pense à toi | jpense à toi | zhe pãs a tuá | pienso en ti |
+| 95 | J'ai hâte de te voir | g hâte 2 te voir | zhé at de te vuár | tengo ganas de verte |
+
+### Conectores y muletillas (96 a 110)
+
+| # | Francés | Tipo WhatsApp | Se pronuncia | Español |
+|---|---|---|---|---|
+| 96 | Du coup | dc | dü ku | entonces |
+| 97 | Bref | igual | bref | en fin |
+| 98 | Genre | igual | zhãr | tipo, como |
+| 99 | En fait | igual | ã fet | de hecho |
+| 100 | Mais | igual | me | pero |
+| 101 | Parce que | pcq | pars ke | porque |
+| 102 | Alors | igual | alór | entonces |
+| 103 | Peut-être | ptet | pötétr | quizás |
+| 104 | Vraiment ? | vrmt ? | vremã? | ¿en serio? |
+| 105 | C'est pas grave | c pas grave | se pa grav | no pasa nada |
+| 106 | T'inquiète | tkt | tẽkiét | no te preocupes |
+| 107 | Trop bien | igual | tro biẽ | buenísimo |
+| 108 | C'est ouf | c ouf | se uf | increíble |
+| 109 | Grave | igual | grav | totalmente |
+| 110 | J'avoue | igual | zhavú | la neta, es cierto |
+
+## 2.7 Recursos de francés
 
 ### Identificación del "Profesor Baba"
 
@@ -1207,7 +1474,8 @@ Los números refieren a la lista 1.4.
 | Bancos de palabras | Ordena fichas para formar la frase | sí | sí |
 | Cambio de género | Convierte "kifak" a forma femenina | sí (clave) | adjetivos m/f |
 | Pares mínimos | ¿Escuchaste 2alb o kalb? ¿tout o tu? | sí | sí |
-| Leer número-letra | Elige el sonido de 3, 7, 2, 5, 8 | sí | no |
+| Leer número-letra | Elige el sonido de 3, 7, 2, 5, 8 y escribe la palabra en "Cómo se lee" | sí | no |
+| Chat a normal | Convierte "jsp", "tkt", "mdr" a la frase completa y pronúnciala | no | sí |
 | Chat simulado | Conversación de WhatsApp con respuestas elegibles o libres | sí, con slang | sí |
 | Code-switch | Completa la frase con la palabra francesa/inglesa típica | sí | no |
 | Cloze | Rellena el hueco en frase real | sí | sí |
@@ -1225,7 +1493,8 @@ Corrector tolerante de Arabizi (normalización antes de comparar):
 Modelo de datos mínimo por ítem:
 
 ```
-id, idioma, unidad, arabizi | francés, arabic_script (solo árabe), es, pt,
+id, idioma, unidad, arabizi | francés, whatsapp (forma de chat), pronunciacion_es (columna "Cómo se lee"),
+arabic_script (solo árabe), es, pt,
 genero_destino (m/f/neutro/pl), variante_m, variante_f,
 audio_nativo_url, audio_tts_url, tags (amor, familia, slang, whatsapp),
 frecuencia_rank, notas
