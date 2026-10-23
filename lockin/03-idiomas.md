@@ -1608,7 +1608,7 @@ Playlists en Spotify:
 
 Sobre las que mencionaste:
 - **"Maladie":** la que está sonando en TikTok es de **Mauvais Djo**. La pongo en la lista.
-- **"Pilé":** no la identifiqué con seguridad. Dime el artista o una frase de la letra y la agrego.
+- **"Pilé":** sencillo de **Mauvais Djo** con **Pilé Gospel** y un coro (Cano Choir), según Isaí. No aparece todavía en búsquedas web; búscala por el nombre en Spotify o YouTube y confirma la ficha. La pongo en la lista.
 
 | Nivel | Artista | Canciones | Por qué sirve |
 |---|---|---|---|
@@ -1630,6 +1630,7 @@ Sobre las que mencionaste:
 | Semanas 5 a 12 | Amel Bent | Ma philosophie | Clásico pop. |
 | Semanas 5 a 12 | Dadju, Tayc | Reine, Jaloux; Le temps | R&B, vocabulario de pareja. |
 | Semanas 5 a 12 | Mauvais Djo | Maladie | La de TikTok que mencionaste. |
+| Semanas 5 a 12 | Mauvais Djo con Pilé Gospel y Cano Choir | Pilé | La que pediste; coro claro, ideal para cantar encima. Ficha por confirmar. |
 | Semanas 9 a 12 | Gims | Est-ce que tu m'aimes ?, Bella, Sapés comme jamais | Rápido, con argot. |
 | Semanas 9 a 12 | Aya Nakamura | Djadja, Pookie, Copines | Argot de calle actual; nivel alto. |
 | Semanas 9 a 12 | Orelsan | Basique, La terre est ronde | Rap con francés joven real. |
