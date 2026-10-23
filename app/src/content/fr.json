@@ -1,0 +1,2272 @@
+{
+ "lang": "fr",
+ "units": [
+  {
+   "n": 0,
+   "title": "Sonidos",
+   "goal": "Pronunciar 30 palabras clave",
+   "grammar": "liaison",
+   "vocab": "u, eu, nasales, r, e muda"
+  },
+  {
+   "n": 1,
+   "title": "Cognados",
+   "goal": "Reconocer 500 palabras",
+   "grammar": "",
+   "vocab": "reglas de 2.1"
+  },
+  {
+   "n": 2,
+   "title": "Saludos y presentación",
+   "goal": "Presentarte",
+   "grammar": "être",
+   "vocab": "bonjour, salut, je m'appelle, enchanté"
+  },
+  {
+   "n": 3,
+   "title": "Falsos amigos",
+   "goal": "No caer en trampas",
+   "grammar": "",
+   "vocab": "lista 2.2"
+  },
+  {
+   "n": 4,
+   "title": "Yo tengo, yo voy",
+   "goal": "Hablar de ti",
+   "grammar": "presente irregular",
+   "vocab": "avoir, aller, faire"
+  },
+  {
+   "n": 5,
+   "title": "Preguntas",
+   "goal": "Preguntar todo",
+   "grammar": "inversión",
+   "vocab": "qui, quoi, où, quand, comment, pourquoi, combien, est-ce que"
+  },
+  {
+   "n": 6,
+   "title": "Números, hora, precios",
+   "goal": "Comprar y quedar",
+   "grammar": "",
+   "vocab": "0 a 1000, heure"
+  },
+  {
+   "n": 7,
+   "title": "Comida y café",
+   "goal": "Pedir en París",
+   "grammar": "partitivos du/de la",
+   "vocab": "boulangerie, café, addition"
+  },
+  {
+   "n": 8,
+   "title": "Rutina",
+   "goal": "Describir tu día",
+   "grammar": "presente regular, reflexivos",
+   "vocab": "verbos -er"
+  },
+  {
+   "n": 9,
+   "title": "Negación",
+   "goal": "Negar natural",
+   "grammar": "",
+   "vocab": "ne...pas, ne...jamais, ne...rien"
+  },
+  {
+   "n": 10,
+   "title": "Pasado",
+   "goal": "Contar qué hiciste",
+   "grammar": "",
+   "vocab": "passé composé con avoir/être"
+  },
+  {
+   "n": 11,
+   "title": "Antes",
+   "goal": "Describir el pasado",
+   "grammar": "",
+   "vocab": "imparfait"
+  },
+  {
+   "n": 12,
+   "title": "Futuro",
+   "goal": "Planes",
+   "grammar": "",
+   "vocab": "futur proche, futur simple"
+  },
+  {
+   "n": 13,
+   "title": "Pronombres",
+   "goal": "Frases cortas naturales",
+   "grammar": "",
+   "vocab": "le, la, lui, y, en"
+  },
+  {
+   "n": 14,
+   "title": "Ciudad y viaje",
+   "goal": "Moverte en Francia",
+   "grammar": "",
+   "vocab": "métro, gare, à droite"
+  },
+  {
+   "n": 15,
+   "title": "Opinión",
+   "goal": "Opinar",
+   "grammar": "subjuntivo básico",
+   "vocab": "je pense que, à mon avis"
+  },
+  {
+   "n": 16,
+   "title": "Francés hablado",
+   "goal": "Entender a jóvenes",
+   "grammar": "omisión de ne",
+   "vocab": "sección 2.4"
+  },
+  {
+   "n": 17,
+   "title": "Hipótesis",
+   "goal": "Hablar de lo posible",
+   "grammar": "",
+   "vocab": "si + imparfait, conditionnel"
+  },
+  {
+   "n": 18,
+   "title": "Francés en Beirut",
+   "goal": "Puente con unidad 18 de árabe",
+   "grammar": "",
+   "vocab": "ça va, bisous, chéri, mezcla con árabe"
+  }
+ ],
+ "cards": [
+  {
+   "id": "fr-001",
+   "rank": 1,
+   "unit": 2,
+   "es": "buenos días, hola",
+   "t": "Bonjour",
+   "chat": "bjr",
+   "pron": "bonzhúr",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-002",
+   "rank": 2,
+   "unit": 2,
+   "es": "hola",
+   "t": "Salut",
+   "chat": "slt",
+   "pron": "salü",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-003",
+   "rank": 3,
+   "unit": 2,
+   "es": "holi",
+   "t": "Coucou",
+   "chat": "cc",
+   "pron": "kukú",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-004",
+   "rank": 4,
+   "unit": 2,
+   "es": "buenas noches (saludo)",
+   "t": "Bonsoir",
+   "chat": "bsr",
+   "pron": "bonsuár",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-005",
+   "rank": 5,
+   "unit": 2,
+   "es": "¿qué tal?",
+   "t": "Ça va ?",
+   "chat": "cv ?",
+   "pron": "sa va?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-006",
+   "rank": 6,
+   "unit": 2,
+   "es": "bien, ¿y tú?",
+   "t": "Ça va bien, et toi ?",
+   "chat": "cv bien et toi ?",
+   "pron": "sa va biẽ, e tuá?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-007",
+   "rank": 7,
+   "unit": 2,
+   "es": "¿cómo estás?",
+   "t": "Comment tu vas ?",
+   "chat": "cmt tu vas ?",
+   "pron": "komã tü va?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-008",
+   "rank": 8,
+   "unit": 2,
+   "es": "¿qué hay de nuevo?",
+   "t": "Quoi de neuf ?",
+   "chat": "koi de 9 ?",
+   "pron": "kuá de nöf?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-009",
+   "rank": 9,
+   "unit": 2,
+   "es": "mucho gusto",
+   "t": "Enchanté",
+   "chat": "Enchanté",
+   "pron": "ãshãté",
+   "g": "m",
+   "alt": "Enchantée",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-010",
+   "rank": 10,
+   "unit": 2,
+   "es": "bienvenido",
+   "t": "Bienvenue",
+   "chat": "Bienvenue",
+   "pron": "biẽvenü",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-011",
+   "rank": 11,
+   "unit": 2,
+   "es": "adiós",
+   "t": "Au revoir",
+   "chat": "Au revoir",
+   "pron": "o revuár",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-012",
+   "rank": 12,
+   "unit": 2,
+   "es": "hasta luego",
+   "t": "À plus tard",
+   "chat": "a+",
+   "pron": "a plü tar",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-013",
+   "rank": 13,
+   "unit": 2,
+   "es": "hasta mañana",
+   "t": "À demain",
+   "chat": "a2m1",
+   "pron": "a demẽ",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-014",
+   "rank": 14,
+   "unit": 2,
+   "es": "buenas noches (al dormir)",
+   "t": "Bonne nuit",
+   "chat": "bne nuit",
+   "pron": "bon nuí",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-015",
+   "rank": 15,
+   "unit": 2,
+   "es": "buen día",
+   "t": "Bonne journée",
+   "chat": "bne journée",
+   "pron": "bon zhurné",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-016",
+   "rank": 16,
+   "unit": 2,
+   "es": "gracias",
+   "t": "Merci",
+   "chat": "mrc",
+   "pron": "mersí",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-017",
+   "rank": 17,
+   "unit": 2,
+   "es": "muchas gracias",
+   "t": "Merci beaucoup",
+   "chat": "mrc bcp",
+   "pron": "mersí bokú",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-018",
+   "rank": 18,
+   "unit": 2,
+   "es": "de nada",
+   "t": "De rien",
+   "chat": "2 rien",
+   "pron": "de riẽ",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-019",
+   "rank": 19,
+   "unit": 2,
+   "es": "por favor (tú)",
+   "t": "S'il te plaît",
+   "chat": "stp",
+   "pron": "siltplé",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-020",
+   "rank": 20,
+   "unit": 2,
+   "es": "por favor (usted)",
+   "t": "S'il vous plaît",
+   "chat": "svp",
+   "pron": "silvuplé",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-021",
+   "rank": 21,
+   "unit": 2,
+   "es": "perdón",
+   "t": "Pardon",
+   "chat": "Pardon",
+   "pron": "pardõ",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-022",
+   "rank": 22,
+   "unit": 2,
+   "es": "disculpa",
+   "t": "Excuse-moi",
+   "chat": "Excuse-moi",
+   "pron": "exküs muá",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-023",
+   "rank": 23,
+   "unit": 2,
+   "es": "lo siento",
+   "t": "Désolé",
+   "chat": "dsl",
+   "pron": "dezolé",
+   "g": "m",
+   "alt": "Désolée",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-024",
+   "rank": 24,
+   "unit": 2,
+   "es": "no hay problema",
+   "t": "Pas de problème",
+   "chat": "pas 2 pb",
+   "pron": "pa de problém",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-025",
+   "rank": 25,
+   "unit": 2,
+   "es": "sí",
+   "t": "Oui / Ouais",
+   "chat": "ué",
+   "pron": "ui / ué",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-026",
+   "rank": 26,
+   "unit": 2,
+   "es": "no",
+   "t": "Non",
+   "chat": "nn",
+   "pron": "nõ",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-027",
+   "rank": 27,
+   "unit": 2,
+   "es": "de acuerdo",
+   "t": "D'accord",
+   "chat": "dac",
+   "pron": "dakór",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-028",
+   "rank": 28,
+   "unit": 2,
+   "es": "claro",
+   "t": "Bien sûr",
+   "chat": "Bien sûr",
+   "pron": "biẽ sür",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-029",
+   "rank": 29,
+   "unit": 2,
+   "es": "va, sale",
+   "t": "Ça marche",
+   "chat": "Ça marche",
+   "pron": "sa marsh",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-030",
+   "rank": 30,
+   "unit": 2,
+   "es": "con gusto",
+   "t": "Avec plaisir",
+   "chat": "Avec plaisir",
+   "pron": "avek plezír",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-031",
+   "rank": 31,
+   "unit": 2,
+   "es": "¿cómo te llamas?",
+   "t": "Comment tu t'appelles ?",
+   "chat": "cmt tu t'appelles ?",
+   "pron": "komã tü tapél?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-032",
+   "rank": 32,
+   "unit": 2,
+   "es": "me llamo Isaí",
+   "t": "Je m'appelle Isaí",
+   "chat": "jm'appelle Isaí",
+   "pron": "zhe mapél Isaí",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-033",
+   "rank": 33,
+   "unit": 2,
+   "es": "¿de dónde eres?",
+   "t": "Tu viens d'où ?",
+   "chat": "Tu viens d'où ?",
+   "pron": "tü viẽ du?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-034",
+   "rank": 34,
+   "unit": 2,
+   "es": "soy de ...",
+   "t": "Je viens de ...",
+   "chat": "jviens de ...",
+   "pron": "zhe viẽ de ...",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-035",
+   "rank": 35,
+   "unit": 5,
+   "es": "¿qué es esto?",
+   "t": "Qu'est-ce que c'est ?",
+   "chat": "ksk c ?",
+   "pron": "keske sé?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-036",
+   "rank": 36,
+   "unit": 5,
+   "es": "¿por qué?",
+   "t": "Pourquoi ?",
+   "chat": "pk ?",
+   "pron": "purkuá?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-037",
+   "rank": 37,
+   "unit": 5,
+   "es": "¿dónde?",
+   "t": "Où ?",
+   "chat": "Où ?",
+   "pron": "u?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-038",
+   "rank": 38,
+   "unit": 5,
+   "es": "¿cuándo?",
+   "t": "Quand ?",
+   "chat": "qd ?",
+   "pron": "kã?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-039",
+   "rank": 39,
+   "unit": 5,
+   "es": "¿cuánto cuesta?",
+   "t": "Combien ça coûte ?",
+   "chat": "cb ?",
+   "pron": "kombiẽ sa kut?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-040",
+   "rank": 40,
+   "unit": 5,
+   "es": "¿quién?",
+   "t": "Qui ?",
+   "chat": "ki ?",
+   "pron": "ki?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-041",
+   "rank": 41,
+   "unit": 5,
+   "es": "¿hablas inglés?",
+   "t": "Tu parles anglais ?",
+   "chat": "Tu parles anglais ?",
+   "pron": "tü parl ãglé?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-042",
+   "rank": 42,
+   "unit": 5,
+   "es": "¿puedes repetir?",
+   "t": "Tu peux répéter ?",
+   "chat": "Tu peux répéter ?",
+   "pron": "tü pö repeté?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-043",
+   "rank": 43,
+   "unit": 5,
+   "es": "¿qué significa?",
+   "t": "Ça veut dire quoi ?",
+   "chat": "ça veut dire koi ?",
+   "pron": "sa vö dir kuá?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-044",
+   "rank": 44,
+   "unit": 5,
+   "es": "¿cómo se dice ... en francés?",
+   "t": "Comment on dit ... en français ?",
+   "chat": "cmt on dit ... ?",
+   "pron": "komã õ di ... ã frãsé?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-045",
+   "rank": 45,
+   "unit": 5,
+   "es": "¿qué haces?",
+   "t": "Tu fais quoi ?",
+   "chat": "tfk ?",
+   "pron": "tü fe kuá?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-046",
+   "rank": 46,
+   "unit": 9,
+   "es": "no entiendo",
+   "t": "Je ne comprends pas",
+   "chat": "jcomprends pas",
+   "pron": "zhe ne komprã pa",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comprension"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-047",
+   "rank": 47,
+   "unit": 10,
+   "es": "entendí",
+   "t": "J'ai compris",
+   "chat": "g compris",
+   "pron": "zhé komprí",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comprension"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-048",
+   "rank": 48,
+   "unit": 9,
+   "es": "no sé",
+   "t": "Je ne sais pas",
+   "chat": "jsp",
+   "pron": "shepá",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comprension"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-049",
+   "rank": 49,
+   "unit": 4,
+   "es": "sé",
+   "t": "Je sais",
+   "chat": "jsais",
+   "pron": "zhe sé",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comprension"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-050",
+   "rank": 50,
+   "unit": 4,
+   "es": "más despacio, por favor",
+   "t": "Plus lentement, s'il te plaît",
+   "chat": "+ lentement stp",
+   "pron": "plü lãtmã, siltplé",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comprension"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-051",
+   "rank": 51,
+   "unit": 8,
+   "es": "estoy aprendiendo francés",
+   "t": "J'apprends le français",
+   "chat": "J'apprends le français",
+   "pron": "zhaprã le frãsé",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comprension"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-052",
+   "rank": 52,
+   "unit": 4,
+   "es": "hablo un poco de francés",
+   "t": "Je parle un peu français",
+   "chat": "jparle un peu français",
+   "pron": "zhe parl ẽ pö frãsé",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comprension"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-053",
+   "rank": 53,
+   "unit": 4,
+   "es": "hay",
+   "t": "Il y a",
+   "chat": "y'a",
+   "pron": "ilia / ia",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comprension"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-054",
+   "rank": 54,
+   "unit": 9,
+   "es": "no hay",
+   "t": "Il n'y a pas",
+   "chat": "y'a pas",
+   "pron": "ia pa",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comprension"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-055",
+   "rank": 55,
+   "unit": 4,
+   "es": "eso es",
+   "t": "C'est ça",
+   "chat": "c ça",
+   "pron": "se sa",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comprension"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-056",
+   "rank": 56,
+   "unit": 4,
+   "es": "quiero ...",
+   "t": "Je veux ...",
+   "chat": "jveux ...",
+   "pron": "zhe vö",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-057",
+   "rank": 57,
+   "unit": 4,
+   "es": "quisiera ...",
+   "t": "Je voudrais ...",
+   "chat": "jvoudrais ...",
+   "pron": "zhe vudré",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-058",
+   "rank": 58,
+   "unit": 4,
+   "es": "¿puedo ...?",
+   "t": "Je peux ... ?",
+   "chat": "jpeux ... ?",
+   "pron": "zhe pö?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-059",
+   "rank": 59,
+   "unit": 4,
+   "es": "necesito ...",
+   "t": "J'ai besoin de ...",
+   "chat": "g besoin 2 ...",
+   "pron": "zhé bezuẽ de",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-060",
+   "rank": 60,
+   "unit": 4,
+   "es": "me gusta ...",
+   "t": "J'aime ...",
+   "chat": "J'aime ...",
+   "pron": "zhem",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-061",
+   "rank": 61,
+   "unit": 9,
+   "es": "no me gusta ...",
+   "t": "Je n'aime pas ...",
+   "chat": "j'aime pas ...",
+   "pron": "zhem pa",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-062",
+   "rank": 62,
+   "unit": 12,
+   "es": "voy a ...",
+   "t": "Je vais ...",
+   "chat": "jvais ...",
+   "pron": "zhvé",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-063",
+   "rank": 63,
+   "unit": 4,
+   "es": "¿vamos?",
+   "t": "On y va ?",
+   "chat": "On y va ?",
+   "pron": "õ ni va?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-064",
+   "rank": 64,
+   "unit": 4,
+   "es": "estoy cansado",
+   "t": "Je suis fatigué",
+   "chat": "chui fatigué",
+   "pron": "shüí fatigé",
+   "g": "m",
+   "alt": "Je suis fatiguée",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-065",
+   "rank": 65,
+   "unit": 4,
+   "es": "tengo hambre",
+   "t": "J'ai faim",
+   "chat": "g faim",
+   "pron": "zhé fẽ",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-066",
+   "rank": 66,
+   "unit": 4,
+   "es": "tengo sed",
+   "t": "J'ai soif",
+   "chat": "g soif",
+   "pron": "zhé suaf",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-067",
+   "rank": 67,
+   "unit": 4,
+   "es": "voy tarde",
+   "t": "Je suis en retard",
+   "chat": "chui en retard",
+   "pron": "shüí ã retár",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-068",
+   "rank": 68,
+   "unit": 8,
+   "es": "ya llego, ya voy",
+   "t": "J'arrive",
+   "chat": "jarrive",
+   "pron": "zharív",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-069",
+   "rank": 69,
+   "unit": 8,
+   "es": "espera",
+   "t": "Attends",
+   "chat": "att",
+   "pron": "atã",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-070",
+   "rank": 70,
+   "unit": 8,
+   "es": "mira",
+   "t": "Regarde",
+   "chat": "Regarde",
+   "pron": "regárd",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-071",
+   "rank": 71,
+   "unit": 8,
+   "es": "ven",
+   "t": "Viens",
+   "chat": "Viens",
+   "pron": "viẽ",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-072",
+   "rank": 72,
+   "unit": 13,
+   "es": "te llamo",
+   "t": "Je t'appelle",
+   "chat": "jt'appelle",
+   "pron": "zhe tapél",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-073",
+   "rank": 73,
+   "unit": 13,
+   "es": "te mando un mensaje",
+   "t": "Je t'envoie un message",
+   "chat": "jt'envoie un msg",
+   "pron": "zhe tãvuá ẽ mesázh",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-074",
+   "rank": 74,
+   "unit": 10,
+   "es": "olvidé",
+   "t": "J'ai oublié",
+   "chat": "g oublié",
+   "pron": "zhé ublié",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-075",
+   "rank": 75,
+   "unit": 15,
+   "es": "creo que ...",
+   "t": "Je pense que ...",
+   "chat": "jpense que ...",
+   "pron": "zhe pãs ke",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-076",
+   "rank": 76,
+   "unit": 6,
+   "es": "ahora",
+   "t": "Maintenant",
+   "chat": "mtn",
+   "pron": "mẽtnã",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-077",
+   "rank": 77,
+   "unit": 6,
+   "es": "hoy",
+   "t": "Aujourd'hui",
+   "chat": "ajd",
+   "pron": "ozhurdüí",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-078",
+   "rank": 78,
+   "unit": 6,
+   "es": "mañana",
+   "t": "Demain",
+   "chat": "dm1",
+   "pron": "demẽ",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-079",
+   "rank": 79,
+   "unit": 6,
+   "es": "ayer",
+   "t": "Hier",
+   "chat": "Hier",
+   "pron": "iér",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-080",
+   "rank": 80,
+   "unit": 6,
+   "es": "más tarde",
+   "t": "Plus tard",
+   "chat": "+ tard",
+   "pron": "plü tar",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-081",
+   "rank": 81,
+   "unit": 6,
+   "es": "enseguida",
+   "t": "Tout de suite",
+   "chat": "tt de suite",
+   "pron": "tutsüít",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-082",
+   "rank": 82,
+   "unit": 6,
+   "es": "siempre",
+   "t": "Toujours",
+   "chat": "tjrs",
+   "pron": "tuzhúr",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-083",
+   "rank": 83,
+   "unit": 9,
+   "es": "nunca",
+   "t": "Jamais",
+   "chat": "jms",
+   "pron": "zhamé",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-084",
+   "rank": 84,
+   "unit": 6,
+   "es": "esta noche",
+   "t": "Ce soir",
+   "chat": "Ce soir",
+   "pron": "se suár",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-085",
+   "rank": 85,
+   "unit": 6,
+   "es": "este fin de semana",
+   "t": "Ce week-end",
+   "chat": "ce we",
+   "pron": "se uikénd",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-086",
+   "rank": 86,
+   "unit": 13,
+   "es": "te amo",
+   "t": "Je t'aime",
+   "chat": "jtm",
+   "pron": "zhe tem",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-087",
+   "rank": 87,
+   "unit": 13,
+   "es": "te adoro",
+   "t": "Je t'adore",
+   "chat": "jtd",
+   "pron": "zhe tadór",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-088",
+   "rank": 88,
+   "unit": 13,
+   "es": "te extraño",
+   "t": "Tu me manques",
+   "chat": "tu me manques",
+   "pron": "tü me mãk",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-089",
+   "rank": 89,
+   "unit": 18,
+   "es": "mi amor",
+   "t": "Mon amour",
+   "chat": "Mon amour",
+   "pron": "mon amúr",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-090",
+   "rank": 90,
+   "unit": 18,
+   "es": "mi cariño",
+   "t": "Ma chérie",
+   "chat": "Ma chérie",
+   "pron": "ma sherí",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-091",
+   "rank": 91,
+   "unit": 4,
+   "es": "eres hermosa",
+   "t": "Tu es magnifique",
+   "chat": "t magnifique",
+   "pron": "te mañifík",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-092",
+   "rank": 92,
+   "unit": 18,
+   "es": "besos",
+   "t": "Bisous",
+   "chat": "biz / bsx",
+   "pron": "bizú",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-093",
+   "rank": 93,
+   "unit": 18,
+   "es": "besotes",
+   "t": "Gros bisous",
+   "chat": "gros biz",
+   "pron": "gro bizú",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-094",
+   "rank": 94,
+   "unit": 15,
+   "es": "pienso en ti",
+   "t": "Je pense à toi",
+   "chat": "jpense à toi",
+   "pron": "zhe pãs a tuá",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-095",
+   "rank": 95,
+   "unit": 13,
+   "es": "tengo ganas de verte",
+   "t": "J'ai hâte de te voir",
+   "chat": "g hâte 2 te voir",
+   "pron": "zhé at de te vuár",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-096",
+   "rank": 96,
+   "unit": 16,
+   "es": "entonces",
+   "t": "Du coup",
+   "chat": "dc",
+   "pron": "dü ku",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-097",
+   "rank": 97,
+   "unit": 16,
+   "es": "en fin",
+   "t": "Bref",
+   "chat": "Bref",
+   "pron": "bref",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-098",
+   "rank": 98,
+   "unit": 16,
+   "es": "tipo, como",
+   "t": "Genre",
+   "chat": "Genre",
+   "pron": "zhãr",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-099",
+   "rank": 99,
+   "unit": 16,
+   "es": "de hecho",
+   "t": "En fait",
+   "chat": "En fait",
+   "pron": "ã fet",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-100",
+   "rank": 100,
+   "unit": 15,
+   "es": "pero",
+   "t": "Mais",
+   "chat": "Mais",
+   "pron": "me",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-101",
+   "rank": 101,
+   "unit": 15,
+   "es": "porque",
+   "t": "Parce que",
+   "chat": "pcq",
+   "pron": "pars ke",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-102",
+   "rank": 102,
+   "unit": 15,
+   "es": "entonces",
+   "t": "Alors",
+   "chat": "Alors",
+   "pron": "alór",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-103",
+   "rank": 103,
+   "unit": 15,
+   "es": "quizás",
+   "t": "Peut-être",
+   "chat": "ptet",
+   "pron": "pötétr",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-104",
+   "rank": 104,
+   "unit": 16,
+   "es": "¿en serio?",
+   "t": "Vraiment ?",
+   "chat": "vrmt ?",
+   "pron": "vremã?",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-105",
+   "rank": 105,
+   "unit": 16,
+   "es": "no pasa nada",
+   "t": "C'est pas grave",
+   "chat": "c pas grave",
+   "pron": "se pa grav",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-106",
+   "rank": 106,
+   "unit": 16,
+   "es": "no te preocupes",
+   "t": "T'inquiète",
+   "chat": "tkt",
+   "pron": "tẽkiét",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-107",
+   "rank": 107,
+   "unit": 16,
+   "es": "buenísimo",
+   "t": "Trop bien",
+   "chat": "Trop bien",
+   "pron": "tro biẽ",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-108",
+   "rank": 108,
+   "unit": 16,
+   "es": "increíble",
+   "t": "C'est ouf",
+   "chat": "c ouf",
+   "pron": "se uf",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-109",
+   "rank": 109,
+   "unit": 16,
+   "es": "totalmente",
+   "t": "Grave",
+   "chat": "Grave",
+   "pron": "grav",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "fr-110",
+   "rank": 110,
+   "unit": 16,
+   "es": "la neta, es cierto",
+   "t": "J'avoue",
+   "chat": "J'avoue",
+   "pron": "zhavú",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  }
+ ],
+ "cognates": [
+  {
+   "rule": "-ción / -ção -> -tion",
+   "examples": "nación -> nation, información -> information"
+  },
+  {
+   "rule": "-dad / -dade -> -té",
+   "examples": "libertad -> liberté, ciudad -> cité"
+  },
+  {
+   "rule": "-mente -> -ment",
+   "examples": "rápidamente -> rapidement"
+  },
+  {
+   "rule": "-oso / -oso -> -eux / -euse",
+   "examples": "famoso -> fameux, delicioso -> délicieux"
+  },
+  {
+   "rule": "-ista -> -iste",
+   "examples": "artista -> artiste"
+  },
+  {
+   "rule": "-ismo -> -isme",
+   "examples": "turismo -> tourisme"
+  },
+  {
+   "rule": "-ble / -vel -> -ble",
+   "examples": "posible / possível -> possible"
+  },
+  {
+   "rule": "-ario / -ário -> -aire",
+   "examples": "necesario -> nécessaire"
+  },
+  {
+   "rule": "-ivo / -ivo -> -if / -ive",
+   "examples": "activo -> actif, active"
+  },
+  {
+   "rule": "-ía / -ia -> -ie",
+   "examples": "geografía -> géographie"
+  },
+  {
+   "rule": "-ura -> -ure",
+   "examples": "cultura -> culture"
+  },
+  {
+   "rule": "-ante / -ente -> -ant / -ent",
+   "examples": "importante -> important"
+  },
+  {
+   "rule": "-or -> -eur",
+   "examples": "actor -> acteur, color -> couleur"
+  },
+  {
+   "rule": "-ico -> -ique",
+   "examples": "político -> politique"
+  },
+  {
+   "rule": "-encia / -ência -> -ence",
+   "examples": "ciencia -> science"
+  },
+  {
+   "rule": "es- inicial + consonante -> é-",
+   "examples": "estudiante -> étudiant, escuela -> école, estado -> état"
+  },
+  {
+   "rule": "-ar (verbos) -> -er",
+   "examples": "hablar -> parler (no cognado), visitar -> visiter, cantar -> chanter"
+  },
+  {
+   "rule": "-ir (verbos) -> -ir",
+   "examples": "partir -> partir, finir"
+  },
+  {
+   "rule": "s antes de consonante desaparece (acento circunflejo) -> ^",
+   "examples": "bosque -> forêt (floresta), fiesta -> fête, hospital -> hôpital, costa -> côte"
+  }
+ ],
+ "falseFriends": [
+  {
+   "fr": "embarrassé",
+   "looksLike": "embarazada",
+   "means": "avergonzado (embarazada = enceinte)"
+  },
+  {
+   "fr": "constipé",
+   "looksLike": "constipado",
+   "means": "estreñido (resfriado = enrhumé)"
+  },
+  {
+   "fr": "la robe",
+   "looksLike": "la ropa",
+   "means": "el vestido (ropa = vêtements)"
+  },
+  {
+   "fr": "salir",
+   "looksLike": "salir",
+   "means": "ensuciar (salir = sortir)"
+  },
+  {
+   "fr": "rester",
+   "looksLike": "restar",
+   "means": "quedarse"
+  },
+  {
+   "fr": "attendre",
+   "looksLike": "atender",
+   "means": "esperar"
+  },
+  {
+   "fr": "entendre",
+   "looksLike": "entender",
+   "means": "oír (entender = comprendre)"
+  },
+  {
+   "fr": "large",
+   "looksLike": "largo",
+   "means": "ancho (largo = long)"
+  },
+  {
+   "fr": "la librairie",
+   "looksLike": "la librería",
+   "means": "sí es librería; biblioteca = bibliothèque"
+  },
+  {
+   "fr": "la carte",
+   "looksLike": "la carta",
+   "means": "tarjeta, mapa, menú (carta = lettre)"
+  },
+  {
+   "fr": "la location",
+   "looksLike": "la locación",
+   "means": "el alquiler"
+  },
+  {
+   "fr": "le crayon",
+   "looksLike": "el crayón",
+   "means": "el lápiz"
+  },
+  {
+   "fr": "sensible",
+   "looksLike": "sensible",
+   "means": "sí es sensible; sensato = sensé"
+  },
+  {
+   "fr": "sympathique",
+   "looksLike": "simpático",
+   "means": "sí, pero se usa mucho \"sympa\" = buena onda"
+  },
+  {
+   "fr": "exquis",
+   "looksLike": "exquisito",
+   "means": "sí; pero en portugués \"esquisito\" = raro, cuidado"
+  },
+  {
+   "fr": "un vase / une vase",
+   "looksLike": "vaso",
+   "means": "jarrón / lodo (vaso = verre)"
+  },
+  {
+   "fr": "le bureau",
+   "looksLike": "el buró",
+   "means": "escritorio, oficina"
+  },
+  {
+   "fr": "la cave",
+   "looksLike": "la cava",
+   "means": "sótano"
+  },
+  {
+   "fr": "le parent",
+   "looksLike": "el pariente",
+   "means": "padre o madre (y pariente)"
+  },
+  {
+   "fr": "prétendre",
+   "looksLike": "pretender",
+   "means": "afirmar (pretender = avoir l'intention)"
+  },
+  {
+   "fr": "actuellement",
+   "looksLike": "actualmente",
+   "means": "sí, actualmente (en inglés \"actually\" no)"
+  },
+  {
+   "fr": "une bouteille",
+   "looksLike": "botella",
+   "means": "sí; pero \"botte\" = bota"
+  },
+  {
+   "fr": "ranger",
+   "looksLike": "rango",
+   "means": "ordenar, guardar"
+  },
+  {
+   "fr": "la tasse",
+   "looksLike": "la tasa",
+   "means": "la taza (tasa = taux)"
+  },
+  {
+   "fr": "le cou",
+   "looksLike": "el codo",
+   "means": "el cuello (codo = coude)"
+  },
+  {
+   "fr": "la rue",
+   "looksLike": "la rúa",
+   "means": "calle (portugués rua sí ayuda)"
+  },
+  {
+   "fr": "la boîte",
+   "looksLike": "la bota",
+   "means": "caja, y también antro (boîte de nuit)"
+  },
+  {
+   "fr": "la fac",
+   "looksLike": "la fac",
+   "means": "la facultad (sí, igual que en portugués)"
+  },
+  {
+   "fr": "le pain / la peine",
+   "looksLike": "la pena",
+   "means": "pan / pena (sonido parecido)"
+  },
+  {
+   "fr": "quitter",
+   "looksLike": "quitar",
+   "means": "dejar, salir de (quitar = enlever)"
+  },
+  {
+   "fr": "la pile",
+   "looksLike": "la pila",
+   "means": "sí, pila; pero \"à pile\" = justo, en punto"
+  }
+ ],
+ "chatAbbr": [
+  {
+   "short": "slt",
+   "full": "salut",
+   "es": "hola"
+  },
+  {
+   "short": "cc",
+   "full": "coucou",
+   "es": "holi"
+  },
+  {
+   "short": "bjr",
+   "full": "bonjour",
+   "es": "buenos días"
+  },
+  {
+   "short": "bsr",
+   "full": "bonsoir",
+   "es": "buenas noches (saludo)"
+  },
+  {
+   "short": "cv ?",
+   "full": "ça va ?",
+   "es": "¿qué tal?"
+  },
+  {
+   "short": "tkt / tqt",
+   "full": "t'inquiète",
+   "es": "no te preocupes"
+  },
+  {
+   "short": "jsp",
+   "full": "je sais pas",
+   "es": "no sé"
+  },
+  {
+   "short": "jpp",
+   "full": "j'en peux plus",
+   "es": "ya no puedo (de risa o cansancio)"
+  },
+  {
+   "short": "mdr",
+   "full": "mort de rire",
+   "es": "jajaja"
+  },
+  {
+   "short": "ptdr",
+   "full": "pété de rire",
+   "es": "jajaja fuerte"
+  },
+  {
+   "short": "stp / svp",
+   "full": "s'il te plaît / s'il vous plaît",
+   "es": "por favor (tú / usted)"
+  },
+  {
+   "short": "pk / pq",
+   "full": "pourquoi",
+   "es": "por qué"
+  },
+  {
+   "short": "pcq",
+   "full": "parce que",
+   "es": "porque"
+  },
+  {
+   "short": "bcp",
+   "full": "beaucoup",
+   "es": "mucho"
+  },
+  {
+   "short": "dsl",
+   "full": "désolé",
+   "es": "perdón"
+  },
+  {
+   "short": "jtm",
+   "full": "je t'aime",
+   "es": "te amo"
+  },
+  {
+   "short": "jtd",
+   "full": "je t'adore",
+   "es": "te adoro"
+  },
+  {
+   "short": "mtn",
+   "full": "maintenant",
+   "es": "ahora"
+  },
+  {
+   "short": "ajd / auj",
+   "full": "aujourd'hui",
+   "es": "hoy"
+  },
+  {
+   "short": "dm1 / a2m1",
+   "full": "demain / à demain",
+   "es": "mañana / hasta mañana"
+  },
+  {
+   "short": "rdv",
+   "full": "rendez-vous",
+   "es": "cita"
+  },
+  {
+   "short": "qqn",
+   "full": "quelqu'un",
+   "es": "alguien"
+  },
+  {
+   "short": "qqch",
+   "full": "quelque chose",
+   "es": "algo"
+  },
+  {
+   "short": "tjrs",
+   "full": "toujours",
+   "es": "siempre"
+  },
+  {
+   "short": "jms",
+   "full": "jamais",
+   "es": "nunca"
+  },
+  {
+   "short": "vrmt",
+   "full": "vraiment",
+   "es": "en serio"
+  },
+  {
+   "short": "ptet",
+   "full": "peut-être",
+   "es": "quizás"
+  },
+  {
+   "short": "dc",
+   "full": "du coup / donc",
+   "es": "entonces"
+  },
+  {
+   "short": "tt",
+   "full": "tout / tous",
+   "es": "todo"
+  },
+  {
+   "short": "ds",
+   "full": "dans",
+   "es": "en"
+  },
+  {
+   "short": "vs",
+   "full": "vous",
+   "es": "ustedes, usted"
+  },
+  {
+   "short": "c",
+   "full": "c'est",
+   "es": "es"
+  },
+  {
+   "short": "g",
+   "full": "j'ai",
+   "es": "tengo"
+  },
+  {
+   "short": "koi / kwa",
+   "full": "quoi",
+   "es": "qué"
+  },
+  {
+   "short": "ki",
+   "full": "qui",
+   "es": "quién"
+  },
+  {
+   "short": "chui / chuis",
+   "full": "je suis",
+   "es": "soy, estoy"
+  },
+  {
+   "short": "jvais",
+   "full": "je vais",
+   "es": "voy"
+  },
+  {
+   "short": "tfk ?",
+   "full": "tu fais quoi ?",
+   "es": "¿qué haces?"
+  },
+  {
+   "short": "t ou ?",
+   "full": "t'es où ?",
+   "es": "¿dónde estás?"
+  },
+  {
+   "short": "osef",
+   "full": "on s'en fout",
+   "es": "nos vale"
+  },
+  {
+   "short": "askip",
+   "full": "à ce qu'il paraît",
+   "es": "según dicen"
+  },
+  {
+   "short": "wsh",
+   "full": "wesh",
+   "es": "qué onda (habla de calle)"
+  },
+  {
+   "short": "oklm",
+   "full": "au calme",
+   "es": "tranqui"
+  },
+  {
+   "short": "bg",
+   "full": "beau gosse",
+   "es": "guapo"
+  },
+  {
+   "short": "a+ / @+",
+   "full": "à plus",
+   "es": "nos vemos"
+  },
+  {
+   "short": "biz / bsx",
+   "full": "bisous",
+   "es": "besos"
+  },
+  {
+   "short": "ué",
+   "full": "ouais",
+   "es": "sí"
+  },
+  {
+   "short": "nn",
+   "full": "non",
+   "es": "no"
+  },
+  {
+   "short": "ptn",
+   "full": "putain",
+   "es": "carajo (vulgar)"
+  }
+ ]
+}

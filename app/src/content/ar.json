@@ -1,0 +1,7837 @@
+{
+ "lang": "ar",
+ "units": [
+  {
+   "n": 0,
+   "title": "Arabizi y sonidos",
+   "goal": "Leer Arabizi en voz alta",
+   "grammar": "2, 3, 5, 7, 8, 9, j = /ʒ/",
+   "vocab": "Tabla 1.1, pares mínimos"
+  },
+  {
+   "n": 1,
+   "title": "Hola y adiós",
+   "goal": "Saludar a hombre y mujer",
+   "grammar": "género m/f",
+   "vocab": "1 a 30"
+  },
+  {
+   "n": 2,
+   "title": "Gracias, sí, no",
+   "goal": "Responder cortésmente",
+   "grammar": "",
+   "vocab": "31 a 60"
+  },
+  {
+   "n": 3,
+   "title": "Yo, tú, mi casa",
+   "goal": "Hablar de tus cosas",
+   "grammar": "pronombres, sufijos posesivos",
+   "vocab": "61 a 85"
+  },
+  {
+   "n": 4,
+   "title": "Preguntas",
+   "goal": "Hacer 15 preguntas básicas",
+   "grammar": "palabras interrogativas",
+   "vocab": "86 a 110"
+  },
+  {
+   "n": 5,
+   "title": "Números y dinero",
+   "goal": "Preguntar y decir precios",
+   "grammar": "",
+   "vocab": "146 a 175"
+  },
+  {
+   "n": 6,
+   "title": "El tiempo y la semana",
+   "goal": "Quedar a una hora y día",
+   "grammar": "",
+   "vocab": "111 a 145"
+  },
+  {
+   "n": 7,
+   "title": "Quiero, puedo, tengo",
+   "goal": "Pedir cosas",
+   "grammar": "bade, fiye, 3ende, fi",
+   "vocab": "176, 177, 404 a 408"
+  },
+  {
+   "n": 8,
+   "title": "Verbos en presente",
+   "goal": "Describir tu rutina",
+   "grammar": "prefijo b-",
+   "vocab": "178 a 183, 188, 190, 191, 193, 198, 202 a 204"
+  },
+  {
+   "n": 9,
+   "title": "Comida y restaurante",
+   "goal": "Pedir en un restaurante",
+   "grammar": "",
+   "vocab": "291 a 325"
+  },
+  {
+   "n": 10,
+   "title": "Ahora mismo",
+   "goal": "Decir qué estás haciendo",
+   "grammar": "3am",
+   "vocab": "200, 102, 374"
+  },
+  {
+   "n": 11,
+   "title": "Adjetivos y cómo te sientes",
+   "goal": "Describir personas y estados",
+   "grammar": "concordancia m/f",
+   "vocab": "226 a 265"
+  },
+  {
+   "n": 12,
+   "title": "Lo que hice",
+   "goal": "Contar tu día",
+   "grammar": "pasado",
+   "vocab": "185, 189, 192, 194, 196, 199, 218, 219"
+  },
+  {
+   "n": 13,
+   "title": "Lo que voy a hacer",
+   "goal": "Hacer planes",
+   "grammar": "ra7",
+   "vocab": "184, 377, 383"
+  },
+  {
+   "n": 14,
+   "title": "La familia",
+   "goal": "Conocer a sus papás",
+   "grammar": "",
+   "vocab": "326 a 355"
+  },
+  {
+   "n": 15,
+   "title": "Beirut y direcciones",
+   "goal": "Moverte por la ciudad",
+   "grammar": "imperativos",
+   "vocab": "266 a 290"
+  },
+  {
+   "n": 16,
+   "title": "Amor",
+   "goal": "Hablar con tu novia",
+   "grammar": "",
+   "vocab": "356 a 385"
+  },
+  {
+   "n": 17,
+   "title": "Muletillas y conectores",
+   "goal": "Sonar natural",
+   "grammar": "",
+   "vocab": "386 a 420"
+  },
+  {
+   "n": 18,
+   "title": "Code-switching",
+   "goal": "Mezclar como en Beirut",
+   "grammar": "verbos híbridos",
+   "vocab": "Sección 1.5"
+  },
+  {
+   "n": 19,
+   "title": "WhatsApp y slang",
+   "goal": "Chatear como nativo",
+   "grammar": "abreviaturas",
+   "vocab": "Sección 1.6"
+  },
+  {
+   "n": 20,
+   "title": "Historias",
+   "goal": "Narrar 2 minutos",
+   "grammar": "conectores",
+   "vocab": "Frases minadas"
+  }
+ ],
+ "alphabet": [
+  {
+   "char": "2",
+   "script": "ء (hamza) y ق (qaf en Beirut)",
+   "ipa": "ʔ",
+   "sound": "Golpe de glotis: la pausa en medio de \"uh-oh\". En Beirut la q se convierte en 2.",
+   "example": "2alb",
+   "exampleEs": "corazón"
+  },
+  {
+   "char": "3",
+   "script": "ع (ʿayn)",
+   "ipa": "ʕ",
+   "sound": "Aprieta la garganta como si fueras a vomitar suave y di \"a\". Es una vocal \"estrangulada\", no una consonante dura.",
+   "example": "3arabe",
+   "exampleEs": "árabe"
+  },
+  {
+   "char": "5",
+   "script": "خ (kha)",
+   "ipa": "x",
+   "sound": "Jota española fuerte, como \"jamón\" en España. También se escribe kh o 7'.",
+   "example": "5alas / khalas",
+   "exampleEs": "ya"
+  },
+  {
+   "char": "7",
+   "script": "ح (ḥa)",
+   "ipa": "ħ",
+   "sound": "H muy aspirada sin raspar: como empañar un espejo con fuerza. No es la jota.",
+   "example": "7elwe",
+   "exampleEs": "linda"
+  },
+  {
+   "char": "8",
+   "script": "غ (ghayn)",
+   "ipa": "ɣ",
+   "sound": "R francesa / portuguesa de Río (gargarizada) pero suave. También se escribe gh o 3'.",
+   "example": "8ali / ghele",
+   "exampleEs": "caro"
+  },
+  {
+   "char": "9",
+   "script": "ق (qaf) o ص (sad)",
+   "ipa": "q / sˤ",
+   "sound": "K muy profunda en la garganta. En Beirut casi no se usa porque la qaf se dice 2. Algunos usan 9 para la s enfática.",
+   "example": "9alb",
+   "exampleEs": "estilo del Golfo, no Beirut"
+  },
+  {
+   "char": "6",
+   "script": "ط (ṭa)",
+   "ipa": "tˤ",
+   "sound": "T enfática, con la lengua ancha y la boca \"oscura\". Poco usado; casi todos escriben t.",
+   "example": "6ayyeb",
+   "exampleEs": "= tayyeb"
+  },
+  {
+   "char": "3'",
+   "script": "غ",
+   "ipa": "ɣ",
+   "sound": "Igual que 8.",
+   "example": "3'ali",
+   "exampleEs": "caro"
+  },
+  {
+   "char": "7'",
+   "script": "خ",
+   "ipa": "x",
+   "sound": "Igual que 5.",
+   "example": "7'alas",
+   "exampleEs": "ya, listo"
+  },
+  {
+   "char": "9'",
+   "script": "ض",
+   "ipa": "dˤ",
+   "sound": "D enfática. Poco usado.",
+   "example": "9'aw = daw",
+   "exampleEs": "luz"
+  },
+  {
+   "char": "sh / ch",
+   "script": "ش",
+   "ipa": "ʃ",
+   "sound": "\"Sh\" inglés.",
+   "example": "shu / chou",
+   "exampleEs": "qué"
+  },
+  {
+   "char": "j",
+   "script": "ج",
+   "ipa": "ʒ",
+   "sound": "En libanés es la j francesa/portuguesa (\"jour\", \"janela\"), no la \"dj\".",
+   "example": "jem3a",
+   "exampleEs": "semana"
+  },
+  {
+   "char": "gh",
+   "script": "غ",
+   "ipa": "ɣ",
+   "sound": "Igual que 8.",
+   "example": "ghaltan",
+   "exampleEs": ""
+  },
+  {
+   "char": "kh",
+   "script": "خ",
+   "ipa": "x",
+   "sound": "Igual que 5.",
+   "example": "khayye",
+   "exampleEs": "hermano"
+  },
+  {
+   "char": "th / dh",
+   "script": "ث / ذ",
+   "ipa": "se dicen t/s y d/z",
+   "sound": "En Beirut casi no existen: \"tlete\" (3), \"hayda\" (este).",
+   "example": "tlete",
+   "exampleEs": "tres"
+  }
+ ],
+ "cards": [
+  {
+   "id": "ar-001",
+   "rank": 1,
+   "unit": 1,
+   "es": "hola",
+   "t": "marhaba",
+   "pron": "marhaba",
+   "script": "مرحبا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-002",
+   "rank": 2,
+   "unit": 1,
+   "es": "hola",
+   "t": "hi / hiii",
+   "pron": "jái / jáii",
+   "script": "هاي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo",
+    "codeswitch"
+   ],
+   "note": "muy usado"
+  },
+  {
+   "id": "ar-003",
+   "rank": 3,
+   "unit": 1,
+   "es": "hola / buenos días",
+   "t": "bonjour",
+   "pron": "bonzhúr",
+   "script": "بونجور",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo",
+    "codeswitch"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-004",
+   "rank": 4,
+   "unit": 1,
+   "es": "buenas noches",
+   "t": "bonsoir",
+   "pron": "bonsuár",
+   "script": "بونسوار",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo",
+    "codeswitch"
+   ],
+   "note": "saludo"
+  },
+  {
+   "id": "ar-005",
+   "rank": 5,
+   "unit": 1,
+   "es": "bienvenido / hola",
+   "t": "ahla w sahla / ahlan",
+   "pron": "ahla w sahla / ahlan",
+   "script": "أهلا وسهلا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-006",
+   "rank": 6,
+   "unit": 1,
+   "es": "¿cómo estás?",
+   "t": "kifak?",
+   "pron": "kifak?",
+   "script": "كيفك",
+   "g": "m",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-007",
+   "rank": 7,
+   "unit": 1,
+   "es": "¿cómo estás?",
+   "t": "kifik?",
+   "pron": "kifik?",
+   "script": "كيفِك",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-008",
+   "rank": 8,
+   "unit": 1,
+   "es": "¿cómo están?",
+   "t": "kifkon?",
+   "pron": "kifkon?",
+   "script": "كيفكن",
+   "g": "pl",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-009",
+   "rank": 9,
+   "unit": 1,
+   "es": "¿qué tal?",
+   "t": "ça va?",
+   "pron": "sa va?",
+   "script": "سا فا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo",
+    "codeswitch"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-010",
+   "rank": 10,
+   "unit": 1,
+   "es": "¿cómo va todo?",
+   "t": "kif el 7al?",
+   "pron": "kif el Hal?",
+   "script": "كيف الحال",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-011",
+   "rank": 11,
+   "unit": 1,
+   "es": "¿qué noticias?",
+   "t": "shu el akhbar?",
+   "pron": "shu el aJbar?",
+   "script": "شو الأخبار",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-012",
+   "rank": 12,
+   "unit": 1,
+   "es": "¿qué hay de nuevo?",
+   "t": "shu fi ma fi?",
+   "pron": "shu fi ma fi?",
+   "script": "شو في ما في",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-013",
+   "rank": 13,
+   "unit": 1,
+   "es": "bien",
+   "t": "mni7",
+   "pron": "mniH",
+   "script": "منيح",
+   "g": "m",
+   "alt": "mni7a",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-014",
+   "rank": 14,
+   "unit": 1,
+   "es": "bien, gracias a Dios",
+   "t": "l7amdella",
+   "pron": "lHamdel·la",
+   "script": "الحمدلله",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-015",
+   "rank": 15,
+   "unit": 1,
+   "es": "perfecto, bien",
+   "t": "tamem",
+   "pron": "tamem",
+   "script": "تمام",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-016",
+   "rank": 16,
+   "unit": 1,
+   "es": "ahí vamos",
+   "t": "mashi l7al",
+   "pron": "mashi lHal",
+   "script": "ماشي الحال",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-017",
+   "rank": 17,
+   "unit": 1,
+   "es": "buenos días",
+   "t": "sabe7 el kheir",
+   "pron": "sabeH el Jeir",
+   "script": "صباح الخير",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-018",
+   "rank": 18,
+   "unit": 1,
+   "es": "buenos días",
+   "t": "saba7 el nour",
+   "pron": "sabaH el nur",
+   "script": "صباح النور",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": "respuesta"
+  },
+  {
+   "id": "ar-019",
+   "rank": 19,
+   "unit": 1,
+   "es": "buenas tardes",
+   "t": "masa el kheir",
+   "pron": "masa el Jeir",
+   "script": "مسا الخير",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-020",
+   "rank": 20,
+   "unit": 1,
+   "es": "buenas tardes",
+   "t": "masa el nour",
+   "pron": "masa el nur",
+   "script": "مسا النور",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": "respuesta"
+  },
+  {
+   "id": "ar-021",
+   "rank": 21,
+   "unit": 1,
+   "es": "buenas noches, al despedirse",
+   "t": "tesba7 3a kheir",
+   "pron": "tesbaH ʕa Jeir",
+   "script": "تصبح على خير",
+   "g": "m",
+   "alt": "tesba7e 3a kheir",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-022",
+   "rank": 22,
+   "unit": 1,
+   "es": "¿y tú?",
+   "t": "w enta",
+   "pron": "w enta",
+   "script": "وإنت",
+   "g": "m",
+   "alt": "w ente",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-023",
+   "rank": 23,
+   "unit": 1,
+   "es": "bueno, adiós",
+   "t": "yalla bye",
+   "pron": "yal·la bái",
+   "script": "يلا باي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo",
+    "codeswitch"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-024",
+   "rank": 24,
+   "unit": 1,
+   "es": "adiós",
+   "t": "bye / bay",
+   "pron": "bái / bái",
+   "script": "باي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo",
+    "codeswitch"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-025",
+   "rank": 25,
+   "unit": 1,
+   "es": "adiós",
+   "t": "ma3 el salame",
+   "pron": "maʕ el salame",
+   "script": "مع السلامة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": "ve en paz"
+  },
+  {
+   "id": "ar-026",
+   "rank": 26,
+   "unit": 1,
+   "es": "ve con Dios",
+   "t": "allah ma3ak",
+   "pron": "al·lah maʕak",
+   "script": "الله معك",
+   "g": "m",
+   "alt": "allah ma3ik",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-027",
+   "rank": 27,
+   "unit": 1,
+   "es": "nos vemos luego",
+   "t": "bshufak ba3den",
+   "pron": "bshufak baʕden",
+   "script": "بشوفك بعدين",
+   "g": "m",
+   "alt": "bshufik ba3den",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-028",
+   "rank": 28,
+   "unit": 1,
+   "es": "hasta luego",
+   "t": "la ba3den",
+   "pron": "la baʕden",
+   "script": "لا بعدين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-029",
+   "rank": 29,
+   "unit": 1,
+   "es": "buen día",
+   "t": "nharak sa3id",
+   "pron": "nharak saʕid",
+   "script": "نهارك سعيد",
+   "g": "m",
+   "alt": "nharik sa3id",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-030",
+   "rank": 30,
+   "unit": 1,
+   "es": "hola a ti también",
+   "t": "ahlan fik",
+   "pron": "ahlan fik",
+   "script": "أهلين فيك",
+   "g": "m",
+   "alt": "ahlan fike",
+   "tags": [
+    "saludo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-031",
+   "rank": 31,
+   "unit": 2,
+   "es": "gracias",
+   "t": "merci",
+   "pron": "mersí",
+   "script": "مرسي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia",
+    "codeswitch"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-032",
+   "rank": 32,
+   "unit": 2,
+   "es": "muchas gracias",
+   "t": "merci ktir",
+   "pron": "mersí ktir",
+   "script": "مرسي كتير",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-033",
+   "rank": 33,
+   "unit": 2,
+   "es": "gracias",
+   "t": "yislamo",
+   "pron": "yislamo",
+   "script": "يسلمو",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-034",
+   "rank": 34,
+   "unit": 2,
+   "es": "gracias por lo que hiciste",
+   "t": "yislamo idek",
+   "pron": "yislamo idek",
+   "script": "يسلمو إيدك",
+   "g": "m",
+   "alt": "yislamo idayki",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-035",
+   "rank": 35,
+   "unit": 2,
+   "es": "de nada / perdón",
+   "t": "3afwan",
+   "pron": "ʕafwan",
+   "script": "عفوا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-036",
+   "rank": 36,
+   "unit": 2,
+   "es": "con gusto",
+   "t": "tikram",
+   "pron": "tikram",
+   "script": "تكرم",
+   "g": "m",
+   "alt": "tikrame",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-037",
+   "rank": 37,
+   "unit": 2,
+   "es": "perdón",
+   "t": "pardon",
+   "pron": "pardón",
+   "script": "باردون",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia",
+    "codeswitch"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-038",
+   "rank": 38,
+   "unit": 2,
+   "es": "perdón",
+   "t": "sorry",
+   "pron": "sóri",
+   "script": "سوري",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia",
+    "codeswitch"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-039",
+   "rank": 39,
+   "unit": 2,
+   "es": "no importa / ni modo",
+   "t": "ma3leh",
+   "pron": "maʕleh",
+   "script": "معليش",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-040",
+   "rank": 40,
+   "unit": 2,
+   "es": "disculpa, por favor",
+   "t": "law sama7t",
+   "pron": "law samaHt",
+   "script": "لو سمحت",
+   "g": "m",
+   "alt": "law sama7te",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-041",
+   "rank": 41,
+   "unit": 2,
+   "es": "por favor",
+   "t": "please",
+   "pron": "plíis",
+   "script": "بليز",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia",
+    "codeswitch"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-042",
+   "rank": 42,
+   "unit": 2,
+   "es": "adelante, sírvete",
+   "t": "tfaddal",
+   "pron": "tfaddal",
+   "script": "تفضل",
+   "g": "m",
+   "alt": "tfaddale",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-043",
+   "rank": 43,
+   "unit": 2,
+   "es": "sí",
+   "t": "eh",
+   "pron": "eh",
+   "script": "إيه",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-044",
+   "rank": 44,
+   "unit": 2,
+   "es": "no",
+   "t": "la2",
+   "pron": "la'",
+   "script": "لأ",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-045",
+   "rank": 45,
+   "unit": 2,
+   "es": "claro",
+   "t": "akid",
+   "pron": "akid",
+   "script": "أكيد",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-046",
+   "rank": 46,
+   "unit": 2,
+   "es": "por supuesto",
+   "t": "tab3an",
+   "pron": "tabʕan",
+   "script": "طبعا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-047",
+   "rank": 47,
+   "unit": 2,
+   "es": "correcto, exacto",
+   "t": "mazbout",
+   "pron": "mazbut",
+   "script": "مظبوط",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-048",
+   "rank": 48,
+   "unit": 2,
+   "es": "ok",
+   "t": "ok / okay",
+   "pron": "okéi / okéi",
+   "script": "أوكي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia",
+    "codeswitch"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-049",
+   "rank": 49,
+   "unit": 2,
+   "es": "bueno, vale",
+   "t": "tayyeb / tab",
+   "pron": "tayyeb / tab",
+   "script": "طيب",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-050",
+   "rank": 50,
+   "unit": 2,
+   "es": "no sé",
+   "t": "ma ba3ref",
+   "pron": "ma baʕref",
+   "script": "ما بعرف",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-051",
+   "rank": 51,
+   "unit": 2,
+   "es": "sé",
+   "t": "ba3ref",
+   "pron": "baʕref",
+   "script": "بعرف",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-052",
+   "rank": 52,
+   "unit": 2,
+   "es": "entendí",
+   "t": "fhemt",
+   "pron": "fhemt",
+   "script": "فهمت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-053",
+   "rank": 53,
+   "unit": 2,
+   "es": "no entendí",
+   "t": "ma fhemt",
+   "pron": "ma fhemt",
+   "script": "ما فهمت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-054",
+   "rank": 54,
+   "unit": 2,
+   "es": "repite por favor",
+   "t": "3id please",
+   "pron": "ʕid plíis",
+   "script": "عيد بليز",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-055",
+   "rank": 55,
+   "unit": 2,
+   "es": "despacio",
+   "t": "shway shway",
+   "pron": "shway shway",
+   "script": "شوي شوي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-056",
+   "rank": 56,
+   "unit": 2,
+   "es": "no hay problema",
+   "t": "ma fi mshkle",
+   "pron": "ma fi mshkle",
+   "script": "ما في مشكلة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-057",
+   "rank": 57,
+   "unit": 2,
+   "es": "ojalá, si Dios quiere",
+   "t": "inshallah",
+   "pron": "inshal·lah",
+   "script": "إن شاء الله",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-058",
+   "rank": 58,
+   "unit": 2,
+   "es": "qué maravilla",
+   "t": "mashallah",
+   "pron": "mashal·lah",
+   "script": "ما شاء الله",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": "admiración"
+  },
+  {
+   "id": "ar-059",
+   "rank": 59,
+   "unit": 2,
+   "es": "buen provecho / salud",
+   "t": "sa7tein",
+   "pron": "saHtein",
+   "script": "صحتين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": "al comer, beber o estrenar algo"
+  },
+  {
+   "id": "ar-060",
+   "rank": 60,
+   "unit": 2,
+   "es": "con gusto",
+   "t": "3a rase",
+   "pron": "ʕa rase",
+   "script": "عراسي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "cortesia"
+   ],
+   "note": "lit. sobre mi cabeza"
+  },
+  {
+   "id": "ar-061",
+   "rank": 61,
+   "unit": 3,
+   "es": "yo",
+   "t": "ana",
+   "pron": "ana",
+   "script": "أنا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-062",
+   "rank": 62,
+   "unit": 3,
+   "es": "tú",
+   "t": "enta",
+   "pron": "enta",
+   "script": "إنت",
+   "g": "m",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-063",
+   "rank": 63,
+   "unit": 3,
+   "es": "tú",
+   "t": "ente",
+   "pron": "ente",
+   "script": "إنتي",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-064",
+   "rank": 64,
+   "unit": 3,
+   "es": "él",
+   "t": "huwwe",
+   "pron": "huwwe",
+   "script": "هوي",
+   "g": "m",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-065",
+   "rank": 65,
+   "unit": 3,
+   "es": "ella",
+   "t": "hiyye",
+   "pron": "hiyye",
+   "script": "هيي",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-066",
+   "rank": 66,
+   "unit": 3,
+   "es": "nosotros",
+   "t": "ne7na",
+   "pron": "neHna",
+   "script": "نحنا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-067",
+   "rank": 67,
+   "unit": 3,
+   "es": "ustedes",
+   "t": "ento",
+   "pron": "ento",
+   "script": "إنتو",
+   "g": "pl",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-068",
+   "rank": 68,
+   "unit": 3,
+   "es": "ellos",
+   "t": "henne",
+   "pron": "henne",
+   "script": "هني",
+   "g": "pl",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-069",
+   "rank": 69,
+   "unit": 3,
+   "es": "mi casa",
+   "t": "bayte",
+   "pron": "bayte",
+   "script": "بيتي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": "-e = mi"
+  },
+  {
+   "id": "ar-070",
+   "rank": 70,
+   "unit": 3,
+   "es": "tu casa",
+   "t": "baytak",
+   "pron": "baytak",
+   "script": "بيتك",
+   "g": "m",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-071",
+   "rank": 71,
+   "unit": 3,
+   "es": "tu casa",
+   "t": "baytik",
+   "pron": "baytik",
+   "script": "بيتِك",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-072",
+   "rank": 72,
+   "unit": 3,
+   "es": "su casa",
+   "t": "bayto",
+   "pron": "bayto",
+   "script": "بيته",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": "de él"
+  },
+  {
+   "id": "ar-073",
+   "rank": 73,
+   "unit": 3,
+   "es": "su casa",
+   "t": "bayta",
+   "pron": "bayta",
+   "script": "بيتها",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": "de ella"
+  },
+  {
+   "id": "ar-074",
+   "rank": 74,
+   "unit": 3,
+   "es": "nuestra casa",
+   "t": "baytna",
+   "pron": "baytna",
+   "script": "بيتنا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-075",
+   "rank": 75,
+   "unit": 3,
+   "es": "su casa",
+   "t": "baytkon",
+   "pron": "baytkon",
+   "script": "بيتكن",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": "de ustedes"
+  },
+  {
+   "id": "ar-076",
+   "rank": 76,
+   "unit": 3,
+   "es": "su casa",
+   "t": "bayton",
+   "pron": "bayton",
+   "script": "بيتن",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": "de ellos"
+  },
+  {
+   "id": "ar-077",
+   "rank": 77,
+   "unit": 3,
+   "es": "de (posesión)",
+   "t": "taba3 / tabe3",
+   "pron": "tabaʕ / tabeʕ",
+   "script": "تبع",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": "el phone taba3e = mi teléfono"
+  },
+  {
+   "id": "ar-078",
+   "rank": 78,
+   "unit": 3,
+   "es": "este",
+   "t": "hayda",
+   "pron": "hayda",
+   "script": "هيدا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-079",
+   "rank": 79,
+   "unit": 3,
+   "es": "esta",
+   "t": "hayde",
+   "pron": "hayde",
+   "script": "هيدي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-080",
+   "rank": 80,
+   "unit": 3,
+   "es": "estos",
+   "t": "hawde",
+   "pron": "hawde",
+   "script": "هودي",
+   "g": "pl",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-081",
+   "rank": 81,
+   "unit": 3,
+   "es": "ese",
+   "t": "haydak",
+   "pron": "haydak",
+   "script": "هيداك",
+   "g": "m",
+   "alt": "haydike",
+   "tags": [
+    "pronombre"
+   ],
+   "note": "f: esa"
+  },
+  {
+   "id": "ar-082",
+   "rank": 82,
+   "unit": 3,
+   "es": "todo, cada",
+   "t": "kel",
+   "pron": "kel",
+   "script": "كل",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-083",
+   "rank": 83,
+   "unit": 3,
+   "es": "todo",
+   "t": "kel shi",
+   "pron": "kel shi",
+   "script": "كل شي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-084",
+   "rank": 84,
+   "unit": 3,
+   "es": "nada",
+   "t": "wala shi",
+   "pron": "wala shi",
+   "script": "ولا شي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-085",
+   "rank": 85,
+   "unit": 3,
+   "es": "alguien / nadie",
+   "t": "7ada / wala 7ada",
+   "pron": "Hada / wala Hada",
+   "script": "حدا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pronombre"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-086",
+   "rank": 86,
+   "unit": 4,
+   "es": "¿qué?",
+   "t": "shu? / chou?",
+   "pron": "shu? / shu?",
+   "script": "شو",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-087",
+   "rank": 87,
+   "unit": 4,
+   "es": "¿qué es esto?",
+   "t": "shu hayda?",
+   "pron": "shu hayda?",
+   "script": "شو هيدا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-088",
+   "rank": 88,
+   "unit": 4,
+   "es": "¿por qué?",
+   "t": "lesh? / lech?",
+   "pron": "lesh? / lesh?",
+   "script": "ليش",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-089",
+   "rank": 89,
+   "unit": 4,
+   "es": "¿dónde?",
+   "t": "wen?",
+   "pron": "wen?",
+   "script": "وين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-090",
+   "rank": 90,
+   "unit": 4,
+   "es": "¿dónde estás?",
+   "t": "wenak?",
+   "pron": "wenak?",
+   "script": "وينك",
+   "g": "m",
+   "alt": "wenik?",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-091",
+   "rank": 91,
+   "unit": 4,
+   "es": "¿cuándo?",
+   "t": "emta?",
+   "pron": "emta?",
+   "script": "إيمتا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-092",
+   "rank": 92,
+   "unit": 4,
+   "es": "¿cómo?",
+   "t": "kif?",
+   "pron": "kif?",
+   "script": "كيف",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-093",
+   "rank": 93,
+   "unit": 4,
+   "es": "¿quién?",
+   "t": "min?",
+   "pron": "min?",
+   "script": "مين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-094",
+   "rank": 94,
+   "unit": 4,
+   "es": "¿cuánto?",
+   "t": "2adde?",
+   "pron": "'adde?",
+   "script": "قدي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-095",
+   "rank": 95,
+   "unit": 4,
+   "es": "¿cuánto?",
+   "t": "2addesh?",
+   "pron": "'addesh?",
+   "script": "قديش",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": "precio, tiempo"
+  },
+  {
+   "id": "ar-096",
+   "rank": 96,
+   "unit": 4,
+   "es": "¿qué hora es?",
+   "t": "2addesh el se3a?",
+   "pron": "'addesh el seʕa?",
+   "script": "قديش الساعة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-097",
+   "rank": 97,
+   "unit": 4,
+   "es": "¿cuál?",
+   "t": "ayya wa7ad?",
+   "pron": "ayya waHad?",
+   "script": "أي واحد",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-098",
+   "rank": 98,
+   "unit": 4,
+   "es": "¿de dónde?",
+   "t": "men wen?",
+   "pron": "men wen?",
+   "script": "من وين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-099",
+   "rank": 99,
+   "unit": 4,
+   "es": "¿de dónde eres?",
+   "t": "men wen enta?",
+   "pron": "men wen enta?",
+   "script": "من وين إنت",
+   "g": "m",
+   "alt": "men wen ente?",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-100",
+   "rank": 100,
+   "unit": 4,
+   "es": "¿cómo te llamas?",
+   "t": "shu esmak?",
+   "pron": "shu esmak?",
+   "script": "شو اسمك",
+   "g": "m",
+   "alt": "shu esmik?",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-101",
+   "rank": 101,
+   "unit": 4,
+   "es": "me llamo ...",
+   "t": "esme ...",
+   "pron": "esme ...",
+   "script": "اسمي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-102",
+   "rank": 102,
+   "unit": 10,
+   "es": "¿qué haces?",
+   "t": "shu 3am ta3mel?",
+   "pron": "shu ʕam taʕmel?",
+   "script": "شو عم تعمل",
+   "g": "m",
+   "alt": "shu 3am ta3mle?",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-103",
+   "rank": 103,
+   "unit": 4,
+   "es": "¿qué quieres?",
+   "t": "shu baddak?",
+   "pron": "shu baddak?",
+   "script": "شو بدك",
+   "g": "m",
+   "alt": "shu baddik?",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-104",
+   "rank": 104,
+   "unit": 4,
+   "es": "¿puedes ayudarme?",
+   "t": "fik tse3edne?",
+   "pron": "fik tseʕedne?",
+   "script": "فيك تساعدني",
+   "g": "m",
+   "alt": "fike tse3edne?",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-105",
+   "rank": 105,
+   "unit": 4,
+   "es": "¿hablas inglés / francés?",
+   "t": "btehke englizi / frense?",
+   "pron": "btehke englizi / frense?",
+   "script": "بتحكي إنجليزي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-106",
+   "rank": 106,
+   "unit": 4,
+   "es": "¿hay ...?",
+   "t": "fi ...?",
+   "pron": "fi ...?",
+   "script": "في",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-107",
+   "rank": 107,
+   "unit": 4,
+   "es": "¿en serio?",
+   "t": "3anjad?",
+   "pron": "ʕanzhad?",
+   "script": "عنجد",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-108",
+   "rank": 108,
+   "unit": 4,
+   "es": "¿verdad? ¿no?",
+   "t": "mesh hek?",
+   "pron": "mesh hek?",
+   "script": "مش هيك",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-109",
+   "rank": 109,
+   "unit": 4,
+   "es": "¿qué significa ...?",
+   "t": "shu ya3ne ...?",
+   "pron": "shu yaʕne ...?",
+   "script": "شو يعني",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-110",
+   "rank": 110,
+   "unit": 4,
+   "es": "¿cómo se dice ... en árabe?",
+   "t": "kif bt2oul ... bel 3arabe?",
+   "pron": "kif bt'ul ... bel ʕarabe?",
+   "script": "كيف بتقول بالعربي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "pregunta"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-111",
+   "rank": 111,
+   "unit": 6,
+   "es": "ahora",
+   "t": "hala2",
+   "pron": "hala'",
+   "script": "هلق",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-112",
+   "rank": 112,
+   "unit": 6,
+   "es": "después",
+   "t": "ba3den",
+   "pron": "baʕden",
+   "script": "بعدين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-113",
+   "rank": 113,
+   "unit": 6,
+   "es": "antes",
+   "t": "2abel",
+   "pron": "'abel",
+   "script": "قبل",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-114",
+   "rank": 114,
+   "unit": 6,
+   "es": "hoy",
+   "t": "lyom",
+   "pron": "lyom",
+   "script": "اليوم",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-115",
+   "rank": 115,
+   "unit": 6,
+   "es": "mañana",
+   "t": "bukra",
+   "pron": "bukra",
+   "script": "بكرا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-116",
+   "rank": 116,
+   "unit": 6,
+   "es": "ayer",
+   "t": "mbere7",
+   "pron": "mbereH",
+   "script": "مبارح",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-117",
+   "rank": 117,
+   "unit": 6,
+   "es": "pasado mañana",
+   "t": "ba3d bukra",
+   "pron": "baʕd bukra",
+   "script": "بعد بكرا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-118",
+   "rank": 118,
+   "unit": 6,
+   "es": "anteayer",
+   "t": "awwal mbere7",
+   "pron": "awwal mbereH",
+   "script": "أول مبارح",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-119",
+   "rank": 119,
+   "unit": 6,
+   "es": "la hora / el reloj",
+   "t": "el se3a",
+   "pron": "el seʕa",
+   "script": "الساعة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-120",
+   "rank": 120,
+   "unit": 6,
+   "es": "una hora",
+   "t": "se3a",
+   "pron": "seʕa",
+   "script": "ساعة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-121",
+   "rank": 121,
+   "unit": 6,
+   "es": "minuto",
+   "t": "d2i2a",
+   "pron": "d'i'a",
+   "script": "دقيقة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-122",
+   "rank": 122,
+   "unit": 6,
+   "es": "día",
+   "t": "nhar",
+   "pron": "nhar",
+   "script": "نهار",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-123",
+   "rank": 123,
+   "unit": 6,
+   "es": "noche",
+   "t": "lele",
+   "pron": "lele",
+   "script": "ليل",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-124",
+   "rank": 124,
+   "unit": 6,
+   "es": "semana",
+   "t": "jem3a",
+   "pron": "zhemʕa",
+   "script": "جمعة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": "también viernes y universidad"
+  },
+  {
+   "id": "ar-125",
+   "rank": 125,
+   "unit": 6,
+   "es": "mes",
+   "t": "shaher",
+   "pron": "shaher",
+   "script": "شهر",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-126",
+   "rank": 126,
+   "unit": 6,
+   "es": "año",
+   "t": "sene",
+   "pron": "sene",
+   "script": "سنة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-127",
+   "rank": 127,
+   "unit": 6,
+   "es": "la mañana",
+   "t": "el sob7",
+   "pron": "el sobH",
+   "script": "الصبح",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-128",
+   "rank": 128,
+   "unit": 6,
+   "es": "mediodía",
+   "t": "el dohr",
+   "pron": "el dohr",
+   "script": "الضهر",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-129",
+   "rank": 129,
+   "unit": 6,
+   "es": "la tarde",
+   "t": "ba3d el dohr",
+   "pron": "baʕd el dohr",
+   "script": "بعد الضهر",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-130",
+   "rank": 130,
+   "unit": 6,
+   "es": "el atardecer",
+   "t": "el masa",
+   "pron": "el masa",
+   "script": "المسا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-131",
+   "rank": 131,
+   "unit": 6,
+   "es": "lunes",
+   "t": "el tanein",
+   "pron": "el tanein",
+   "script": "الإثنين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-132",
+   "rank": 132,
+   "unit": 6,
+   "es": "martes",
+   "t": "el tlete",
+   "pron": "el tlete",
+   "script": "التلاتا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-133",
+   "rank": 133,
+   "unit": 6,
+   "es": "miércoles",
+   "t": "el arb3a",
+   "pron": "el arbʕa",
+   "script": "الأربعا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-134",
+   "rank": 134,
+   "unit": 6,
+   "es": "jueves",
+   "t": "el khamis",
+   "pron": "el Jamis",
+   "script": "الخميس",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-135",
+   "rank": 135,
+   "unit": 6,
+   "es": "viernes",
+   "t": "el jem3a",
+   "pron": "el zhemʕa",
+   "script": "الجمعة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-136",
+   "rank": 136,
+   "unit": 6,
+   "es": "sábado",
+   "t": "el sabt",
+   "pron": "el sabt",
+   "script": "السبت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-137",
+   "rank": 137,
+   "unit": 6,
+   "es": "domingo",
+   "t": "el a7ad",
+   "pron": "el aHad",
+   "script": "الأحد",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-138",
+   "rank": 138,
+   "unit": 6,
+   "es": "siempre",
+   "t": "daymen",
+   "pron": "daymen",
+   "script": "دايما",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-139",
+   "rank": 139,
+   "unit": 6,
+   "es": "nunca",
+   "t": "abadan",
+   "pron": "abadan",
+   "script": "أبدا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-140",
+   "rank": 140,
+   "unit": 6,
+   "es": "a veces",
+   "t": "marrat",
+   "pron": "marrat",
+   "script": "مرات",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-141",
+   "rank": 141,
+   "unit": 6,
+   "es": "una vez",
+   "t": "marra",
+   "pron": "marra",
+   "script": "مرة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-142",
+   "rank": 142,
+   "unit": 6,
+   "es": "en un rato",
+   "t": "ba3d shway",
+   "pron": "baʕd shway",
+   "script": "بعد شوي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-143",
+   "rank": 143,
+   "unit": 6,
+   "es": "temprano",
+   "t": "bakkir",
+   "pron": "bakkir",
+   "script": "بكير",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-144",
+   "rank": 144,
+   "unit": 6,
+   "es": "llegué tarde",
+   "t": "ta2akhart",
+   "pron": "ta'aJart",
+   "script": "تأخرت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-145",
+   "rank": 145,
+   "unit": 6,
+   "es": "enseguida, directo",
+   "t": "3a tool",
+   "pron": "ʕa tul",
+   "script": "عالطول",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "tiempo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-146",
+   "rank": 146,
+   "unit": 5,
+   "es": "0",
+   "t": "sefr",
+   "pron": "sefr",
+   "script": "صفر",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-147",
+   "rank": 147,
+   "unit": 5,
+   "es": "1",
+   "t": "wa7ad",
+   "pron": "waHad",
+   "script": "واحد",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-148",
+   "rank": 148,
+   "unit": 5,
+   "es": "2",
+   "t": "tnein",
+   "pron": "tnein",
+   "script": "تنين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-149",
+   "rank": 149,
+   "unit": 5,
+   "es": "3",
+   "t": "tlete",
+   "pron": "tlete",
+   "script": "تلاتة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-150",
+   "rank": 150,
+   "unit": 5,
+   "es": "4",
+   "t": "arb3a",
+   "pron": "arbʕa",
+   "script": "أربعة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-151",
+   "rank": 151,
+   "unit": 5,
+   "es": "5",
+   "t": "khamse",
+   "pron": "Jamse",
+   "script": "خمسة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-152",
+   "rank": 152,
+   "unit": 5,
+   "es": "6",
+   "t": "sette",
+   "pron": "sette",
+   "script": "ستة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-153",
+   "rank": 153,
+   "unit": 5,
+   "es": "7",
+   "t": "sab3a",
+   "pron": "sabʕa",
+   "script": "سبعة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-154",
+   "rank": 154,
+   "unit": 5,
+   "es": "8",
+   "t": "tmene",
+   "pron": "tmene",
+   "script": "تمانية",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-155",
+   "rank": 155,
+   "unit": 5,
+   "es": "9",
+   "t": "tes3a",
+   "pron": "tesʕa",
+   "script": "تسعة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-156",
+   "rank": 156,
+   "unit": 5,
+   "es": "10",
+   "t": "3ashra",
+   "pron": "ʕashra",
+   "script": "عشرة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-157",
+   "rank": 157,
+   "unit": 5,
+   "es": "11",
+   "t": "7da3sh",
+   "pron": "Hdaʕsh",
+   "script": "احداش",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-158",
+   "rank": 158,
+   "unit": 5,
+   "es": "12",
+   "t": "tna3sh",
+   "pron": "tnaʕsh",
+   "script": "طناش",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-159",
+   "rank": 159,
+   "unit": 5,
+   "es": "15",
+   "t": "khamsta3sh",
+   "pron": "Jamstaʕsh",
+   "script": "خمسطاش",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-160",
+   "rank": 160,
+   "unit": 5,
+   "es": "20",
+   "t": "3eshrin",
+   "pron": "ʕeshrin",
+   "script": "عشرين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-161",
+   "rank": 161,
+   "unit": 5,
+   "es": "21",
+   "t": "wa7ad w 3eshrin",
+   "pron": "waHad w ʕeshrin",
+   "script": "واحد وعشرين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-162",
+   "rank": 162,
+   "unit": 5,
+   "es": "30",
+   "t": "tletin",
+   "pron": "tletin",
+   "script": "تلاتين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-163",
+   "rank": 163,
+   "unit": 5,
+   "es": "40",
+   "t": "arb3in",
+   "pron": "arbʕin",
+   "script": "أربعين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-164",
+   "rank": 164,
+   "unit": 5,
+   "es": "50",
+   "t": "khamsin",
+   "pron": "Jamsin",
+   "script": "خمسين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-165",
+   "rank": 165,
+   "unit": 5,
+   "es": "100",
+   "t": "miyye",
+   "pron": "miyye",
+   "script": "مية",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-166",
+   "rank": 166,
+   "unit": 5,
+   "es": "200",
+   "t": "mitein",
+   "pron": "mitein",
+   "script": "ميتين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-167",
+   "rank": 167,
+   "unit": 5,
+   "es": "1000",
+   "t": "alf",
+   "pron": "alf",
+   "script": "ألف",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-168",
+   "rank": 168,
+   "unit": 5,
+   "es": "millón",
+   "t": "malyoun",
+   "pron": "malyun",
+   "script": "مليون",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-169",
+   "rank": 169,
+   "unit": 5,
+   "es": "medio, la mitad",
+   "t": "nos",
+   "pron": "nos",
+   "script": "نص",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-170",
+   "rank": 170,
+   "unit": 5,
+   "es": "un cuarto",
+   "t": "rebe3",
+   "pron": "rebeʕ",
+   "script": "ربع",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-171",
+   "rank": 171,
+   "unit": 5,
+   "es": "primero",
+   "t": "awwal",
+   "pron": "awwal",
+   "script": "أول",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-172",
+   "rank": 172,
+   "unit": 5,
+   "es": "segundo",
+   "t": "tene",
+   "pron": "tene",
+   "script": "تاني",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-173",
+   "rank": 173,
+   "unit": 5,
+   "es": "último",
+   "t": "akhir",
+   "pron": "aJir",
+   "script": "آخر",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-174",
+   "rank": 174,
+   "unit": 5,
+   "es": "lira, dólar, \"fresh dollars\"",
+   "t": "lira / dollar / fresh",
+   "pron": "líra / dólar / fresh",
+   "script": "ليرة، دولار، فريش",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero",
+    "dinero"
+   ],
+   "note": "efectivo real"
+  },
+  {
+   "id": "ar-175",
+   "rank": 175,
+   "unit": 5,
+   "es": "¡muy caro!",
+   "t": "ktir ghele!",
+   "pron": "ktir Rele!",
+   "script": "كتير غالي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "numero",
+    "dinero"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-176",
+   "rank": 176,
+   "unit": 7,
+   "es": "quiero / quieres (m / f)",
+   "t": "bade / baddak / baddik",
+   "pron": "bade / baddak / baddik",
+   "script": "بدي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-177",
+   "rank": 177,
+   "unit": 7,
+   "es": "puedo / puedes (m / f)",
+   "t": "fiye / fik / fike",
+   "pron": "fiye / fik / fike",
+   "script": "فيي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-178",
+   "rank": 178,
+   "unit": 8,
+   "es": "me gusta / amo",
+   "t": "b7ebb",
+   "pron": "bHebb",
+   "script": "بحب",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-179",
+   "rank": 179,
+   "unit": 8,
+   "es": "no me gusta",
+   "t": "ma b7ebb",
+   "pron": "ma bHebb",
+   "script": "ما بحب",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-180",
+   "rank": 180,
+   "unit": 8,
+   "es": "sé, conozco",
+   "t": "ba3ref",
+   "pron": "baʕref",
+   "script": "بعرف",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-181",
+   "rank": 181,
+   "unit": 8,
+   "es": "entiendo",
+   "t": "bfham",
+   "pron": "bfham",
+   "script": "بفهم",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-182",
+   "rank": 182,
+   "unit": 8,
+   "es": "hablo",
+   "t": "be7ke",
+   "pron": "beHke",
+   "script": "بحكي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-183",
+   "rank": 183,
+   "unit": 8,
+   "es": "voy",
+   "t": "brou7",
+   "pron": "bruH",
+   "script": "بروح",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-184",
+   "rank": 184,
+   "unit": 13,
+   "es": "voy a ir",
+   "t": "ra7 rou7",
+   "pron": "raH ruH",
+   "script": "رح روح",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-185",
+   "rank": 185,
+   "unit": 12,
+   "es": "fui",
+   "t": "ra7t",
+   "pron": "raHt",
+   "script": "رحت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-186",
+   "rank": 186,
+   "unit": 8,
+   "es": "vengo, ya voy",
+   "t": "jeye",
+   "pron": "zheye",
+   "script": "جاي",
+   "g": "m",
+   "alt": "jeyye",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-187",
+   "rank": 187,
+   "unit": 8,
+   "es": "ven",
+   "t": "ta3a",
+   "pron": "taʕa",
+   "script": "تعا",
+   "g": "m",
+   "alt": "ta3e",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-188",
+   "rank": 188,
+   "unit": 8,
+   "es": "como",
+   "t": "bekol",
+   "pron": "bekol",
+   "script": "بوكل",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-189",
+   "rank": 189,
+   "unit": 12,
+   "es": "comí",
+   "t": "akalt",
+   "pron": "akalt",
+   "script": "أكلت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-190",
+   "rank": 190,
+   "unit": 8,
+   "es": "bebo",
+   "t": "beshrab",
+   "pron": "beshrab",
+   "script": "بشرب",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-191",
+   "rank": 191,
+   "unit": 8,
+   "es": "duermo",
+   "t": "bnem",
+   "pron": "bnem",
+   "script": "بنام",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-192",
+   "rank": 192,
+   "unit": 12,
+   "es": "dormí",
+   "t": "nemt",
+   "pron": "nemt",
+   "script": "نمت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-193",
+   "rank": 193,
+   "unit": 8,
+   "es": "veo",
+   "t": "bshuf",
+   "pron": "bshuf",
+   "script": "بشوف",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-194",
+   "rank": 194,
+   "unit": 12,
+   "es": "vi",
+   "t": "shefet",
+   "pron": "shefet",
+   "script": "شفت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-195",
+   "rank": 195,
+   "unit": 8,
+   "es": "mira",
+   "t": "shuf",
+   "pron": "shuf",
+   "script": "شوف",
+   "g": "m",
+   "alt": "shufe",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-196",
+   "rank": 196,
+   "unit": 12,
+   "es": "dije",
+   "t": "2elt",
+   "pron": "'elt",
+   "script": "قلت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-197",
+   "rank": 197,
+   "unit": 8,
+   "es": "dime",
+   "t": "2elle",
+   "pron": "'el·le",
+   "script": "قلّي",
+   "g": "m",
+   "alt": "2ilile",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-198",
+   "rank": 198,
+   "unit": 8,
+   "es": "hago",
+   "t": "ba3mel",
+   "pron": "baʕmel",
+   "script": "بعمل",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-199",
+   "rank": 199,
+   "unit": 12,
+   "es": "hice",
+   "t": "3melt",
+   "pron": "ʕmelt",
+   "script": "عملت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-200",
+   "rank": 200,
+   "unit": 10,
+   "es": "estoy ...ndo",
+   "t": "3am ...",
+   "pron": "ʕam ...",
+   "script": "عم",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": "3am bekol = estoy comiendo"
+  },
+  {
+   "id": "ar-201",
+   "rank": 201,
+   "unit": 8,
+   "es": "espera",
+   "t": "stanna",
+   "pron": "stanna",
+   "script": "استنى",
+   "g": "m",
+   "alt": "stanne",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-202",
+   "rank": 202,
+   "unit": 8,
+   "es": "trabajo",
+   "t": "bshte8el",
+   "pron": "bshteRel",
+   "script": "بشتغل",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-203",
+   "rank": 203,
+   "unit": 8,
+   "es": "estudio",
+   "t": "bedros",
+   "pron": "bedros",
+   "script": "بدرس",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-204",
+   "rank": 204,
+   "unit": 8,
+   "es": "aprendo",
+   "t": "bet3allam",
+   "pron": "betʕal·lam",
+   "script": "بتعلم",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-205",
+   "rank": 205,
+   "unit": 8,
+   "es": "siéntate",
+   "t": "2a3od",
+   "pron": "'aʕod",
+   "script": "اقعد",
+   "g": "m",
+   "alt": "2e3de",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-206",
+   "rank": 206,
+   "unit": 8,
+   "es": "levántate",
+   "t": "2um",
+   "pron": "'um",
+   "script": "قوم",
+   "g": "m",
+   "alt": "2ume",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-207",
+   "rank": 207,
+   "unit": 8,
+   "es": "entro",
+   "t": "bfout",
+   "pron": "bfut",
+   "script": "بفوت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-208",
+   "rank": 208,
+   "unit": 8,
+   "es": "salgo, subo",
+   "t": "betla3",
+   "pron": "betlaʕ",
+   "script": "بطلع",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-209",
+   "rank": 209,
+   "unit": 8,
+   "es": "bajo",
+   "t": "benzal",
+   "pron": "benzal",
+   "script": "بنزل",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-210",
+   "rank": 210,
+   "unit": 8,
+   "es": "compro",
+   "t": "beshtre",
+   "pron": "beshtre",
+   "script": "بشتري",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-211",
+   "rank": 211,
+   "unit": 8,
+   "es": "pago",
+   "t": "bedfa3",
+   "pron": "bedfaʕ",
+   "script": "بدفع",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-212",
+   "rank": 212,
+   "unit": 8,
+   "es": "te llamo",
+   "t": "bettesel fik",
+   "pron": "bettesel fik",
+   "script": "بتصل فيك",
+   "g": "m",
+   "alt": "bettesel fike",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-213",
+   "rank": 213,
+   "unit": 8,
+   "es": "te mando mensaje",
+   "t": "ba3atlak message",
+   "pron": "baʕatlak mésech",
+   "script": "بعتلك ميسج",
+   "g": "m",
+   "alt": "ba3atlik message",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-214",
+   "rank": 214,
+   "unit": 8,
+   "es": "me visto",
+   "t": "belbes",
+   "pron": "belbes",
+   "script": "بلبس",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-215",
+   "rank": 215,
+   "unit": 8,
+   "es": "pregunto",
+   "t": "bes2al",
+   "pron": "bes'al",
+   "script": "بسأل",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-216",
+   "rank": 216,
+   "unit": 8,
+   "es": "respondo",
+   "t": "bjeweb",
+   "pron": "bzheweb",
+   "script": "بجاوب",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-217",
+   "rank": 217,
+   "unit": 8,
+   "es": "recuerdo",
+   "t": "betzakkar",
+   "pron": "betzakkar",
+   "script": "بتذكر",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-218",
+   "rank": 218,
+   "unit": 12,
+   "es": "olvidé",
+   "t": "nsit",
+   "pron": "nsit",
+   "script": "نسيت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-219",
+   "rank": 219,
+   "unit": 12,
+   "es": "te extrañé",
+   "t": "eshta2tellak",
+   "pron": "eshta'tel·lak",
+   "script": "اشتقتلك",
+   "g": "m",
+   "alt": "eshta2tellik",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-220",
+   "rank": 220,
+   "unit": 8,
+   "es": "pienso",
+   "t": "bfakker",
+   "pron": "bfakker",
+   "script": "بفكر",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-221",
+   "rank": 221,
+   "unit": 8,
+   "es": "leo",
+   "t": "be2ra",
+   "pron": "be'ra",
+   "script": "بقرا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-222",
+   "rank": 222,
+   "unit": 8,
+   "es": "escribo",
+   "t": "bektob",
+   "pron": "bektob",
+   "script": "بكتب",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-223",
+   "rank": 223,
+   "unit": 8,
+   "es": "manejo",
+   "t": "bsou2",
+   "pron": "bsu'",
+   "script": "بسوق",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-224",
+   "rank": 224,
+   "unit": 8,
+   "es": "viajo",
+   "t": "bsefer",
+   "pron": "bsefer",
+   "script": "بسافر",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-225",
+   "rank": 225,
+   "unit": 8,
+   "es": "ayudo",
+   "t": "bse3ed",
+   "pron": "bseʕed",
+   "script": "بساعد",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-226",
+   "rank": 226,
+   "unit": 11,
+   "es": "bueno",
+   "t": "mni7",
+   "pron": "mniH",
+   "script": "منيح",
+   "g": "m",
+   "alt": "mni7a",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": "f: buena"
+  },
+  {
+   "id": "ar-227",
+   "rank": 227,
+   "unit": 11,
+   "es": "no está bien, malo",
+   "t": "mesh mni7",
+   "pron": "mesh mniH",
+   "script": "مش منيح",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-228",
+   "rank": 228,
+   "unit": 11,
+   "es": "bonito",
+   "t": "7elo",
+   "pron": "Helo",
+   "script": "حلو",
+   "g": "m",
+   "alt": "7elwe",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": "f: bonita"
+  },
+  {
+   "id": "ar-229",
+   "rank": 229,
+   "unit": 11,
+   "es": "muy linda",
+   "t": "ktir 7elwe",
+   "pron": "ktir Helwe",
+   "script": "كتير حلوة",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-230",
+   "rank": 230,
+   "unit": 11,
+   "es": "grande",
+   "t": "kbir",
+   "pron": "kbir",
+   "script": "كبير",
+   "g": "m",
+   "alt": "kbire",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-231",
+   "rank": 231,
+   "unit": 11,
+   "es": "pequeño",
+   "t": "zghir",
+   "pron": "zRir",
+   "script": "زغير",
+   "g": "m",
+   "alt": "zghire",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-232",
+   "rank": 232,
+   "unit": 11,
+   "es": "nuevo",
+   "t": "jdid",
+   "pron": "zhdid",
+   "script": "جديد",
+   "g": "m",
+   "alt": "jdide",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-233",
+   "rank": 233,
+   "unit": 11,
+   "es": "viejo",
+   "t": "2adim",
+   "pron": "'adim",
+   "script": "قديم",
+   "g": "m",
+   "alt": "2adime",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": "cosa"
+  },
+  {
+   "id": "ar-234",
+   "rank": 234,
+   "unit": 11,
+   "es": "viejo",
+   "t": "khetyar",
+   "pron": "Jetyar",
+   "script": "ختيار",
+   "g": "m",
+   "alt": "khetyara",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": "persona"
+  },
+  {
+   "id": "ar-235",
+   "rank": 235,
+   "unit": 11,
+   "es": "joven",
+   "t": "zghir bel 3omr",
+   "pron": "zRir bel ʕomr",
+   "script": "زغير بالعمر",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-236",
+   "rank": 236,
+   "unit": 11,
+   "es": "difícil",
+   "t": "sa3b",
+   "pron": "saʕb",
+   "script": "صعب",
+   "g": "m",
+   "alt": "sa3be",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-237",
+   "rank": 237,
+   "unit": 11,
+   "es": "fácil",
+   "t": "sahel",
+   "pron": "sahel",
+   "script": "سهل",
+   "g": "m",
+   "alt": "sahle",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-238",
+   "rank": 238,
+   "unit": 11,
+   "es": "caro",
+   "t": "ghele",
+   "pron": "Rele",
+   "script": "غالي",
+   "g": "m",
+   "alt": "ghelye",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-239",
+   "rank": 239,
+   "unit": 11,
+   "es": "barato",
+   "t": "rkhis",
+   "pron": "rJis",
+   "script": "رخيص",
+   "g": "m",
+   "alt": "rkhise",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-240",
+   "rank": 240,
+   "unit": 11,
+   "es": "caliente",
+   "t": "sokhn",
+   "pron": "soJn",
+   "script": "سخن",
+   "g": "m",
+   "alt": "sokhne",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-241",
+   "rank": 241,
+   "unit": 11,
+   "es": "frío",
+   "t": "bared",
+   "pron": "bared",
+   "script": "بارد",
+   "g": "m",
+   "alt": "barde",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-242",
+   "rank": 242,
+   "unit": 11,
+   "es": "hace calor",
+   "t": "shob",
+   "pron": "shob",
+   "script": "شوب",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-243",
+   "rank": 243,
+   "unit": 11,
+   "es": "hace frío",
+   "t": "fi berd",
+   "pron": "fi berd",
+   "script": "في برد",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-244",
+   "rank": 244,
+   "unit": 11,
+   "es": "cansado",
+   "t": "ta3ban",
+   "pron": "taʕban",
+   "script": "تعبان",
+   "g": "m",
+   "alt": "ta3bene",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": "f: cansada"
+  },
+  {
+   "id": "ar-245",
+   "rank": 245,
+   "unit": 11,
+   "es": "contento",
+   "t": "mabsout",
+   "pron": "mabsut",
+   "script": "مبسوط",
+   "g": "m",
+   "alt": "mabsouta",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": "f: contenta"
+  },
+  {
+   "id": "ar-246",
+   "rank": 246,
+   "unit": 11,
+   "es": "triste, molesto",
+   "t": "za3lan",
+   "pron": "zaʕlan",
+   "script": "زعلان",
+   "g": "m",
+   "alt": "za3lene",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-247",
+   "rank": 247,
+   "unit": 11,
+   "es": "estresado, nervioso",
+   "t": "m3assab",
+   "pron": "mʕassab",
+   "script": "معصّب",
+   "g": "m",
+   "alt": "m3assabe",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-248",
+   "rank": 248,
+   "unit": 11,
+   "es": "con hambre",
+   "t": "jou3an",
+   "pron": "zhuʕan",
+   "script": "جوعان",
+   "g": "m",
+   "alt": "jou3ane",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-249",
+   "rank": 249,
+   "unit": 11,
+   "es": "con sed",
+   "t": "3atshan",
+   "pron": "ʕatshan",
+   "script": "عطشان",
+   "g": "m",
+   "alt": "3atshane",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-250",
+   "rank": 250,
+   "unit": 11,
+   "es": "ocupado",
+   "t": "mashghoul",
+   "pron": "mashRul",
+   "script": "مشغول",
+   "g": "m",
+   "alt": "mashghoule",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-251",
+   "rank": 251,
+   "unit": 11,
+   "es": "libre",
+   "t": "fadi",
+   "pron": "fadi",
+   "script": "فاضي",
+   "g": "m",
+   "alt": "fadye",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": "de tiempo"
+  },
+  {
+   "id": "ar-252",
+   "rank": 252,
+   "unit": 11,
+   "es": "enfermo",
+   "t": "mrid",
+   "pron": "mrid",
+   "script": "مريض",
+   "g": "m",
+   "alt": "mride",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-253",
+   "rank": 253,
+   "unit": 11,
+   "es": "delicioso",
+   "t": "zaki",
+   "pron": "zaki",
+   "script": "زاكي",
+   "g": "m",
+   "alt": "zakiyye",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-254",
+   "rank": 254,
+   "unit": 11,
+   "es": "rico, buena persona",
+   "t": "tayyeb",
+   "pron": "tayyeb",
+   "script": "طيب",
+   "g": "m",
+   "alt": "tayybe",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-255",
+   "rank": 255,
+   "unit": 11,
+   "es": "¡increíble!",
+   "t": "mesh ma32oul!",
+   "pron": "mesh maʕ'ul!",
+   "script": "مش معقول",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": "lit. no es razonable"
+  },
+  {
+   "id": "ar-256",
+   "rank": 256,
+   "unit": 11,
+   "es": "buenísimo",
+   "t": "bjanen",
+   "pron": "bzhanen",
+   "script": "بيجنن",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": "lit. vuelve loco"
+  },
+  {
+   "id": "ar-257",
+   "rank": 257,
+   "unit": 11,
+   "es": "muy, mucho",
+   "t": "ktir",
+   "pron": "ktir",
+   "script": "كتير",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-258",
+   "rank": 258,
+   "unit": 11,
+   "es": "un poco",
+   "t": "shwayye",
+   "pron": "shwayye",
+   "script": "شوي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-259",
+   "rank": 259,
+   "unit": 11,
+   "es": "mejor",
+   "t": "a7san",
+   "pron": "aHsan",
+   "script": "أحسن",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-260",
+   "rank": 260,
+   "unit": 11,
+   "es": "peor",
+   "t": "aswa2",
+   "pron": "aswa'",
+   "script": "أسوأ",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-261",
+   "rank": 261,
+   "unit": 11,
+   "es": "como, igual que",
+   "t": "metel",
+   "pron": "metel",
+   "script": "مثل",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-262",
+   "rank": 262,
+   "unit": 11,
+   "es": "lo mismo",
+   "t": "nafs el shi",
+   "pron": "nafs el shi",
+   "script": "نفس الشي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-263",
+   "rank": 263,
+   "unit": 11,
+   "es": "correcto",
+   "t": "sa7",
+   "pron": "saH",
+   "script": "صح",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-264",
+   "rank": 264,
+   "unit": 11,
+   "es": "incorrecto, error",
+   "t": "ghalat",
+   "pron": "Ralat",
+   "script": "غلط",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-265",
+   "rank": 265,
+   "unit": 11,
+   "es": "cerca / lejos",
+   "t": "2arib / ba3id",
+   "pron": "'arib / baʕid",
+   "script": "قريب",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "adjetivo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-266",
+   "rank": 266,
+   "unit": 15,
+   "es": "casa",
+   "t": "bayt",
+   "pron": "bayt",
+   "script": "بيت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-267",
+   "rank": 267,
+   "unit": 15,
+   "es": "voy a casa",
+   "t": "rayi7 3al bayt",
+   "pron": "rayiH ʕal bayt",
+   "script": "رايح عالبيت",
+   "g": "m",
+   "alt": "rayi7a 3al bayt",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-268",
+   "rank": 268,
+   "unit": 15,
+   "es": "trabajo",
+   "t": "shi8el",
+   "pron": "shiRel",
+   "script": "شغل",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-269",
+   "rank": 269,
+   "unit": 15,
+   "es": "universidad",
+   "t": "jem3a",
+   "pron": "zhemʕa",
+   "script": "جامعة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-270",
+   "rank": 270,
+   "unit": 15,
+   "es": "escuela",
+   "t": "madrase",
+   "pron": "madrase",
+   "script": "مدرسة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-271",
+   "rank": 271,
+   "unit": 15,
+   "es": "restaurante",
+   "t": "mat3am",
+   "pron": "matʕam",
+   "script": "مطعم",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-272",
+   "rank": 272,
+   "unit": 15,
+   "es": "café",
+   "t": "2ahwe",
+   "pron": "'ahwe",
+   "script": "قهوة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": "lugar"
+  },
+  {
+   "id": "ar-273",
+   "rank": 273,
+   "unit": 15,
+   "es": "tiendita",
+   "t": "dekkene",
+   "pron": "dekkene",
+   "script": "دكانة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-274",
+   "rank": 274,
+   "unit": 15,
+   "es": "supermercado",
+   "t": "supermarket",
+   "pron": "súpermarket",
+   "script": "سوبرماركت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-275",
+   "rank": 275,
+   "unit": 15,
+   "es": "coche",
+   "t": "sayyara",
+   "pron": "sayyara",
+   "script": "سيارة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-276",
+   "rank": 276,
+   "unit": 15,
+   "es": "taxi compartido de Beirut",
+   "t": "service",
+   "pron": "servís",
+   "script": "سرفيس",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-277",
+   "rank": 277,
+   "unit": 15,
+   "es": "taxi",
+   "t": "taxi",
+   "pron": "táksi",
+   "script": "تاكسي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-278",
+   "rank": 278,
+   "unit": 15,
+   "es": "camino",
+   "t": "tari2",
+   "pron": "tari'",
+   "script": "طريق",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-279",
+   "rank": 279,
+   "unit": 15,
+   "es": "calle",
+   "t": "share3",
+   "pron": "shareʕ",
+   "script": "شارع",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-280",
+   "rank": 280,
+   "unit": 15,
+   "es": "mar",
+   "t": "ba7er",
+   "pron": "baHer",
+   "script": "بحر",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-281",
+   "rank": 281,
+   "unit": 15,
+   "es": "la montaña",
+   "t": "el jabal",
+   "pron": "el zhabal",
+   "script": "الجبل",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-282",
+   "rank": 282,
+   "unit": 15,
+   "es": "el pueblo",
+   "t": "day3a",
+   "pron": "dayʕa",
+   "script": "ضيعة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": "de la familia"
+  },
+  {
+   "id": "ar-283",
+   "rank": 283,
+   "unit": 15,
+   "es": "Beirut",
+   "t": "Bayrut",
+   "pron": "bairút",
+   "script": "بيروت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-284",
+   "rank": 284,
+   "unit": 15,
+   "es": "barrios de Beirut",
+   "t": "Hamra, Mar Mkhayel, Gemmayze, Achrafieh, Badaro",
+   "pron": "Hámra, mar mJáiel, zhemmáize, ashrafíe, badáro",
+   "script": "الحمرا، مار مخايل، الجميزة، الأشرفية، بدارو",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-285",
+   "rank": 285,
+   "unit": 15,
+   "es": "sol",
+   "t": "shames",
+   "pron": "shames",
+   "script": "شمس",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-286",
+   "rank": 286,
+   "unit": 15,
+   "es": "playa y sol",
+   "t": "ba7r w shames",
+   "pron": "baHr w shames",
+   "script": "بحر وشمس",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-287",
+   "rank": 287,
+   "unit": 15,
+   "es": "a la derecha",
+   "t": "3al yamin",
+   "pron": "ʕal yamin",
+   "script": "عاليمين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-288",
+   "rank": 288,
+   "unit": 15,
+   "es": "a la izquierda",
+   "t": "3al shmel",
+   "pron": "ʕal shmel",
+   "script": "عالشمال",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-289",
+   "rank": 289,
+   "unit": 15,
+   "es": "derecho",
+   "t": "dighre",
+   "pron": "diRre",
+   "script": "دغري",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-290",
+   "rank": 290,
+   "unit": 15,
+   "es": "aquí / allá",
+   "t": "hon / honik",
+   "pron": "hon / honik",
+   "script": "هون",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "lugar"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-291",
+   "rank": 291,
+   "unit": 9,
+   "es": "comida",
+   "t": "akl",
+   "pron": "akl",
+   "script": "أكل",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-292",
+   "rank": 292,
+   "unit": 9,
+   "es": "café",
+   "t": "2ahwe",
+   "pron": "'ahwe",
+   "script": "قهوة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": "bebida"
+  },
+  {
+   "id": "ar-293",
+   "rank": 293,
+   "unit": 9,
+   "es": "té",
+   "t": "shay",
+   "pron": "shay",
+   "script": "شاي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-294",
+   "rank": 294,
+   "unit": 9,
+   "es": "vaso de agua",
+   "t": "kesset mayy",
+   "pron": "kesset mayy",
+   "script": "كاسة مي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-295",
+   "rank": 295,
+   "unit": 9,
+   "es": "pan",
+   "t": "khebez",
+   "pron": "Jebez",
+   "script": "خبز",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-296",
+   "rank": 296,
+   "unit": 9,
+   "es": "pan con za3tar",
+   "t": "man2oushe",
+   "pron": "man'ushe",
+   "script": "مناقيش",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": "desayuno típico"
+  },
+  {
+   "id": "ar-297",
+   "rank": 297,
+   "unit": 9,
+   "es": "mezcla de tomillo y sésamo",
+   "t": "za3tar",
+   "pron": "zaʕtar",
+   "script": "زعتر",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-298",
+   "rank": 298,
+   "unit": 9,
+   "es": "yogur colado",
+   "t": "labne",
+   "pron": "labne",
+   "script": "لبنة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-299",
+   "rank": 299,
+   "unit": 9,
+   "es": "hummus",
+   "t": "7ommos",
+   "pron": "Hommos",
+   "script": "حمص",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-300",
+   "rank": 300,
+   "unit": 9,
+   "es": "tabulé",
+   "t": "tabbouleh",
+   "pron": "tabbúle",
+   "script": "تبولة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-301",
+   "rank": 301,
+   "unit": 9,
+   "es": "ensalada con pan frito",
+   "t": "fattoush",
+   "pron": "fattúsh",
+   "script": "فتوش",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-302",
+   "rank": 302,
+   "unit": 9,
+   "es": "kibbeh",
+   "t": "kebbe",
+   "pron": "kebbe",
+   "script": "كبة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-303",
+   "rank": 303,
+   "unit": 9,
+   "es": "shawarma",
+   "t": "shawarma",
+   "pron": "shawárma",
+   "script": "شاورما",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-304",
+   "rank": 304,
+   "unit": 9,
+   "es": "falafel",
+   "t": "falafel",
+   "pron": "faláfel",
+   "script": "فلافل",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-305",
+   "rank": 305,
+   "unit": 9,
+   "es": "entradas variadas",
+   "t": "mezze",
+   "pron": "mézze",
+   "script": "مازة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-306",
+   "rank": 306,
+   "unit": 9,
+   "es": "arak",
+   "t": "3ara2",
+   "pron": "ʕara'",
+   "script": "عرق",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-307",
+   "rank": 307,
+   "unit": 9,
+   "es": "cerveza",
+   "t": "bira",
+   "pron": "bira",
+   "script": "بيرة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-308",
+   "rank": 308,
+   "unit": 9,
+   "es": "vino",
+   "t": "nbid",
+   "pron": "nbid",
+   "script": "نبيذ",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-309",
+   "rank": 309,
+   "unit": 9,
+   "es": "jugo",
+   "t": "3asir",
+   "pron": "ʕasir",
+   "script": "عصير",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-310",
+   "rank": 310,
+   "unit": 9,
+   "es": "azúcar",
+   "t": "sekkar",
+   "pron": "sekkar",
+   "script": "سكر",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-311",
+   "rank": 311,
+   "unit": 9,
+   "es": "sal",
+   "t": "mele7",
+   "pron": "meleH",
+   "script": "ملح",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-312",
+   "rank": 312,
+   "unit": 9,
+   "es": "carne",
+   "t": "la7me",
+   "pron": "laHme",
+   "script": "لحمة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-313",
+   "rank": 313,
+   "unit": 9,
+   "es": "pollo",
+   "t": "djej",
+   "pron": "dzhezh",
+   "script": "دجاج",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-314",
+   "rank": 314,
+   "unit": 9,
+   "es": "pescado",
+   "t": "samak",
+   "pron": "samak",
+   "script": "سمك",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-315",
+   "rank": 315,
+   "unit": 9,
+   "es": "verduras",
+   "t": "khodra",
+   "pron": "Jodra",
+   "script": "خضرا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-316",
+   "rank": 316,
+   "unit": 9,
+   "es": "fruta",
+   "t": "fawake",
+   "pron": "fawake",
+   "script": "فواكه",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-317",
+   "rank": 317,
+   "unit": 9,
+   "es": "manzana",
+   "t": "teffe7",
+   "pron": "teffeH",
+   "script": "تفاح",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-318",
+   "rank": 318,
+   "unit": 9,
+   "es": "queso",
+   "t": "jebne",
+   "pron": "zhebne",
+   "script": "جبنة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-319",
+   "rank": 319,
+   "unit": 9,
+   "es": "huevo",
+   "t": "bayd",
+   "pron": "bayd",
+   "script": "بيض",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-320",
+   "rank": 320,
+   "unit": 9,
+   "es": "arroz",
+   "t": "rez",
+   "pron": "rez",
+   "script": "رز",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-321",
+   "rank": 321,
+   "unit": 9,
+   "es": "postre, dulce",
+   "t": "7elo (el 7elo)",
+   "pron": "Helo (el Helo)",
+   "script": "الحلو",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-322",
+   "rank": 322,
+   "unit": 9,
+   "es": "la cuenta, por favor",
+   "t": "el 7seb please",
+   "pron": "el Hseb plíis",
+   "script": "الحساب بليز",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-323",
+   "rank": 323,
+   "unit": 9,
+   "es": "quiero ..., por favor",
+   "t": "bade ... please",
+   "pron": "bade ... plíis",
+   "script": "بدي بليز",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-324",
+   "rank": 324,
+   "unit": 9,
+   "es": "¿qué recomiendas?",
+   "t": "shu bte2ta7?",
+   "pron": "shu bte'taH?",
+   "script": "شو بتقترح",
+   "g": "m",
+   "alt": "shu bte2tar7e?",
+   "tags": [
+    "comida"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-325",
+   "rank": 325,
+   "unit": 9,
+   "es": "que Dios te dé salud",
+   "t": "ya3tik el 3afye",
+   "pron": "yaʕtik el ʕafye",
+   "script": "يعطيك العافية",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "comida"
+   ],
+   "note": "a quien cocinó o trabajó"
+  },
+  {
+   "id": "ar-326",
+   "rank": 326,
+   "unit": 14,
+   "es": "familia",
+   "t": "3ayle",
+   "pron": "ʕayle",
+   "script": "عيلة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-327",
+   "rank": 327,
+   "unit": 14,
+   "es": "los padres, la familia cercana",
+   "t": "ahel",
+   "pron": "ahel",
+   "script": "أهل",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-328",
+   "rank": 328,
+   "unit": 14,
+   "es": "su familia",
+   "t": "ahla",
+   "pron": "ahla",
+   "script": "أهلها",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": "de ella"
+  },
+  {
+   "id": "ar-329",
+   "rank": 329,
+   "unit": 14,
+   "es": "mi mamá",
+   "t": "emme / mama",
+   "pron": "emme / máma",
+   "script": "إمي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-330",
+   "rank": 330,
+   "unit": 14,
+   "es": "mi papá",
+   "t": "bayye / papa",
+   "pron": "bayye / pápa",
+   "script": "بيي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-331",
+   "rank": 331,
+   "unit": 14,
+   "es": "mi hermano",
+   "t": "khayye",
+   "pron": "Jayye",
+   "script": "خيي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": "y \"bro\""
+  },
+  {
+   "id": "ar-332",
+   "rank": 332,
+   "unit": 14,
+   "es": "mi hermana",
+   "t": "ekhte",
+   "pron": "eJte",
+   "script": "إختي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-333",
+   "rank": 333,
+   "unit": 14,
+   "es": "mi hijo",
+   "t": "ebne",
+   "pron": "ebne",
+   "script": "إبني",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-334",
+   "rank": 334,
+   "unit": 14,
+   "es": "mi hija",
+   "t": "bente",
+   "pron": "bente",
+   "script": "بنتي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-335",
+   "rank": 335,
+   "unit": 14,
+   "es": "abuelo",
+   "t": "jeddo",
+   "pron": "zheddo",
+   "script": "جدو",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-336",
+   "rank": 336,
+   "unit": 14,
+   "es": "abuela",
+   "t": "teta",
+   "pron": "teta",
+   "script": "تيتا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-337",
+   "rank": 337,
+   "unit": 14,
+   "es": "tío paterno",
+   "t": "3ammo",
+   "pron": "ʕammo",
+   "script": "عمو",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-338",
+   "rank": 338,
+   "unit": 14,
+   "es": "tía paterna",
+   "t": "3ammto",
+   "pron": "ʕammto",
+   "script": "عمتو",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-339",
+   "rank": 339,
+   "unit": 14,
+   "es": "tío materno",
+   "t": "khalo",
+   "pron": "Jalo",
+   "script": "خالو",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-340",
+   "rank": 340,
+   "unit": 14,
+   "es": "tía materna",
+   "t": "khalto",
+   "pron": "Jalto",
+   "script": "خالتو",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-341",
+   "rank": 341,
+   "unit": 14,
+   "es": "primo",
+   "t": "ebn 3amm",
+   "pron": "ebn ʕamm",
+   "script": "ابن عم",
+   "g": "m",
+   "alt": "bent 3amm",
+   "tags": [
+    "familia"
+   ],
+   "note": "prima: bent 3amm; paterno"
+  },
+  {
+   "id": "ar-342",
+   "rank": 342,
+   "unit": 14,
+   "es": "mi amigo",
+   "t": "sa7be",
+   "pron": "saHbe",
+   "script": "صاحبي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-343",
+   "rank": 343,
+   "unit": 14,
+   "es": "mi amiga",
+   "t": "sa7bte",
+   "pron": "saHbte",
+   "script": "صاحبتي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-344",
+   "rank": 344,
+   "unit": 14,
+   "es": "los chicos, el grupo",
+   "t": "el shabeb",
+   "pron": "el shabeb",
+   "script": "الشباب",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-345",
+   "rank": 345,
+   "unit": 14,
+   "es": "las chicas",
+   "t": "el sabaya",
+   "pron": "el sabaya",
+   "script": "الصبايا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-346",
+   "rank": 346,
+   "unit": 14,
+   "es": "vecino",
+   "t": "jar",
+   "pron": "zhar",
+   "script": "جار",
+   "g": "m",
+   "alt": "jara",
+   "tags": [
+    "familia"
+   ],
+   "note": "f: vecina"
+  },
+  {
+   "id": "ar-347",
+   "rank": 347,
+   "unit": 14,
+   "es": "mi esposo / tu esposo",
+   "t": "jowze / jowzik",
+   "pron": "zhowze / zhowzik",
+   "script": "جوزي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-348",
+   "rank": 348,
+   "unit": 14,
+   "es": "mi esposa",
+   "t": "marte",
+   "pron": "marte",
+   "script": "مرتي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-349",
+   "rank": 349,
+   "unit": 14,
+   "es": "prometido",
+   "t": "khatib",
+   "pron": "Jatib",
+   "script": "خطيب",
+   "g": "m",
+   "alt": "khatibe",
+   "tags": [
+    "familia"
+   ],
+   "note": "f: prometida"
+  },
+  {
+   "id": "ar-350",
+   "rank": 350,
+   "unit": 14,
+   "es": "boda",
+   "t": "3ers",
+   "pron": "ʕers",
+   "script": "عرس",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-351",
+   "rank": 351,
+   "unit": 14,
+   "es": "mucho gusto",
+   "t": "tsharrafna",
+   "pron": "tsharrafna",
+   "script": "تشرفنا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-352",
+   "rank": 352,
+   "unit": 14,
+   "es": "bienvenido",
+   "t": "ahla w sahla fik",
+   "pron": "ahla w sahla fik",
+   "script": "أهلا وسهلا فيك",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": "respuesta cordial"
+  },
+  {
+   "id": "ar-353",
+   "rank": 353,
+   "unit": 14,
+   "es": "gracias, por favor",
+   "t": "allah ykhallik",
+   "pron": "al·lah yJal·lik",
+   "script": "الله يخليك",
+   "g": "m",
+   "alt": "allah ykhallike",
+   "tags": [
+    "familia"
+   ],
+   "note": "lit. Dios te guarde"
+  },
+  {
+   "id": "ar-354",
+   "rank": 354,
+   "unit": 14,
+   "es": "niños",
+   "t": "wlad",
+   "pron": "wlad",
+   "script": "ولاد",
+   "g": "pl",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-355",
+   "rank": 355,
+   "unit": 14,
+   "es": "te deseo ... / espero que ...",
+   "t": "betmanna ...",
+   "pron": "betmanna ...",
+   "script": "بتمنى",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "familia"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-356",
+   "rank": 356,
+   "unit": 16,
+   "es": "te amo",
+   "t": "b7ebbik",
+   "pron": "bHebbik",
+   "script": "بحبك",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": "a mujer"
+  },
+  {
+   "id": "ar-357",
+   "rank": 357,
+   "unit": 16,
+   "es": "te amo",
+   "t": "b7ebbak",
+   "pron": "bHebbak",
+   "script": "بحبك",
+   "g": "m",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": "a hombre"
+  },
+  {
+   "id": "ar-358",
+   "rank": 358,
+   "unit": 16,
+   "es": "te amo mucho",
+   "t": "ana b7ebbik ktir",
+   "pron": "ana bHebbik ktir",
+   "script": "أنا بحبك كتير",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-359",
+   "rank": 359,
+   "unit": 16,
+   "es": "te extrañé",
+   "t": "eshta2tellik",
+   "pron": "eshta'tel·lik",
+   "script": "اشتقتلك",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-360",
+   "rank": 360,
+   "unit": 16,
+   "es": "mi amor",
+   "t": "habibte / 7abibte",
+   "pron": "Habibte / Habibte",
+   "script": "حبيبتي",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": "a mujer"
+  },
+  {
+   "id": "ar-361",
+   "rank": 361,
+   "unit": 16,
+   "es": "mi amor",
+   "t": "habibi / 7abibi",
+   "pron": "Habibi / Habibi",
+   "script": "حبيبي",
+   "g": "m",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": "a hombre; también amigo"
+  },
+  {
+   "id": "ar-362",
+   "rank": 362,
+   "unit": 16,
+   "es": "mi corazón",
+   "t": "2albe",
+   "pron": "'albe",
+   "script": "قلبي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-363",
+   "rank": 363,
+   "unit": 16,
+   "es": "mi vida",
+   "t": "7ayete",
+   "pron": "Hayete",
+   "script": "حياتي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-364",
+   "rank": 364,
+   "unit": 16,
+   "es": "mi vida",
+   "t": "3omre",
+   "pron": "ʕomre",
+   "script": "عمري",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": "lit. mi edad"
+  },
+  {
+   "id": "ar-365",
+   "rank": 365,
+   "unit": 16,
+   "es": "mi alma",
+   "t": "rou7e",
+   "pron": "ruHe",
+   "script": "روحي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-366",
+   "rank": 366,
+   "unit": 16,
+   "es": "te quiero tanto",
+   "t": "to2borne",
+   "pron": "to'borne",
+   "script": "تقبرني",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": "lit. entiérrame: que yo muera antes que tú"
+  },
+  {
+   "id": "ar-367",
+   "rank": 367,
+   "unit": 16,
+   "es": "eres una luna",
+   "t": "ya 2amar",
+   "pron": "ya 'amar",
+   "script": "يا قمر",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": "= hermosa"
+  },
+  {
+   "id": "ar-368",
+   "rank": 368,
+   "unit": 16,
+   "es": "eres muy hermosa",
+   "t": "ente ktir 7elwe",
+   "pron": "ente ktir Helwe",
+   "script": "إنتي كتير حلوة",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-369",
+   "rank": 369,
+   "unit": 16,
+   "es": "tus ojos son lindos",
+   "t": "3younik 7elwin",
+   "pron": "ʕyunik Helwin",
+   "script": "عيونك حلوين",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-370",
+   "rank": 370,
+   "unit": 16,
+   "es": "estoy pensando en ti",
+   "t": "3am fakker fike",
+   "pron": "ʕam fakker fike",
+   "script": "عم فكر فيكي",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-371",
+   "rank": 371,
+   "unit": 16,
+   "es": "¿dónde estás? te extrañé",
+   "t": "wenik? eshta2tellik",
+   "pron": "wenik? eshta'tel·lik",
+   "script": "وينك اشتقتلك",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-372",
+   "rank": 372,
+   "unit": 16,
+   "es": "buenas noches, mi amor",
+   "t": "tesba7e 3a kheir habibte",
+   "pron": "tesbaHe ʕa Jeir Habibte",
+   "script": "تصبحي على خير حبيبتي",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-373",
+   "rank": 373,
+   "unit": 16,
+   "es": "buenos días, mi corazón",
+   "t": "sabe7 el kheir ya 2albe",
+   "pron": "sabeH el Jeir ya 'albe",
+   "script": "صباح الخير يا قلبي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-374",
+   "rank": 374,
+   "unit": 10,
+   "es": "¿qué haces?",
+   "t": "shu 3am ta3mle?",
+   "pron": "shu ʕam taʕmle?",
+   "script": "شو عم تعملي",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-375",
+   "rank": 375,
+   "unit": 16,
+   "es": "¿estás libre hoy?",
+   "t": "fadye lyom?",
+   "pron": "fadye lyom?",
+   "script": "فاضية اليوم",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-376",
+   "rank": 376,
+   "unit": 16,
+   "es": "quiero verte",
+   "t": "bade shufik",
+   "pron": "bade shufik",
+   "script": "بدي شوفك",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-377",
+   "rank": 377,
+   "unit": 13,
+   "es": "vamos a ...",
+   "t": "yalla nrou7 3a ...",
+   "pron": "yal·la nruH ʕa ...",
+   "script": "يلا نروح على",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-378",
+   "rank": 378,
+   "unit": 16,
+   "es": "estoy orgulloso de ti",
+   "t": "ana fakhour fike",
+   "pron": "ana faJur fike",
+   "script": "أنا فخور فيكي",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-379",
+   "rank": 379,
+   "unit": 16,
+   "es": "perdón, no era mi intención",
+   "t": "sorry habibte, ma ken 2asde",
+   "pron": "sóri Habibte, ma ken 'asde",
+   "script": "سوري حبيبتي ما كان قصدي",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-380",
+   "rank": 380,
+   "unit": 16,
+   "es": "estoy contigo",
+   "t": "ana ma3ik",
+   "pron": "ana maʕik",
+   "script": "أنا معك",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-381",
+   "rank": 381,
+   "unit": 16,
+   "es": "no te enojes, no te estreses",
+   "t": "ma t3asbe",
+   "pron": "ma tʕasbe",
+   "script": "ما تعصبي",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-382",
+   "rank": 382,
+   "unit": 16,
+   "es": "no tengas miedo, no te preocupes",
+   "t": "ma tkhafe",
+   "pron": "ma tJafe",
+   "script": "ما تخافي",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-383",
+   "rank": 383,
+   "unit": 13,
+   "es": "todo va a estar bien",
+   "t": "kel shi ra7 ykoun mni7",
+   "pron": "kel shi raH ykun mniH",
+   "script": "كل شي رح يكون منيح",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-384",
+   "rank": 384,
+   "unit": 16,
+   "es": "eres lo más lindo de mi vida",
+   "t": "ente a7la shi b7ayete",
+   "pron": "ente aHla shi bHayete",
+   "script": "إنتي أحلى شي بحياتي",
+   "g": "f",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-385",
+   "rank": 385,
+   "unit": 16,
+   "es": "solo tú",
+   "t": "bas ente",
+   "pron": "bas ente",
+   "script": "بس إنتي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "amor"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-386",
+   "rank": 386,
+   "unit": 17,
+   "es": "vamos, ándale",
+   "t": "yalla",
+   "pron": "yal·la",
+   "script": "يلا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-387",
+   "rank": 387,
+   "unit": 17,
+   "es": "o sea, es decir",
+   "t": "ya3ne",
+   "pron": "yaʕne",
+   "script": "يعني",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-388",
+   "rank": 388,
+   "unit": 17,
+   "es": "lo juro, en serio",
+   "t": "wallah",
+   "pron": "wal·lah",
+   "script": "والله",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-389",
+   "rank": 389,
+   "unit": 17,
+   "es": "ya, basta, listo",
+   "t": "khalas",
+   "pron": "Jalas",
+   "script": "خلص",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-390",
+   "rank": 390,
+   "unit": 17,
+   "es": "pues, ya",
+   "t": "ba2a",
+   "pron": "ba'a",
+   "script": "بقى",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": "yalla ba2a! = ¡ya, vámonos!"
+  },
+  {
+   "id": "ar-391",
+   "rank": 391,
+   "unit": 17,
+   "es": "así",
+   "t": "hek",
+   "pron": "hek",
+   "script": "هيك",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-392",
+   "rank": 392,
+   "unit": 17,
+   "es": "más o menos",
+   "t": "hek w hek",
+   "pron": "hek w hek",
+   "script": "هيك وهيك",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-393",
+   "rank": 393,
+   "unit": 17,
+   "es": "¡hombre! ¡amigo!",
+   "t": "ya zalame",
+   "pron": "ya zalame",
+   "script": "يا زلمي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-394",
+   "rank": 394,
+   "unit": 17,
+   "es": "bro",
+   "t": "ya khayye",
+   "pron": "ya Jayye",
+   "script": "يا خيي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-395",
+   "rank": 395,
+   "unit": 17,
+   "es": "¿qué pasó? ¿cuál es la historia?",
+   "t": "shu el 2esse?",
+   "pron": "shu el 'esse?",
+   "script": "شو القصة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-396",
+   "rank": 396,
+   "unit": 17,
+   "es": "en serio",
+   "t": "3anjad",
+   "pron": "ʕanzhad",
+   "script": "عنجد",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-397",
+   "rank": 397,
+   "unit": 17,
+   "es": "¿sabes?",
+   "t": "bta3ref",
+   "pron": "btaʕref",
+   "script": "بتعرف",
+   "g": "m",
+   "alt": "bta3rfe",
+   "tags": [
+    "muletilla"
+   ],
+   "note": "muletilla"
+  },
+  {
+   "id": "ar-398",
+   "rank": 398,
+   "unit": 17,
+   "es": "bueno",
+   "t": "tab",
+   "pron": "tab",
+   "script": "طب",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-399",
+   "rank": 399,
+   "unit": 17,
+   "es": "ojalá",
+   "t": "ya ret",
+   "pron": "ya ret",
+   "script": "يا ريت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-400",
+   "rank": 400,
+   "unit": 17,
+   "es": "¡qué bien! ¡genial!",
+   "t": "a7la!",
+   "pron": "aHla!",
+   "script": "أحلى",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-401",
+   "rank": 401,
+   "unit": 17,
+   "es": "no pasa nada",
+   "t": "ma fi shi",
+   "pron": "ma fi shi",
+   "script": "ما في شي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-402",
+   "rank": 402,
+   "unit": 17,
+   "es": "¿qué te pasa?",
+   "t": "shu bak?",
+   "pron": "shu bak?",
+   "script": "شو بك",
+   "g": "m",
+   "alt": "shu bik?",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-403",
+   "rank": 403,
+   "unit": 17,
+   "es": "no tengo idea",
+   "t": "ma 3ende fekra",
+   "pron": "ma ʕende fekra",
+   "script": "ما عندي فكرة",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-404",
+   "rank": 404,
+   "unit": 7,
+   "es": "tienes",
+   "t": "3endak",
+   "pron": "ʕendak",
+   "script": "عندك",
+   "g": "m",
+   "alt": "3endik",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-405",
+   "rank": 405,
+   "unit": 7,
+   "es": "tengo",
+   "t": "3ende",
+   "pron": "ʕende",
+   "script": "عندي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-406",
+   "rank": 406,
+   "unit": 7,
+   "es": "no tengo",
+   "t": "ma 3ende",
+   "pron": "ma ʕende",
+   "script": "ما عندي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-407",
+   "rank": 407,
+   "unit": 7,
+   "es": "hay",
+   "t": "fi",
+   "pron": "fi",
+   "script": "في",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-408",
+   "rank": 408,
+   "unit": 7,
+   "es": "no hay",
+   "t": "ma fi",
+   "pron": "ma fi",
+   "script": "ما في",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-409",
+   "rank": 409,
+   "unit": 17,
+   "es": "no",
+   "t": "mesh / mish",
+   "pron": "mesh / mish",
+   "script": "مش",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": "con nombres y adjetivos"
+  },
+  {
+   "id": "ar-410",
+   "rank": 410,
+   "unit": 17,
+   "es": "pero, solo",
+   "t": "bas",
+   "pron": "bas",
+   "script": "بس",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-411",
+   "rank": 411,
+   "unit": 17,
+   "es": "o",
+   "t": "aw",
+   "pron": "aw",
+   "script": "أو",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-412",
+   "rank": 412,
+   "unit": 17,
+   "es": "y",
+   "t": "w",
+   "pron": "w",
+   "script": "و",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-413",
+   "rank": 413,
+   "unit": 17,
+   "es": "también",
+   "t": "kamen",
+   "pron": "kamen",
+   "script": "كمان",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-414",
+   "rank": 414,
+   "unit": 17,
+   "es": "porque",
+   "t": "la2anno",
+   "pron": "la'anno",
+   "script": "لأنو",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-415",
+   "rank": 415,
+   "unit": 17,
+   "es": "si",
+   "t": "iza",
+   "pron": "iza",
+   "script": "إذا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": "condicional"
+  },
+  {
+   "id": "ar-416",
+   "rank": 416,
+   "unit": 17,
+   "es": "con",
+   "t": "ma3",
+   "pron": "maʕ",
+   "script": "مع",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-417",
+   "rank": 417,
+   "unit": 17,
+   "es": "sin",
+   "t": "bala",
+   "pron": "bala",
+   "script": "بلا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-418",
+   "rank": 418,
+   "unit": 17,
+   "es": "¡muy bien!",
+   "t": "ktir mni7!",
+   "pron": "ktir mniH!",
+   "script": "كتير منيح",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-419",
+   "rank": 419,
+   "unit": 17,
+   "es": "¡bravo!",
+   "t": "bravo 3alek",
+   "pron": "brávo ʕalek",
+   "script": "برافو عليك",
+   "g": "m",
+   "alt": "bravo 3aleke",
+   "tags": [
+    "muletilla"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-420",
+   "rank": 420,
+   "unit": 17,
+   "es": "disculpa",
+   "t": "ma t2ekhzne",
+   "pron": "ma t'eJzne",
+   "script": "ما تأخذني",
+   "g": "m",
+   "alt": "ma t2ekhzine",
+   "tags": [
+    "muletilla"
+   ],
+   "note": "lit. no me lo tomes a mal"
+  }
+ ],
+ "extra": [
+  {
+   "id": "ar-x001",
+   "rank": 1,
+   "unit": 18,
+   "es": "gracias, perdón, hola, buenas noches",
+   "t": "merci, pardon, bonjour, bonsoir",
+   "pron": "mersí, pardõ, bonzhúr, bonsuár",
+   "script": "مرسي، باردون، بونجور، بونسوار",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "palabra francesa"
+   ],
+   "note": "cortesía"
+  },
+  {
+   "id": "ar-x002",
+   "rank": 2,
+   "unit": 18,
+   "es": "cariño",
+   "t": "chéri / chérie",
+   "pron": "sherí / sherí",
+   "script": "شيري",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "palabra francesa"
+   ],
+   "note": "cariño"
+  },
+  {
+   "id": "ar-x003",
+   "rank": 3,
+   "unit": 18,
+   "es": "elevador",
+   "t": "ascenseur",
+   "pron": "asãsör",
+   "script": "أسانسير",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "palabra francesa"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x004",
+   "rank": 4,
+   "unit": 18,
+   "es": "tele",
+   "t": "télé",
+   "pron": "telé",
+   "script": "تيلي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "palabra francesa"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x005",
+   "rank": 5,
+   "unit": 18,
+   "es": "refri",
+   "t": "frigidaire / frigo",
+   "pron": "frizhidér / frigó",
+   "script": "فريجيدير",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "palabra francesa"
+   ],
+   "note": "también barrade"
+  },
+  {
+   "id": "ar-x006",
+   "rank": 6,
+   "unit": 18,
+   "es": "sala",
+   "t": "salon",
+   "pron": "salõ",
+   "script": "صالون",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "palabra francesa"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x007",
+   "rank": 7,
+   "unit": 18,
+   "es": "balcón",
+   "t": "balcon",
+   "pron": "balkõ",
+   "script": "بلكون",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "palabra francesa"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x008",
+   "rank": 8,
+   "unit": 18,
+   "es": "calefacción",
+   "t": "chauffage",
+   "pron": "shofázh",
+   "script": "شوفاج",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "palabra francesa"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x009",
+   "rank": 9,
+   "unit": 18,
+   "es": "mesero",
+   "t": "garçon",
+   "pron": "garsõ",
+   "script": "غارسون",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "palabra francesa"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x010",
+   "rank": 10,
+   "unit": 18,
+   "es": "peluquero",
+   "t": "coiffeur",
+   "pron": "kuafér",
+   "script": "كوافير",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "palabra francesa"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x011",
+   "rank": 11,
+   "unit": 18,
+   "es": "pantalón",
+   "t": "pantalon",
+   "pron": "pãtalõ",
+   "script": "بنطلون",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "palabra francesa"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x012",
+   "rank": 12,
+   "unit": 18,
+   "es": "banqueta",
+   "t": "trottoir",
+   "pron": "trotuár",
+   "script": "ترتوار",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "palabra francesa"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x013",
+   "rank": 13,
+   "unit": 18,
+   "es": "conectores (bueno, en fin, ya, en breve)",
+   "t": "bon, enfin, déjà, bref",
+   "pron": "bõ, ãfẽ, dezhá, bref",
+   "script": "بون، أنفان، ديجا، بريف",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "palabra francesa"
+   ],
+   "note": "conectores"
+  },
+  {
+   "id": "ar-x014",
+   "rank": 14,
+   "unit": 18,
+   "es": "cita",
+   "t": "rendez-vous",
+   "pron": "rãdevú",
+   "script": "رندفو",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "palabra francesa"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x015",
+   "rank": 15,
+   "unit": 18,
+   "es": "estoy revisando los correos",
+   "t": "3am be-check el emails",
+   "pron": "ʕam be-chék el ímeils",
+   "script": "عم بشيك الإيميلات",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x016",
+   "rank": 16,
+   "unit": 18,
+   "es": "cancelamos la reserva",
+   "t": "cancelna el reservation",
+   "pron": "kanselna el reservéishen",
+   "script": "كانسلنا الريزرفيشن",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x017",
+   "rank": 17,
+   "unit": 18,
+   "es": "no te estreses (f)",
+   "t": "ma t-stresse",
+   "pron": "ma t-strésse",
+   "script": "ما تستريسي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x018",
+   "rank": 18,
+   "unit": 18,
+   "es": "te mandé la ubicación (f)",
+   "t": "ba3atlik el location",
+   "pron": "baʕatlik el lokéishen",
+   "script": "بعتلك اللوكيشن",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x019",
+   "rank": 19,
+   "unit": 18,
+   "es": "¿guardaste el número? (m)",
+   "t": "save-ta el number?",
+   "pron": "séiv-ta el námber?",
+   "script": "سيفتا النمبر",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x020",
+   "rank": 20,
+   "unit": 18,
+   "es": "¿vas de compras conmigo? (m)",
+   "t": "bta3mel shopping ma3e?",
+   "pron": "btaʕmel shóping maʕe?",
+   "script": "بتعمل شوبينغ معي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x021",
+   "rank": 21,
+   "unit": 18,
+   "es": "está coqueteando con ella",
+   "t": "3am be-flirt ma3a",
+   "pron": "ʕam be-flért maʕa",
+   "script": "عم يفلرت معها",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "verbo"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x022",
+   "rank": 22,
+   "unit": 18,
+   "es": "Hola, ¿cómo estás?, ¿qué tal?",
+   "t": "Hi, kifik, ça va?",
+   "pron": "Jái, kifik, sa va?",
+   "script": "هاي، كيفِك، سا فا؟",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "frase"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x023",
+   "rank": 23,
+   "unit": 18,
+   "es": "Bueno adiós, ¡muchas gracias!",
+   "t": "Yalla bye, merci ktir!",
+   "pron": "Yal·la bái, mersí ktir!",
+   "script": "يلا باي، مرسي كتير!",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "frase"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x024",
+   "rank": 24,
+   "unit": 18,
+   "es": "Estoy muy cansado hoy, no puedo hacer nada",
+   "t": "Ana ktir tired lyom, ma fiye e3mol shi",
+   "pron": "Ana ktir táird lyom, ma fiye eʕmol shi",
+   "script": "أنا كتير تايرد اليوم، ما فيي اعمل شي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "frase"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x025",
+   "rank": 25,
+   "unit": 18,
+   "es": "¿Qué opinas si vamos a Mar Mkhayel? Hay un bar muy cool",
+   "t": "Shu ra2yik nrou7 3a Mar Mkhayel? Fi bar ktir cool",
+   "pron": "Shu ra'yik nruH ʕa Mar mJáiel? Fi bar ktir kul",
+   "script": "شو رأيك نروح عمار مخايل؟ في بار كتير كول",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "frase"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x026",
+   "rank": 26,
+   "unit": 18,
+   "es": "Gracias mi amor, eres muy linda",
+   "t": "Merci habibte, t'es trop gentille",
+   "pron": "Mersí Habibte, te tro zhãtíy",
+   "script": "مرسي حبيبتي، تيس ترو جنتيّ",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "frase"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x027",
+   "rank": 27,
+   "unit": 18,
+   "es": "Ya, nos vemos luego",
+   "t": "Khalas, on se voit ba3den",
+   "pron": "Jalas, õ se vuá baʕden",
+   "script": "خلص، أون سو فوا بعدين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "frase"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x028",
+   "rank": 28,
+   "unit": 18,
+   "es": "No te estreses, todo va a estar bien",
+   "t": "Ma t-stresse, kel shi ra7 ykoun okay",
+   "pron": "Ma t-strésse, kel shi raH ykun okéi",
+   "script": "ما تستريسي، كل شي رح يكون أوكي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "frase"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x029",
+   "rank": 29,
+   "unit": 18,
+   "es": "Perdón, llegué tarde, había mucho tráfico",
+   "t": "Sorry ta2akhart, ken fi traffic ktir",
+   "pron": "Sóri ta'aJart, ken fi tráfik ktir",
+   "script": "سوري تأخرت، كان في ترافيك كتير",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "frase"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x030",
+   "rank": 30,
+   "unit": 18,
+   "es": "No pasa nada",
+   "t": "C'est pas grave, ma3leh",
+   "pron": "Se pa grav, maʕleh",
+   "script": "سي با غراف، معليش",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "frase"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x031",
+   "rank": 31,
+   "unit": 18,
+   "es": "Buenas noches mi amor, te amo",
+   "t": "Bonne nuit habibte, b7ebbik",
+   "pron": "Bon nuí Habibte, bHebbik",
+   "script": "بون نوي حبيبتي، بحبك",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "codeswitch",
+    "frase"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x032",
+   "rank": 32,
+   "unit": 19,
+   "es": "vamos, ándale, ya",
+   "t": "yalla",
+   "pron": "yal·la",
+   "script": "يلا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x033",
+   "rank": 33,
+   "unit": 19,
+   "es": "¡hombre! (sorpresa o queja)",
+   "t": "ya zalame",
+   "pron": "ya zalame",
+   "script": "يا زلمي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x034",
+   "rank": 34,
+   "unit": 19,
+   "es": "bro",
+   "t": "khayye / khayyo",
+   "pron": "Jayye / Jayyo",
+   "script": "خيي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x035",
+   "rank": 35,
+   "unit": 19,
+   "es": "amigo, cariño (no siempre romántico)",
+   "t": "habibi / habibte",
+   "pron": "Habibi / Habibte",
+   "script": "حبيبي / حبيبتي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x036",
+   "rank": 36,
+   "unit": 19,
+   "es": "¿en serio?",
+   "t": "3anjad?",
+   "pron": "ʕanzhad?",
+   "script": "عنجد؟",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x037",
+   "rank": 37,
+   "unit": 19,
+   "es": "está buenísimo",
+   "t": "bjanen",
+   "pron": "bzhanen",
+   "script": "بيجنن",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x038",
+   "rank": 38,
+   "unit": 19,
+   "es": "increíble",
+   "t": "mesh ma32oul",
+   "pron": "mesh maʕ'ul",
+   "script": "مش معقول",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x039",
+   "rank": 39,
+   "unit": 19,
+   "es": "¿qué onda? ¿qué pasó?",
+   "t": "shu el 2esse?",
+   "pron": "shu el 'esse?",
+   "script": "شو القصة؟",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x040",
+   "rank": 40,
+   "unit": 19,
+   "es": "no sé ni qué decirte",
+   "t": "ma ba3ref shu bade 2ellak",
+   "pron": "ma baʕref shu bade 'el·lak",
+   "script": "ما بعرف شو بدي قلّك",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x041",
+   "rank": 41,
+   "unit": 19,
+   "es": "¡no sabes! (¡fue increíble!)",
+   "t": "ma bta3ref!",
+   "pron": "ma btaʕref!",
+   "script": "ما بتعرف!",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x042",
+   "rank": 42,
+   "unit": 19,
+   "es": "con todo gusto",
+   "t": "3a rase",
+   "pron": "ʕa rase",
+   "script": "عراسي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x043",
+   "rank": 43,
+   "unit": 19,
+   "es": "qué asco (desprecio)",
+   "t": "tfeh",
+   "pron": "tfeh",
+   "script": "تفّ",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x044",
+   "rank": 44,
+   "unit": 19,
+   "es": "qué vergüenza",
+   "t": "ya 3ayb el shoum",
+   "pron": "ya ʕayb el shum",
+   "script": "يا عيب الشوم",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x045",
+   "rank": 45,
+   "unit": 19,
+   "es": "mierda (vulgar)",
+   "t": "5ara / khara",
+   "pron": "Jara / Jara",
+   "script": "خرا",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": "vulgar"
+  },
+  {
+   "id": "ar-x046",
+   "rank": 46,
+   "unit": 19,
+   "es": "pobrecito / qué pena",
+   "t": "ya 7aram",
+   "pron": "ya Haram",
+   "script": "يا حرام",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x047",
+   "rank": 47,
+   "unit": 19,
+   "es": "ok, bueno",
+   "t": "tayyeb",
+   "pron": "tayyeb",
+   "script": "طيب",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x048",
+   "rank": 48,
+   "unit": 19,
+   "es": "no seas tonto (sa5if = tonto, insípido)",
+   "t": "ma tkoun sa5if",
+   "pron": "ma tkun saJif",
+   "script": "ما تكون سخيف",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x049",
+   "rank": 49,
+   "unit": 19,
+   "es": "malandro, macarra",
+   "t": "za3bar / za3ran",
+   "pron": "zaʕbar / zaʕran",
+   "script": "زعبر / زعران",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x050",
+   "rank": 50,
+   "unit": 19,
+   "es": "muy lindo",
+   "t": "ktir cute",
+   "pron": "ktir kiút",
+   "script": "كتير كيوت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x051",
+   "rank": 51,
+   "unit": 19,
+   "es": "algo muy vergonzoso",
+   "t": "shi ktir cringe",
+   "pron": "shi ktir krinch",
+   "script": "شي كتير كرينج",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x052",
+   "rank": 52,
+   "unit": 19,
+   "es": "eso es lo correcto",
+   "t": "hayda el sa7",
+   "pron": "hayda el saH",
+   "script": "هيدا الصح",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x053",
+   "rank": 53,
+   "unit": 19,
+   "es": "(forma de cariño, lit. después de mi vida)",
+   "t": "ba3d 3omre",
+   "pron": "baʕd ʕomre",
+   "script": "بعد عمري",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x054",
+   "rank": 54,
+   "unit": 19,
+   "es": "te quiero muchísimo",
+   "t": "to2borne",
+   "pron": "to'borne",
+   "script": "تقبرني",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x055",
+   "rank": 55,
+   "unit": 19,
+   "es": "mi corazón (cariño o ironía)",
+   "t": "ya albe / ya 2albe",
+   "pron": "ya albe / ya 'albe",
+   "script": "يا قلبي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x056",
+   "rank": 56,
+   "unit": 19,
+   "es": "sí, de verdad",
+   "t": "eh wallah",
+   "pron": "eh wal·lah",
+   "script": "إيه والله",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x057",
+   "rank": 57,
+   "unit": 19,
+   "es": "¡no, ya basta!",
+   "t": "la2 ba2a",
+   "pron": "la' ba'a",
+   "script": "لأ بقى",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "slang"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ar-x058",
+   "rank": 58,
+   "unit": 19,
+   "es": "¿cómo estás?",
+   "t": "kfk / kifk",
+   "pron": "kifak / kifik",
+   "script": "كيفك",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de kifak / kifik"
+  },
+  {
+   "id": "ar-x059",
+   "rank": 59,
+   "unit": 19,
+   "es": "hola",
+   "t": "slm",
+   "pron": "salam",
+   "script": "سلام",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de salam"
+  },
+  {
+   "id": "ar-x060",
+   "rank": 60,
+   "unit": 19,
+   "es": "gracias",
+   "t": "mrc / mrci",
+   "pron": "mersí",
+   "script": "مرسي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de merci"
+  },
+  {
+   "id": "ar-x061",
+   "rank": 61,
+   "unit": 19,
+   "es": "lo juro",
+   "t": "wlh / wala",
+   "pron": "wal·lah",
+   "script": "والله",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de wallah"
+  },
+  {
+   "id": "ar-x062",
+   "rank": 62,
+   "unit": 19,
+   "es": "ojalá",
+   "t": "nchalla / nshalla / isa",
+   "pron": "inshal·lah",
+   "script": "إن شاء الله",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de inshallah"
+  },
+  {
+   "id": "ar-x063",
+   "rank": 63,
+   "unit": 19,
+   "es": "o sea",
+   "t": "y3ne / y3n",
+   "pron": "yaʕne",
+   "script": "يعني",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de ya3ne"
+  },
+  {
+   "id": "ar-x064",
+   "rank": 64,
+   "unit": 19,
+   "es": "ahora",
+   "t": "hl2",
+   "pron": "hala'",
+   "script": "هلق",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de hala2"
+  },
+  {
+   "id": "ar-x065",
+   "rank": 65,
+   "unit": 19,
+   "es": "después",
+   "t": "b3dn",
+   "pron": "baʕden",
+   "script": "بعدين",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de ba3den"
+  },
+  {
+   "id": "ar-x066",
+   "rank": 66,
+   "unit": 19,
+   "es": "quieres",
+   "t": "bdk / bdik",
+   "pron": "baddak / baddik",
+   "script": "بدك",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de baddak / baddik"
+  },
+  {
+   "id": "ar-x067",
+   "rank": 67,
+   "unit": 19,
+   "es": "qué",
+   "t": "shu / sh",
+   "pron": "shu",
+   "script": "شو",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de shu"
+  },
+  {
+   "id": "ar-x068",
+   "rank": 68,
+   "unit": 19,
+   "es": "no sé",
+   "t": "ma b3rf",
+   "pron": "ma baʕref",
+   "script": "ما بعرف",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de ma ba3ref"
+  },
+  {
+   "id": "ar-x069",
+   "rank": 69,
+   "unit": 19,
+   "es": "amigo, amor",
+   "t": "hbb / hbibi",
+   "pron": "Habibi",
+   "script": "حبيبي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de Habibi"
+  },
+  {
+   "id": "ar-x070",
+   "rank": 70,
+   "unit": 19,
+   "es": "amor (f)",
+   "t": "hbbte",
+   "pron": "Habibte",
+   "script": "حبيبتي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de Habibte"
+  },
+  {
+   "id": "ar-x071",
+   "rank": 71,
+   "unit": 19,
+   "es": "de nada",
+   "t": "tkrm",
+   "pron": "tikram",
+   "script": "تكرم",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de tikram"
+  },
+  {
+   "id": "ar-x072",
+   "rank": 72,
+   "unit": 19,
+   "es": "bien, gracias a Dios",
+   "t": "7md / l7md",
+   "pron": "lHamdel·la",
+   "script": "الحمدلله",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de l7amdella"
+  },
+  {
+   "id": "ar-x073",
+   "rank": 73,
+   "unit": 19,
+   "es": "adiós",
+   "t": "bb / byee",
+   "pron": "bái bái",
+   "script": "باي باي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de bye bye"
+  },
+  {
+   "id": "ar-x074",
+   "rank": 74,
+   "unit": 19,
+   "es": "ok",
+   "t": "k / okk",
+   "pron": "okéi",
+   "script": "أوكي",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de ok"
+  },
+  {
+   "id": "ar-x075",
+   "rank": 75,
+   "unit": 19,
+   "es": "besos (francés)",
+   "t": "bsx / biz",
+   "pron": "bizú",
+   "script": "بيزو",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de bisous"
+  },
+  {
+   "id": "ar-x076",
+   "rank": 76,
+   "unit": 19,
+   "es": "jajaja (francés)",
+   "t": "mdr",
+   "pron": "mor de rir",
+   "script": "مور دو رير",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de mort de rire"
+  },
+  {
+   "id": "ar-x077",
+   "rank": 77,
+   "unit": 19,
+   "es": "jajaja fuerte (francés)",
+   "t": "ptdr",
+   "pron": "peté de rir",
+   "script": "بيتيه دو رير",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de pété de rire"
+  },
+  {
+   "id": "ar-x078",
+   "rank": 78,
+   "unit": 19,
+   "es": "no te preocupes (francés)",
+   "t": "tkt",
+   "pron": "tẽkiét",
+   "script": "تانكييت",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de t'inquiète"
+  },
+  {
+   "id": "ar-x079",
+   "rank": 79,
+   "unit": 19,
+   "es": "no sé (francés)",
+   "t": "jsp",
+   "pron": "shepá",
+   "script": "جو سيه با",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de je sais pas"
+  },
+  {
+   "id": "ar-x080",
+   "rank": 80,
+   "unit": 19,
+   "es": "por favor (francés)",
+   "t": "stp",
+   "pron": "siltplé",
+   "script": "سيل تو بليه",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de s'il te plaît"
+  },
+  {
+   "id": "ar-x081",
+   "rank": 81,
+   "unit": 19,
+   "es": "holi (francés)",
+   "t": "cc",
+   "pron": "kukú",
+   "script": "كوكو",
+   "g": "n",
+   "alt": "",
+   "tags": [
+    "whatsapp"
+   ],
+   "note": "abreviatura de coucou"
+  }
+ ]
+}
