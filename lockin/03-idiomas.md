@@ -9,7 +9,7 @@ Ventaja de partida: español, inglés y portugués. Eso ya te da el 60% del voca
 ## Índice
 
 1. Árabe libanés
-   1. Tabla de Arabizi y cómo leer las palabras con números
+   1. Tabla de Arabizi, cómo leer las palabras con números y variantes de escritura (sa7tein = sah7ten)
    2. Pronunciación
    3. Gramática mínima para hablar ya
    4. Las 420 palabras y frases más frecuentes
@@ -29,6 +29,7 @@ Ventaja de partida: español, inglés y portugués. Eso ya te da el 60% del voca
 5. Horario diario
 6. Temario para la app tipo Duolingo
 7. Voces TTS para dialecto libanés y francés
+8. Inmersión total: música, videos, post-its en casa, teléfono y hábitos
 
 ---
 
@@ -105,6 +106,44 @@ Palabras desglosadas:
 | jdid | j + did | zhdid | nuevo |
 | la2 | la + 2 | la' | no |
 | 3a rase | 3 + a rase | ʕa rase | con gusto |
+
+### Cómo cambia la escritura de una persona a otra
+
+En WhatsApp nadie escribe igual. "sah7ten" es la misma palabra que sa7tein: cada persona pone las vocales a su manera, a veces escribe 7 y a veces h, y a veces se come letras. En este documento uso la forma más común, pero vas a ver todas estas:
+
+| Forma de este documento | Otras formas que vas a ver | Cómo se lee | Significa |
+|---|---|---|---|
+| sa7tein | sah7ten, sa7ten, sahtein, sa7tayn | saHtein | buen provecho, salud |
+| habibi | 7abibi, hbb, 7bb, habibe | Habibi | amor, amigo |
+| habibte | 7abibte, habibti, hbbte | Habibte | mi amor (a mujer) |
+| inshallah | nchalla, nshalla, inchallah, isa | inshal·lah | ojalá |
+| ma3leh | ma3lesh, maalesh, m3lsh | maʕleh | no importa |
+| khalas | 5alas, 5ls, khls | Jalas | ya, listo |
+| kifak / kifik | kifek, keefak, kfk, kifkk | kifak / kifik | ¿cómo estás? |
+| shu | chou, sho, shou, sh | shu | qué |
+| yalla | yala, yallah, yla | yal·la | vamos |
+| wallah | wala, wlh, wallahi | wal·lah | lo juro |
+| ya3ne | ya3ni, y3ne, yaane | yaʕne | o sea |
+| ktir | kteer, ktyr, kter | ktir | muy, mucho |
+| hala2 | halla2, hl2, hala | hala' | ahora |
+| mni7 | mne7, mnee7, mni | mniH | bien |
+| b7ebbik | b7bk, b7ebik, bhebbik | bHebbik | te amo (a mujer) |
+| eshta2tellik | sht2tlk, eshta2tilik, eshta2tlik | eshta'tel·lik | te extrañé |
+| 3anjad | 3anjd, aanjad, 3njd | ʕanzhad | en serio |
+| 2albe | albi, 2lbe, 2alby | 'albe | mi corazón |
+| akid | akeed, akd | akid | claro |
+| ma ba3ref | mab3rf, ma baaref, ma ba3rif | ma baʕref | no sé |
+| l7amdella | el7amdella, hamdella, l7md | lHamdel·la | bien, gracias a Dios |
+| mashallah | mashalla, mshlla | mashal·lah | qué maravilla |
+| merci | mersi, mrc, mrci | mersí | gracias |
+| lesh | lech, leh, lysh | lesh | por qué |
+| hayda | haida, hyda | hayda | este |
+
+Reglas para reconocer cualquier variante:
+1. Las vocales cambian libremente: e = i, a = aa, ou = u = o.
+2. El 7 a veces se escribe h, y el 2 a veces se omite (2albe = albe).
+3. Las abreviaturas quitan casi todas las vocales: b7bk = b7ebbik, mab3rf = ma ba3ref.
+4. Si dudas, lee la palabra en voz alta: casi siempre la reconoces por el sonido.
 
 ## 1.2 Pronunciación libanesa (Beirut, jóvenes)
 
@@ -1542,6 +1581,218 @@ Recomendación: Azure para ambos idiomas (ar-LB y fr-FR en un mismo proveedor, m
 
 ---
 
+# 8. Inmersión total: cambia tu casa y tu rutina
+
+Objetivo: que los dos idiomas estén a tu alrededor las 16 horas que estás despierto, no solo en las 5.5 horas de estudio. Esto suma escucha y repaso sin quitarte tiempo.
+
+## 8.1 Música para aprender árabe
+
+Primero las canciones claras y lentas, al final el rap y la ironía. Saint Levant y Elyanna cantan en dialecto palestino, que es levantino y muy cercano al libanés; se entiende perfecto en Beirut. Ojo: mucho pop "libanés" está cantado en dialecto egipcio. Prioriza las de esta lista.
+
+| Nivel | Artista | Canciones para empezar | Por qué sirve |
+|---|---|---|---|
+| Semanas 1 a 4 | Fairuz | Kifak Inta, Li Beirut, Nassam Alayna El Hawa, Habbaytak Bessayf, Sakan El Layl, Shadi, Zourouni, Bhebbak Ya Lebnan | Dicción clara y lenta. Todos los libaneses se las saben, incluida la familia de tu novia. |
+| Semanas 1 a 4 | Yasmine Hamdan | Hal | Voz lenta y suave, dialecto libanés. |
+| Semanas 3 a 8 | Elyanna | Ganeni, Ala Bali, Callin' u (Tamally Maak), Mama Eh | Pop levantino moderno, coros pegajosos y repetitivos. |
+| Semanas 3 a 8 | Myriam Fares, Najwa Karam, Assi El Hallani, Nancy Ajram (Ah W Noss) | Busca sus canciones en libanés | Pop que suena en bodas y fiestas libanesas. |
+| Semanas 5 a 12 | Saint Levant | Very Few Friends, Exile, Wazira, Kalamantina (con Marwan Moussa), Deira, Daloona, Samra, Do You Love Me | Mezcla árabe, francés e inglés en la misma canción, igual que se habla en Beirut. Te sirve para los dos idiomas. |
+| Semanas 5 a 12 | Mashrou' Leila | Shim el Yasmine, Fasateen, Lil Watan, Roman, Tayf | Indie de Beirut joven, letras en dialecto. |
+| Semanas 5 a 12 | Adonis (banda) | Su discografía completa | Indie pop en libanés coloquial. |
+| Semanas 9 a 12 | Ziad Rahbani | Bema Enno, Ana Mosh Kafer, y sus obras de teatro grabadas | Beirut puro, humor e ironía. Nivel alto. |
+
+Playlists en Spotify:
+- Busca "This Is Fairuz", "This Is Saint Levant" y "This Is Elyanna" (playlists oficiales de Spotify por artista).
+- Crea la tuya: "LOCKIN · Árabe". Agrega cada canción que estés trabajando y pídele a tu novia sus 10 favoritas.
+
+## 8.2 Música para aprender francés
+
+Sobre las que mencionaste:
+- **"Maladie":** la que está sonando en TikTok es de **Mauvais Djo**. La pongo en la lista.
+- **"Pilé":** no la identifiqué con seguridad. Dime el artista o una frase de la letra y la agrego.
+
+| Nivel | Artista | Canciones | Por qué sirve |
+|---|---|---|---|
+| Semanas 1 a 4 | Zaz | Je veux, On ira | Dicción clara, vocabulario básico. |
+| Semanas 1 a 4 | Louane | Jour 1, Avenir, Maman | Lenta y clara. |
+| Semanas 1 a 4 | Indila | Dernière danse, Tourner dans le vide, S.O.S | Viral en TikTok, frases cortas que se repiten. |
+| Semanas 1 a 4 | Joe Dassin | Les Champs-Élysées, Et si tu n'existais pas | Clásicos muy fáciles de cantar. |
+| Semanas 1 a 4 | Édith Piaf | La vie en rose, Non, je ne regrette rien | Lentas; cultura obligada. |
+| Semanas 3 a 8 | Stromae | Papaoutai, Alors on danse, Formidable, Tous les mêmes, Santé, L'enfer | Pronuncia muy limpio; letras con historia. |
+| Semanas 3 a 8 | Angèle | Balance ton quoi, Tout oublier, Bruxelles je t'aime, Flemme | Francés joven y actual. |
+| Semanas 3 a 8 | Christophe Maé | Il est où le bonheur | Muy clara. |
+| Semanas 3 a 8 | Vianney | Je m'en vais, Pas là | Francés cotidiano. |
+| Semanas 3 a 8 | Kendji Girac | Andalouse, Color Gitano | Ritmo latino, te va a resultar fácil. |
+| Semanas 3 a 8 | Mika | Elle me dit | Mika nació en Beirut: puente con tu novia. |
+| Semanas 3 a 8 | Slimane, Amir, Julien Doré | Mon amour; J'ai cherché; Le Lac | Pop romántico claro. |
+| Semanas 5 a 12 | Clara Luciani | La grenade, Le reste | Francés actual de París. |
+| Semanas 5 a 12 | Grand Corps Malade y Camille Lellouche | Mais je t'aime | Casi hablado: ideal para shadowing. |
+| Semanas 5 a 12 | Soprano | À nos souvenirs, Clown | Rap fácil de seguir. |
+| Semanas 5 a 12 | Amel Bent | Ma philosophie | Clásico pop. |
+| Semanas 5 a 12 | Dadju, Tayc | Reine, Jaloux; Le temps | R&B, vocabulario de pareja. |
+| Semanas 5 a 12 | Mauvais Djo | Maladie | La de TikTok que mencionaste. |
+| Semanas 9 a 12 | Gims | Est-ce que tu m'aimes ?, Bella, Sapés comme jamais | Rápido, con argot. |
+| Semanas 9 a 12 | Aya Nakamura | Djadja, Pookie, Copines | Argot de calle actual; nivel alto. |
+| Semanas 9 a 12 | Orelsan | Basique, La terre est ronde | Rap con francés joven real. |
+
+Playlists en Spotify: "This Is Stromae", "This Is Angèle", "This Is Indila". Crea la tuya: "LOCKIN · Français".
+
+## 8.3 Método para aprender con una canción (1 canción por idioma cada semana)
+
+| Día | Qué haces | Tiempo |
+|---|---|---|
+| Lunes | Escuchar 5 veces sin letra. Anota lo que entiendas. | 15 min |
+| Martes | Leer la letra con traducción. Árabe: LyricsTranslate (tiene transliteración en letras latinas); francés: Genius o LyricsTranslate. | 15 min |
+| Miércoles | Pasar 5 frases de la canción a Anki con audio. | 10 min |
+| Jueves y viernes | Cantar encima de la canción leyendo la letra (shadowing). | 10 min |
+| Sábado | Cantar sin letra. Grábate. | 5 min |
+| Domingo | Cántasela a tu novia (árabe) o mándale el audio. | 5 min |
+
+En 12 semanas son 24 canciones aprendidas completas.
+
+## 8.4 Videos y canales extra
+
+| Idioma | Canal o serie | Qué es |
+|---|---|---|
+| Árabe | Shankaboot | Webserie de Beirut, jóvenes |
+| Árabe | Hayda Haki (Adel Karam) | Comedia y entrevistas |
+| Árabe | Sarde (After Dinner) | Podcast en video, Beirut puro |
+| Árabe | Talk In Arabic (YouTube) | Diálogos libaneses lentos |
+| Árabe | Recetas libanesas en YouTube (busca "Lebanese recipe" en árabe) | Cocina mientras escuchas: vocabulario de comida repetido |
+| Árabe | TikTok / Instagram: #lebanesearabic, #learnlebanese, #lebanesedialect, #beirut | Clips cortos de expresiones |
+| Francés | Soirée avec Baba, Easy French, Français avec Pierre, innerFrench | Ya en la sección 2.7 |
+| Francés | HugoDécrypte | Noticias para jóvenes, francés claro |
+| Francés | Konbini | Entrevistas cortas a famosos |
+| Francés | Léna Situations | Vlogs, francés joven de París |
+| Francés | Squeezie, Cyprien, Norman fait des vidéos, McFly et Carlito | Los youtubers más vistos de Francia: humor y francés hablado real |
+| Francés | Skam France, Validé, Lupin, Dix pour cent | Series: jóvenes, argot, francés de París |
+| Los dos | Saint Levant (videos oficiales) | Árabe y francés en el mismo video |
+
+Truco del algoritmo: durante la semana 1, busca y dale like solo a contenido en árabe libanés y en francés en YouTube, TikTok e Instagram. En 7 días tu feed se llena de input sin que lo busques.
+
+## 8.5 Post-its en toda tu casa
+
+Sistema:
+- **Amarillo = árabe, azul = francés.** Un post-it de cada color en cada objeto.
+- Cada post-it lleva 3 líneas: la palabra como se escribe en WhatsApp, cómo se lee y un ejemplo corto.
+  - Amarillo: **sa7en** / saHen / "jible el sa7en" (tráeme el plato)
+  - Azul: **l'assiette** / lasiét / "passe-moi l'assiette"
+- Cada vez que tocas el objeto, lo dices en voz alta en los dos idiomas.
+- **Cada domingo cambias 10 post-its** por frases de acción ("fta7 el bab" = abre la puerta / "ouvre la porte").
+- Cuando ya no los lees porque te los sabes, quítalos y pasa esas palabras a Anki.
+
+### Lista para imprimir (60 post-its)
+
+| Objeto | Árabe (WhatsApp) | Cómo se lee | Francés | Se pronuncia |
+|---|---|---|---|---|
+| puerta | bab | bab | la porte | la port |
+| ventana | shebbek | shebbek | la fenêtre | la fenétr |
+| cama | takhet | taJet | le lit | le li |
+| almohada | mkhadde | mJadde | l'oreiller | loreié |
+| cobija | 7rem | Hrem | la couverture | la kuvertür |
+| mesa | tawle | tawle | la table | la tabl |
+| silla | kerse | kerse | la chaise | la shez |
+| sofá | kanabeye | kanabeye | le canapé | le kanapé |
+| cortina | berdaye | berdaye | le rideau | le ridó |
+| pared | 7ayt | Hayt | le mur | le mür |
+| piso | ard | ard | le sol | le sol |
+| escaleras | derej | derezh | l'escalier | leskalié |
+| clóset | khzene | Jzene | le placard | le plakár |
+| ropa | tyeb | tyeb | les vêtements | le vetmã |
+| zapatos | sobbet | sobbet | les chaussures | le shosür |
+| llaves | mfeti7 | mfetiH | les clés | le klé |
+| cartera | jezdein | zhezdein | le portefeuille | le portföi |
+| mochila / bolsa | shante | shante | le sac | le sak |
+| dinero | masari | masari | l'argent | larzhã |
+| teléfono | telephone / mobile | telefón / móbail | le téléphone | le telefón |
+| computadora | laptop | láptop | l'ordinateur | lordinatör |
+| tele | télé | telé | la télé | la telé |
+| luz | daw | daw | la lumière | la lümiér |
+| reloj | se3a | seʕa | l'horloge | lorlózh |
+| libro | ktab | ktab | le livre | le livr |
+| pluma | 2alam | 'alam | le stylo | le stiló |
+| baño | 7emmem | Hemmem | la salle de bain | la sal de bẽ |
+| espejo | mrayye | mrayye | le miroir | le miruár |
+| lavabo | maghsale | maRsale | le lavabo | le lavabó |
+| regadera | douche | dush | la douche | la dush |
+| toalla | menshafe | menshafe | la serviette | la serviét |
+| jabón | saboun | sabun | le savon | le savõ |
+| cepillo de dientes | fershet snen | fershet snen | la brosse à dents | la bros a dã |
+| cocina | matbakh | matbaJ | la cuisine | la küizín |
+| refri | barrade | barrade | le frigo | le frigó |
+| estufa | ghaz | Raz | la cuisinière | la küiziniér |
+| horno | forn | forn | le four | le fur |
+| plato | sa7en | saHen | l'assiette | lasiét |
+| olla | tenjra | tenzhra | la casserole | la kasról |
+| sartén | me2leye | me'leye | la poêle | la puál |
+| vaso | kebbeye | kebbeye | le verre | le ver |
+| taza | fenjen | fenzhen | la tasse | la tas |
+| cuchara | ma3l2a | maʕl'a | la cuillère | la küiér |
+| tenedor | shawke | shawke | la fourchette | la furshét |
+| cuchillo | sekkine | sekkine | le couteau | le kutó |
+| cafetera | rakwe | rakwe | la cafetière | la kaftiér |
+| agua | mayy | mayy | l'eau | lo |
+| café | 2ahwe | 'ahwe | le café | le kafé |
+| pan | khebez | Jebez | le pain | le pẽ |
+| basura | zbele | zbele | la poubelle | la pubél |
+| coche | sayyara | sayyara | la voiture | la vuatür |
+| ventilador / aire | mkayyef | mkayyef | la clim | la klim |
+
+Post-its de frase (pégalos donde haces la acción):
+
+| Dónde | Árabe (WhatsApp) | Cómo se lee | Francés | Se pronuncia |
+|---|---|---|---|---|
+| espejo | ana ktir 7elo lyom | ana ktir Helo lyom | Je suis beau aujourd'hui | zhe süí bo ozhurdüí |
+| espejo | yalla, fiye | yal·la, fiye | Allez, je peux le faire | alé, zhe pö le fer |
+| puerta de salida | ma tensa el mfeti7 | ma tensa el mfetiH | N'oublie pas les clés | nublí pa le klé |
+| refri | ana jou3an | ana zhuʕan | J'ai faim | zhé fẽ |
+| cafetera | bade 2ahwe | bade 'ahwe | Je veux un café | zhe vö ẽ kafé |
+| cama | tesba7e 3a kheir habibte | tesbaHe ʕa Jeir Habibte | Bonne nuit, mon amour | bon nuí, mon amúr |
+| cama (al despertar) | sabe7 el kheir | sabeH el Jeir | Bonjour | bonzhúr |
+| escritorio | 3am bedros | ʕam bedros | J'étudie | zhetüdí |
+| regadera | 3am et7ammam | ʕam etHammam | Je prends une douche | zhe prã ün dush |
+| sofá | shu badna nshuf? | shu badna nshuf? | On regarde quoi ? | õ regárd kuá? |
+
+## 8.6 Cambia tu teléfono y tus apps
+
+| Qué | Cómo |
+|---|---|
+| Idioma del teléfono | En francés desde la semana 2. Los menús son repetitivos y los aprendes rápido. |
+| Teclados | Agrega el teclado francés (acentos) y escribe en Arabizi con el teclado normal. |
+| Fondo de pantalla | Tabla de números del Arabizi (2, 3, 5, 7, 8) las semanas 1 a 3; después, la frase de la semana. |
+| Alarmas | Nombres en los dos idiomas: "yalla, 2um!" (¡vamos, levántate!) / "Debout !" |
+| Netflix | Perfil "Lockin" con idioma en francés; series libanesas en otro perfil. Language Reactor activado. |
+| Spotify | Solo tus dos playlists LOCKIN en casa, gym y coche. |
+| Google Maps | Voz en francés. |
+| Instagram, TikTok, YouTube | Sigue cuentas libanesas y francesas; silencia las de tu idioma durante 12 semanas. |
+| WhatsApp | Con tu novia, solo Arabizi (con francés o inglés mezclado, como en Beirut). |
+| Notas del celular | Lista "No sé decir...": cada vez que no sepas algo, anótalo; cada noche lo preguntas y lo pasas a Anki. |
+| IA de voz | 15 min diarios de conversación libre con un asistente de voz: un día francés, un día árabe libanés (pide "Beirut dialect in Arabizi, correct me at the end"). |
+
+## 8.7 Hábitos diarios que suman horas sin quitarte tiempo
+
+| Momento | Qué haces | Idioma |
+|---|---|---|
+| Al despertar | Dices en voz alta lo que harás hoy (self-talk) | francés |
+| Regadera | Shadowing de la canción de la semana | árabe |
+| Desayuno | Un video de HugoDécrypte o Easy French | francés |
+| Traslados | Pimsleur o podcast | alterna |
+| Gym | Playlist LOCKIN | ambos |
+| Cocinar | Receta libanesa en video, en árabe | árabe |
+| Comer solo | Un episodio corto de serie | alterna |
+| Lavar trastes, limpiar | Podcast (Sarde, innerFrench) | alterna |
+| Antes de dormir | 5 frases de diario en cada idioma + chat con tu novia | ambos |
+
+Reglas de la casa:
+1. **Hora sin español:** de 20:00 a 21:00 no usas español en nada (lo que piensas, lo que escribes, lo que escuchas).
+2. **Día temático:** lunes, miércoles y viernes piensas en francés; martes, jueves y sábado, en árabe.
+3. **Cada objeto que tocas, lo nombras** (post-its).
+4. **Una receta libanesa a la semana**, siguiendo un video en árabe, y se la cuentas a tu novia en árabe.
+5. **Domingo de cine:** una película en cada idioma (lista en las secciones 1.7 y 2.7).
+
+Lo que no sirve y no vale la pena: escuchar audios mientras duermes (no hay evidencia de que funcione y te quita sueño) y apps de solo juegos sin audio nativo.
+
+---
+
 ## Fuentes consultadas
 
 - [Soirée avec Baba (iVoox, listado del canal @soireeavecbaba)](https://www.ivoox.com/en/podcast-soiree-avec-baba_sq_f11106534_1.html)
@@ -1549,3 +1800,7 @@ Recomendación: Azure para ambos idiomas (ar-LB y fr-FR en un mismo proveedor, m
 - [MosaLingua: aprender francés con YouTube](https://www.mosalingua.com/es/aprender-frances-con-canales-de-youtube/)
 - [Pimsleur: YouTube channels to learn French](https://www.pimsleur.com/blog/youtube-channels-to-learn-french/)
 - [Complete France: French teachers on YouTube](https://www.completefrance.com/living-in-france/6-french-teachers-on-youtube-to-watch-6310604/)
+- [Saint Levant (Wikipedia)](https://en.wikipedia.org/wiki/Saint_Levant)
+- [Arab Sounds: top Saint Levant songs 2025](https://www.arabsounds.net/blog/top-5-saint-levant-songs-of-2025/)
+- [Mauvais Djo, "Maladie" (remix en SoundCloud)](https://m.soundcloud.com/coscodj/maladie)
+- [Canciones francesas virales en TikTok](https://www.nssmag.com/de/lifestyle/41291/gen-z-french-music-classics-forgotten-tiktok)
