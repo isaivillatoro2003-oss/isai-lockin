@@ -23,11 +23,10 @@ Ventaja de partida: español, inglés y portugués. Eso ya te da el 60% del voca
    4. Francés hablado real
    5. Recursos (incluye la identificación del "Profesor Baba")
 3. Técnicas (todas, con cómo aplicarlas)
-4. Plan de 12 semanas: árabe libanés
-5. Plan de 12 semanas: francés
-6. Horario diario combinado
-7. Temario para la app tipo Duolingo
-8. Voces TTS para dialecto libanés y francés
+4. Plan intensivo de 12 semanas (los dos idiomas, ≈ 5 h 30 diarias)
+5. Horario diario
+6. Temario para la app tipo Duolingo
+7. Voces TTS para dialecto libanés y francés
 
 ---
 
@@ -105,7 +104,7 @@ Sufijos posesivos: -e (mi), -ak (tu m), -ik (tu f), -o (su de él), -a (su de el
 
 ## 1.4 Las 420 palabras y frases más frecuentes en Arabizi
 
-Criterio: frecuencia en conversación y WhatsApp de jóvenes de Beirut, más lo que necesitas con tu novia y su familia. (m) = a hombre, (f) = a mujer.
+Criterio: frecuencia en conversación y WhatsApp de jóvenes de Beirut, más lo que necesitas con tu novia y su familia. (m) = a hombre, (f) = a mujer. Es la base de las semanas 1 a 3; de ahí llegas a 1,500 con frases minadas de tu novia, tus tutores y las series. Pídele a tu novia que revise la lista antes de grabar los audios.
 
 ### A. Saludos y despedidas (1 a 30)
 
@@ -1006,116 +1005,144 @@ La técnica popular que probablemente olvidaste es una de estas tres: **Michel T
 
 Orden de prioridad para tus 12 semanas:
 1. Input comprensible diario.
-2. Anki con frases minadas.
-3. Hablar desde el día 1 (tutor + novia).
+2. Vocabulario por frecuencia, aprendido dentro de frases frecuentes (Anki + sentence mining). No aprendas listas de palabras sueltas: cada palabra nueva entra en una frase corta con audio.
+3. Hablar todos los días con corrección (tutor + novia).
 4. Shadowing.
 5. Todo lo demás como apoyo.
 
 ---
 
-# 4. Plan de 12 semanas: árabe libanés (prioridad 1)
+# 4. Plan intensivo: los dos idiomas a la vez
 
-Tiempo: **2 h diarias** de lunes a viernes, **3 h** sábado y domingo. Total aproximado: 16 h por semana, 190 h en 12 semanas.
+## 4.1 Horas y metas realistas
 
-Bloque diario base (2 h):
-- 20 min Anki (repaso + 15 a 20 nuevas)
-- 40 min input (audio/video comprensible)
-- 15 min shadowing
-- 15 min escribir en Arabizi (chat con tu novia o diario)
-- 30 min hablar (tutor italki 3 veces por semana; los otros días, novia o self-talk)
+| | Árabe libanés | Francés | Total |
+|---|---|---|---|
+| Horas activas por día (lunes a sábado) | 3 h | 2 h 30 | 5 h 30 |
+| Domingo (día ligero) | 1 h 30 | 1 h 30 | 3 h |
+| Horas activas en 12 semanas | ≈ 235 h | ≈ 200 h | ≈ 435 h |
+| Escucha pasiva (traslados, gym, cocina) | ≈ 50 h | ≈ 30 h | ≈ 80 h |
+| Tutor | 1 h diaria, lunes a viernes | 45 min, 4 veces por semana | |
+| Costo aproximado de tutores (12 semanas) | ≈ 900 USD (a 15 USD/h) | ≈ 450 USD (a 12 USD/h) | ≈ 1,350 USD |
+| Tarjetas Anki al final | 1,500 frases | 1,800 tarjetas + reglas de cognados = 2,500+ palabras reconocidas | |
+| Nivel esperado en la semana 12 | **B1 hablado**: conversación fluida del día a día, con tu novia y su familia, chat en Arabizi sin traductor | **B1+**: conversación cómoda; comprensión oral y escrita cerca de B2 | |
+
+Regla de frecuencia: aprendes las palabras más usadas, pero siempre dentro de las frases más usadas. Cada tarjeta es una frase corta con audio y una sola palabra nueva. Primero van las 420 frases de la sección 1.4; después, las frases que minas de tu novia, tus tutores y las series.
+
+Reglas para que sea consistente:
+- Anki antes que todo, todos los días, sin excepción. Un día malo = solo Anki (40 min).
+- El domingo es ligero para no quemarte: Anki, Gold List y un episodio de serie por idioma.
+- Bloques de 50 min con 10 min de descanso. Nunca más de 2 horas seguidas del mismo idioma.
+- Árabe y francés en bloques separados, nunca uno detrás del otro sin pausa: así no se mezclan.
+- Cada domingo registras minutos por técnica, tarjetas maduras y minutos hablados. Si fallas dos días la misma meta, ajustas la semana siguiente en lugar de abandonar.
+
+## 4.2 Bloque diario de árabe libanés (3 h)
+
+| Bloque | Minutos | Qué haces |
+|---|---|---|
+| Anki | 30 | Repaso + 18 frases nuevas |
+| Tutor | 60 | italki o Preply de lunes a viernes; el sábado, 60 min solo en árabe con tu novia |
+| Input comprensible | 50 | Talk In Arabic → Shankaboot → Hayda Haki → Sarde, según la semana |
+| Shadowing | 20 | 5 frases del input del día, 5 repeticiones cada una |
+| Escritura en Arabizi | 20 | Chat con tu novia y diario de 5 frases; ella corrige y tú minas las correcciones |
+
+## 4.3 Bloque diario de francés (2 h 30)
+
+| Bloque | Minutos | Qué haces |
+|---|---|---|
+| Anki | 30 | Repaso + 25 nuevas (los cognados entran rápido) |
+| Input comprensible | 45 | Soirée avec Baba, Easy French, innerFrench, series |
+| Michel Thomas / Assimil (semanas 1 a 5), después lectura con LingQ | 20 | Estructura y lectura |
+| Shadowing | 15 | Frases del input del día |
+| Hablar | 40 | Tutor 45 min de lunes a jueves; viernes y sábado, intercambio en Tandem o HelloTalk |
+
+## 4.4 Plan semanal de árabe libanés
 
 | Semana | Fechas | Foco | Metas medibles |
 |---|---|---|---|
-| 1 | 29 oct a 4 nov | Arabizi, sonidos 3/7/2/5/8, saludos | Leer cualquier Arabizi en voz alta. 60 tarjetas (frases 1 a 60). 1ª clase italki. Pronuncias 3, 7, 2 correctamente según tutor. |
-| 2 | 5 a 11 nov | Pronombres, preguntas, presentarte | 120 tarjetas. Presentación de 1 minuto sin leer. 5 mensajes diarios en Arabizi a tu novia. |
-| 3 | 12 a 18 nov | Presente con b-, bade/fiye/3ende | 200 tarjetas. Conversación de 5 min con tutor sobre tu día. |
-| 4 | 19 a 25 nov | Tiempo, números, precios, comida | 260 tarjetas. Pedir comida y preguntar precios en roleplay sin español. Entender un diálogo de Talk In Arabic sin texto al 60%. |
-| 5 | 26 nov a 2 dic | Progresivo 3am, futuro ra7 | 320 tarjetas. 10 min de conversación. Entender 50% de un episodio de Shankaboot con subtítulos. |
-| 6 | 3 a 9 dic | Pasado, contar qué hiciste | 380 tarjetas. Contar tu fin de semana 3 minutos. Leer el chat de tu novia sin traductor al 70%. |
-| 7 | 10 a 16 dic | Familia, cortesía con mayores | 440 tarjetas (las 420 + minadas). Llamada de video corta con alguien de su familia (o simulación con tutor). |
-| 8 | 17 a 23 dic | Amor, emociones, discusiones | 520 tarjetas. Hablar 15 min con tu novia solo en árabe (se permite meter francés/inglés). |
-| 9 | 24 a 30 dic | Code-switching y slang | 600 tarjetas. Entender 40% de un episodio de Sarde. Usar 20 expresiones de slang en chat. |
-| 10 | 31 dic a 6 ene | Planes, ciudad, Beirut | 680 tarjetas. Organizar una salida completa en árabe (hora, lugar, quién). |
-| 11 | 7 a 13 ene | Narrar y opinar | 760 tarjetas. Conversación de 30 min con tutor. Voice notes de 2 min sin preparar. |
-| 12 | 14 a 20 ene | Repaso y prueba | 800+ tarjetas maduras. Prueba final (abajo). |
+| 1 | 29 oct a 4 nov | Arabizi, sonidos 3/7/2/5/8, saludos y cortesía | Leer cualquier Arabizi en voz alta. 120 tarjetas (frases 1 a 120). Tu tutor confirma que pronuncias bien 3, 7 y 2. Presentación de 30 segundos. |
+| 2 | 5 a 11 nov | Pronombres, preguntas, presentarte | 250 tarjetas. Presentación de 2 min sin leer. 10 mensajes diarios en Arabizi a tu novia. |
+| 3 | 12 a 18 nov | Presente con b-, bade/fiye/3ende, números | 380 tarjetas (las 420 casi completas). 10 min de conversación con tutor sobre tu día. |
+| 4 | 19 a 25 nov | Comida, precios, tiempo, progresivo 3am | 500 tarjetas (las 420 + minadas). Pedir comida y negociar un precio en roleplay. Entender un diálogo de Talk In Arabic sin texto al 70%. |
+| 5 | 26 nov a 2 dic | Futuro ra7, planes | 620 tarjetas. 15 min de conversación. Entender 50% de Shankaboot con subtítulos. |
+| 6 | 3 a 9 dic | Pasado, contar qué hiciste | 740 tarjetas. Contar tu fin de semana durante 5 min. Leer el chat de tu novia sin traductor al 80%. |
+| 7 | 10 a 16 dic | Familia, cortesía con mayores | 860 tarjetas. Videollamada de 10 min con alguien de su familia. |
+| 8 | 17 a 23 dic | Amor, emociones, desacuerdos | 980 tarjetas. 30 min con tu novia solo en árabe (puedes meter palabras en francés o inglés). |
+| 9 | 24 a 30 dic | Code-switching y slang | 1,100 tarjetas. Entender 50% de un episodio de Sarde. Usar 30 expresiones de slang en el chat. |
+| 10 | 31 dic a 6 ene | Beirut, planes, logística | 1,220 tarjetas. Organizar en árabe una salida completa (hora, lugar, quién, cómo llegar). Entender 60% de Shankaboot sin subtítulos. |
+| 11 | 7 a 13 ene | Narrar, opinar, contar historias | 1,350 tarjetas. 45 min de conversación con tutor. Voice notes de 3 min sin preparar. |
+| 12 | 14 a 20 ene | Repaso y prueba | 1,500 tarjetas. Prueba final (abajo). |
 
 Prueba final de árabe (semana 12):
-1. 30 minutos de conversación con un libanés desconocido sin pasar al inglés más de 10% del tiempo.
-2. Entender 70% de un episodio de Shankaboot sin subtítulos.
-3. 50 mensajes seguidos de chat en Arabizi con tu novia sin traductor.
-4. Tu tutor te pone nivel "conversacional" (A2+/B1 hablado).
+1. 45 minutos de conversación con un libanés que no conoces, sin pasar al inglés más del 10% del tiempo.
+2. Entender 75% de un episodio de Shankaboot sin subtítulos.
+3. 100 mensajes seguidos de chat en Arabizi con tu novia sin traductor.
+4. Tu tutor te da nivel B1 hablado.
 
----
-
-# 5. Plan de 12 semanas: francés (prioridad 2)
-
-Tiempo: **1 h 15 min diarios** de lunes a viernes, **2 h** sábado y domingo. Total aproximado: 10 h por semana, 120 h en 12 semanas. Tu español y portugués hacen que 120 h rindan como 250.
-
-Bloque diario base (1 h 15):
-- 15 min Anki (15 nuevas)
-- 30 min input (Soirée avec Baba, Easy French, innerFrench)
-- 15 min Michel Thomas o Assimil (semanas 1 a 6) / lectura (semanas 7 a 12)
-- 15 min shadowing o hablar (italki 2 veces por semana, intercambio 1 vez)
+## 4.5 Plan semanal de francés
 
 | Semana | Fechas | Foco | Metas medibles |
 |---|---|---|---|
-| 1 | 29 oct a 4 nov | Sonidos (u, eu, nasales, r), reglas de cognados | Michel Thomas CD 1 a 3. 100 tarjetas. Leer en voz alta un texto con pronunciación aceptable. |
-| 2 | 5 a 11 nov | Être, avoir, aller, faire; presentarte | Michel Thomas terminado al 60%. 200 tarjetas. 1ª clase italki: presentación 2 min. |
-| 3 | 12 a 18 nov | Presente, negación ne...pas, preguntas | Michel Thomas completo. 300 tarjetas. Entender 50% de Easy French con subtítulos en francés. |
-| 4 | 19 a 25 nov | Passé composé | 400 tarjetas. Contar tu día en pasado 2 min. |
-| 5 | 26 nov a 2 dic | Futur proche, pronombres y, en, le, lui | 500 tarjetas. Intercambio Tandem de 30 min. |
-| 6 | 3 a 9 dic | Imparfait vs passé composé | 600 tarjetas. Entender 70% de Soirée avec Baba sin pausar. |
-| 7 | 10 a 16 dic | Francés hablado real (on, ça, j'sais pas) | 700 tarjetas. Ver 1 episodio de Dix pour cent con subtítulos en francés. |
-| 8 | 17 a 23 dic | Subjuntivo básico (il faut que, je veux que) | 800 tarjetas. 20 min de conversación con tutor. |
-| 9 | 24 a 30 dic | Opinar y argumentar | 900 tarjetas. innerFrench al 70%. Escribir 200 palabras con 5 errores o menos. |
-| 10 | 31 dic a 6 ene | Condicional, hipótesis | 1000 tarjetas. Leer un artículo corto de 20 minutes o Le Parisien entendiendo la idea. |
-| 11 | 7 a 13 ene | Fluidez | 30 min de conversación seguidos. Hacer un examen de práctica DELF A2. |
-| 12 | 14 a 20 ene | Repaso y prueba | Prueba final (abajo). |
+| 1 | 29 oct a 4 nov | Sonidos (u, eu, nasales, r), reglas de cognados | Michel Thomas al 40%. 150 tarjetas. Leer un texto en voz alta con pronunciación aceptable según tutor. |
+| 2 | 5 a 11 nov | Être, avoir, aller, faire; presentarte | Michel Thomas completo. 300 tarjetas. Presentación de 3 min. |
+| 3 | 12 a 18 nov | Presente, negación, preguntas | 450 tarjetas. Assimil lección 15. Entender 60% de Easy French con subtítulos en francés. |
+| 4 | 19 a 25 nov | Passé composé | 600 tarjetas. Contar tu día en pasado durante 5 min. |
+| 5 | 26 nov a 2 dic | Futur proche, pronombres y, en, le, lui | 750 tarjetas. Intercambio de 45 min sin pasar al español. |
+| 6 | 3 a 9 dic | Imparfait vs. passé composé | 900 tarjetas. Entender 75% de Soirée avec Baba sin pausar. |
+| 7 | 10 a 16 dic | Francés hablado real (on, ça, j'sais pas) | 1,050 tarjetas. Un episodio de Dix pour cent con subtítulos en francés al 70%. |
+| 8 | 17 a 23 dic | Subjuntivo (il faut que, je veux que) | 1,200 tarjetas. 30 min de conversación con tutor. Examen de práctica DELF A2 aprobado. |
+| 9 | 24 a 30 dic | Opinar y argumentar | 1,350 tarjetas. innerFrench al 80%. Texto de 250 palabras con 5 errores o menos. |
+| 10 | 31 dic a 6 ene | Condicional e hipótesis | 1,500 tarjetas. Leer un artículo de Le Parisien entendiendo el 80%. |
+| 11 | 7 a 13 ene | Fluidez y debate | 1,650 tarjetas. 45 min de conversación seguidos. Examen de práctica DELF B1. |
+| 12 | 14 a 20 ene | Repaso y prueba | 1,800 tarjetas. Prueba final (abajo). |
 
 Prueba final de francés:
-1. Aprobar un examen de práctica DELF B1 en comprensión oral y escrita (o A2 completo como mínimo).
-2. 30 minutos de conversación con un francés de Francia.
-3. Entender 80% de Easy French con subtítulos en francés y 60% sin subtítulos.
-4. Escribir un correo de 250 palabras con menos de 8 errores.
+1. Aprobar un examen de práctica DELF B1 completo, y sacar nivel B2 en las partes de comprensión oral y escrita.
+2. 45 minutos de conversación con un francés de Francia.
+3. Entender 85% de Easy French con subtítulos en francés y 70% sin subtítulos.
+4. Escribir un texto de 300 palabras con menos de 8 errores.
+
+## 4.6 Qué te lleva a B2 después
+
+Si en la semana 12 cumples las pruebas, mantener 2 horas diarias por idioma te lleva a B2 en francés en unos 2 meses más, y a B1+/B2 hablado en árabe en unos 4 a 6 meses más. Si pasas tiempo en Beirut o con su familia, ese plazo se acorta mucho.
 
 ---
 
-# 6. Horario diario combinado (ejemplo)
+# 5. Horario diario (lunes a sábado, ≈ 5 h 30 activas)
 
-Total: 3 h 15 min entre semana. Ajusta horarios a tu vida.
+Ajusta las horas a tu vida, pero respeta el orden y la separación entre idiomas.
 
 | Hora | Bloque | Idioma |
 |---|---|---|
-| 07:00 a 07:35 | Anki árabe + francés | ambos |
-| 07:35 a 08:15 | Input en traslado o gym (podcast, Pimsleur) | árabe |
-| 13:00 a 13:30 | Input francés (Soirée avec Baba / Easy French) | francés |
-| 13:30 a 13:45 | Michel Thomas / Assimil | francés |
-| 19:00 a 19:30 | Clase italki o hablar con tu novia | árabe |
-| 19:30 a 19:45 | Shadowing | árabe |
-| 21:00 a 21:15 | Shadowing o intercambio | francés |
-| 22:00 a 22:15 | Chat y diario en Arabizi con tu novia | árabe |
-| Muertos (filas, caminatas) | Música libanesa, voice notes | árabe |
+| 07:00 a 07:30 | Anki | árabe |
+| 07:30 a 08:00 | Anki | francés |
+| 08:00 a 08:45 | Input pasivo en traslado o gym (Pimsleur, podcast, música) | árabe |
+| 10:00 a 10:45 | Input comprensible | francés |
+| 10:45 a 11:05 | Michel Thomas / Assimil / LingQ | francés |
+| 11:05 a 11:20 | Shadowing | francés |
+| 13:00 a 13:50 | Input comprensible | árabe |
+| 13:50 a 14:10 | Shadowing | árabe |
+| 17:00 a 17:45 | Tutor o intercambio | francés |
+| 19:00 a 20:00 | Tutor (sábado: tu novia) | árabe |
+| 22:00 a 22:20 | Chat y diario en Arabizi con tu novia | árabe |
+| Tiempos muertos | Música libanesa, voice notes, podcast en francés | ambos |
 
-Reglas:
-- Anki antes que todo. Si solo tienes 15 minutos ese día, haz solo Anki.
-- Nunca más de 2 clases con tutor por día.
-- Domingo: Gold List (25 frases por idioma) y planear la semana.
-- Registro: una hoja con minutos por técnica y tarjetas maduras. Revisión cada domingo.
+Domingo (3 h): Anki de los dos idiomas (1 h), Gold List de 25 frases por idioma (30 min), un episodio de serie en cada idioma (1 h 30) y revisión de métricas de la semana.
 
 ---
 
-# 7. Temario para la app tipo Duolingo
+# 6. Temario para la app tipo Duolingo
 
-## 7.1 Principios del producto
+## 6.1 Principios del producto
 
 1. **Frase antes que palabra**: cada ítem es frase con audio.
 2. **Género como variable**: cada ítem tiene forma m y f (kifak / kifik). La app pregunta al inicio "¿a quién le hablas más: hombre o mujer?" y prioriza esa forma.
-3. **Arabizi tolerante**: el corrector acepta variantes ortográficas (ver 7.4).
+3. **Arabizi tolerante**: el corrector acepta variantes ortográficas (ver 6.4).
 4. **Cada ítem guarda 4 campos**: arabizi, arabic_script (para TTS), español, audio_nativo.
 5. **SRS interno** (FSRS o SM-2) en lugar de lecciones lineales para el repaso.
 6. **Modo novia**: escenarios de chat de pareja y familia.
 
-## 7.2 Unidades de árabe libanés
+## 6.2 Unidades de árabe libanés
 
 Los números refieren a la lista 1.4.
 
@@ -1143,7 +1170,7 @@ Los números refieren a la lista 1.4.
 | 19 | WhatsApp y slang | Sección 1.6 | abreviaturas | Chatear como nativo |
 | 20 | Historias | Frases minadas | conectores | Narrar 2 minutos |
 
-## 7.3 Unidades de francés
+## 6.3 Unidades de francés
 
 | Unidad | Nombre | Vocabulario | Gramática | Meta |
 |---|---|---|---|---|
@@ -1167,7 +1194,7 @@ Los números refieren a la lista 1.4.
 | 17 | Hipótesis | si + imparfait, conditionnel | | Hablar de lo posible |
 | 18 | Francés en Beirut | ça va, bisous, chéri, mezcla con árabe | | Puente con unidad 18 de árabe |
 
-## 7.4 Tipos de ejercicio
+## 6.4 Tipos de ejercicio
 
 | Tipo | Descripción | Árabe | Francés |
 |---|---|---|---|
@@ -1204,7 +1231,7 @@ audio_nativo_url, audio_tts_url, tags (amor, familia, slang, whatsapp),
 frecuencia_rank, notas
 ```
 
-## 7.5 Gamificación y métricas
+## 6.5 Gamificación y métricas
 
 - Racha diaria, XP, ligas (copiar a Duolingo no tiene secreto).
 - Métrica principal: minutos de input escuchados + tarjetas maduras (intervalo > 21 días).
@@ -1213,7 +1240,7 @@ frecuencia_rank, notas
 
 ---
 
-# 8. Voces TTS para dialecto libanés y francés
+# 7. Voces TTS para dialecto libanés y francés
 
 ## Árabe libanés
 
