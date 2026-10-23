@@ -2597,13 +2597,13 @@
   {
    "area": "idiomas",
    "title": "Hablar desde el día 1",
-   "text": "Día 1: 20 frases de presentación. Día 3: primera clase de italki. Con tu novia, 10 min diarios solo en árabe desde la semana 1.",
+   "text": "Día 1: 20 frases de presentación. Día 3: primera conversación de voz con IA en libanés. Con tu novia, 10 min diarios solo en árabe desde la semana 1.",
    "grade": "A"
   },
   {
    "area": "idiomas",
    "title": "Output forzado",
-   "text": "Diario de 5 frases cada noche en cada idioma, corregido por tutor o novia.",
+   "text": "Diario de 5 frases cada noche en cada idioma, corregido por tu novia o por la IA.",
    "grade": "A"
   },
   {
@@ -2663,7 +2663,7 @@
   {
    "area": "idiomas",
    "title": "TPRS o storytelling",
-   "text": "Pide al tutor una historia corta y 20 preguntas sobre ella.",
+   "text": "Pide a la IA de voz una historia corta y 20 preguntas sobre ella.",
    "grade": "B"
   },
   {
@@ -2883,7 +2883,7 @@
    },
    {
     "name": "Hablar desde el día 1 (Benny Lewis, Fluent in 3 Months)",
-    "how": "Hablar con nativos desde el inicio con un guion de frases. Día 1: aprende 20 frases de presentación. Día 3: primera clase italki. Con tu novia, 10 min diarios solo en árabe, desde la semana 1.",
+    "how": "Hablar con nativos desde el inicio con un guion de frases. Día 1: aprende 20 frases de presentación. Día 3: primera conversación de voz con IA en libanés. Con tu novia, 10 min diarios solo en árabe, desde la semana 1.",
     "evidencia": "Muy útil para perder el miedo"
    },
    {
@@ -2913,7 +2913,7 @@
    },
    {
     "name": "TPRS / storytelling",
-    "how": "Historias repetidas con preguntas, aprendes estructura por repetición. Pide a tus tutores que te cuenten una historia corta y te hagan 20 preguntas sobre ella.",
+    "how": "Historias repetidas con preguntas, aprendes estructura por repetición. Pide a la IA de voz que te cuente una historia corta y te hagan 20 preguntas sobre ella.",
     "evidencia": "Fuerte en aulas"
    },
    {
@@ -2958,7 +2958,7 @@
    },
    {
     "name": "Output forzado (Swain)",
-    "how": "Escribir y hablar te obliga a notar lo que te falta. Diario de 5 frases cada noche en cada idioma, corregidas por tutor o novia.",
+    "how": "Escribir y hablar te obliga a notar lo que te falta. Diario de 5 frases cada noche en cada idioma, corregidas por tu novia o por la IA.",
     "evidencia": "Fuerte"
    }
   ],

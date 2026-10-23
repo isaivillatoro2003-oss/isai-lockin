@@ -1,0 +1,2144 @@
+{
+  "bloques": {
+    "despertar": {
+      "que": "Levantarte a las 5:00 en punto, sin posponer la alarma. Tiendes la cama y tomas 500 ml de agua con una pizca de sal.",
+      "por": "Es el primer 'sí' del día y marca el tono: si ganas aquí, ganas la discusión con tu cerebro todo el día, y te deja tiempo para idiomas antes de que el día se llene.",
+      "como": [
+        "Pon una alarma física o un reloj despertador al otro lado del cuarto. El iPhone carga fuera del cuarto, en la cocina.",
+        "Apaga la alarma y de pie, sin sentarte en la cama. Enciende la luz del cuarto de inmediato.",
+        "Tiende la cama en menos de 1 minuto: estiras sábana y pones la almohada. Es una victoria rápida.",
+        "Prepara la noche anterior un vaso o botella con 500 ml de agua y una pizca de sal (menos de un cuarto de cucharadita). Bébela de a poco en 5 minutos.",
+        "Ve al baño, lávate la cara con agua fría y pasa directo al siguiente bloque. No toques el teléfono todavía."
+      ],
+      "tips": [
+        {
+          "text": "Alarma lejos de la cama y luz encendida al instante: es lo que mejor funciona para no volver a dormirte.",
+          "grade": "A"
+        },
+        {
+          "text": "Dormir a las 21:30 hace que las 5:00 sea fácil. Si tienes sueño a las 5:00, el problema fue anoche, no la mañana.",
+          "grade": "A"
+        },
+        {
+          "text": "Agua al despertar: llevas unas 7 horas sin beber. Rehidratarte te despeja y ayuda en un entreno en ayunas.",
+          "grade": "A"
+        },
+        {
+          "text": "La pizca de sal no quema grasa. Sirve si vas a sudar mucho en Cancún; si tienes la presión alta, quítala.",
+          "grade": "C"
+        },
+        {
+          "text": "Cuenta regresiva 5-4-3-2-1 y te paras al llegar al 1. Es un truco mental popular, no está probado, pero quita la negociación.",
+          "grade": "C"
+        },
+        {
+          "text": "Si dormiste mal, igual te levantas a las 5:00 y te acuestas temprano esa noche. Dormir hasta tarde rompe el ritmo de toda la semana.",
+          "grade": "A"
+        },
+        {
+          "text": "Pon una canción libanesa de Fairuz como sonido de alarma: te despierta con algo que te gusta y ya sumas oído de árabe.",
+          "grade": "C"
+        }
+      ],
+      "minimo": "Párate a las 5:00 con la luz encendida y toma el agua; lo demás puede ser corto."
+    },
+    "glow-am": {
+      "que": "Tu rutina de higiene y piel de la mañana: dientes, lengua, hilo dental, cara, hidratante, protector solar y desodorante. Glow up es 'verte mejor' y se construye con hábitos pequeños diarios.",
+      "por": "Cuidar la cara y los dientes es la mejora de aspecto más barata y rápida, y el protector solar evita manchas y envejecimiento en el sol de Cancún.",
+      "como": [
+        "Cepíllate 2 minutos con pasta con flúor y limpia la lengua de atrás hacia adelante 3 veces con un limpiador de lengua.",
+        "Usa hilo dental o flossers (palillos con hilo) en todos los dientes.",
+        "Lava la cara con un limpiador suave (CeraVe espumoso o Cetaphil) y agua fría. Seca con toques, sin frotar.",
+        "Aplica hidratante ligero en gel (Neutrogena Hydro Boost, CeraVe loción). Si tienes niacinamida, va antes del hidratante.",
+        "Protector solar FPS 50: la cantidad correcta son dos líneas de producto del largo de tus dedos índice y medio, para cara y cuello. Isdin Fusion Water o La Roche-Posay Anthelios son ligeros para el calor.",
+        "Bálsamo labial con SPF y desodorante. Ropa limpia y lista desde anoche."
+      ],
+      "tips": [
+        {
+          "text": "El protector solar es el producto número uno para piel. En Cancún el índice UV pasa de 11 casi todo el año.",
+          "grade": "A"
+        },
+        {
+          "text": "Menos es más: 3 o 4 productos bien usados ganan a 12 productos. Agrega un activo nuevo a la vez, con 2 semanas de diferencia.",
+          "grade": "A"
+        },
+        {
+          "text": "Limpiar la lengua mejora el aliento de forma clara, porque ahí vive la mayor parte de los compuestos que huelen mal.",
+          "grade": "A"
+        },
+        {
+          "text": "Prueba de parche: un producto nuevo detrás de la oreja 2 o 3 días antes de ponerlo en toda la cara.",
+          "grade": "A"
+        },
+        {
+          "text": "Agua helada o hielo en la cara 10 a 20 segundos desinflama y despierta. No cierra poros. Si tienes problemas del corazón, consulta antes.",
+          "grade": "B"
+        },
+        {
+          "text": "Pasta de dientes en los granos, limón o bicarbonato en la cara: no lo hagas, irritan y manchan con el sol. Usa un parche de hidrocoloide.",
+          "grade": "D"
+        },
+        {
+          "text": "Cepillo eléctrico (Oral-B) quita más placa que uno manual si puedes comprarlo.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "Dientes, lengua, cara con agua, protector solar. 5 minutos."
+    },
+    "tarjetas-ar": {
+      "que": "Repasar tarjetas de árabe libanés. Una tarjeta es una frase corta con su audio; el sistema de repetición espaciada (SRS) te la vuelve a mostrar justo antes de que la olvides. Anki es la app famosa que hace esto; tu app ya trae su propio SRS, así que no necesitas instalar Anki.",
+      "por": "Es la forma más eficiente de guardar vocabulario en la memoria a largo plazo, y sin tutores es tu base para poder entender y hablar con tu novia.",
+      "como": [
+        "Abre las tarjetas de árabe en la app. Primero haces todos los repasos pendientes, luego las 18 nuevas del día.",
+        "Lee la frase en voz alta antes de ver la respuesta e intenta decir qué significa. Dar vuelta a la tarjeta sin intentar recordar no sirve.",
+        "Escucha el audio y repite la frase 2 veces en voz alta, imitando el ritmo.",
+        "Califica con honestidad: Otra vez si no la sabías, Difícil, Bien o Fácil. El sistema usa tu respuesta para decidir cuándo volver a mostrártela.",
+        "Para en 30 minutos aunque queden tarjetas. Si se acumulan repasos, pausa las nuevas, nunca los repasos.",
+        "Si una tarjeta falla 3 veces, invéntale una imagen absurda (2alb, corazón: un corazón saliendo del sol, 'alba')."
+      ],
+      "tips": [
+        {
+          "text": "El repaso espaciado tiene evidencia muy fuerte para memoria a largo plazo. Es lo más rentable que harás.",
+          "grade": "A"
+        },
+        {
+          "text": "Cada tarjeta debe ser una frase completa con una sola palabra nueva, no una palabra suelta.",
+          "grade": "A"
+        },
+        {
+          "text": "Haz este bloque primero, antes de cualquier otra cosa. Con la cabeza fresca aprendes más rápido.",
+          "grade": "B"
+        },
+        {
+          "text": "Los números del Arabizi se leen como sonidos: 3 es una 'a' gutural, 7 es una 'h' fuerte del fondo de la garganta, 2 es una pausa corta, 5 es una 'j' española raspada.",
+          "grade": "A"
+        },
+        {
+          "text": "Un día malo, aunque sea solo el repaso de 10 minutos. Saltar un día de SRS cuesta muchísimo más que hacerlo corto.",
+          "grade": "A"
+        },
+        {
+          "text": "Pide a tu novia que te mande un voice note diciendo 5 de tus frases nuevas. Es el mejor audio que puedes tener.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "10 minutos de repasos, cero nuevas."
+    },
+    "tarjetas-fr": {
+      "que": "Lo mismo que con el árabe pero en francés: tarjetas con frase y audio, repetición espaciada (SRS) en tu propia app. Cada día ves repasos y 25 tarjetas nuevas.",
+      "por": "El francés tiene muchas palabras parecidas al español, así que puedes entrar más tarjetas nuevas por día y subir rápido de nivel.",
+      "como": [
+        "Abre las tarjetas de francés. Primero repasos, después las 25 nuevas.",
+        "Lee la frase en voz alta antes de revelarla y trata de entender. Después escucha el audio y repite 2 veces.",
+        "Fíjate en cómo suena distinto a como se escribe: 'beaucoup' se dice 'boku'. Susurra el sonido, no la letra.",
+        "Califica con honestidad: Otra vez, Difícil, Bien, Fácil.",
+        "30 minutos máximo. Si hay muchos repasos, pausa las nuevas.",
+        "Anota en la libreta los falsos amigos que te sorprendan (ej. 'librairie' es librería de venta, no biblioteca)."
+      ],
+      "tips": [
+        {
+          "text": "Conversión de cognados: muchas palabras terminadas en -ción son -tion en francés (nation, information). Eso te regala cientos de palabras.",
+          "grade": "A"
+        },
+        {
+          "text": "Aprende frases frecuentes, no listas de palabras sueltas.",
+          "grade": "A"
+        },
+        {
+          "text": "Las nasales (on, an, in) y la u francesa son lo más difícil de pronunciar. Repite frente al espejo viendo tu boca.",
+          "grade": "B"
+        },
+        {
+          "text": "Los falsos amigos más comunes: 'sensible' es sensible emocionalmente, 'actuellement' es 'actualmente', no 'realmente'.",
+          "grade": "A"
+        },
+        {
+          "text": "Si una tarjeta se te resiste, escribe la frase a mano 3 veces.",
+          "grade": "C"
+        }
+      ],
+      "minimo": "10 minutos de repasos, cero nuevas."
+    },
+    "novia-am": {
+      "que": "Un mensaje de buenos días a tu novia en Beirut, donde son las 12:35, y que intentes decirle 3 frases en árabe libanés.",
+      "por": "Te da práctica real y diaria de árabe con la persona que más te motiva, y mantiene la relación presente aunque la llamada grande sea más tarde.",
+      "como": [
+        "Anoche, antes de dormir, escribe en la libreta 3 frases para decirle. Ejemplo: 'sbe7 el khér 7abibti', 'kifek el yom?', 'shu 3am te3mli?'.",
+        "Mándale un voice note de 20 a 30 segundos (no texto), diciendo las 3 frases con calma.",
+        "Pídele que te responda con otro voice note. Escúchalo 2 veces y apunta lo que no entendiste.",
+        "Pasa lo que no entendiste a las tarjetas de árabe (sentence mining).",
+        "Cuando acabes, deja el teléfono. No abras redes ni chats de otras personas."
+      ],
+      "tips": [
+        {
+          "text": "Los voice notes de tu novia son el mejor input de árabe libanés que puedes tener: voz real, tema real, dialecto real.",
+          "grade": "A"
+        },
+        {
+          "text": "Avísale que no te corrija todo; que te marque solo 1 o 2 errores. Si te corrige todo te vas a desmotivar.",
+          "grade": "B"
+        },
+        {
+          "text": "Verifica con ella los saludos que aprendes: yo te sugiero frases comunes, pero ella decide cómo se dicen en su casa.",
+          "grade": "A"
+        },
+        {
+          "text": "A ella le toca mediodía, así que pregúntale por su día en vez de repetir solo 'buenos días'. Es más natural.",
+          "grade": "C"
+        },
+        {
+          "text": "Si un día no hay tiempo, manda un audio de 5 segundos con una sola frase. Mantiene la costumbre.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "Un voice note de 10 segundos con una sola frase en árabe."
+    },
+    "cafe": {
+      "que": "Una taza de café negro (sin azúcar ni leche) mientras revisas el día en la app: qué bloques toca hacer y las 3 cosas más importantes.",
+      "por": "El café negro quita hambre en ayunas, mejora el rendimiento del entreno y la revisión del día evita decidir sobre la marcha.",
+      "como": [
+        "Prepara una taza de 200 a 250 ml de café negro. Puedes usar prensa francesa o café soluble sin azúcar.",
+        "Siéntate con la libreta o la app. Revisa el checklist del día de arriba a abajo.",
+        "Elige las 3 cosas más importantes del día y escríbelas. Una de ellas siempre es un idioma.",
+        "Si tienes pendientes con fecha límite, ponlos en el bloque de 'pendientes'.",
+        "Ponte la ropa de entreno y llena la botella de agua. Todo listo antes de salir."
+      ],
+      "tips": [
+        {
+          "text": "Café negro no rompe el ayuno 16:8. Una taza son unos 100 mg de cafeína; 2 a 3 al día es seguro, el tope es 400 mg.",
+          "grade": "A"
+        },
+        {
+          "text": "Último café antes de las 12:00 para que no te quite sueño a las 21:30.",
+          "grade": "A"
+        },
+        {
+          "text": "Esperar 60 a 90 minutos tras despertar para tomar café evita el bajón de la tarde: popular, pero con poca evidencia.",
+          "grade": "C"
+        },
+        {
+          "text": "Té verde sin azúcar es una alternativa con un efecto pequeño en peso (alrededor de 1 kg en 12 semanas). Toma el té, nunca cápsulas de extracto concentrado.",
+          "grade": "B"
+        },
+        {
+          "text": "Endulzante sin calorías tampoco: mejor acostumbrarte al sabor amargo, se logra en 2 semanas.",
+          "grade": "C"
+        }
+      ],
+      "minimo": "Café y mirar 3 prioridades del día."
+    },
+    "caminata-sol": {
+      "que": "Caminar 35 minutos al amanecer, con la luz del sol llegando a tus ojos sin lentes de sol, y escuchando audio de árabe de fondo (audio pasivo: lo escuchas sin estudiar).",
+      "por": "La luz de la mañana ordena tu reloj biológico para dormir a las 21:30, sube el ánimo, suma pasos y de paso metes input de árabe.",
+      "como": [
+        "Sal cuando amanezca (en Cancún sale el sol entre 6:10 y 6:25). Ponte protector solar en la cara antes.",
+        "Sin lentes de sol. Que la luz llegue a tus ojos, mirando hacia el cielo o al horizonte, nunca directo al disco del sol.",
+        "Camina a paso ligero por la playa, el Malecón Tajamar o tu calle: 35 minutos, unos 4.000 pasos.",
+        "Pon en tus audífonos un audio de árabe libanés (Talk In Arabic, un voice note de tu novia, una canción de Fairuz). Es pasivo: no pasa nada si no entiendes todo.",
+        "El teléfono va en el bolsillo, no en la mano. No lo mires."
+      ],
+      "tips": [
+        {
+          "text": "La luz brillante por la mañana adelanta y estabiliza el reloj interno. Aunque esté nublado afuera hay mucha más luz que adentro.",
+          "grade": "A"
+        },
+        {
+          "text": "La ventana y el vidrio de un auto bloquean gran parte de esa luz. Tiene que ser afuera.",
+          "grade": "A"
+        },
+        {
+          "text": "Descalzo en la arena 5 a 10 minutos: sientes bien los pies y fortaleces tobillos. Lo de 'descargar electricidad de la tierra' no está probado.",
+          "grade": "C"
+        },
+        {
+          "text": "Nunca mires al sol directo. Con el cielo despejado, mira al horizonte.",
+          "grade": "A"
+        },
+        {
+          "text": "Los primeros 3 o 4 días de jet lag no hagas esto: usa el bloque 'caminata-lentes' con lentes de sol.",
+          "grade": "B"
+        },
+        {
+          "text": "Si llueve, sal igual unos 20 minutos con gorra: la luz de un día nublado sigue contando.",
+          "grade": "A"
+        }
+      ],
+      "minimo": "10 minutos afuera, mirando el cielo, sin lentes."
+    },
+    "entreno": {
+      "que": "60 minutos de ejercicio en ayunas, antes de tu primera comida. Según el día es fuerza (pesas) o cardio de zona 2 (ritmo en que puedes hablar pero no cantar).",
+      "por": "Las pesas conservan músculo mientras pierdes grasa, y el cardio suave y los pasos aceleran la pérdida sin agotarte. Es lo que más cambia tu cuerpo.",
+      "como": [
+        "Lunes, miércoles y viernes: fuerza (rutinas A, B y C de la app). Martes: zona 2 + core. Jueves: intervalos suaves o natación. Sábado: actividad libre. Domingo: descanso activo.",
+        "Calienta 5 a 8 minutos: caminata rápida, círculos de hombros y cadera, 10 sentadillas sin peso.",
+        "Pesas: 3 a 4 series por ejercicio, deja 1 a 3 repeticiones en reserva (no llegues al fallo). Cuando hagas el máximo de reps en todas las series con buena técnica, sube el peso.",
+        "Zona 2: ritmo con el que puedes hablar frases completas. Para ti es aproximadamente 115 a 135 latidos por minuto.",
+        "Toma agua y electrolitos sin azúcar durante el entreno. En Cancún el calor es fuerte desde las 8:00.",
+        "Termina con 3 minutos de estiramiento suave. Anota en la app lo que levantaste."
+      ],
+      "tips": [
+        {
+          "text": "Entrenar fuerza en déficit calórico protege el músculo. Sin pesas, hasta un cuarto del peso que bajes puede ser músculo.",
+          "grade": "A"
+        },
+        {
+          "text": "Cardio en ayunas no quema más grasa en el día completo; sirve porque es tu horario. No te obligues si te marea.",
+          "grade": "A"
+        },
+        {
+          "text": "No existe quemar grasa de un solo lugar (abdomen o pecho): bajas grasa de todo el cuerpo, y por donde tu genética decida.",
+          "grade": "A"
+        },
+        {
+          "text": "Con 100 kg, evita sprints corriendo las primeras 4 a 6 semanas: rodillas y tendón de Aquiles. Usa bici, elíptica, escaleras o cuesta.",
+          "grade": "A"
+        },
+        {
+          "text": "Creatina 5 g al día mejora fuerza y músculo. Puede subir 1 a 2 kg de agua dentro del músculo la primera semana; no es grasa.",
+          "grade": "A"
+        },
+        {
+          "text": "Pre-entrenos con mucha cafeína: no. Un café negro antes basta.",
+          "grade": "D"
+        },
+        {
+          "text": "Si te mareas en ayunas, toma electrolitos con sal; si sigue, come algo ligero y avisa a un médico.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "30 minutos: caminata rápida o 3 ejercicios de pesas, 3 series cada uno."
+    },
+    "ducha-fria": {
+      "que": "Ducha normal que termina con 1 a 2 minutos de agua fría, y después tu piel (hidratante y cuerpo). Si nunca lo has hecho, se empieza poco a poco.",
+      "por": "Te despierta, sube el ánimo y entrena la disciplina de hacer algo incómodo todos los días. No es para quemar grasa, es para la cabeza.",
+      "como": [
+        "Semana 1: ducha tibia como siempre y los últimos 15 a 30 segundos en frío. Empieza por los pies y piernas, después el torso.",
+        "Semana 2: 45 a 60 segundos de agua fría al final.",
+        "Semana 3 en adelante: 1 a 2 minutos. La cabeza es opcional.",
+        "Respira largo y lento: inhala por la nariz 4 segundos, exhala por la boca 6 segundos. No contengas la respiración.",
+        "Sécate, y con la piel aún húmeda ponte crema corporal. Después, cara: hidratante, y en la mañana protector solar.",
+        "Skincare después de la ducha: lo mismo que en glow-am pero con el cuerpo: crema en brazos, piernas y espalda."
+      ],
+      "tips": [
+        {
+          "text": "En Cancún el agua de la llave rara vez sale muy fría. Si la tuya es tibia, hazlo con la regadera más fuerte y el cuerpo mojado unos segundos, o llena un balde con agua y hielo para el final.",
+          "grade": "C"
+        },
+        {
+          "text": "Despierta y mejora el ánimo en el momento. La inmunidad o el aumento de testosterona no están demostrados.",
+          "grade": "B"
+        },
+        {
+          "text": "No quema grasa de forma relevante: la grasa parda suma muy pocas calorías.",
+          "grade": "C"
+        },
+        {
+          "text": "Báñate también después de mar o alberca: sal y cloro resecan la piel.",
+          "grade": "A"
+        },
+        {
+          "text": "Con problemas del corazón, presión alta no controlada o si te sientes mareado, no lo hagas sin consultar.",
+          "grade": "D"
+        },
+        {
+          "text": "El baño de hielo justo después de pesas frena la ganancia de músculo. Ducha fría corta, sí; tina de hielo, lejos del entreno de fuerza.",
+          "grade": "D"
+        }
+      ],
+      "minimo": "15 segundos de agua fría al final."
+    },
+    "uni": {
+      "que": "Una hora de estudio profundo de tu carrera, dividida en 50 minutos de trabajo y 10 de descanso (técnica Pomodoro en versión larga). Sin teléfono y sin pestañas abiertas.",
+      "por": "Tu cabeza está más fresca a esta hora, y una hora enfocada rinde más que tres con distracciones. Así cumples sin sacrificar idiomas.",
+      "como": [
+        "Pon el iPhone en modo avión y déjalo en otro cuarto o boca abajo lejos de ti.",
+        "Elige una sola tarea antes de empezar y escríbela en una frase: 'Terminar el resumen del capítulo 3'.",
+        "Pon un temporizador de 50 minutos. Cierra todas las pestañas menos las necesarias.",
+        "Estudia activo: cierra el libro y escribe lo que recuerdas, haz preguntas, resuelve ejercicios. Releer no sirve.",
+        "A los 50 minutos, para. Levántate, toma agua, mira por la ventana 10 minutos. Sin teléfono.",
+        "Antes de acabar, escribe cuál será la primera tarea de mañana."
+      ],
+      "tips": [
+        {
+          "text": "Recuperación activa: cerrar el material y tratar de explicar lo que aprendiste en voz alta es de lo que mejor funciona para recordar.",
+          "grade": "A"
+        },
+        {
+          "text": "Enfocarte en una cosa a la vez rinde más que mover varias.",
+          "grade": "A"
+        },
+        {
+          "text": "Haz lo más difícil primero, mientras tienes energía.",
+          "grade": "B"
+        },
+        {
+          "text": "Ten un papel al lado para anotar distracciones ('revisar correo') y atenderlas después.",
+          "grade": "B"
+        },
+        {
+          "text": "Estudiar con música con letra en español distrae. Si usas música, que sea sin letra o ruido blanco.",
+          "grade": "B"
+        },
+        {
+          "text": "Tener el teléfono a la vista, aunque esté apagado, baja tu atención. Aléjalo de verdad.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "30 minutos de 'una sola tarea' con el teléfono en otro cuarto."
+    },
+    "preparar-comida": {
+      "que": "20 minutos para cocinar tu primera comida y dejar lista la segunda. Es cocina del día, distinta del meal-prep del domingo.",
+      "por": "Cuando rompes el ayuno con hambre, si no hay nada listo comes lo primero que encuentras. Tener comida preparada protege tu déficit.",
+      "como": [
+        "Saca de la nevera lo que preparaste el domingo: proteína cocida, verdura lavada, frijoles.",
+        "Cocina fresca la comida 1: por ejemplo huevos con claras, jitomate, cebolla y chile en la sartén con poco aceite.",
+        "Arma la comida 2 en un recipiente: proteína, carbohidrato y verduras. Déjala en la nevera.",
+        "Pesa la proteína en la báscula de cocina la primera semana para aprender las porciones.",
+        "Pon agua a enfriar para beber 500 ml antes de comer."
+      ],
+      "tips": [
+        {
+          "text": "Proteína primero en cada comida: cumple tus 180 g antes que el resto.",
+          "grade": "A"
+        },
+        {
+          "text": "Pesar la comida la primera semana te enseña cuánto es realmente una porción. Después lo calculas a ojo.",
+          "grade": "A"
+        },
+        {
+          "text": "Una sartén antiadherente y spray de aceite te ahorran 100 kcal al día.",
+          "grade": "B"
+        },
+        {
+          "text": "Las verduras acuosas (pepino, jícama, nopales, calabacita) llenan mucho y casi no tienen calorías.",
+          "grade": "A"
+        },
+        {
+          "text": "Comida aburrida y repetida: comes menos que con mucha variedad. Rota 3 platillos y listo.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "Sacar de la nevera la comida preparada y calentarla."
+    },
+    "comida-1": {
+      "que": "Tu primera comida del día, a las 10:00, con la que rompes el ayuno. El ayuno 16:8 es no comer durante 16 horas y comer solo en una ventana de 8 (de 10:00 a 18:00).",
+      "por": "Una comida con mucha proteína y fibra te saca el hambre y te mantiene en tu déficit de 1.950 kcal sin picar durante el día.",
+      "como": [
+        "Bebe 500 ml de agua 30 minutos antes. Llena y ayuda a comer menos.",
+        "Arma el plato: 40 a 60 g de proteína (huevos más claras, pechuga, atún, yogur griego), media porción de verdura y una porción pequeña de carbohidrato (tortillas de maíz, frijoles de olla, papaya).",
+        "Un ejemplo: 2 huevos más 200 ml de claras a la mexicana con jitomate, cebolla y chile, 2 tortillas de maíz, media taza de frijoles y media taza de papaya. Unas 500 kcal y 44 g de proteína.",
+        "Come sentado, sin pantalla, durante 20 minutos. La señal de llenura tarda unos 20 minutos en llegar.",
+        "Registra la comida en la app (foto o etiquetas)."
+      ],
+      "tips": [
+        {
+          "text": "Rompe el ayuno con comida real, con proteína; no con dulces ni pan solo. Los picos de azúcar te dan más hambre después.",
+          "grade": "A"
+        },
+        {
+          "text": "Lo que importa son las calorías del día. La ventana 16:8 solo evita que piques de noche.",
+          "grade": "A"
+        },
+        {
+          "text": "Papa hervida y enfriada es de lo más saciante que hay (índice de saciedad).",
+          "grade": "A"
+        },
+        {
+          "text": "Un poco de chile o habanero hace la comida más lenta de comer y sube un poco la saciedad.",
+          "grade": "B"
+        },
+        {
+          "text": "Vinagre de manzana: 1 cucharada diluida en agua antes de la comida más grande, con popote. Estudios chicos, efecto pequeño. Nunca puro.",
+          "grade": "B"
+        },
+        {
+          "text": "Cero calorías líquidas: refresco, jugo y alcohol no entran.",
+          "grade": "A"
+        }
+      ],
+      "minimo": "Huevos o pechuga con verdura. Proteína primero."
+    },
+    "comida-2": {
+      "que": "Tu comida principal del día, a las 14:00, la más grande de las tres, con la mayor parte de tus carbohidratos y proteína.",
+      "por": "Después de entrenar y estudiar necesitas combustible; hacerla grande y saciante evita que tengas hambre por la tarde.",
+      "como": [
+        "Si puedes, empieza con un caldo (de pollo, tlalpeño o consomé). Baja las calorías totales de la comida.",
+        "La mitad del plato: verduras (ensalada, nopales, calabacita). Un cuarto: 50 a 60 g de proteína (pollo, pescado, res magra, atún). Un cuarto: carbohidrato (papa, arroz, frijoles).",
+        "Un ejemplo en Cancún: pescado a la plancha, ensalada grande, frijoles de olla y arroz pequeño. Unas 620 a 700 kcal.",
+        "Come lento, 20 minutos, sin pantalla.",
+        "Toma agua; si sudaste mucho, agrega electrolitos sin azúcar."
+      ],
+      "tips": [
+        {
+          "text": "Los caldos y sopas antes de comer reducen las calorías totales de la comida.",
+          "grade": "A"
+        },
+        {
+          "text": "Fibra de 35 a 45 g al día (frijoles, avena, verduras, chía). Sube de a poco, 5 g por semana, para evitar gases.",
+          "grade": "A"
+        },
+        {
+          "text": "Potasio de comida (frijoles, aguacate, plátano, jitomate, agua de coco natural) ayuda a desinflamarte.",
+          "grade": "A"
+        },
+        {
+          "text": "Cuidado con los restaurantes: salsas y aceites duplican las calorías. Pide a la plancha, sin salsa cremosa.",
+          "grade": "A"
+        },
+        {
+          "text": "Un día libre sin control (cheat day) borra varios días de déficit. Mejor un refeed planeado.",
+          "grade": "D"
+        }
+      ],
+      "minimo": "Proteína, verdura y un carbohidrato simple. No te saltes la comida."
+    },
+    "comida-3": {
+      "que": "Tu última comida del día, ligera y alta en proteína, antes de las 18:00 cuando cierra la ventana del ayuno.",
+      "por": "Comer ligero y temprano mejora el sueño y evita el picoteo nocturno, que es donde más se pierde el déficit.",
+      "como": [
+        "Entre 17:00 y 17:30, 450 a 550 kcal con 45 a 50 g de proteína.",
+        "Ideas fáciles: atún con jícama y limón, yogur griego con una medida de proteína whey, ceviche de pescado, pechuga con ensalada, huevos duros con pepino.",
+        "Siéntate y come sin pantallas.",
+        "A las 18:00, lávate los dientes con pasta: te recuerda que se acabó la ventana.",
+        "Desde ahí, solo agua, agua con limón o té sin cafeína."
+      ],
+      "tips": [
+        {
+          "text": "Cerrar la cocina temprano es parte del plan; es lo que más ayuda a sostener el 16:8.",
+          "grade": "A"
+        },
+        {
+          "text": "Cenar al menos 3 horas antes de dormir mejora el sueño.",
+          "grade": "B"
+        },
+        {
+          "text": "Si te da hambre después de las 18:00, toma agua, té o café descafeinado y camina 10 minutos. La mayor parte es costumbre o aburrimiento.",
+          "grade": "B"
+        },
+        {
+          "text": "Chicle sin azúcar engaña a la boca, pero el sorbitol de algunos chicles inflama si abusas.",
+          "grade": "C"
+        },
+        {
+          "text": "Psyllium 5 g con 300 ml de agua 30 minutos antes ayuda a saciedad, y debes tomar mucha agua.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "Yogur griego con proteína o atún con verdura."
+    },
+    "caminata-post": {
+      "que": "Una caminata de 15 minutos justo después de comer. Hace que tu cuerpo gaste la glucosa (azúcar en sangre) en vez de guardarla.",
+      "por": "Baja el pico de glucosa después de comer, ayuda a la digestión y suma unos 1.500 a 2.000 pasos casi sin esfuerzo.",
+      "como": [
+        "Termina de comer y a los 5 minutos sal a caminar.",
+        "Camina a paso tranquilo pero constante, 10 a 15 minutos.",
+        "Si hace mucho calor, hazlo a la sombra o dentro de un centro comercial.",
+        "Aprovecha para audio pasivo en árabe o francés, o simplemente para respirar.",
+        "Regresa y registra la caminata."
+      ],
+      "tips": [
+        {
+          "text": "Caminar 10 a 15 minutos después de comer baja el pico de glucosa; hay un meta-análisis que lo respalda.",
+          "grade": "A"
+        },
+        {
+          "text": "Hazla después de las 3 comidas si puedes. Con la primera es la que más importa.",
+          "grade": "B"
+        },
+        {
+          "text": "Si te cae pesado, camina más lento los primeros 5 minutos.",
+          "grade": "C"
+        },
+        {
+          "text": "Hidrátate: en Cancún pierdes mucha agua por el calor y la humedad.",
+          "grade": "A"
+        },
+        {
+          "text": "Usa este rato para el 'self-talk': narra en voz baja lo que ves en árabe.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "5 minutos de pie caminando por la casa."
+    },
+    "fr-input": {
+      "que": "45 minutos de input comprensible: escuchar francés que entiendes en su mayoría (70 a 90%) pero con algo nuevo que te estira un poco. Input significa 'lo que entra' por los oídos o la lectura.",
+      "por": "El input comprensible es la manera más fuerte de adquirir un idioma, y sin tutor es tu principal fuente de oído y vocabulario.",
+      "como": [
+        "Elige el canal del día: Soirée avec Baba, Easy French, innerFrench (podcast y YouTube) o Français avec Pierre.",
+        "Ve el video en pantalla grande, con subtítulos en francés (no en español).",
+        "Primera pasada: sin pausas, 10 a 15 minutos, solo para entender la idea.",
+        "Segunda pasada: pausa en 3 a 5 frases que no entiendes, escríbelas y búscalas.",
+        "Marca 3 frases buenas y llévalas a tus tarjetas (sentence mining)."
+      ],
+      "tips": [
+        {
+          "text": "Ideal: que entiendas entre el 70 y el 90%. Si entiendes menos, baja de nivel; si entiendes todo, sube.",
+          "grade": "A"
+        },
+        {
+          "text": "Soirée avec Baba: nivel A2 a B2, con cultura y literatura. Easy French: entrevistas en la calle en Francia, subtítulos dobles. innerFrench: francés lento y natural, nivel B1 y más.",
+          "grade": "A"
+        },
+        {
+          "text": "Los subtítulos en tu idioma te dejan leer en vez de escuchar. Mejor en francés.",
+          "grade": "B"
+        },
+        {
+          "text": "Hacer clic en videos de francés en YouTube y TikTok durante la semana 1 llena tu algoritmo de francés sin que lo busques.",
+          "grade": "C"
+        },
+        {
+          "text": "Journal en français facile (RFI) son noticias de 10 minutos en francés simple, con transcripción gratis.",
+          "grade": "A"
+        },
+        {
+          "text": "Language Reactor (subtítulos dobles en Netflix y YouTube) solo funciona en computadora, no en iPhone.",
+          "grade": "A"
+        }
+      ],
+      "minimo": "15 minutos de un video de Easy French con subtítulos en francés."
+    },
+    "fr-lectura": {
+      "que": "20 minutos de lectura guiada en francés. Assimil es un método clásico de libro con audio: una lección diaria con un diálogo corto. LingQ es una app para leer textos con audio y marcar las palabras que no sabes.",
+      "por": "Leer te enseña a escribir y deletrear, amplía vocabulario y refuerza la gramática que oyes en el input.",
+      "como": [
+        "Con Assimil: lee el diálogo, escucha el audio mientras lees, y luego léelo en voz alta. En la segunda fase, traduce al francés la lección de hace unos días.",
+        "Con LingQ: elige un texto de tu nivel, lee con el audio, toca las palabras desconocidas para guardarlas.",
+        "Alternativas gratis: TV5Monde Apprendre (ejercicios con video real), RFI Journal en français facile (con transcripción), 1jour1actu (noticias para niños), Vikidia (enciclopedia fácil), Duolingo French Podcast.",
+        "Al terminar, elige 3 frases del texto y pásalas a tarjetas."
+      ],
+      "tips": [
+        {
+          "text": "Leer mucho texto fácil con audio (lectura extensiva) tiene evidencia fuerte. Mejor 20 minutos fáciles que 5 muy difíciles.",
+          "grade": "A"
+        },
+        {
+          "text": "Assimil es de pago (libro con audio). LingQ tiene versión gratis limitada. Si no quieres pagar, usa las alternativas gratis.",
+          "grade": "A"
+        },
+        {
+          "text": "Michel Thomas (audio para construir frases sin memorizar) es excelente para hispanohablantes en las primeras semanas.",
+          "grade": "B"
+        },
+        {
+          "text": "Lee en voz alta al menos la mitad del tiempo para entrenar la boca.",
+          "grade": "B"
+        },
+        {
+          "text": "No traduzcas palabra por palabra. Lee la frase completa y deduce.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "Un diálogo de Assimil o un artículo corto de RFI."
+    },
+    "fr-shadowing": {
+      "que": "Shadowing (sombra) es repetir en voz alta lo que oyes casi al mismo tiempo, como una sombra de la voz del hablante. 15 minutos.",
+      "por": "Entrena tu boca para el ritmo y los sonidos del francés y gana fluidez. Es hablar sin necesitar a otra persona.",
+      "como": [
+        "Elige un audio corto del input del día, una frase de 3 a 8 palabras.",
+        "Escúchala 2 veces sin hablar, leyendo la transcripción.",
+        "Repítela encima del audio, imitando ritmo, entonación y sonidos, 5 veces seguidas.",
+        "Camina mientras lo haces, así sale mejor.",
+        "Una vez por semana grábate y compara con el original.",
+        "Pasa a la siguiente frase. Terminas con 5 a 8 frases."
+      ],
+      "tips": [
+        {
+          "text": "Imita la música de la frase (subidas y bajadas), no solo las palabras.",
+          "grade": "B"
+        },
+        {
+          "text": "Shadowing funciona para pronunciación y fluidez; para ampliar vocabulario necesitas además input y tarjetas.",
+          "grade": "B"
+        },
+        {
+          "text": "Las vocales nasales (on, an, in) y la 'u' y la 'r' francesas: practícalas frente a un espejo.",
+          "grade": "B"
+        },
+        {
+          "text": "Frases cortas, repetidas muchas veces, ganan a textos largos una vez.",
+          "grade": "B"
+        },
+        {
+          "text": "Al principio puedes hacerlo con el texto delante; después sin texto.",
+          "grade": "C"
+        }
+      ],
+      "minimo": "3 frases, 5 repeticiones cada una."
+    },
+    "ar-frases": {
+      "que": "25 minutos escribiendo en Arabizi (árabe escrito con letras latinas y números, como se escribe en WhatsApp) lo que le dirás a tu novia en la llamada, y grabándote en la app diciéndolo.",
+      "por": "Planear lo que vas a decir hace que en la llamada hables más y mejor. Es 'output forzado': te obliga a notar lo que te falta.",
+      "como": [
+        "Piensa en 5 cosas que quieres contarle hoy (qué comiste, qué entrenaste, qué aprendiste, algo gracioso).",
+        "Escribe cada una en Arabizi, en frases cortas, usando las palabras de tus tarjetas. Si te falta una palabra, déjala en español entre corchetes.",
+        "Busca esas palabras en Living Arabic o pídele a tu IA que te las ponga en libanés de Beirut.",
+        "Léelas en voz alta y grábate en la app. Escucha y compara con el audio de referencia.",
+        "Repite 3 veces cada frase hasta que te suene natural.",
+        "Deja la lista lista para leer de reojo durante la llamada."
+      ],
+      "tips": [
+        {
+          "text": "Escribir y hablar (output) te revela lo que no sabes; es parte esencial de aprender.",
+          "grade": "A"
+        },
+        {
+          "text": "Las IA mezclan árabe estándar con dialecto. Pídele 'solo dialecto de Beirut en Arabizi' y verifica con tu novia.",
+          "grade": "B"
+        },
+        {
+          "text": "Cada persona escribe el Arabizi un poco distinto (kifek, kifak, keefek). Copia el estilo de ella.",
+          "grade": "A"
+        },
+        {
+          "text": "Anota la frase completa, no la traducción palabra por palabra.",
+          "grade": "B"
+        },
+        {
+          "text": "Memoriza 3 conectores útiles: 'bas' (pero), 'la2anno' (porque), 'ba3dein' (después).",
+          "grade": "B"
+        }
+      ],
+      "minimo": "3 frases escritas y dichas en voz alta una vez."
+    },
+    "pendientes": {
+      "que": "30 minutos para resolver trámites, mensajes y pendientes de la vida real (papeles, pagos, citas), sin redes sociales.",
+      "por": "Los pendientes sin resolver ocupan espacio en la cabeza y te empujan a distraerte. Resolverlos en un bloque limpia tu mente.",
+      "como": [
+        "Escribe una lista de todo lo pendiente, sin ordenarla.",
+        "Elige los 3 más importantes. Los que toman menos de 2 minutos hazlos ya.",
+        "Trabaja uno por uno con el temporizador, en modo avión excepto lo que necesites.",
+        "Si algo depende de otra persona, manda el mensaje y márcalo como esperando.",
+        "Cierra con la lista actualizada. Si algo quedó, pasa a mañana."
+      ],
+      "tips": [
+        {
+          "text": "Regla de los 2 minutos: si toma menos de 2 minutos, hazlo ahora.",
+          "grade": "B"
+        },
+        {
+          "text": "Agrupar tareas parecidas (correos juntos, llamadas juntas) ahorra tiempo.",
+          "grade": "B"
+        },
+        {
+          "text": "Sin redes, ni 'rapidito'. Una revisada de redes se come 30 minutos y puede disparar antojos.",
+          "grade": "A"
+        },
+        {
+          "text": "Pon el teléfono en Tiempo en pantalla con un límite para redes, con un código que solo sabe alguien de confianza.",
+          "grade": "A"
+        },
+        {
+          "text": "Si un trámite es presencial, hazlo temprano, antes del calor.",
+          "grade": "C"
+        }
+      ],
+      "minimo": "Un solo pendiente, el más incómodo."
+    },
+    "llamada": {
+      "que": "60 minutos de llamada con tu novia en su noche (13:00 en Cancún son las 20:00 en Beirut). Aquí practicas árabe de verdad, hablando con ella.",
+      "por": "Es tu mejor práctica de habla sin tutor: una persona real, con quien quieres comunicarte, que te corrige con cariño.",
+      "como": [
+        "Antes de llamar, repasa la lista de frases del bloque 'ar-frases'.",
+        "Los primeros 10 minutos hablen solo en árabe: saludos, cómo estuvo el día. Lo que no sepas, dilo en español o inglés y pregunta cómo se dice.",
+        "Pídele que te corrija solo 1 o 2 cosas por llamada, para no cortar la conversación.",
+        "Apunta (en la libreta) cada frase nueva que te diga.",
+        "Antes de colgar, repite en voz alta las 3 frases nuevas más útiles y diles que las vas a usar mañana.",
+        "Después, pasa las frases nuevas a tus tarjetas de árabe."
+      ],
+      "tips": [
+        {
+          "text": "Hablar con una persona real desde el principio te quita el miedo y es lo que más te acelera.",
+          "grade": "A"
+        },
+        {
+          "text": "Mezclar árabe con francés o inglés en una frase (code-switching) es totalmente normal en Beirut. No te castigues por eso.",
+          "grade": "A"
+        },
+        {
+          "text": "Es su noche y está cansada: que la llamada sea cálida, no una clase. El idioma es una parte, no todo.",
+          "grade": "B"
+        },
+        {
+          "text": "Dile una cosa nueva en árabe que no hayas dicho antes cada día. Eso muestra progreso.",
+          "grade": "C"
+        },
+        {
+          "text": "Grábate la llamada de audio solo si ella está de acuerdo; escuchar tu voz después ayuda mucho.",
+          "grade": "B"
+        },
+        {
+          "text": "Sin celular a un lado y sin distracciones: toda la atención en ella.",
+          "grade": "A"
+        }
+      ],
+      "minimo": "20 minutos de llamada con 10 de ellos en árabe."
+    },
+    "nsdr": {
+      "que": "NSDR significa 'Non-Sleep Deep Rest', descanso profundo sin dormir. Te acuestas con los ojos cerrados y sigues un audio guiado que relaja el cuerpo por partes. Es parecido al Yoga Nidra, una práctica india de relajación guiada. Dura 20 minutos.",
+      "por": "Recarga energía y atención para la tarde sin el sueño pesado de una siesta larga, y sin romper tu sueño de la noche.",
+      "como": [
+        "Pon una alarma de 25 minutos.",
+        "Acuéstate boca arriba en un lugar fresco y sin luz fuerte, con los ojos cerrados y el teléfono en modo avión (puedes reproducir un audio descargado).",
+        "Busca en YouTube 'NSDR 20 minutos' o 'Yoga Nidra 20 minutos en español'. En Spotify busca 'Yoga Nidra' o 'NSDR'. La app Insight Timer también tiene audios gratis.",
+        "Sigue la voz: respira lento, relaja cada parte del cuerpo y no trates de dormirte.",
+        "Si te quedas dormido, está bien, pero la alarma te despierta a los 20 minutos. Nunca más de 20."
+      ],
+      "tips": [
+        {
+          "text": "La relajación guiada reduce estrés y mejora la sensación de energía. El efecto es real, aunque los mejores estudios son chicos.",
+          "grade": "B"
+        },
+        {
+          "text": "Un estudio pequeño de 2002 midió más dopamina durante el Yoga Nidra. No lo tomes como prueba, solo como pista.",
+          "grade": "C"
+        },
+        {
+          "text": "Siesta máxima de 20 minutos y antes de las 15:00. Más que eso te mete en sueño profundo y arruina la noche.",
+          "grade": "A"
+        },
+        {
+          "text": "También sirve si despiertas a las 3:00 y no puedes volver a dormir.",
+          "grade": "B"
+        },
+        {
+          "text": "Un audio en español te ayuda a no pensar en idiomas; uno en francés cuenta como input si lo entiendes.",
+          "grade": "C"
+        }
+      ],
+      "minimo": "10 minutos con los ojos cerrados y respiración lenta."
+    },
+    "ar-input": {
+      "que": "50 minutos de escuchar y ver árabe libanés que entiendes en parte: Talk In Arabic, Shankaboot, Hayda Haki o Sarde.",
+      "por": "El input real de Beirut es lo que te va a permitir entender a tu novia y a su familia. Sin tutor, es tu principal maestro.",
+      "como": [
+        "Semanas 1 a 4: Talk In Arabic (YouTube): diálogos libaneses lentos.",
+        "Semanas 3 a 8: Shankaboot (webserie de jóvenes de Beirut, en YouTube con subtítulos en inglés) y Hayda Haki (comedia y entrevistas de Adel Karam).",
+        "Semanas 8 a 12: Sarde (After Dinner), podcast en video de Beirut. Es nivel alto.",
+        "Primera pasada sin pausa para pillar el tema; segunda pasada pausando 3 a 5 frases.",
+        "Escribe en Arabizi 3 frases útiles y llévalas a tus tarjetas.",
+        "Escucha una canción de Fairuz o Elyanna al final como cierre."
+      ],
+      "tips": [
+        {
+          "text": "Los subtítulos en árabe suelen estar en alfabeto árabe y a veces en árabe estándar, no en dialecto. Úsalos para el audio, no para aprender a escribir.",
+          "grade": "A"
+        },
+        {
+          "text": "Evita noticias de Al Jazeera y similares: es árabe estándar, no el que se habla en Beirut.",
+          "grade": "A"
+        },
+        {
+          "text": "Pídele a tu novia que te recomiende sus series y podcasts favoritos.",
+          "grade": "B"
+        },
+        {
+          "text": "Mucho pop 'libanés' está cantado en dialecto egipcio. Prioriza Fairuz, Elyanna, Saint Levant y Mashrou' Leila.",
+          "grade": "A"
+        },
+        {
+          "text": "Las recetas libanesas en YouTube, en árabe, repiten vocabulario de comida y son muy visuales.",
+          "grade": "C"
+        },
+        {
+          "text": "Más importante que entender todo es acostumbrar el oído al ritmo y los sonidos 3, 7, 2, 5.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "20 minutos de Talk In Arabic o un voice note de tu novia."
+    },
+    "ar-shadowing": {
+      "que": "Shadowing de árabe libanés: repetir en voz alta, casi al mismo tiempo, frases del audio que acabas de escuchar. 20 minutos.",
+      "por": "Entrena tu boca para los sonidos que no existen en español (3, 7, 5, 2) y ganas ritmo natural, sin tutor.",
+      "como": [
+        "Escoge 5 frases del input de hoy, cortas (3 a 8 palabras).",
+        "Escucha cada una 2 veces con la transcripción en Arabizi.",
+        "Repite encima del audio 5 veces, imitando el sonido y la melodía.",
+        "Camina o párate mientras lo haces.",
+        "Una vez por semana, grábate y compara con el original, y mándale un audio a tu novia pidiéndole 1 corrección."
+      ],
+      "tips": [
+        {
+          "text": "El 7 es una 'h' fuerte de la garganta, el 3 sale de la garganta con la voz y el 2 es un cierre breve. Practícalos solos 5 minutos al día las primeras semanas.",
+          "grade": "A"
+        },
+        {
+          "text": "Usa la boca frente al espejo para comparar con el hablante.",
+          "grade": "B"
+        },
+        {
+          "text": "Canciones de Fairuz sirven como shadowing por su dicción clara.",
+          "grade": "B"
+        },
+        {
+          "text": "No hay modelo confiable que califique tu pronunciación en libanés; compara de oído y pregunta a tu novia.",
+          "grade": "A"
+        },
+        {
+          "text": "Grábate con las Notas de voz del iPhone y escucha con audífonos.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "3 frases, 5 repeticiones cada una."
+    },
+    "buenas-noches": {
+      "que": "Un mensaje de buenas noches a tu novia, a las 16:00 de Cancún, cuando en Beirut son las 23:00 y se va a dormir.",
+      "por": "Cierra el día con ella y te da una práctica más de escritura en árabe.",
+      "como": [
+        "A las 16:00, escribe o graba un voice note corto en árabe.",
+        "Ejemplo: 'tesba7i 3ala khér', 'nami mni7', 'bshta2lek'. Pregúntale a ella cómo lo dice en su familia para ajustarlo.",
+        "Cuéntale una cosa del día en una frase simple, en árabe.",
+        "Cierra el teléfono. Sigue con tu bloque libre."
+      ],
+      "tips": [
+        {
+          "text": "Los mensajes de pareja son el mejor vocabulario para memorizar: mucha emoción, mucha repetición.",
+          "grade": "B"
+        },
+        {
+          "text": "Es 5 minutos. No lo conviertas en una conversación larga, ya hablaron en la llamada.",
+          "grade": "C"
+        },
+        {
+          "text": "Usa los números del Arabizi de la misma forma que ella, para que se vea natural.",
+          "grade": "A"
+        },
+        {
+          "text": "Apunta cualquier respuesta nueva suya para tus tarjetas.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "Un 'tesba7i 3ala khér' en voice note."
+    },
+    "ar-hablar": {
+      "que": "60 minutos de práctica de habla en árabe libanés SIN tutor pagado. Combinas cinco herramientas gratis para reemplazar al tutor: IA por voz, intercambio con libaneses, self-talk (hablarte en voz alta), voice notes a tu novia y sentence mining.",
+      "por": "Tu prioridad es hablar con tu novia y su familia. Sin tutor, la única forma es que hables mucho y que alguien (ella, un nativo) te corrija.",
+      "como": [
+        "10 min self-talk: mientras cocinas o caminas, narra lo que haces en voz alta en árabe ('hala2 3am e3mol 2ahwe'). Si no sabes una palabra, apúntala.",
+        "20 min conversación de voz con una IA (ChatGPT Voice, Gemini Live o similar). Escribe primero: «Háblame solo en dialecto libanés de Beirut, en Arabizi, frases cortas, nivel A1. No uses árabe estándar. Cada 5 turnos corrígeme 3 cosas en español.»",
+        "15 min con un libanés de intercambio en HelloTalk o Tandem (gratis): tú le ayudas con español y él contigo con libanés. Manda voice notes, no solo texto.",
+        "10 min voice note a tu novia contándole algo largo y pídele 2 correcciones.",
+        "5 min sentence mining: escribe las frases que no supiste decir en esta hora y pásalas a tarjetas."
+      ],
+      "tips": [
+        {
+          "text": "Hablar mucho con corrección es lo que más rápido sube el nivel; el intercambio con nativos es muy bueno para motivación.",
+          "grade": "A"
+        },
+        {
+          "text": "La IA por voz es excelente para volumen y perder el miedo, pero mezcla árabe estándar, egipcio y libanés. Verifica lo que aprendas con tu novia.",
+          "grade": "B"
+        },
+        {
+          "text": "En HelloTalk y Tandem, di desde el primer mensaje que quieres dialecto libanés. Muchos prefieren practicar inglés; ofrece ayudar con español a cambio.",
+          "grade": "B"
+        },
+        {
+          "text": "Self-talk: el árabe que no sabes decir hoy es la tarjeta de mañana.",
+          "grade": "A"
+        },
+        {
+          "text": "Los pares mínimos (3 contra 2, 7 contra 5) y el espejo 5 minutos al día en las semanas 1 a 3 ayudan mucho a la pronunciación.",
+          "grade": "A"
+        },
+        {
+          "text": "Un tutor humano sería más eficiente, pero esta combinación gratis, bien hecha, es un 70% de ese resultado.",
+          "grade": "C"
+        },
+        {
+          "text": "No publiques datos personales con desconocidos en apps de intercambio.",
+          "grade": "A"
+        }
+      ],
+      "minimo": "10 minutos de self-talk y un voice note a tu novia."
+    },
+    "caminata-podcast": {
+      "que": "Una caminata de 40 minutos con un podcast en francés en tus audífonos. Es input mientras te mueves.",
+      "por": "Suma pasos para tu pérdida de grasa y a la vez horas de escucha de francés sin quitarle tiempo a nada.",
+      "como": [
+        "Elige el podcast: innerFrench, Journal en français facile (RFI), Coffee Break French, Easy French Podcast o Français Authentique.",
+        "Camina 40 minutos a paso ligero, a la sombra o por la tarde cuando baja el calor.",
+        "Escucha entero una vez; si entiendes poco, vuelve al mismo episodio mañana.",
+        "Cuando oigas una frase buena, repítela en voz baja (shadowing).",
+        "Al volver, anota 2 o 3 frases nuevas para tus tarjetas."
+      ],
+      "tips": [
+        {
+          "text": "Escuchar el mismo episodio varias veces mejora más la comprensión que escuchar episodios nuevos todo el rato.",
+          "grade": "B"
+        },
+        {
+          "text": "Toma agua y usa gorra. El sol de la tarde sigue siendo fuerte.",
+          "grade": "A"
+        },
+        {
+          "text": "Dos velocidades: si el audio es muy rápido, baja la velocidad a 0.85x en la app de podcasts.",
+          "grade": "C"
+        },
+        {
+          "text": "Camina antes de las 8:00 o después de las 17:00 si hay mucho calor.",
+          "grade": "A"
+        },
+        {
+          "text": "Transcripciones de RFI y innerFrench son gratis, léelas después.",
+          "grade": "A"
+        }
+      ],
+      "minimo": "20 minutos de caminata con un episodio corto."
+    },
+    "fr-hablar": {
+      "que": "45 minutos de práctica de habla en francés SIN tutor: intercambio gratis (Tandem o HelloTalk), conversación de voz con IA, self-talk y grabarte.",
+      "por": "Quieres hablar francés con soltura. Hablar mucho con corrección te lleva al B1 sin pagar.",
+      "como": [
+        "10 min self-talk: narra en voz alta lo que haces, en francés ('je prépare le petit-déjeuner, il fait chaud').",
+        "15 min conversación de voz con IA en francés. Pide: «Hablemos en francés de Francia, nivel A2, frases cortas, corrígeme al final.»",
+        "15 min de intercambio con un francés en Tandem o HelloTalk (30 min tú y 30 min él, 2 veces por semana). El resto de los días, voice notes.",
+        "5 min: grábate 2 minutos contando tu día y escúchate. Anota 2 errores."
+      ],
+      "tips": [
+        {
+          "text": "Grabarte y escucharte te hace notar errores que no sientes mientras hablas.",
+          "grade": "A"
+        },
+        {
+          "text": "La IA por voz en francés es muy buena: pronuncia y corrige bien. Úsala para volumen.",
+          "grade": "B"
+        },
+        {
+          "text": "En Tandem, escribe en tu perfil que buscas hablar por voz. Evita que se quede todo en chat.",
+          "grade": "B"
+        },
+        {
+          "text": "Aprende 'hesitation words' (euh, ben, alors, du coup) para sonar natural.",
+          "grade": "B"
+        },
+        {
+          "text": "No repitas sin pensar; di cosas que quieres decir de verdad.",
+          "grade": "C"
+        }
+      ],
+      "minimo": "5 minutos de self-talk y un audio de 1 minuto."
+    },
+    "diario": {
+      "que": "15 minutos para escribir un diario con 3 preguntas en la app.",
+      "por": "Te ayuda a ver patrones (qué te dispara antojos o recaídas), a cerrar el día con la mente tranquila y a medir tu progreso.",
+      "como": [
+        "Usa las 3 preguntas de la app. Si no las tienes: ¿Qué hice bien hoy? ¿Qué me costó o me tentó, y qué lo disparó (hambre, cansancio, soledad, aburrimiento)? ¿Cuál será lo primero que haga mañana?",
+        "Escribe a mano o en la app, 3 a 5 líneas por pregunta, sin censurarte.",
+        "Revisa el registro de comidas completo y el checklist de mañana.",
+        "Cierra la app. Nada de revisar redes después."
+      ],
+      "tips": [
+        {
+          "text": "Escribir sobre emociones y registrar gratitud mejora el ánimo de forma moderada.",
+          "grade": "B"
+        },
+        {
+          "text": "Anotar disparadores ayuda a prevenir recaídas: usa el método HALT (Hungry, Angry, Lonely, Tired).",
+          "grade": "A"
+        },
+        {
+          "text": "Si recaes, anótalo sin castigo: qué pasó, qué sentías, y qué harías distinto. La vergüenza alimenta el ciclo.",
+          "grade": "A"
+        },
+        {
+          "text": "De vez en cuando escribe una frase en árabe o francés al final.",
+          "grade": "C"
+        },
+        {
+          "text": "Un plan de 'si... entonces': 'si siento urge después de las 20:00, salgo a caminar 10 minutos'.",
+          "grade": "A"
+        }
+      ],
+      "minimo": "3 frases, una por pregunta."
+    },
+    "fr-serie": {
+      "que": "50 minutos viendo una serie en francés con subtítulos en francés. Es inmersión relajada.",
+      "por": "Es la mejor manera de oír francés real, rápido y cotidiano, y de que te guste el idioma.",
+      "como": [
+        "Elige una serie de Francia: Dix pour cent (Call My Agent), Lupin, Plan Cœur, Family Business, En Place, o los videos de Bref. La disponibilidad cambia, revisa Netflix México.",
+        "En el iPhone o la tele, pon el idioma en francés y los subtítulos en francés.",
+        "Mira entero 1 episodio de 40 a 50 minutos. Pausa solo 3 o 4 veces para frases que no entiendes.",
+        "Anota 3 frases de lenguaje cotidiano ('du coup', 'franchement', 'j'sais pas') para tus tarjetas.",
+        "Termina antes de las 19:55. Después, pantallas fuera."
+      ],
+      "tips": [
+        {
+          "text": "Subtítulos en francés (no español) conectan lo que oyes con lo que lees: es mucho más efectivo.",
+          "grade": "A"
+        },
+        {
+          "text": "Series de comedia y vida cotidiana tienen más francés hablado útil que thrillers.",
+          "grade": "B"
+        },
+        {
+          "text": "Language Reactor (subtítulos dobles y pausa automática) solo en computadora, no en iPhone.",
+          "grade": "A"
+        },
+        {
+          "text": "Empieza con episodios cortos (Bref) si 50 minutos se te hace mucho.",
+          "grade": "C"
+        },
+        {
+          "text": "Sin celular en la mano. Si lo usas, caes en redes.",
+          "grade": "A"
+        },
+        {
+          "text": "Evita ver series en la cama: el último momento antes de dormir debe ser sin pantalla.",
+          "grade": "A"
+        }
+      ],
+      "minimo": "20 minutos de un episodio con subtítulos en francés."
+    },
+    "pantallas-fuera": {
+      "que": "A las 20:00 el iPhone se va fuera del cuarto en modo avión, y desde aquí la casa se queda con luces cálidas o rojas. La luz roja de noche casi no frena la melatonina, que es la hormona que le avisa a tu cuerpo que es de noche.",
+      "por": "Las pantallas y la luz blanca o azul retrasan el sueño, y el teléfono en la cama es el momento de mayor riesgo para el porno o el scroll. Quitarlo es la barrera más fuerte que puedes poner.",
+      "como": [
+        "A las 20:00, activa el modo avión y deja el iPhone cargando en la cocina o la sala.",
+        "En el iPhone, configura Enfoque > Descanso (o Sleep) para que se active solo a las 20:00.",
+        "Apaga las luces del techo. Usa solo una lámpara con foco ámbar o rojo, a baja altura.",
+        "Si necesitas ver algo, brillo mínimo y modo noche. Mejor: nada de pantallas.",
+        "Usa una alarma física para despertarte, no el teléfono.",
+        "Opcional: panel de luz roja a 30 cm unos 10 minutos (ver compras)."
+      ],
+      "tips": [
+        {
+          "text": "La luz de longitud de onda corta (azul, blanca) frena la melatonina; la luz roja la frena muy poco. Por eso un foco rojo es mejor que uno blanco de noche.",
+          "grade": "B"
+        },
+        {
+          "text": "La luz roja no 'te da sueño' por sí sola, solo no lo estorba. Lo que más importa es que la luz sea baja y tenue.",
+          "grade": "B"
+        },
+        {
+          "text": "Un estudio pequeño con basquetbolistas (2012) halló mejor sueño con terapia de luz roja; es una sola prueba y chica.",
+          "grade": "C"
+        },
+        {
+          "text": "Melatonina como suplemento: 0.5 a 3 mg, 1 o 2 horas antes de dormir, solo para jet lag. Dosis bajas funcionan igual que altas.",
+          "grade": "B"
+        },
+        {
+          "text": "Teléfono fuera del cuarto: el momento de más riesgo de recaída es solo, en la cama, con el teléfono.",
+          "grade": "A"
+        },
+        {
+          "text": "En el iPhone: Ajustes > Tiempo en pantalla > Restricciones de contenido > Limitar sitios web para adultos, y que el código lo tenga alguien de confianza.",
+          "grade": "A"
+        },
+        {
+          "text": "Pastillas para dormir sin receta: no, sobre todo si estás dejando adicciones.",
+          "grade": "D"
+        }
+      ],
+      "minimo": "El iPhone en modo avión, fuera del cuarto, a las 20:00."
+    },
+    "glow-pm": {
+      "que": "Tu rutina de piel y dientes de la noche: limpieza, retinoide (según el día), hidratante, dientes e hilo dental. Un retinoide es un derivado de la vitamina A que renueva la piel y ayuda con granos y poros.",
+      "por": "De noche la piel se repara; limpiar el protector y el sudor, y usar retinoide, mejora textura y granos con los meses.",
+      "como": [
+        "Si usaste mucho protector o sudaste, doble limpieza: primero agua micelar (Bioderma, Garnier), luego tu limpiador normal.",
+        "Retinoide solo en tus noches de calendario: semanas 1 y 2 lunes y jueves; semanas 3 y 4 lunes, miércoles y viernes; desde la semana 5 noche sí, noche no. Del tamaño de un chícharo para toda la cara.",
+        "Truco sándwich si irrita: hidratante, retinoide, hidratante.",
+        "Hidratante más densa (CeraVe crema, Cetaphil).",
+        "Cepíllate 2 minutos y usa hilo dental. Limpia la lengua.",
+        "Cambia la funda de almohada 2 veces por semana."
+      ],
+      "tips": [
+        {
+          "text": "Retinoide: adapaleno 0.1% (Differin) es buen punto de partida para granos y poros. La tretinoína es más fuerte y pide receta del dermatólogo.",
+          "grade": "A"
+        },
+        {
+          "text": "Los primeros 4 a 6 semanas puede haber sequedad, descamación y más granos temporales. Si arde mucho, baja la frecuencia.",
+          "grade": "A"
+        },
+        {
+          "text": "Con retinoide, protector solar al día siguiente sin falta.",
+          "grade": "A"
+        },
+        {
+          "text": "Isotretinoína (Roaccutan) sin dermatólogo: no. Es un medicamento fuerte con efectos graves; en su lugar, adapaleno o consulta.",
+          "grade": "D"
+        },
+        {
+          "text": "Parches de hidrocoloide para granos: aplanan y evitan que te los toques.",
+          "grade": "B"
+        },
+        {
+          "text": "Gua sha o rodillo 3 a 5 minutos con crema: desinflama un poco por un rato. No esculpe hueso.",
+          "grade": "C"
+        },
+        {
+          "text": "Funda de seda: poca evidencia. Cambiar la funda 2 veces por semana sí ayuda con granos.",
+          "grade": "C"
+        }
+      ],
+      "minimo": "Limpiar la cara, hidratante, dientes e hilo."
+    },
+    "bajar-revoluciones": {
+      "que": "El último bloque antes de la cama: estiramientos 10 minutos, respiración 5 minutos y lectura en papel con luz roja o ámbar.",
+      "por": "Le dice a tu sistema nervioso que el día terminó, baja el pulso y hace que llegues a la cama con sueño, no con la cabeza prendida.",
+      "como": [
+        "10 minutos de estiramientos suaves en el piso: caderas, isquiotibiales, espalda baja, hombros. 30 a 60 segundos por postura, sin dolor.",
+        "5 minutos de respiración: inhala por la nariz 4 segundos, exhala por la boca 6 segundos, o 4-7-8 (inhala 4, retén 7, exhala 8). Un 'suspiro fisiológico' (dos inhalaciones nasales y una larga exhalación) calma rápido.",
+        "Lectura en papel (o Kindle sin luz) con una lámpara ámbar o roja, 20 a 30 minutos.",
+        "Escribe en la libreta las 3 frases de árabe para el voice note de mañana."
+      ],
+      "tips": [
+        {
+          "text": "Respiración lenta con exhalación más larga que la inhalación baja la activación del cuerpo.",
+          "grade": "A"
+        },
+        {
+          "text": "Leer en papel es relajante y no emite luz azul; elige algo aburrido o ligero, nunca algo que te enganche demasiado.",
+          "grade": "B"
+        },
+        {
+          "text": "Meditación diaria de 10 minutos reduce estrés y ansiedad (meta-análisis).",
+          "grade": "A"
+        },
+        {
+          "text": "Magnesio glicinato 200 a 400 mg en la noche: evidencia débil, bajo riesgo si tus riñones están bien.",
+          "grade": "C"
+        },
+        {
+          "text": "Una ducha tibia 1 o 2 horas antes de la cama ayuda a dormirte más rápido.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "5 minutos de respiración 4-6 y 10 páginas."
+    },
+    "cama": {
+      "que": "A las 21:15 te acuestas en un cuarto fresco (24 °C o menos), oscuro y silencioso, con tapones y antifaz si hace falta. A las 21:30 apagas la luz.",
+      "por": "Dormir 7.5 horas es parte del plan: con sueño corto pierdes menos grasa, más músculo y tienes más hambre y antojos.",
+      "como": [
+        "Ajusta el aire acondicionado a 22 o 24 °C, o enciende el ventilador. Idealmente 18 a 21 °C, pero en Cancún con 24 °C es aceptable.",
+        "Cuarto oscuro: cortinas blackout o antifaz. Si hay ruido, tapones de espuma.",
+        "Sábana ligera, almohada cómoda. Duerme boca arriba si puedes.",
+        "Acuéstate a las 21:15, deja el cuarto sin pantallas y sin luz.",
+        "Una respiración lenta 4-6 hasta que te duermas."
+      ],
+      "tips": [
+        {
+          "text": "Cuarto fresco, oscuro y silencioso: lo básico para dormir bien.",
+          "grade": "A"
+        },
+        {
+          "text": "Cero alcohol: te duerme pero rompe el sueño profundo y el REM.",
+          "grade": "A"
+        },
+        {
+          "text": "Los ronquidos fuertes, despertar cansado o cabecear de día pueden ser apnea del sueño; con IMC alto es riesgo real. Pide un estudio de sueño.",
+          "grade": "A"
+        },
+        {
+          "text": "Cinta en la boca para dormir (mouth taping): no hasta descartar apnea. Si lo haces, solo cinta suave y porosa.",
+          "grade": "D"
+        },
+        {
+          "text": "Calcetines si tienes los pies fríos: ayuda a dormirte más rápido.",
+          "grade": "C"
+        },
+        {
+          "text": "Dormir boca arriba ayuda a evitar arrugas y asimetría, aunque con poca evidencia.",
+          "grade": "C"
+        }
+      ],
+      "minimo": "En cama a las 21:30 con el cuarto oscuro, sin teléfono."
+    },
+    "dormir": {
+      "que": "7.5 horas de sueño, de 21:30 a 5:00. Aquí está qué hacer si no te puedes dormir o te despiertas a las 3:00.",
+      "por": "Sin dormir bien no hay pérdida de grasa, ni memoria de idiomas, ni control de impulsos. El sueño es la base de todo.",
+      "como": [
+        "Si en 20 minutos no te duermes, no te quedes dando vueltas: levántate, ve a otro lugar con luz roja o ámbar baja y lee algo aburrido, y vuelve cuando tengas sueño.",
+        "Si te despiertas a las 3:00, no mires la hora ni el teléfono. Quédate a oscuras y haz respiración 4-6 o un audio de NSDR descargado.",
+        "No te levantes a hacer cosas antes de las 5:00. Si ya no hay sueño a las 4:30, descansa con los ojos cerrados.",
+        "Esa noche, acuéstate a la hora de siempre. No compenses durmiendo más tarde.",
+        "En la semana 1 (jet lag), es normal despertar entre 2:00 y 4:00; el ajuste tarda 4 a 7 días."
+      ],
+      "tips": [
+        {
+          "text": "Misma hora de dormir y despertar los 7 días, incluso el domingo.",
+          "grade": "A"
+        },
+        {
+          "text": "La regla de los 20 minutos (levantarte si no te duermes) es parte de la terapia cognitivo-conductual para insomnio.",
+          "grade": "A"
+        },
+        {
+          "text": "Mirar la hora a las 3:00 sube la ansiedad. Gira el reloj.",
+          "grade": "B"
+        },
+        {
+          "text": "Melatonina 0.5 a 3 mg solo para jet lag, no todas las noches de forma indefinida.",
+          "grade": "B"
+        },
+        {
+          "text": "Con 5.5 h de sueño en dieta, la grasa perdida baja alrededor de la mitad y se pierde más músculo.",
+          "grade": "A"
+        },
+        {
+          "text": "Pastillas para dormir (zolpidem, clonazepam) sin receta: no. Dependencia, y más riesgo si estás saliendo de adicciones.",
+          "grade": "D"
+        }
+      ],
+      "minimo": "Acostarte a las 21:30 y quedarte a oscuras, aunque tardes."
+    },
+    "medicion": {
+      "que": "El domingo mides tu progreso: peso en ayunas, cintura a la altura del ombligo y 4 fotos con la misma luz y lugar.",
+      "por": "El peso del día sube y baja por agua; una medición semanal con fotos te muestra la tendencia real y evita desanimarte.",
+      "como": [
+        "Peso: al despertar, después de ir al baño y antes de beber, con la misma báscula, en el mismo lugar y sin ropa.",
+        "Cintura: de pie, relajado, cinta métrica a la altura del ombligo, paralela al piso, mide después de exhalar normal. Sin meter el abdomen.",
+        "Fotos: frente, perfil izquierdo, perfil derecho y espalda, con el mismo fondo, luz y distancia. Mismo calzón o short.",
+        "Guárdalo todo en la app. Mira la media móvil de 7 días, no el número de hoy."
+      ],
+      "tips": [
+        {
+          "text": "Pesarte todos los días y mirar la media móvil de 7 días es más fiel que un solo día.",
+          "grade": "A"
+        },
+        {
+          "text": "La cintura y las fotos muestran cambios que la báscula no (más músculo y menos grasa).",
+          "grade": "A"
+        },
+        {
+          "text": "Un peso estancado unos días no significa nada. El 'efecto whoosh' (bajar de golpe después) es por retención de agua que se libera.",
+          "grade": "B"
+        },
+        {
+          "text": "La creatina puede subir 1 a 2 kg la primera semana: no es grasa.",
+          "grade": "A"
+        },
+        {
+          "text": "Compara la foto de hoy con la del día 1 en la app, con transparencia.",
+          "grade": "C"
+        }
+      ],
+      "minimo": "Solo el peso en ayunas."
+    },
+    "caminata-larga": {
+      "que": "Una caminata larga de domingo, 60 a 90 minutos, al amanecer y sin prisa.",
+      "por": "Suma miles de pasos, es cardio suave que no cansa y te da tiempo para pensar y escuchar idioma.",
+      "como": [
+        "Sal al amanecer con protector solar, gorra y una botella de 1 litro.",
+        "Elige una ruta: Malecón Tajamar, Parque de las Palapas, playa o una ciclovía.",
+        "Paso conversable, 60 a 90 minutos. Si hace calor, a la sombra.",
+        "Pon un podcast en francés o una playlist en árabe.",
+        "Al terminar, toma agua y estira 3 minutos."
+      ],
+      "tips": [
+        {
+          "text": "Caminar es la herramienta número uno de gasto energético: 10.000 pasos equivalen a unas 400 a 550 kcal con tu peso.",
+          "grade": "A"
+        },
+        {
+          "text": "Caminar en arena gasta más energía; cuida los tobillos y empieza con 15 a 20 minutos.",
+          "grade": "B"
+        },
+        {
+          "text": "Caminata japonesa: 3 minutos rápido, 3 minutos lento, 5 veces. Una buena alternativa de intervalos suaves.",
+          "grade": "B"
+        },
+        {
+          "text": "Lleva electrolitos sin azúcar si vas a sudar mucho.",
+          "grade": "A"
+        },
+        {
+          "text": "Sin teléfono en la mano. Llévalo en el bolsillo.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "30 minutos de caminata."
+    },
+    "revision-semanal": {
+      "que": "Un chequeo del domingo para mirar la semana en la app: rachas, gráficas, qué falló y por qué, y planear la siguiente.",
+      "por": "Corregir con datos, sin culpa, evita que un mal día se convierta en abandonar el plan.",
+      "como": [
+        "Abre la app y mira la racha, el porcentaje de bloques cumplidos y la gráfica de peso con media móvil.",
+        "Responde 3 preguntas: ¿qué funcionó?, ¿qué falló y por qué?, ¿qué cambio una sola cosa?",
+        "Mira cuántos minutos de árabe y francés hiciste y cuántas tarjetas maduras llevas.",
+        "Si fallaste dos días seguidos la misma meta, ajusta esa meta la semana siguiente en lugar de abandonarla.",
+        "Planea la semana de la uni (30 minutos) y los 3 objetivos de idiomas de la semana."
+      ],
+      "tips": [
+        {
+          "text": "Cambia una sola cosa por semana. Cambiar todo a la vez rompe el plan.",
+          "grade": "B"
+        },
+        {
+          "text": "Un día malo no borra la semana. La racha cuenta con la versión mínima.",
+          "grade": "B"
+        },
+        {
+          "text": "Revisa el peso con el promedio, no con el día.",
+          "grade": "A"
+        },
+        {
+          "text": "Exporta tus datos de la app cada domingo como respaldo.",
+          "grade": "A"
+        },
+        {
+          "text": "Ten una recompensa pequeña de domingo (una película, una playa).",
+          "grade": "C"
+        }
+      ],
+      "minimo": "5 minutos: mira la racha y define una cosa que mejorar."
+    },
+    "gold-list": {
+      "que": "El método Gold List (David James) es una forma de aprender vocabulario con una libreta y sin app: escribes 25 palabras o frases a mano, las dejas 2 semanas, y solo entonces las revisas.",
+      "por": "Complementa tus tarjetas con un método manual que usa el olvido a tu favor. Es barato y sirve para algunas personas.",
+      "como": [
+        "Libreta aparte para cada idioma. Un domingo, escribe 25 frases nuevas en la lista de cabecera (headlist), con la traducción.",
+        "No las estudies. Solo léelas una vez y guarda la libreta.",
+        "Dos semanas después, abre la lista y cubre la traducción. Marca las que recuerdas.",
+        "Las que olvidaste (más o menos 70%) las reescribes en una nueva lista (la de bronce), de unas 17 a 18 frases.",
+        "Dos semanas después repites: las que olvides pasan a la lista de plata, luego a la de oro.",
+        "Lo que llegue a oro lo pasas a las tarjetas."
+      ],
+      "tips": [
+        {
+          "text": "La evidencia es débil, pero el costo es mínimo. Úsalo como apoyo, no en lugar de las tarjetas.",
+          "grade": "C"
+        },
+        {
+          "text": "Escribir a mano ayuda a fijar la atención.",
+          "grade": "B"
+        },
+        {
+          "text": "Es normal que recuerdes poco al principio; ese es el método.",
+          "grade": "C"
+        },
+        {
+          "text": "Escribe frases completas, no palabras sueltas.",
+          "grade": "A"
+        }
+      ],
+      "minimo": "Escribe 10 frases en vez de 25."
+    },
+    "meal-prep": {
+      "que": "Meal prep significa preparar comida de la semana de una vez: proteína cocida, verdura lavada y porciones listas. Se hace el domingo.",
+      "por": "Si la comida está lista, no decides con hambre, y eso es lo que mantiene el déficit de calorías toda la semana.",
+      "como": [
+        "Haz tu lista de súper antes: 1,2 a 1,5 kg de pechuga o pescado, 12 huevos, frijoles, papa, arroz, verduras de la semana.",
+        "Cuece la proteína: pechuga al horno o a la plancha, huevos duros, frijoles de olla.",
+        "Lava y corta verduras: pepino, jícama, jitomate, calabacita.",
+        "Arma porciones en recipientes para 3 o 4 días; congela el resto.",
+        "Etiqueta con la fecha. En Cancún con calor, enfría rápido y refrigera de inmediato."
+      ],
+      "tips": [
+        {
+          "text": "Pesa la proteína cruda para saber cuánto estás comiendo.",
+          "grade": "A"
+        },
+        {
+          "text": "La comida preparada dura 3 a 4 días refrigerada; congela lo que sobre.",
+          "grade": "A"
+        },
+        {
+          "text": "Compra en Walmart, Chedraui o mercado: huevo, claras, pollo, atún, frijoles y verduras de temporada.",
+          "grade": "C"
+        },
+        {
+          "text": "Rota 3 platillos. Comer lo mismo baja el apetito y las ganas de picar.",
+          "grade": "B"
+        },
+        {
+          "text": "Pon música libanesa o un podcast en francés mientras cocinas.",
+          "grade": "C"
+        }
+      ],
+      "minimo": "Cocer pechuga y huevos para 3 días."
+    },
+    "ar-episodio": {
+      "que": "Ver un episodio de una serie libanesa (Shankaboot, Al Hayba, Dollar o Beirut 6:07) para oír el dialecto en una historia real.",
+      "por": "Te acostumbra al oído, al ritmo y a la cultura de Beirut, y da temas de conversación con tu novia.",
+      "como": [
+        "Elige: Shankaboot (webserie de jóvenes de Beirut, gratis en YouTube) para empezar. Después, Al Hayba o Dollar (Netflix).",
+        "Ponla con subtítulos en inglés o español si los necesitas, y sin pausas la primera vez.",
+        "Pausa 3 a 5 veces y anota frases que oigas seguido.",
+        "Pasa 3 frases a las tarjetas.",
+        "Cuéntale a tu novia qué viste y pregúntale sobre un dato cultural."
+      ],
+      "tips": [
+        {
+          "text": "Al Hayba tiene acento de la Bekaa, distinto al de Beirut. Shankaboot es más cercano a lo que oyes en la ciudad.",
+          "grade": "A"
+        },
+        {
+          "text": "Los subtítulos en árabe suelen estar en árabe estándar. Úsalos para el audio.",
+          "grade": "A"
+        },
+        {
+          "text": "Pregúntale a tu novia cuáles series ve su familia.",
+          "grade": "B"
+        },
+        {
+          "text": "Películas de Nadine Labaki (Caramel, Capharnaüm) tienen diálogo libanés real.",
+          "grade": "A"
+        }
+      ],
+      "minimo": "15 minutos de un episodio de Shankaboot."
+    },
+    "fr-episodio": {
+      "que": "Ver un episodio de una serie en francés de Francia con subtítulos en francés.",
+      "por": "Francés hablado real y cotidiano, y descanso activo el domingo.",
+      "como": [
+        "Elige un episodio de Dix pour cent, Lupin, Plan Cœur o Family Business.",
+        "Pon subtítulos en francés.",
+        "Míralo entero, pausando solo para 3 a 5 frases.",
+        "Anota 3 frases para las tarjetas.",
+        "Cuéntale a tu novia en francés o árabe una cosa del episodio."
+      ],
+      "tips": [
+        {
+          "text": "Subtítulos en francés son mucho mejores que en español para aprender.",
+          "grade": "A"
+        },
+        {
+          "text": "Si no entiendes, no importa: entiendes más con cada episodio.",
+          "grade": "B"
+        },
+        {
+          "text": "Series de comedia tienen vocabulario muy cotidiano.",
+          "grade": "B"
+        },
+        {
+          "text": "Revisa el catálogo de Netflix México; los títulos cambian.",
+          "grade": "C"
+        }
+      ],
+      "minimo": "20 minutos de un episodio con subtítulos."
+    },
+    "movilidad": {
+      "que": "30 minutos de estiramientos y movimientos suaves para las articulaciones: caderas, espalda, hombros y tobillos.",
+      "por": "Con 100 kg y entrenamiento diario, la movilidad previene molestias, mejora tu postura y te ayuda a recuperarte.",
+      "como": [
+        "Calienta 3 minutos caminando o con círculos de brazos.",
+        "Haz cada movimiento 30 a 60 segundos: gato-vaca, zancada profunda (flexor de cadera), 90/90 de cadera, rotación de columna torácica, isquiotibiales, tobillo contra la pared, hombros con banda o toalla.",
+        "Respira lento, sin forzar ni rebotar.",
+        "Termina acostado boca arriba con respiración lenta 2 minutos."
+      ],
+      "tips": [
+        {
+          "text": "Estirar nunca debe doler como dolor agudo. Sientes tensión, no dolor.",
+          "grade": "A"
+        },
+        {
+          "text": "En YouTube busca 'movilidad 30 minutos' o 'yoga para principiantes'.",
+          "grade": "C"
+        },
+        {
+          "text": "Mejorar la postura (cabeza alta, hombros atrás) se nota en tu aspecto casi de inmediato.",
+          "grade": "B"
+        },
+        {
+          "text": "El estiramiento no reemplaza al entreno de fuerza.",
+          "grade": "A"
+        },
+        {
+          "text": "Rodillo de espuma para espalda y piernas, 5 minutos.",
+          "grade": "C"
+        }
+      ],
+      "minimo": "10 minutos de gato-vaca, zancada y 90/90."
+    },
+    "lectura": {
+      "que": "Lectura en papel, un rato tranquilo sin pantallas.",
+      "por": "Entrena tu atención (lo contrario del scroll), te baja el estrés y puedes leer en francés para sumar idioma.",
+      "como": [
+        "Elige un libro físico o un Kindle sin luz azul.",
+        "Lee 20 a 30 minutos, con buena luz (de día) o lámpara ámbar (de noche).",
+        "Alterna: un libro en español de lo que te interese, y uno fácil en francés (Le Petit Prince, Le Petit Nicolas).",
+        "Anota 2 frases o palabras nuevas en la libreta."
+      ],
+      "tips": [
+        {
+          "text": "Leer en papel de noche no estorba el sueño como una pantalla.",
+          "grade": "B"
+        },
+        {
+          "text": "Un libro por semana es una meta razonable.",
+          "grade": "C"
+        },
+        {
+          "text": "Lee lo que te guste; que no sea una obligación.",
+          "grade": "B"
+        },
+        {
+          "text": "Lee en francés con el audio de fondo si lo hay.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "10 páginas."
+    },
+    "actividad-libre": {
+      "que": "Sábado: una actividad al aire libre que disfrutes (playa, nadar, caminata larga, cenote) en vez de gimnasio.",
+      "por": "Te da movimiento sin presión, sol y diversión. Reduce el riesgo de recaída por aburrimiento del fin de semana.",
+      "como": [
+        "Elige una: nadar en el mar o alberca (cero impacto, cuenta como zona 2), caminata larga por la playa, snorkel, bicicleta o un cenote.",
+        "Ponte protector solar FPS 50, gorra y lentes. Reaplica cada 2 horas y después de nadar.",
+        "Lleva agua, electrolitos sin azúcar y algo de proteína si pasarás horas fuera. Sin alcohol.",
+        "Puedes ir a Playa Delfines, Playa Tortugas o Isla Mujeres (ferry desde Puerto Juárez).",
+        "Evita el sol más fuerte (11:00 a 15:00) si puedes."
+      ],
+      "tips": [
+        {
+          "text": "Nadar es ideal para 100 kg: ejercicio completo sin impacto en rodillas.",
+          "grade": "A"
+        },
+        {
+          "text": "Bañarte después del mar o alberca evita resequedad.",
+          "grade": "A"
+        },
+        {
+          "text": "Revisa el sargazo antes de ir a una playa.",
+          "grade": "C"
+        },
+        {
+          "text": "Planes con gente (clases, grupos) son la mejor defensa contra la soledad.",
+          "grade": "A"
+        },
+        {
+          "text": "El tiempo vacío es el enemigo de dejar adicciones. Llena el día con planes.",
+          "grade": "A"
+        }
+      ],
+      "minimo": "30 minutos de caminata en la playa."
+    },
+    "limpieza": {
+      "que": "Sábado: limpieza profunda del cuarto y la casa (45 a 60 minutos).",
+      "por": "Un entorno ordenado baja el estrés y quita disparadores. También cambias sábanas y toallas, que ayuda a la piel.",
+      "como": [
+        "Pon música libanesa o un podcast en francés.",
+        "Cambia sábanas, funda de almohada y toallas.",
+        "Barre, trapea y limpia el baño.",
+        "Ordena el escritorio y tira lo que no uses.",
+        "Cambia 10 post-its de idiomas por frases nuevas."
+      ],
+      "tips": [
+        {
+          "text": "Cambiar la funda de almohada 2 veces por semana ayuda con granos.",
+          "grade": "B"
+        },
+        {
+          "text": "Mientras limpias, haz self-talk en árabe: 'ana 3am nadef el ghurfe'.",
+          "grade": "C"
+        },
+        {
+          "text": "Un cuarto desordenado y oscuro es un disparador de hábitos malos.",
+          "grade": "C"
+        },
+        {
+          "text": "Deja la ropa lista para la semana.",
+          "grade": "C"
+        }
+      ],
+      "minimo": "15 minutos: cama, piso y basura."
+    },
+    "ar-ella": {
+      "que": "Sábado: 60 minutos hablando solo en árabe con tu novia. Es tu examen semanal de habla.",
+      "por": "Es la práctica más cercana a hablar en la vida real y te muestra cuánto has avanzado.",
+      "como": [
+        "Avísale el viernes: 'mañana una hora solo en árabe'.",
+        "Prepara 10 frases el viernes.",
+        "Hablen solo en árabe. Puedes meter palabras en francés o inglés (es normal en Beirut), pero intenta decir la frase en árabe.",
+        "Juegos: 20 preguntas, adivinar qué hay en tu mesa, contarle tu semana, describir un recuerdo.",
+        "Apunta las palabras nuevas y las correcciones.",
+        "Después pásalas a las tarjetas."
+      ],
+      "tips": [
+        {
+          "text": "El code-switching entre árabe, francés e inglés es normal en Beirut.",
+          "grade": "A"
+        },
+        {
+          "text": "Pídele que sea paciente y que no te interrumpa para corregir todo.",
+          "grade": "B"
+        },
+        {
+          "text": "Hacerlo divertido: juegos y preguntas, no una clase.",
+          "grade": "C"
+        },
+        {
+          "text": "Si un sábado está cansada, hagan 30 minutos y listo.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "20 minutos solo en árabe."
+    },
+    "sol-tarde": {
+      "que": "Jet lag, días 1 a 4: salir al sol de 15:00 a 17:30 para atrasar tu reloj interno, que viene 7 horas adelantado desde Beirut.",
+      "por": "Quieres dormir a las 21:30 de Cancún. Tu cuerpo cree que son las 5:30 de la mañana a esa hora en Beirut, así que hay que atrasar el reloj unas 5 horas.",
+      "como": [
+        "De 15:00 a 17:30, estar afuera con luz natural, caminando o sentado, sin lentes de sol. Protector solar.",
+        "Mantén las luces de la casa encendidas hasta la hora de dormir.",
+        "Aguanta despierto hasta las 20:00 el día 1, 20:30 el día 4, y sube cada día hasta las 21:30.",
+        "Siesta máxima de 20 minutos antes de las 14:00; nada después.",
+        "Comidas en horario local desde el día 1."
+      ],
+      "tips": [
+        {
+          "text": "La luz de la tarde retrasa el reloj, que es lo que necesitas. El ejercicio de tarde también ayuda.",
+          "grade": "A"
+        },
+        {
+          "text": "Viajar hacia el oeste es más fácil. Cuenta con 4 a 7 días de ajuste.",
+          "grade": "A"
+        },
+        {
+          "text": "Melatonina 0.5 a 3 mg por la noche las primeras noches puede ayudar. Pregunta a un farmacéutico o médico.",
+          "grade": "B"
+        },
+        {
+          "text": "Cafeína solo antes de las 12:00 esta semana.",
+          "grade": "A"
+        },
+        {
+          "text": "Sin alcohol: arruina el ajuste.",
+          "grade": "A"
+        }
+      ],
+      "minimo": "30 minutos de sol por la tarde, sin lentes."
+    },
+    "caminata-lentes": {
+      "que": "Jet lag, días 1 a 4: caminata temprano con lentes de sol, para no recibir luz brillante de más temprano de la que necesitas.",
+      "por": "Tu reloj interno está adelantado. Una luz muy brillante en la madrugada lo adelantaría todavía más y te despertaría a las 2:00.",
+      "como": [
+        "Sal después de las 7:00, o antes con lentes de sol oscuros.",
+        "Camina 30 a 40 minutos a paso ligero con gorra.",
+        "A partir del día 3 o 4 cambia a la caminata al amanecer sin lentes.",
+        "Si estás muy cansado, una caminata corta es suficiente."
+      ],
+      "tips": [
+        {
+          "text": "Los primeros 3 o 4 días: luz de tarde sí, luz de madrugada no.",
+          "grade": "B"
+        },
+        {
+          "text": "Hidrátate: llegas de un viaje largo.",
+          "grade": "A"
+        },
+        {
+          "text": "Un plan flexible: lo importante es mantener la rutina de sueño.",
+          "grade": "C"
+        },
+        {
+          "text": "Si te despiertas a las 2:00 o 3:00, quédate a oscuras, sin teléfono.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "20 minutos de caminata con lentes."
+    },
+    "entreno-tarde": {
+      "que": "Jet lag, días 2 a 4: entrenar a las 16:30 en vez de a las 6:45, al 60% de intensidad.",
+      "por": "El ejercicio de tarde también atrasa el reloj interno, y al 60% evitas lesionarte con el cuerpo cansado del viaje.",
+      "como": [
+        "A las 16:30, calienta 8 minutos.",
+        "Fuerza suave (día 2) o zona 2 (día 3): 60% del peso o del esfuerzo habitual.",
+        "Deja 3 repeticiones en reserva, sin llegar al fallo.",
+        "Hidrátate con electrolitos sin azúcar.",
+        "Cena a la hora de siempre (antes de las 18:00) y a dormir temprano."
+      ],
+      "tips": [
+        {
+          "text": "Ejercicio de tarde atrasa el reloj; es parte del ajuste.",
+          "grade": "B"
+        },
+        {
+          "text": "Entrena más suave cuando duermes poco: baja el volumen, no la regularidad.",
+          "grade": "A"
+        },
+        {
+          "text": "Termina el ejercicio intenso 3 horas antes de dormir.",
+          "grade": "B"
+        },
+        {
+          "text": "Desde el día 5 vuelves al entreno de las 6:45.",
+          "grade": "A"
+        }
+      ],
+      "minimo": "30 minutos de caminata rápida."
+    }
+  },
+  "glosario": [
+    {
+      "term": "Anki",
+      "def": "App famosa de tarjetas con repetición espaciada. Tu app ya trae su propio sistema parecido, así que no necesitas instalarla."
+    },
+    {
+      "term": "SRS",
+      "def": "Sistema de repetición espaciada: te muestra cada tarjeta justo antes de que la olvides, así que repasas lo mínimo para recordar mucho."
+    },
+    {
+      "term": "Repaso espaciado",
+      "def": "Repasar con intervalos que crecen (1 día, 3 días, 1 semana...). Es una de las técnicas de memoria con más evidencia."
+    },
+    {
+      "term": "FSRS",
+      "def": "Un algoritmo moderno de repetición espaciada que calcula mejor cuándo repasar cada tarjeta según cómo la contestas."
+    },
+    {
+      "term": "Input comprensible",
+      "def": "Escuchar o leer un idioma que entiendes en su mayoría (70 a 90%) con algo nuevo. Así se adquiere un idioma."
+    },
+    {
+      "term": "Shadowing",
+      "def": "Repetir en voz alta, casi al mismo tiempo, lo que dice un audio, como una sombra. Entrena pronunciación y ritmo."
+    },
+    {
+      "term": "Arabizi",
+      "def": "Árabe escrito con letras latinas y números (3, 7, 2, 5, 8) como se escribe en WhatsApp. Ejemplo: 7abibti."
+    },
+    {
+      "term": "Gold List",
+      "def": "Método manual de vocabulario: escribes 25 frases, las revisas 2 semanas después y reescribes solo las que olvidaste."
+    },
+    {
+      "term": "Assimil",
+      "def": "Método clásico de idiomas con libro y audio: un diálogo corto al día, primero pasivo y luego activo."
+    },
+    {
+      "term": "LingQ",
+      "def": "App para leer textos con audio y marcar las palabras que no conoces. Tiene versión gratis limitada."
+    },
+    {
+      "term": "Sentence mining",
+      "def": "Sacar frases reales de lo que ves o escuchas y convertirlas en tarjetas, con una sola palabra nueva por frase."
+    },
+    {
+      "term": "Self-talk",
+      "def": "Hablar solo en voz alta en el idioma que aprendes, narrando lo que haces. Entrena habla sin necesitar a nadie."
+    },
+    {
+      "term": "Code-switching",
+      "def": "Mezclar idiomas en una misma conversación, como árabe, francés e inglés en Beirut. Es normal."
+    },
+    {
+      "term": "Dialecto libanés",
+      "def": "El árabe que se habla en Líbano. Es distinto del árabe estándar (fusha) que sale en noticias y libros."
+    },
+    {
+      "term": "Árabe estándar (MSA, fusha)",
+      "def": "El árabe formal de noticias, libros y discursos. No se usa para hablar en la calle; no es lo que necesitas."
+    },
+    {
+      "term": "Michel Thomas",
+      "def": "Curso en audio donde construyes frases complejas paso a paso sin memorizar ni escribir. Muy bueno para francés."
+    },
+    {
+      "term": "HelloTalk / Tandem",
+      "def": "Apps gratis para intercambiar idiomas con nativos: tú los ayudas con español y ellos a ti con su idioma."
+    },
+    {
+      "term": "Language Reactor",
+      "def": "Extensión de Chrome para Netflix y YouTube con subtítulos dobles y pausa automática. Solo funciona en computadora."
+    },
+    {
+      "term": "Pomodoro (50 + 10)",
+      "def": "Trabajar 50 minutos sin distracciones y descansar 10. En el bloque de uni se usa esa versión."
+    },
+    {
+      "term": "Zona 2",
+      "def": "Cardio a un ritmo en el que puedes hablar pero no cantar. Para ti, unos 115 a 135 latidos por minuto."
+    },
+    {
+      "term": "HIIT",
+      "def": "Entrenamiento por intervalos de alta intensidad: ratos cortos fuertes y ratos suaves. Se hace poco y de bajo impacto."
+    },
+    {
+      "term": "NEAT",
+      "def": "Calorías que gastas moviéndote en el día sin hacer ejercicio formal (caminar, cocinar, limpiar). Suma mucho."
+    },
+    {
+      "term": "TDEE",
+      "def": "Gasto total diario de energía: las calorías que quemas en un día entre metabolismo, movimiento y ejercicio."
+    },
+    {
+      "term": "Déficit calórico",
+      "def": "Comer menos calorías que tu gasto. Es lo que hace bajar grasa. Tu meta son unas 1.950 kcal diarias."
+    },
+    {
+      "term": "Refeed",
+      "def": "Un día planeado con más calorías (sobre todo carbohidratos) a mantenimiento, para descansar de la dieta y recargar."
+    },
+    {
+      "term": "Ayuno 16:8",
+      "def": "No comer durante 16 horas y comer solo en una ventana de 8. Para ti, de 10:00 a 18:00."
+    },
+    {
+      "term": "Media móvil",
+      "def": "El promedio de los últimos 7 días de tu peso. Suaviza las subidas y bajadas por agua para ver la tendencia real."
+    },
+    {
+      "term": "RIR (repeticiones en reserva)",
+      "def": "Cuántas repeticiones podrías hacer todavía al terminar una serie. Se deja 1 a 3 para no llegar al fallo."
+    },
+    {
+      "term": "Progresión doble",
+      "def": "Hacer un rango de repeticiones (ej. 8 a 12); cuando llegas al máximo en todas las series con buena técnica, subes el peso."
+    },
+    {
+      "term": "Electrolitos",
+      "def": "Sales como sodio y potasio que pierdes al sudar. En Cancún conviene reponerlas con sobres sin azúcar o agua con pizca de sal."
+    },
+    {
+      "term": "Creatina",
+      "def": "Suplemento muy estudiado que mejora fuerza y músculo. 5 g al día. Puede subir 1 a 2 kg de agua dentro del músculo."
+    },
+    {
+      "term": "NSDR",
+      "def": "Non-Sleep Deep Rest: descanso profundo sin dormir, con un audio guiado de 10 a 20 minutos."
+    },
+    {
+      "term": "Yoga Nidra",
+      "def": "Práctica india de relajación guiada acostado. El NSDR está basado en ella."
+    },
+    {
+      "term": "Luz roja",
+      "def": "Luz roja o ámbar de baja intensidad. De noche frena muy poco la melatonina, por eso se prefiere a la luz blanca."
+    },
+    {
+      "term": "Melatonina",
+      "def": "Hormona que tu cuerpo produce de noche y que avisa que es hora de dormir. También se vende como suplemento."
+    },
+    {
+      "term": "Ritmo circadiano",
+      "def": "Tu reloj interno de unas 24 horas que regula sueño, hambre y energía. La luz lo ajusta."
+    },
+    {
+      "term": "Jet lag",
+      "def": "El desajuste del reloj interno por cambiar de zona horaria. Beirut a Cancún son 7 horas; tarda 4 a 7 días en ajustarse."
+    },
+    {
+      "term": "Apnea del sueño",
+      "def": "Pausas en la respiración al dormir, común con sobrepeso. Señales: ronquidos fuertes y cansancio al despertar."
+    },
+    {
+      "term": "Retinoide",
+      "def": "Derivado de la vitamina A (adapaleno, tretinoína, retinol) que renueva la piel y ayuda con granos y poros. Se usa de noche."
+    },
+    {
+      "term": "SPF / FPS",
+      "def": "Factor de protección solar. El FPS 50 es lo recomendado para tu cara; se reaplica cada 2 horas al sol."
+    },
+    {
+      "term": "Niacinamida",
+      "def": "Vitamina B3 en sérum que ayuda con grasa, poros y manchas. Es suave y se usa de día o de noche."
+    },
+    {
+      "term": "Minoxidil",
+      "def": "Medicamento tópico para el crecimiento del cabello. Tiene pros y contras; se usa con consejo médico."
+    },
+    {
+      "term": "Microneedling",
+      "def": "Pinchar la piel con agujas muy finas (dermapen o rodillo) para estimular colágeno o cabello. Requiere higiene y cuidado."
+    },
+    {
+      "term": "Mewing",
+      "def": "Poner la lengua contra el paladar para 'marcar la mandíbula'. No hay evidencia de que cambie el hueso de un adulto."
+    },
+    {
+      "term": "Gua sha",
+      "def": "Masaje facial con una piedra plana. Desinflama un poco por un rato; no esculpe la mandíbula."
+    },
+    {
+      "term": "HALT",
+      "def": "Hungry, Angry, Lonely, Tired: hambre, enojo, soledad y cansancio, los cuatro disparadores más comunes de recaídas."
+    },
+    {
+      "term": "Urge surfing",
+      "def": "Observar un antojo sin actuar: sube, llega a un pico y baja en 10 a 20 minutos. Se acompaña de respiración lenta."
+    },
+    {
+      "term": "Racha",
+      "def": "Cantidad de días seguidos en que cumples los bloques núcleo del día. Se cuida con la versión mínima."
+    },
+    {
+      "term": "Versión mínima",
+      "def": "La versión más corta posible de un bloque para los días malos. Nunca bajas a cero: la racha cuenta."
+    },
+    {
+      "term": "Grado de evidencia A/B/C/D",
+      "def": "A: comprobado. B: prometedor. C: teoría popular inofensiva. D: riesgoso, con alternativa."
+    }
+  ],
+  "compras": [
+    {
+      "item": "Báscula de baño digital",
+      "why": "Para pesarte cada mañana en ayunas y ver la media móvil de 7 días. Es la base del seguimiento.",
+      "grade": "A",
+      "prioridad": 1,
+      "donde": "Walmart, Amazon México, Mercado Libre"
+    },
+    {
+      "item": "Báscula de cocina",
+      "why": "Pesar la comida la primera semana te enseña las porciones reales y ahorra errores de calorías.",
+      "grade": "A",
+      "prioridad": 1,
+      "donde": "Walmart, Chedraui, Amazon México"
+    },
+    {
+      "item": "Cinta métrica flexible",
+      "why": "Medir la cintura al ombligo cada semana; muestra cambios que la báscula no ve.",
+      "grade": "A",
+      "prioridad": 1,
+      "donde": "Farmacias, Walmart, Amazon México"
+    },
+    {
+      "item": "Focos de luz roja o ámbar",
+      "why": "Para la noche desde las 20:00. La luz roja frena la melatonina mucho menos que la blanca. Con una lámpara de mesa baja y focos E27 o LED rojos basta.",
+      "grade": "B",
+      "prioridad": 1,
+      "donde": "Amazon México, Mercado Libre, Home Depot"
+    },
+    {
+      "item": "Antifaz para dormir",
+      "why": "Oscuridad total para dormir mejor, sobre todo si entra luz de la calle.",
+      "grade": "A",
+      "prioridad": 1,
+      "donde": "Amazon México, Walmart, farmacias"
+    },
+    {
+      "item": "Alarma física (reloj despertador)",
+      "why": "El teléfono duerme fuera del cuarto, así que necesitas una alarma que no sea el iPhone.",
+      "grade": "A",
+      "prioridad": 1,
+      "donde": "Walmart, Amazon México, Mercado Libre"
+    },
+    {
+      "item": "Protector solar FPS 50 para cara",
+      "why": "El producto antiedad y antimanchas número uno en el sol de Cancún. Isdin Fusion Water o La Roche-Posay Anthelios son ligeros.",
+      "grade": "A",
+      "prioridad": 1,
+      "donde": "Farmacias del Ahorro, San Pablo, Sephora, Amazon México"
+    },
+    {
+      "item": "Limpiador facial e hidratante (CeraVe o Cetaphil)",
+      "why": "La base de la rutina de piel de mañana y noche.",
+      "grade": "A",
+      "prioridad": 1,
+      "donde": "Farmacias, Walmart, Amazon México"
+    },
+    {
+      "item": "Hilo dental o flossers",
+      "why": "Sin hilo, casi la mitad de las superficies del diente no se limpian.",
+      "grade": "A",
+      "prioridad": 1,
+      "donde": "Cualquier farmacia o supermercado"
+    },
+    {
+      "item": "Limpiador de lengua",
+      "why": "Mejora el aliento de forma clara, porque ahí vive la mayor parte de lo que huele.",
+      "grade": "A",
+      "prioridad": 2,
+      "donde": "Farmacias, Amazon México"
+    },
+    {
+      "item": "Botella de 1 litro",
+      "why": "Llevas la cuenta de tus 3 a 3.5 litros diarios y tienes agua en caminatas.",
+      "grade": "A",
+      "prioridad": 1,
+      "donde": "Walmart, Amazon México"
+    },
+    {
+      "item": "Audífonos cómodos para caminar",
+      "why": "Para audio pasivo y podcasts en las caminatas, y para shadowing.",
+      "grade": "A",
+      "prioridad": 1,
+      "donde": "Amazon México, Mercado Libre, tiendas de electrónica"
+    },
+    {
+      "item": "Libreta y pluma",
+      "why": "Para frases de árabe, Gold List, diario y lista del día. Escribir a mano ayuda a fijar.",
+      "grade": "A",
+      "prioridad": 1,
+      "donde": "Walmart, papelerías, Amazon México"
+    },
+    {
+      "item": "Post-its de dos colores",
+      "why": "Amarillo para árabe y azul para francés en objetos de la casa (puerta, silla, taza...). Inmersión sin tiempo extra.",
+      "grade": "B",
+      "prioridad": 2,
+      "donde": "Walmart, papelerías"
+    },
+    {
+      "item": "Retinoide (adapaleno 0.1% o retinol)",
+      "why": "Mejora granos, poros y textura con los meses. Adapaleno es buen inicio; se usa de noche con protector solar al día siguiente.",
+      "grade": "A",
+      "prioridad": 2,
+      "donde": "Farmacias (algunas piden receta), Amazon México"
+    },
+    {
+      "item": "Creatina monohidratada",
+      "why": "Más fuerza y músculo en déficit. 5 g al día, sin carga. Marca simple.",
+      "grade": "A",
+      "prioridad": 2,
+      "donde": "Tiendas de suplementos, Amazon México, Mercado Libre"
+    },
+    {
+      "item": "Proteína whey",
+      "why": "Comida práctica para llegar a 180 g de proteína, en yogur o batido.",
+      "grade": "A",
+      "prioridad": 2,
+      "donde": "Tiendas de suplementos, Walmart, Amazon México"
+    },
+    {
+      "item": "Electrolitos sin azúcar",
+      "why": "Para entrenar y caminar con calor sin marearte. Sobres sin azúcar o agua con pizca de sal.",
+      "grade": "A",
+      "prioridad": 2,
+      "donde": "Farmacias, Walmart, Amazon México"
+    },
+    {
+      "item": "Tapones para los oídos",
+      "why": "Si hay ruido de la calle o los vecinos, protegen el sueño.",
+      "grade": "B",
+      "prioridad": 2,
+      "donde": "Farmacias, Amazon México"
+    },
+    {
+      "item": "Gorra y lentes de sol",
+      "why": "Para caminatas largas y el jet lag de la primera semana.",
+      "grade": "A",
+      "prioridad": 2,
+      "donde": "Walmart, Liverpool, Amazon México"
+    },
+    {
+      "item": "Ventilador o aire acondicionado que funcione",
+      "why": "El cuarto fresco (24 °C o menos) es clave para dormir en Cancún.",
+      "grade": "A",
+      "prioridad": 2,
+      "donde": "Home Depot, Walmart, Amazon México"
+    },
+    {
+      "item": "Libros en papel (o Kindle sin luz azul)",
+      "why": "Lectura de noche sin pantallas. Incluye uno fácil en francés (Le Petit Prince).",
+      "grade": "B",
+      "prioridad": 2,
+      "donde": "Librerías, Amazon México, Gandhi"
+    },
+    {
+      "item": "Panel de luz roja (terapia)",
+      "why": "Se vende para piel, recuperación y cabello. Hay estudios pequeños con resultados prometedores para piel y crecimiento de cabello; no es indispensable y es caro.",
+      "grade": "C",
+      "prioridad": 3,
+      "donde": "Amazon México, Mercado Libre"
+    },
+    {
+      "item": "Bandas de resistencia",
+      "why": "Si no tienes gimnasio, para remos y presses en casa; baratas y ligeras.",
+      "grade": "A",
+      "prioridad": 3,
+      "donde": "Walmart, Decathlon, Amazon México"
+    },
+    {
+      "item": "Parches de hidrocoloide para granos",
+      "why": "Aplanan los granos y evitan que te los toques.",
+      "grade": "B",
+      "prioridad": 3,
+      "donde": "Farmacias, Amazon México"
+    }
+  ]
+}

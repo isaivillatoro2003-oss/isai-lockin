@@ -18,6 +18,8 @@ export interface Block {
   core?: boolean
   detail?: string
   link?: Link
+  /** Clave en content/bloques.json con qué es, cómo y tips. */
+  guide?: string
 }
 
 export interface Template { id: string; name: string; blocks: Block[] }
@@ -35,116 +37,115 @@ function tpl(id: string, name: string, rows: Row[]): Template {
   }
 }
 
-/* Lunes a viernes. Árabe 3 h y francés 2 h 30 activos, separados para que no se mezclen. */
+/* Lunes a viernes. Árabe 3 h y francés 2 h 30 activos, separados para que no se mezclen. Sin tutores. */
 const normalRows: Row[] = [
-  ['05:00', 5, 'Despertar', 'despertar', { ...C, detail: 'Sin snooze. Cama tendida. 500 ml de agua con una pizca de sal.', link: 'weigh' }],
-  ['05:05', 10, 'Glow up mañana', 'glow', { ...C, link: 'glow-am' }],
-  ['05:15', 30, 'Anki árabe', 'ar', { ...C, detail: 'Repaso + 18 frases nuevas.', link: 'anki-ar' }],
-  ['05:45', 15, 'Buenos días a ella', 'novia', { detail: 'Llamada o voice notes. Intenta 3 frases en árabe.' }],
-  ['06:00', 5, 'Café negro y checklist', 'libre', { detail: 'Ropa de entreno puesta.' }],
-  ['06:05', 35, 'Caminata 1 + sol', 'caminata', { ...C, detail: 'Amanecer sin lentes ni teléfono en la mano. Audio pasivo de árabe (Pimsleur o música libanesa).' }],
-  ['06:45', 60, 'Entrenamiento', 'ejercicio', { ...C, link: 'workout' }],
-  ['07:50', 20, 'Ducha fría + skincare', 'glow', { detail: '1 a 2 min de agua fría al final.' }],
-  ['08:10', 60, 'Uni', 'uni', { ...C, detail: 'Teléfono en modo avión. 50 + 10.' }],
-  ['09:10', 30, 'Anki francés', 'fr', { ...C, detail: 'Repaso + 25 nuevas.', link: 'anki-fr' }],
-  ['09:40', 20, 'Preparar comida', 'comida'],
-  ['10:00', 30, 'Comida 1', 'comida', { ...C, detail: 'Rompe el ayuno: proteína alta, verdura, grasa buena.', link: 'meal' }],
-  ['10:30', 15, 'Caminata 2', 'caminata', { detail: '15 min después de comer. Música libanesa.' }],
-  ['10:45', 45, 'Francés: input', 'fr', { ...C, detail: 'Soirée avec Baba, Easy French o innerFrench.', link: 'lesson-fr' }],
-  ['11:30', 20, 'Francés: Assimil / LingQ', 'fr', { detail: 'Estructura y lectura.' }],
-  ['11:50', 15, 'Francés: shadowing', 'fr', { detail: '5 frases del input, 5 repeticiones cada una.' }],
-  ['12:05', 25, 'Árabe: frases para ella', 'ar', { detail: 'Escribe en Arabizi lo que le vas a decir en la llamada.', link: 'speak-ar' }],
-  ['12:30', 30, 'Pendientes', 'libre', { detail: 'Trámites, limpieza, lo que falte. Sin redes.' }],
-  ['13:00', 60, 'Llamada con ella', 'novia', { detail: 'Su noche. Usa árabe libanés aunque sean frases cortas.' }],
-  ['14:00', 30, 'Comida 2', 'comida', { ...C, detail: 'La principal del día.', link: 'meal' }],
-  ['14:30', 20, 'NSDR', 'sueno', { detail: 'Descanso sin dormir o siesta de 20 min con alarma.' }],
-  ['14:50', 50, 'Árabe: input', 'ar', { ...C, detail: 'Talk In Arabic, Shankaboot, Hayda Haki o Sarde según la semana.', link: 'lesson-ar' }],
-  ['15:40', 20, 'Árabe: shadowing', 'ar', { detail: '5 frases del input, 5 repeticiones.' }],
-  ['16:00', 5, 'Buenas noches a ella', 'novia'],
-  ['16:05', 60, 'Árabe: tutor', 'ar', { ...C, detail: 'italki o Preply.' }],
-  ['17:05', 25, 'Comida 3', 'comida', { ...C, detail: 'Ligera, alta en proteína. La ventana cierra a las 18:00.', link: 'meal' }],
-  ['17:30', 40, 'Caminata 3', 'caminata', { ...C, detail: 'Podcast en francés.' }],
-  ['18:10', 45, 'Francés: hablar', 'fr', { ...C, detail: 'Tutor de lunes a jueves. Viernes: intercambio en Tandem o HelloTalk.' }],
-  ['18:55', 15, 'Diario + plan', 'diario', { ...C, link: 'journal' }],
-  ['19:10', 50, 'Serie en francés', 'fr', { detail: 'Subtítulos en francés.' }],
-  ['20:00', 5, 'Pantallas fuera', 'sueno', { ...C, detail: 'Teléfono a la cocina en modo avión. Luces cálidas.' }],
-  ['20:05', 10, 'Glow up noche', 'glow', { ...C, link: 'glow-pm' }],
-  ['20:15', 60, 'Bajar revoluciones', 'sueno', { detail: 'Estiramientos 10 min, respiración 5 min, lectura en papel.' }],
-  ['21:15', 15, 'Cama', 'sueno', { detail: 'Cuarto fresco y oscuro.' }],
-  ['21:30', 450, 'Dormir', 'sueno', { ...C }],
+  ['05:00', 5, 'Despertar', 'despertar', { ...C, guide: 'despertar', detail: 'Sin snooze. Cama tendida. 500 ml de agua con una pizca de sal.', link: 'weigh' }],
+  ['05:05', 10, 'Cara y dientes (mañana)', 'glow', { ...C, guide: 'glow-am', detail: 'Lengua, dientes, hilo, limpiar cara, hidratante y protector solar.', link: 'glow-am' }],
+  ['05:15', 30, 'Tarjetas de árabe', 'ar', { ...C, guide: 'tarjetas-ar', detail: 'Repaso de las que tocan hoy + 18 frases nuevas, aquí en la app.', link: 'anki-ar' }],
+  ['05:45', 15, 'Buenos días a ella', 'novia', { guide: 'novia-am', detail: 'Llamada o voice notes. Intenta 3 frases en árabe.' }],
+  ['06:00', 5, 'Café negro', 'libre', { guide: 'cafe', detail: 'Ropa de entreno puesta. Revisa el día.' }],
+  ['06:05', 35, 'Caminata al amanecer', 'caminata', { ...C, guide: 'caminata-sol', detail: 'Luz de sol en los ojos, sin lentes. Audio de árabe en los audífonos.' }],
+  ['06:45', 60, 'Entrenamiento', 'ejercicio', { ...C, guide: 'entreno', link: 'workout' }],
+  ['07:50', 20, 'Ducha fría + piel', 'glow', { guide: 'ducha-fria', detail: '1 a 2 min de agua fría al final.' }],
+  ['08:10', 60, 'Uni', 'uni', { ...C, guide: 'uni', detail: 'Teléfono en modo avión. 50 min y 10 de descanso.' }],
+  ['09:10', 30, 'Tarjetas de francés', 'fr', { ...C, guide: 'tarjetas-fr', detail: 'Repaso + 25 nuevas.', link: 'anki-fr' }],
+  ['09:40', 20, 'Preparar comida', 'comida', { guide: 'preparar-comida' }],
+  ['10:00', 30, 'Comida 1', 'comida', { ...C, guide: 'comida-1', detail: 'Rompe el ayuno: proteína alta, verdura, grasa buena.', link: 'meal' }],
+  ['10:30', 15, 'Caminata corta', 'caminata', { guide: 'caminata-post', detail: '15 min después de comer.' }],
+  ['10:45', 45, 'Francés: escuchar y entender', 'fr', { ...C, guide: 'fr-input', detail: 'Videos o podcast que entiendas en un 80 %.', link: 'lesson-fr' }],
+  ['11:30', 20, 'Francés: lectura', 'fr', { guide: 'fr-lectura' }],
+  ['11:50', 15, 'Francés: repetir en voz alta', 'fr', { guide: 'fr-shadowing', detail: 'Shadowing: 5 frases, 5 veces cada una.' }],
+  ['12:05', 25, 'Árabe: frases para ella', 'ar', { guide: 'ar-frases', detail: 'Escribe en Arabizi lo que le dirás en la llamada y grábate.', link: 'speak-ar' }],
+  ['12:30', 30, 'Pendientes', 'libre', { guide: 'pendientes', detail: 'Trámites, limpieza, lo que falte. Sin redes.' }],
+  ['13:00', 60, 'Llamada con ella', 'novia', { guide: 'llamada', detail: 'Su noche. Usa árabe libanés aunque sean frases cortas.' }],
+  ['14:00', 30, 'Comida 2', 'comida', { ...C, guide: 'comida-2', detail: 'La principal del día.', link: 'meal' }],
+  ['14:30', 20, 'Descanso profundo (NSDR)', 'sueno', { guide: 'nsdr', detail: 'Audio guiado acostado sin dormirte, o siesta de 20 min con alarma.' }],
+  ['14:50', 50, 'Árabe: escuchar y entender', 'ar', { ...C, guide: 'ar-input', detail: 'Talk In Arabic, Shankaboot, Hayda Haki o Sarde.', link: 'lesson-ar' }],
+  ['15:40', 20, 'Árabe: repetir en voz alta', 'ar', { guide: 'ar-shadowing', detail: 'Shadowing: 5 frases, 5 veces cada una.' }],
+  ['16:00', 5, 'Buenas noches a ella', 'novia', { guide: 'buenas-noches' }],
+  ['16:05', 60, 'Árabe: hablar', 'ar', { ...C, guide: 'ar-hablar', detail: 'Voz con IA en libanés, HelloTalk, hablar solo y voice notes. Gratis.' }],
+  ['17:05', 25, 'Comida 3', 'comida', { ...C, guide: 'comida-3', detail: 'Ligera, alta en proteína. La ventana cierra a las 18:00.', link: 'meal' }],
+  ['17:30', 40, 'Caminata con podcast', 'caminata', { ...C, guide: 'caminata-podcast', detail: 'Podcast en francés.' }],
+  ['18:10', 45, 'Francés: hablar', 'fr', { ...C, guide: 'fr-hablar', detail: 'Tandem o HelloTalk, voz con IA, hablar solo, grabarte. Gratis.' }],
+  ['18:55', 15, 'Diario + plan de mañana', 'diario', { ...C, guide: 'diario', link: 'journal' }],
+  ['19:10', 50, 'Serie en francés', 'fr', { guide: 'fr-serie', detail: 'Subtítulos en francés, nunca en español.' }],
+  ['20:00', 5, 'Pantallas fuera, luz roja', 'sueno', { ...C, guide: 'pantallas-fuera', detail: 'Teléfono a la cocina en modo avión. Solo luz roja o ámbar desde aquí.' }],
+  ['20:05', 10, 'Cara y dientes (noche)', 'glow', { ...C, guide: 'glow-pm', link: 'glow-pm' }],
+  ['20:15', 60, 'Bajar revoluciones', 'sueno', { guide: 'bajar-revoluciones', detail: 'Estiramientos, respiración y lectura en papel con luz roja.' }],
+  ['21:15', 15, 'A la cama', 'sueno', { guide: 'cama', detail: 'Cuarto fresco y oscuro, antifaz y tapones.' }],
+  ['21:30', 450, 'Dormir', 'sueno', { ...C, guide: 'dormir' }],
 ]
 
 const sabadoRows: Row[] = normalRows.map((r): Row => {
   const [s, d, , c, o] = r
-  if (s === '06:45') return [s, d, 'Actividad libre', c, { ...o, detail: 'Playa, nadar o caminata larga.', link: undefined }]
+  if (s === '06:45') return [s, d, 'Actividad libre', c, { ...o, guide: 'actividad-libre', detail: 'Playa, nadar o caminata larga.', link: undefined }]
   if (s === '08:10') return [s, d, 'Uni: repaso', c, o]
-  if (s === '16:05') return [s, d, 'Árabe solo con ella', c, { ...o, detail: '60 min hablando únicamente en árabe.' }]
-  if (s === '18:10') return [s, d, 'Francés: intercambio', c, o]
-  if (s === '12:30') return [s, d, 'Limpieza profunda', c, o]
+  if (s === '16:05') return [s, d, 'Árabe solo con ella', c, { ...o, guide: 'ar-ella', detail: '60 min hablando únicamente en árabe.' }]
+  if (s === '12:30') return [s, d, 'Limpieza profunda', c, { ...o, guide: 'limpieza' }]
   return r
 })
 
 const descansoRows: Row[] = [
-  ['05:00', 30, 'Despertar', 'despertar', { ...C, detail: 'Margen de 30 min. Agua con sal.' }],
-  ['05:30', 15, 'Medición semanal', 'glow', { ...C, detail: 'Peso en ayunas, cintura en el ombligo, 4 fotos con la misma luz.', link: 'measure' }],
-  ['05:45', 30, 'Anki árabe + francés', 'ar', { ...C, link: 'anki-ar' }],
-  ['06:15', 75, 'Caminata de amanecer', 'caminata', { ...C, detail: 'Larga y sin prisa.' }],
-  ['07:30', 30, 'Ducha + rutina semanal', 'glow', { link: 'glow-am' }],
-  ['08:00', 60, 'Llamada larga con ella', 'novia'],
-  ['09:00', 30, 'Revisión semanal', 'diario', { detail: 'Rachas, gráficas, qué falló y por qué. Plan de uni.' }],
-  ['09:30', 30, 'Gold List', 'fr', { detail: '25 frases por idioma.' }],
-  ['10:00', 30, 'Comida 1', 'comida', { ...C, link: 'meal' }],
-  ['10:30', 90, 'Meal prep', 'comida', { detail: 'Proteína cocida, verdura lavada, porciones.' }],
-  ['12:00', 45, 'Episodio en árabe', 'ar', { detail: 'Serie libanesa.' }],
-  ['12:45', 75, 'Libre', 'libre', { detail: 'Playa, cenote, lectura.' }],
-  ['14:00', 30, 'Comida 2', 'comida', { ...C, link: 'meal' }],
-  ['14:30', 30, 'Movilidad', 'ejercicio', { detail: 'Estiramientos 30 min.' }],
-  ['15:00', 45, 'Episodio en francés', 'fr'],
-  ['16:00', 5, 'Buenas noches a ella', 'novia'],
-  ['17:05', 25, 'Comida 3', 'comida', { ...C, link: 'meal' }],
-  ['18:30', 20, 'Diario semanal', 'diario', { ...C, link: 'journal' }],
-  ['20:00', 15, 'Pantallas fuera + glow up', 'glow', { ...C, link: 'glow-pm' }],
-  ['20:15', 60, 'Lectura', 'sueno'],
-  ['21:30', 450, 'Dormir', 'sueno', { ...C }],
+  ['05:00', 30, 'Despertar', 'despertar', { ...C, guide: 'despertar', detail: 'Margen de 30 min. Agua con sal.' }],
+  ['05:30', 15, 'Medición semanal', 'glow', { ...C, guide: 'medicion', detail: 'Peso en ayunas, cintura en el ombligo, 4 fotos con la misma luz.', link: 'measure' }],
+  ['05:45', 30, 'Tarjetas árabe + francés', 'ar', { ...C, guide: 'tarjetas-ar', link: 'anki-ar' }],
+  ['06:15', 75, 'Caminata larga al amanecer', 'caminata', { ...C, guide: 'caminata-larga', detail: 'Sin prisa.' }],
+  ['07:30', 30, 'Ducha + rutina semanal de piel', 'glow', { guide: 'ducha-fria', link: 'glow-am' }],
+  ['08:00', 60, 'Llamada larga con ella', 'novia', { guide: 'llamada' }],
+  ['09:00', 30, 'Revisión semanal', 'diario', { guide: 'revision-semanal', detail: 'Rachas, gráficas, qué falló y por qué. Plan de uni.' }],
+  ['09:30', 30, 'Gold List', 'fr', { guide: 'gold-list', detail: '25 frases por idioma a mano.' }],
+  ['10:00', 30, 'Comida 1', 'comida', { ...C, guide: 'comida-1', link: 'meal' }],
+  ['10:30', 90, 'Meal prep', 'comida', { guide: 'meal-prep', detail: 'Proteína cocida, verdura lavada, porciones.' }],
+  ['12:00', 45, 'Episodio en árabe', 'ar', { guide: 'ar-episodio', detail: 'Serie libanesa.' }],
+  ['12:45', 75, 'Libre', 'libre', { guide: 'actividad-libre', detail: 'Playa, cenote, lectura.' }],
+  ['14:00', 30, 'Comida 2', 'comida', { ...C, guide: 'comida-2', link: 'meal' }],
+  ['14:30', 30, 'Movilidad', 'ejercicio', { guide: 'movilidad', detail: 'Estiramientos 30 min.' }],
+  ['15:00', 45, 'Episodio en francés', 'fr', { guide: 'fr-episodio' }],
+  ['16:00', 5, 'Buenas noches a ella', 'novia', { guide: 'buenas-noches' }],
+  ['17:05', 25, 'Comida 3', 'comida', { ...C, guide: 'comida-3', link: 'meal' }],
+  ['18:30', 20, 'Diario semanal', 'diario', { ...C, guide: 'diario', link: 'journal' }],
+  ['20:00', 15, 'Pantallas fuera + cara y dientes', 'glow', { ...C, guide: 'pantallas-fuera', link: 'glow-pm' }],
+  ['20:15', 60, 'Lectura con luz roja', 'sueno', { guide: 'lectura' }],
+  ['21:30', 450, 'Dormir', 'sueno', { ...C, guide: 'dormir' }],
 ]
 
 const minimaRows: Row[] = [
-  ['05:00', 5, 'Despertar', 'despertar', { ...C }],
-  ['05:05', 5, 'Glow up mínimo', 'glow', { ...C, link: 'glow-am' }],
-  ['05:15', 20, 'Anki árabe', 'ar', { ...C, link: 'anki-ar' }],
-  ['06:05', 30, 'Entreno corto', 'ejercicio', { ...C, link: 'workout' }],
-  ['08:10', 60, 'Uni', 'uni', { ...C }],
-  ['09:10', 20, 'Anki francés', 'fr', { ...C, link: 'anki-fr' }],
-  ['10:00', 30, 'Comida 1', 'comida', { ...C, link: 'meal' }],
-  ['14:00', 30, 'Comida 2', 'comida', { ...C, link: 'meal' }],
-  ['17:05', 25, 'Comida 3', 'comida', { ...C, link: 'meal' }],
-  ['18:55', 10, 'Diario', 'diario', { ...C, link: 'journal' }],
-  ['21:30', 450, 'Dormir', 'sueno', { ...C }],
+  ['05:00', 5, 'Despertar', 'despertar', { ...C, guide: 'despertar' }],
+  ['05:05', 5, 'Cara y dientes rápido', 'glow', { ...C, guide: 'glow-am', link: 'glow-am' }],
+  ['05:15', 20, 'Tarjetas de árabe', 'ar', { ...C, guide: 'tarjetas-ar', link: 'anki-ar' }],
+  ['06:05', 30, 'Entreno corto', 'ejercicio', { ...C, guide: 'entreno', link: 'workout' }],
+  ['08:10', 60, 'Uni', 'uni', { ...C, guide: 'uni' }],
+  ['09:10', 20, 'Tarjetas de francés', 'fr', { ...C, guide: 'tarjetas-fr', link: 'anki-fr' }],
+  ['10:00', 30, 'Comida 1', 'comida', { ...C, guide: 'comida-1', link: 'meal' }],
+  ['14:00', 30, 'Comida 2', 'comida', { ...C, guide: 'comida-2', link: 'meal' }],
+  ['17:05', 25, 'Comida 3', 'comida', { ...C, guide: 'comida-3', link: 'meal' }],
+  ['18:55', 10, 'Diario', 'diario', { ...C, guide: 'diario', link: 'journal' }],
+  ['21:30', 450, 'Dormir', 'sueno', { ...C, guide: 'dormir' }],
 ]
 
 /* Semana 1: atrasar el reloj ~5 h. Luz y ejercicio en la tarde, nada de sol temprano. */
 function jetlag(n: number, wake: string, sleep: string): Template {
   const rows: Row[] = [
-    [wake, 15, 'Despertar', 'despertar', { ...C, detail: 'Si despertaste a las 2 o 3: cama, oscuridad, sin teléfono. No te levantas antes.' }],
-    ['05:05', 10, 'Glow up mañana', 'glow', { ...C, link: 'glow-am' }],
-    ['05:15', 30, 'Anki árabe', 'ar', { ...C, link: 'anki-ar' }],
-    ['05:45', 15, 'Buenos días a ella', 'novia'],
-    ['06:05', 40, 'Caminata con lentes de sol', 'caminata', { detail: 'Antes de las 9:00, lentes de sol afuera.' }],
-    ['08:10', 60, 'Uni', 'uni', { ...C, detail: 'Si estás muy mal, 30 min. Nunca cero.' }],
-    ['09:10', 30, 'Anki francés', 'fr', { ...C, link: 'anki-fr' }],
-    ['10:00', 30, 'Comida 1', 'comida', { ...C, detail: 'Ventana 10 a 18 desde hoy.', link: 'meal' }],
-    ['10:45', 45, 'Francés: input', 'fr', { link: 'lesson-fr' }],
-    ['12:05', 25, 'Árabe: frases para ella', 'ar', { link: 'speak-ar' }],
-    ['13:00', 60, 'Llamada con ella', 'novia', { detail: 'Te ayuda a no dormirte.' }],
-    ['14:00', 30, 'Comida 2', 'comida', { ...C, link: 'meal' }],
-    ['14:50', 50, 'Árabe: input', 'ar', { link: 'lesson-ar' }],
-    ['15:40', 20, 'Sol de tarde', 'caminata', { ...C, detail: 'Sal al sol hasta las 17:30. La luz de tarde atrasa el reloj.' }],
-    ['16:00', 5, 'Buenas noches a ella', 'novia'],
-    ['16:30', 45, n === 4 ? 'Caminata larga' : 'Entreno de tarde', 'ejercicio', { ...C, detail: n === 1 ? 'Solo caminata ligera.' : 'Al 60 %.', link: n === 4 ? undefined : 'workout' }],
-    ['17:20', 25, 'Comida 3', 'comida', { ...C, link: 'meal' }],
-    ['18:55', 15, 'Diario', 'diario', { ...C, link: 'journal' }],
-    ['19:10', 50, 'Serie en francés', 'fr', { detail: 'Luces encendidas, nada de siesta.' }],
-    [sleep, 450, 'Dormir', 'sueno', { ...C }],
+    [wake, 15, 'Despertar', 'despertar', { ...C, guide: 'despertar', detail: 'Si despertaste a las 2 o 3: cama, oscuridad, sin teléfono. No te levantas antes.' }],
+    ['05:05', 10, 'Cara y dientes (mañana)', 'glow', { ...C, guide: 'glow-am', link: 'glow-am' }],
+    ['05:15', 30, 'Tarjetas de árabe', 'ar', { ...C, guide: 'tarjetas-ar', link: 'anki-ar' }],
+    ['05:45', 15, 'Buenos días a ella', 'novia', { guide: 'novia-am' }],
+    ['06:05', 40, 'Caminata con lentes de sol', 'caminata', { guide: 'caminata-lentes', detail: 'Antes de las 9:00, lentes de sol afuera.' }],
+    ['08:10', 60, 'Uni', 'uni', { ...C, guide: 'uni', detail: 'Si estás muy mal, 30 min. Nunca cero.' }],
+    ['09:10', 30, 'Tarjetas de francés', 'fr', { ...C, guide: 'tarjetas-fr', link: 'anki-fr' }],
+    ['10:00', 30, 'Comida 1', 'comida', { ...C, guide: 'comida-1', detail: 'Ventana de 10 a 18 desde hoy.', link: 'meal' }],
+    ['10:45', 45, 'Francés: escuchar y entender', 'fr', { guide: 'fr-input', link: 'lesson-fr' }],
+    ['12:05', 25, 'Árabe: frases para ella', 'ar', { guide: 'ar-frases', link: 'speak-ar' }],
+    ['13:00', 60, 'Llamada con ella', 'novia', { guide: 'llamada', detail: 'Te ayuda a no dormirte.' }],
+    ['14:00', 30, 'Comida 2', 'comida', { ...C, guide: 'comida-2', link: 'meal' }],
+    ['14:50', 50, 'Árabe: escuchar y entender', 'ar', { guide: 'ar-input', link: 'lesson-ar' }],
+    ['15:40', 20, 'Sol de tarde', 'caminata', { ...C, guide: 'sol-tarde', detail: 'Sal al sol hasta las 17:30. La luz de tarde atrasa el reloj.' }],
+    ['16:00', 5, 'Buenas noches a ella', 'novia', { guide: 'buenas-noches' }],
+    ['16:30', 45, n === 4 ? 'Caminata larga' : 'Entreno de tarde', 'ejercicio', { ...C, guide: n === 4 ? 'caminata-larga' : 'entreno-tarde', detail: n === 1 ? 'Solo caminata ligera.' : 'Al 60 %.', link: n === 4 ? undefined : 'workout' }],
+    ['17:20', 25, 'Comida 3', 'comida', { ...C, guide: 'comida-3', link: 'meal' }],
+    ['18:55', 15, 'Diario', 'diario', { ...C, guide: 'diario', link: 'journal' }],
+    ['19:10', 50, 'Serie en francés', 'fr', { guide: 'fr-serie', detail: 'Luces encendidas, nada de siesta.' }],
+    [sleep, 450, 'Dormir', 'sueno', { ...C, guide: 'dormir' }],
   ]
   return tpl(`jetlag${n}`, `Jet lag día ${n}`, rows.sort((a, b) => toMin(a[0]) - toMin(b[0])))
 }
@@ -188,7 +189,7 @@ export function workoutsFor(date: string): string[] {
 }
 
 export const CAT_LABEL: Record<Cat, string> = {
-  despertar: 'Despertar', glow: 'Glow up', ar: 'Árabe', fr: 'Francés', uni: 'Uni',
+  despertar: 'Despertar', glow: 'Cuidado personal', ar: 'Árabe', fr: 'Francés', uni: 'Uni',
   ejercicio: 'Ejercicio', caminata: 'Caminata', comida: 'Comida', novia: 'Ella',
   diario: 'Diario', libre: 'Libre', sueno: 'Sueño',
 }

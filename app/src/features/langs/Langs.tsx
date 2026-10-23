@@ -201,7 +201,7 @@ function FrenchKeys() {
 }
 
 function Resources({ lang }: { lang: Lang }) {
-  const r = guia.idiomas.recursos[lang] ?? []
+  const r = (guia.idiomas.recursos[lang] ?? []).filter((x) => x.type !== 'tutor')
   const m = guia.idiomas.musica[lang] ?? []
   const types = [...new Set(r.map((x) => x.type))]
   return (

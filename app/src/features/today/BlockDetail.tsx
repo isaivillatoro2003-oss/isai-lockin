@@ -1,16 +1,55 @@
 import { useState } from 'react'
 import { db, now, uid, type Status } from '../../db'
-import { guia, workout } from '../../content'
+import { bloques, guia, workout } from '../../content'
+import type { BlockGuide } from '../../content/types'
 import { CAT_LABEL, planWeek, workoutsFor, type Block } from '../../domain/schedule'
 import { dur, fromMin, partnerHm, toMin } from '../../domain/time'
 import { useNav } from '../../hooks'
-import { Btn, CAT_COLOR, Kicker, NumberInput } from '../../ui'
+import { Btn, CAT_COLOR, Grade, Kicker, NumberInput } from '../../ui'
+
+function GuideView({ g, color }: { g: BlockGuide; color: string }) {
+  return (
+    <div className="mt-5 space-y-5">
+      <div className="rounded-2xl border border-line p-4">
+        <Kicker color={color}>Qué es</Kicker>
+        <p className="mt-1.5 text-[15px] leading-relaxed">{g.que}</p>
+        <p className="mt-2 text-[13.5px] leading-relaxed text-dim">{g.por}</p>
+      </div>
+      <div>
+        <Kicker>Cómo</Kicker>
+        <ol className="mt-2 space-y-2.5">
+          {g.como.map((x, i) => (
+            <li key={i} className="flex gap-3 text-[14.5px] leading-relaxed">
+              <span className="w-4 shrink-0 font-serif text-[18px] leading-tight" style={{ color }}>{i + 1}</span>{x}
+            </li>
+          ))}
+        </ol>
+      </div>
+      {g.tips.length > 0 && (
+        <div>
+          <Kicker>Tips</Kicker>
+          <ul className="mt-2 divide-y divide-line">
+            {g.tips.map((t, i) => (
+              <li key={i} className="py-2.5"><Grade g={t.grade} /><p className="mt-1 text-[14px] leading-relaxed text-dim">{t.text}</p></li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {g.minimo && (
+        <p className="rounded-xl bg-ink px-4 py-3 text-[13.5px] leading-relaxed text-dim">
+          <span className="font-mono text-[10.5px] uppercase tracking-wider text-faint">Si el día va mal · </span>{g.minimo}
+        </p>
+      )}
+    </div>
+  )
+}
 
 export default function BlockDetail({ b, date, status, onMark, onClose }: {
   b: Block; date: string; status?: Status; onMark: (s: Status | null) => void; onClose: () => void
 }) {
   const { go } = useNav()
   const color = CAT_COLOR[b.cat]
+  const g = b.guide ? bloques.bloques[b.guide] : undefined
   const open = (tab: Parameters<typeof go>[0]) => { onClose(); go(tab) }
 
   return (
@@ -19,6 +58,16 @@ export default function BlockDetail({ b, date, status, onMark, onClose }: {
       <h2 className="mt-2 font-serif text-[36px] leading-[1.02]">{b.title}</h2>
       {b.cat === 'novia' && <div className="mt-1 font-mono text-[11px] text-dim">{partnerHm(b.start)} en Beirut</div>}
       {b.detail && <p className="mt-3 text-[15px] leading-relaxed text-dim">{b.detail}</p>}
+
+      <div className="mt-5 grid grid-cols-3 gap-2">
+        {(['hecho', 'minima', 'saltado'] as Status[]).map((s) => (
+          <button key={s} onClick={() => onMark(status === s ? null : s)}
+            className={`rounded-full py-3 text-[14px] transition ${status === s ? 'text-ink' : 'border border-line text-dim'}`}
+            style={status === s ? { background: s === 'saltado' ? 'var(--color-faint)' : color } : undefined}>
+            {{ hecho: 'Hecho', minima: 'Mínima', saltado: 'Saltar' }[s]}
+          </button>
+        ))}
+      </div>
 
       <div className="mt-5">
         {b.link === 'workout' && <WorkoutView date={date} />}
@@ -37,15 +86,7 @@ export default function BlockDetail({ b, date, status, onMark, onClose }: {
         {b.link === 'measure' && <Btn kind="line" className="mt-2 w-full" onClick={() => open({ tab: 'cuerpo', sub: 'fotos' })}>Fotos de la semana</Btn>}
       </div>
 
-      <div className="mt-6 grid grid-cols-3 gap-2">
-        {(['hecho', 'minima', 'saltado'] as Status[]).map((s) => (
-          <button key={s} onClick={() => onMark(status === s ? null : s)}
-            className={`rounded-full py-3 text-[14px] transition ${status === s ? 'text-ink' : 'border border-line text-dim'}`}
-            style={status === s ? { background: s === 'saltado' ? 'var(--color-faint)' : color } : undefined}>
-            {{ hecho: 'Hecho', minima: 'Mínima', saltado: 'Saltar' }[s]}
-          </button>
-        ))}
-      </div>
+      {g && <GuideView g={g} color={color} />}
     </div>
   )
 }

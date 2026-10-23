@@ -20,6 +20,13 @@ export interface Step { step: string; how: string; product?: string; min?: numbe
 export type Grade = 'A' | 'B' | 'C' | 'D'
 export interface Tip { area: string; title: string; text: string; grade: Grade }
 
+export interface BlockGuide { que: string; por: string; como: string[]; tips: { text: string; grade: Grade }[]; minimo: string }
+export interface Bloques {
+  bloques: Record<string, BlockGuide>
+  glosario: { term: string; def: string }[]
+  compras: { item: string; why: string; grade: Grade; prioridad: 1 | 2 | 3; donde: string }[]
+}
+
 export interface Guia {
   metas: Record<string, string>
   macros: { kcal: number; proteinG: number; grasaG: number; carbosG: number; nota?: string }

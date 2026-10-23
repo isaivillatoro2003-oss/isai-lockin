@@ -195,7 +195,7 @@ function NowCard({ b, nowMin, status, onMark, onOpen }: { b: Block; nowMin: numb
           <>
             <button onClick={() => onMark('hecho')} className="flex-1 rounded-full py-3 text-[15px] font-medium text-ink active:scale-[0.98] transition" style={{ background: color }}>Hecho</button>
             <button onClick={() => onMark('minima')} className="rounded-full border border-line px-4 py-3 text-[13px] text-dim">Mínima</button>
-            {b.link && <button onClick={onOpen} className="rounded-full border border-line px-4 py-3 text-[13px] text-dim">Abrir</button>}
+            {(b.link || b.guide) && <button onClick={onOpen} className="rounded-full border border-line px-4 py-3 text-[13px] text-dim">{b.link ? 'Abrir' : 'Cómo'}</button>}
           </>
         )}
       </div>

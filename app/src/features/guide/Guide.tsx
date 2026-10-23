@@ -1,11 +1,61 @@
 import { useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
-import { guia } from '../../content'
+import { bloques, guia } from '../../content'
 import type { Grade as G } from '../../content/types'
 import { db, getSetting, requestPersist, setSetting } from '../../db'
 import { Btn, Card, Chips, Grade, Kicker, Screen } from '../../ui'
 
-type View = 'tips' | 'comida' | 'entreno' | 'glow' | 'adicciones' | 'salud' | 'datos'
+type View = 'tips' | 'comida' | 'entreno' | 'glow' | 'adicciones' | 'salud' | 'glosario' | 'compras' | 'datos'
+
+function Glossary() {
+  const [q, setQ] = useState('')
+  const items = [...bloques.glosario].sort((a, b) => a.term.localeCompare(b.term, 'es'))
+    .filter((x) => !q || `${x.term} ${x.def}`.toLowerCase().includes(q.toLowerCase()))
+  return (
+    <div>
+      <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Buscar: NSDR, Anki, zona 2..."
+        className="mb-4 w-full rounded-xl border border-line bg-ink px-4 py-3 text-[15px] outline-none placeholder:text-faint" />
+      <dl className="divide-y divide-line">
+        {items.map((x) => (
+          <div key={x.term} className="py-3">
+            <dt className="font-serif text-[21px] leading-tight">{x.term}</dt>
+            <dd className="mt-1 text-[14px] leading-relaxed text-dim">{x.def}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  )
+}
+
+function Shopping() {
+  const got = new Set(useLiveQuery(() => getSetting<string[]>('compras', []), []) ?? [])
+  const toggle = (k: string) => {
+    const n = new Set(got); n.has(k) ? n.delete(k) : n.add(k)
+    setSetting('compras', [...n])
+  }
+  const label = { 1: 'Imprescindible', 2: 'Útil', 3: 'Opcional' }
+  return (
+    <div className="space-y-8">
+      {([1, 2, 3] as const).map((p) => (
+        <section key={p}>
+          <Kicker>{label[p]}</Kicker>
+          <ul className="mt-2 divide-y divide-line">
+            {bloques.compras.filter((c) => c.prioridad === p).map((c) => (
+              <li key={c.item} onClick={() => toggle(c.item)} className={`flex cursor-pointer gap-3 py-3 ${got.has(c.item) ? 'opacity-40' : ''}`}>
+                <span className={`mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-md border text-[11px] ${got.has(c.item) ? 'border-sun bg-sun text-ink' : 'border-line'}`}>{got.has(c.item) && '✓'}</span>
+                <div className="min-w-0">
+                  <div className="flex items-center gap-2"><span className="text-[15px]">{c.item}</span><Grade g={c.grade} /></div>
+                  <div className="mt-0.5 text-[13px] leading-relaxed text-dim">{c.why}</div>
+                  <div className="text-[12px] text-faint">{c.donde}</div>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  )
+}
 
 const AREAS: Record<string, string> = {
   cuerpo: 'Cuerpo', desinflamar: 'Desinflamar', cara: 'Cara', piel: 'Piel', cabello: 'Cabello', barba: 'Barba',
@@ -19,9 +69,12 @@ export default function Guide() {
     <Screen title="Guía" kicker="Todo lo investigado">
       <Chips value={view} onChange={setView} options={[
         { v: 'tips', l: 'Tips' }, { v: 'comida', l: 'Comida' }, { v: 'entreno', l: 'Entreno' }, { v: 'glow', l: 'Glow up' },
-        { v: 'adicciones', l: 'Adicciones' }, { v: 'salud', l: 'Salud' }, { v: 'datos', l: 'Datos' },
+        { v: 'adicciones', l: 'Adicciones' }, { v: 'salud', l: 'Salud' }, { v: 'glosario', l: 'Glosario' },
+        { v: 'compras', l: 'Compras' }, { v: 'datos', l: 'Datos' },
       ]} />
       {view === 'tips' && <Tips />}
+      {view === 'glosario' && <Glossary />}
+      {view === 'compras' && <Shopping />}
       {view === 'comida' && <Food />}
       {view === 'entreno' && <Training />}
       {view === 'glow' && <Glow />}
