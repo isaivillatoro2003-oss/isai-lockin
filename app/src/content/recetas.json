@@ -1,0 +1,3918 @@
+[
+  {
+    "id": "r001",
+    "name": "Burrito de desayuno congelable",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "@stealthhealthlife (Stealth Health)",
+      "plataforma": "Instagram",
+      "url": ""
+    },
+    "tiempo": "15 min",
+    "porciones": 1,
+    "kcal": 560,
+    "proteinaG": 50,
+    "carbosG": 43,
+    "grasaG": 20,
+    "ingredientes": [
+      {
+        "item": "tortilla de harina integral grande",
+        "cantidad": "1 grande (60 g)"
+      },
+      {
+        "item": "huevo",
+        "cantidad": "2 piezas"
+      },
+      {
+        "item": "claras de huevo (de cartón)",
+        "cantidad": "120 ml"
+      },
+      {
+        "item": "jamón de pavo",
+        "cantidad": "50 g, picado"
+      },
+      {
+        "item": "queso mozzarella light rallado",
+        "cantidad": "25 g"
+      },
+      {
+        "item": "frijoles negros cocidos o refritos sin manteca",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "pico de gallo (jitomate, cebolla, cilantro, chile)",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "sal, pimienta y ajo en polvo",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Pon un sartén antiadherente a fuego medio con el aceite en spray y dora el jamón picado 1 min.",
+      "Bate los huevos con las claras, sal y pimienta. Viértelos al sartén y mueve con espátula de silicón cada 10 s. Apaga cuando se vean cremosos y apenas húmedos (2-3 min); se terminan de cocer con el calor.",
+      "Calienta la tortilla 15 s por lado en el mismo sartén para que se vuelva flexible.",
+      "Unta los frijoles en el centro, pon el huevo, el queso y el pico de gallo bien escurrido.",
+      "Dobla los lados hacia adentro y enrolla apretado. Regrésalo al sartén con la unión hacia abajo 1 min por lado hasta que la tortilla quede dorada y crujiente."
+    ],
+    "seVe": "Cilindro dorado con marcas tostadas; al partirlo por la mitad se ve el huevo amarillo esponjoso, hilos de queso derretido y puntos rojos y verdes del pico.",
+    "tips": [
+      "Meal prep: haz 5 de golpe, envuelve cada uno en papel aluminio o film y congela. Para comer: quita el aluminio, envuelve en servilleta húmeda y microondas 2 min por lado.",
+      "Escurre bien el pico de gallo o el burrito se aguada al congelar.",
+      "Si no consigues tortilla integral grande, usa la de harina normal tamaño burrito; suma ~20 kcal."
+    ],
+    "tags": [
+      "mexicana",
+      "meal-prep",
+      "sin-horno",
+      "congelable"
+    ]
+  },
+  {
+    "id": "r002",
+    "name": "Chilaquiles verdes con pollo y huevo estrellado",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "Tendencia #chilaquilesfit",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 535,
+    "proteinaG": 45,
+    "carbosG": 56,
+    "grasaG": 15,
+    "ingredientes": [
+      {
+        "item": "tortilla de maíz",
+        "cantidad": "3 tortillas (90 g)"
+      },
+      {
+        "item": "salsa verde o roja de frasco o casera",
+        "cantidad": "3/4 taza"
+      },
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "100 g cocido y deshebrado"
+      },
+      {
+        "item": "huevo",
+        "cantidad": "1 pieza"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "3 cdas (como crema)"
+      },
+      {
+        "item": "queso panela",
+        "cantidad": "25 g, desmoronado"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "unas rodajas"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      },
+      {
+        "item": "cilantro",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Corta las tortillas en triángulos. Rocíalas con spray y ponlas en el comal o sartén a fuego medio, volteando cada 2 min, hasta que truenen al doblarlas (8-10 min). Con air fryer: 180 °C 7 min moviendo a la mitad.",
+      "En otro sartén calienta la salsa verde hasta que hierva suave. Agrega el pollo deshebrado 1 min.",
+      "Mete los totopos a la salsa y revuelve 30 s. Apaga: si los dejas más se ablandan de más.",
+      "En el sartén de los totopos haz el huevo estrellado con spray, tapado, 3 min a fuego medio-bajo hasta que la clara esté blanca y la yema siga brillante.",
+      "Sirve los chilaquiles, encima el huevo, el yogur en hilitos, panela, cebolla y cilantro."
+    ],
+    "seVe": "Montaña verde brillante con totopos todavía con bordes crujientes, un huevo con la yema naranja al centro, chorritos blancos de yogur, cubitos de panela y aros de cebolla morada.",
+    "tips": [
+      "El yogur griego con una pizca de sal y limón sabe a crema y tiene 3 veces más proteína.",
+      "Ten pollo deshebrado cocido en el refri para toda la semana: así esto sale en 10 min.",
+      "Error común: freír los totopos en aceite. Tostados en comal quedan igual de crujientes."
+    ],
+    "tags": [
+      "mexicana",
+      "sin-horno",
+      "picante"
+    ]
+  },
+  {
+    "id": "r003",
+    "name": "Overnight oats de chocolate y plátano",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "Tendencia #proteinoats",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "5 min",
+    "porciones": 1,
+    "kcal": 535,
+    "proteinaG": 53,
+    "carbosG": 62,
+    "grasaG": 10,
+    "ingredientes": [
+      {
+        "item": "avena en hojuelas",
+        "cantidad": "45 g"
+      },
+      {
+        "item": "proteína whey (vainilla o chocolate)",
+        "cantidad": "1 scoop (30 g) de chocolate"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "leche descremada o deslactosada light",
+        "cantidad": "120 ml"
+      },
+      {
+        "item": "plátano",
+        "cantidad": "1/2 plátano"
+      },
+      {
+        "item": "cacao en polvo sin azúcar",
+        "cantidad": "1 cdita"
+      },
+      {
+        "item": "crema de cacahuate natural",
+        "cantidad": "1/2 cda"
+      },
+      {
+        "item": "canela",
+        "cantidad": "una pizca"
+      }
+    ],
+    "pasos": [
+      "En un frasco con tapa mezcla la avena, el scoop de proteína, el cacao y la canela.",
+      "Agrega la leche y revuelve bien con tenedor hasta que no queden grumos de proteína.",
+      "Integra el yogur griego y la mitad del plátano machacado.",
+      "Tapa y deja en el refri toda la noche (mínimo 4 h). Debe quedar espeso como pudín.",
+      "Al servir pon encima el resto del plátano en rodajas y la crema de cacahuate."
+    ],
+    "seVe": "Frasco con capas café oscuro tipo pudín, rodajas de plátano en abanico arriba y un hilo de crema de cacahuate derretida.",
+    "tips": [
+      "Prepara 3 frascos el domingo; duran 3 días en el refri.",
+      "Si queda muy espeso, agrega un chorrito de leche en la mañana.",
+      "Cambia a whey de vainilla con mango y coco rallado para versión tropical."
+    ],
+    "tags": [
+      "dulce",
+      "meal-prep",
+      "sin-coccion",
+      "rapida"
+    ]
+  },
+  {
+    "id": "r004",
+    "name": "Hot cakes de avena y proteína",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "The Protein Chef (Derek Howes)",
+      "plataforma": "YouTube",
+      "url": ""
+    },
+    "tiempo": "15 min",
+    "porciones": 1,
+    "kcal": 535,
+    "proteinaG": 58,
+    "carbosG": 53,
+    "grasaG": 10,
+    "ingredientes": [
+      {
+        "item": "avena en hojuelas",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "proteína whey (vainilla o chocolate)",
+        "cantidad": "1 scoop"
+      },
+      {
+        "item": "huevo",
+        "cantidad": "1 pieza"
+      },
+      {
+        "item": "claras de huevo (de cartón)",
+        "cantidad": "100 ml"
+      },
+      {
+        "item": "plátano",
+        "cantidad": "1/2 plátano chico"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "para servir"
+      },
+      {
+        "item": "frutos rojos congelados",
+        "cantidad": "para servir"
+      },
+      {
+        "item": "polvo para hornear",
+        "cantidad": "1 cdita"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Licúa avena, proteína, huevo, claras, plátano y polvo para hornear 30 s hasta tener una masa lisa. Déjala reposar 3 min para que espese.",
+      "Calienta un sartén antiadherente a fuego medio-bajo con spray. Fuego bajo es la clave: la proteína se quema rápido.",
+      "Vierte 1/4 de taza por hot cake. Voltea cuando salgan burbujitas en la superficie y los bordes se vean secos (2 min).",
+      "Cocina 1 min más del otro lado.",
+      "Sirve en torre con el yogur encima y los frutos rojos calentados 40 s en microondas como mermelada."
+    ],
+    "seVe": "Torre de 4-5 hot cakes dorados parejos, una cucharada blanca de yogur encima y frutos rojos jugosos escurriendo por los lados.",
+    "tips": [
+      "Congela los hot cakes separados con papel encerado; recalienta 40 s en microondas o en el tostador.",
+      "Si se pegan, el sartén está muy caliente o le falta spray.",
+      "Endulza con stevia o monk fruit si no traes whey dulce."
+    ],
+    "tags": [
+      "dulce",
+      "sin-horno",
+      "congelable"
+    ]
+  },
+  {
+    "id": "r005",
+    "name": "Wrap de cottage y huevo en sartén con relleno de pavo",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "Tendencia #cottagecheeseflatbread",
+      "plataforma": "TikTok",
+      "url": "https://jazzleaf.substack.com/p/viral-high-protein-cottage-cheese"
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 445,
+    "proteinaG": 47,
+    "carbosG": 23,
+    "grasaG": 18,
+    "ingredientes": [
+      {
+        "item": "queso cottage bajo en grasa",
+        "cantidad": "120 g"
+      },
+      {
+        "item": "huevo",
+        "cantidad": "2 piezas"
+      },
+      {
+        "item": "jamón de pavo",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "queso mozzarella light rallado",
+        "cantidad": "20 g"
+      },
+      {
+        "item": "espinaca",
+        "cantidad": "un puño"
+      },
+      {
+        "item": "jitomate",
+        "cantidad": "1/2 pieza en rodajas"
+      },
+      {
+        "item": "pan integral de caja",
+        "cantidad": "1 rebanada tostada aparte"
+      },
+      {
+        "item": "sal, pimienta y ajo en polvo",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Licúa el cottage con los huevos, sal y ajo en polvo hasta que quede líquido y sin grumos.",
+      "Calienta un sartén antiadherente grande a fuego BAJO con spray. Vierte la mezcla y mueve el sartén para que cubra todo el fondo, como crepa gruesa.",
+      "Tapa y deja 6-8 min sin moverlo. Está lista cuando la superficie ya no se ve líquida y los bordes se despegan solos.",
+      "Voltéala con ayuda de un plato y deja 1 min más.",
+      "Rellena con jamón, queso, espinaca y jitomate, enrolla y parte a la mitad. Acompaña con el pan tostado."
+    ],
+    "seVe": "Wrap amarillo pálido con manchitas doradas, enrollado y partido en diagonal mostrando verde de espinaca, rojo de jitomate y queso fundido.",
+    "tips": [
+      "El original del trend va al horno; en sartén tapado a fuego bajo funciona igual, solo ten paciencia.",
+      "Haz 2 o 3 y guárdalas en el refri separadas con papel; duran 3 días.",
+      "Si se rompe al voltear, el fuego estaba alto o le faltó tiempo tapado."
+    ],
+    "tags": [
+      "sin-horno",
+      "bajo-en-carbos",
+      "viral"
+    ]
+  },
+  {
+    "id": "r006",
+    "name": "Huevos a la mexicana con claras, frijoles y tortillas",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "@saschafitness (Sascha Fitness)",
+      "plataforma": "Instagram",
+      "url": ""
+    },
+    "tiempo": "12 min",
+    "porciones": 1,
+    "kcal": 530,
+    "proteinaG": 44,
+    "carbosG": 53,
+    "grasaG": 15,
+    "ingredientes": [
+      {
+        "item": "huevo",
+        "cantidad": "2 piezas"
+      },
+      {
+        "item": "claras de huevo (de cartón)",
+        "cantidad": "150 ml"
+      },
+      {
+        "item": "jitomate",
+        "cantidad": "1 pieza picada"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "1/4 picada"
+      },
+      {
+        "item": "chile serrano",
+        "cantidad": "1 picado"
+      },
+      {
+        "item": "frijoles negros cocidos o refritos sin manteca",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "tortilla de maíz",
+        "cantidad": "2 tortillas"
+      },
+      {
+        "item": "queso panela",
+        "cantidad": "20 g"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Sartén a fuego medio con spray. Sofríe cebolla, jitomate y chile 3 min hasta que el jitomate suelte jugo.",
+      "Bate huevos y claras con sal, viértelos y revuelve suave 2-3 min. Apaga cuando ya no haya líquido pero sigan húmedos.",
+      "Calienta los frijoles en microondas 1 min y las tortillas en comal 30 s por lado hasta que se inflen.",
+      "Sirve con panela desmoronada encima de los frijoles."
+    ],
+    "seVe": "Huevo esponjoso con trocitos rojos, blancos y verdes, frijoles negros brillantes con queso blanco encima y tortillas calientes envueltas en servilleta.",
+    "tips": [
+      "Las claras de cartón (Walmart, Chedraui) te ahorran separar huevos.",
+      "No dejes el huevo hasta que se seque: pierde jugosidad y se ve gris."
+    ],
+    "tags": [
+      "mexicana",
+      "sin-horno",
+      "rapida"
+    ]
+  },
+  {
+    "id": "r007",
+    "name": "Molletes proteicos con pavo y pico de gallo",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "Tendencia #molletesfit",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "12 min",
+    "porciones": 1,
+    "kcal": 465,
+    "proteinaG": 41,
+    "carbosG": 51,
+    "grasaG": 10,
+    "ingredientes": [
+      {
+        "item": "pan integral de caja",
+        "cantidad": "2 rebanadas"
+      },
+      {
+        "item": "frijoles negros cocidos o refritos sin manteca",
+        "cantidad": "70 g"
+      },
+      {
+        "item": "queso cottage bajo en grasa",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "queso mozzarella light rallado",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "jamón de pavo",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "pico de gallo (jitomate, cebolla, cilantro, chile)",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Unta los frijoles en las 2 rebanadas de pan.",
+      "Encima pon el jamón, luego el cottage en cucharadas y el queso mozzarella.",
+      "Sartén a fuego medio-bajo con spray, mete los panes y TAPA. 5-6 min hasta que el queso se derrita y el pan quede crujiente abajo. En air fryer: 180 °C 5 min.",
+      "Sirve con el pico de gallo encima."
+    ],
+    "seVe": "Dos panes con queso fundido burbujeante y bordes dorados, cubiertos con pico de gallo fresco que brilla con limón.",
+    "tips": [
+      "El cottage aporta proteína y sabe a requesón; nadie nota la diferencia.",
+      "Si el pan se quema antes de que funda el queso, baja el fuego y deja más tiempo tapado."
+    ],
+    "tags": [
+      "mexicana",
+      "sin-horno",
+      "rapida"
+    ]
+  },
+  {
+    "id": "r008",
+    "name": "Parfait de yogur griego con whey, avena tostada y frutos rojos",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "Tendencia #proteinyogurtbowl",
+      "plataforma": "Instagram",
+      "url": ""
+    },
+    "tiempo": "5 min",
+    "porciones": 1,
+    "kcal": 465,
+    "proteinaG": 52,
+    "carbosG": 43,
+    "grasaG": 10,
+    "ingredientes": [
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "250 g"
+      },
+      {
+        "item": "proteína whey (vainilla o chocolate)",
+        "cantidad": "1 scoop chico"
+      },
+      {
+        "item": "avena en hojuelas",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "frutos rojos congelados",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "crema de cacahuate natural",
+        "cantidad": "2 cditas"
+      },
+      {
+        "item": "canela",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Mezcla el yogur con la proteína hasta que quede cremoso, sin grumos.",
+      "Tuesta la avena en sartén seco a fuego medio 3 min moviendo, hasta que huela a galleta.",
+      "Descongela los frutos rojos 1 min en microondas.",
+      "En un vaso o bowl alterna capas: yogur, avena, frutos rojos. Termina con la crema de cacahuate."
+    ],
+    "seVe": "Vaso con capas blancas, moradas y doradas bien marcadas, frutos rojos jugosos arriba y un hilo de crema de cacahuate.",
+    "tips": [
+      "Si el yogur queda muy espeso con la proteína, agrega 2 cdas de leche.",
+      "Puedes dejar el yogur con whey listo en tuppers; la avena ponla al momento para que siga crujiente."
+    ],
+    "tags": [
+      "dulce",
+      "sin-coccion",
+      "rapida"
+    ]
+  },
+  {
+    "id": "r009",
+    "name": "Tortilla española proteica de sartén",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "@carlosriosq (Carlos Ríos, Realfooding)",
+      "plataforma": "Instagram",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 480,
+    "proteinaG": 40,
+    "carbosG": 44,
+    "grasaG": 15,
+    "ingredientes": [
+      {
+        "item": "papa",
+        "cantidad": "1 papa mediana"
+      },
+      {
+        "item": "huevo",
+        "cantidad": "2 piezas"
+      },
+      {
+        "item": "claras de huevo (de cartón)",
+        "cantidad": "200 ml"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "1/2"
+      },
+      {
+        "item": "aceite de oliva o aguacate",
+        "cantidad": "1 cdita"
+      },
+      {
+        "item": "jitomate",
+        "cantidad": "en rodajas con sal"
+      },
+      {
+        "item": "sal, pimienta y ajo en polvo",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Corta la papa en láminas finas, ponla en un bowl con 2 cdas de agua, tapa y microondas 5-6 min hasta que se deshaga al picarla.",
+      "Sartén chico antiadherente a fuego medio con el aceite: dora la cebolla en julianas 4 min y agrega la papa 2 min.",
+      "Bate huevos, claras y sal, vierte sobre la papa y baja el fuego a bajo. Tapa 6-7 min.",
+      "Cuando los bordes estén cuajados y el centro casi firme, pon un plato encima, voltea y desliza la tortilla de vuelta al sartén 2 min.",
+      "Sirve en triángulos con el jitomate."
+    ],
+    "seVe": "Disco grueso dorado por fuera, amarillo por dentro, con capas de papa visibles al cortarlo; jitomate rojo al lado.",
+    "tips": [
+      "Aguanta 3 días en refri y se come fría o tibia.",
+      "Si no te animas a voltearla, termina la parte de arriba tapada a fuego mínimo."
+    ],
+    "tags": [
+      "espanola",
+      "sin-horno",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "r010",
+    "name": "Omelette de espinaca, champiñón y panela con pan",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "Tendencia #omelettefit",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "12 min",
+    "porciones": 1,
+    "kcal": 500,
+    "proteinaG": 48,
+    "carbosG": 35,
+    "grasaG": 19,
+    "ingredientes": [
+      {
+        "item": "huevo",
+        "cantidad": "2 piezas"
+      },
+      {
+        "item": "claras de huevo (de cartón)",
+        "cantidad": "150 ml"
+      },
+      {
+        "item": "champiñones",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "espinaca",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "queso panela",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "pan integral de caja",
+        "cantidad": "2 rebanadas"
+      },
+      {
+        "item": "salsa verde o roja de frasco o casera",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      },
+      {
+        "item": "sal, pimienta y ajo en polvo",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Sartén a fuego medio con spray: saltea los champiñones 3 min hasta que se doren y suelten agua; agrega espinaca 30 s y saca.",
+      "Bate huevos con claras y sal. Spray otra vez, vierte y deja cuajar sin mover 2 min, levantando bordes para que corra el líquido.",
+      "Cuando arriba casi no haya líquido, pon de un lado los champiñones, espinaca y panela. Dobla a la mitad y tapa 1 min.",
+      "Sirve con el pan tostado y la salsa."
+    ],
+    "seVe": "Media luna amarilla con bordes dorados, al abrirla sale verde y queso blanco suave; pan tostado y salsa roja al lado.",
+    "tips": [
+      "Fuego medio, no alto: el omelette debe quedar amarillo, no café.",
+      "Cambia el relleno por jamón y pimiento para variar."
+    ],
+    "tags": [
+      "sin-horno",
+      "rapida",
+      "vegetariana"
+    ]
+  },
+  {
+    "id": "r011",
+    "name": "Sándwich de desayuno congelable estilo McMuffin",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "@stealthhealthlife (Stealth Health)",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "15 min",
+    "porciones": 1,
+    "kcal": 485,
+    "proteinaG": 55,
+    "carbosG": 34,
+    "grasaG": 13,
+    "ingredientes": [
+      {
+        "item": "pan integral de caja",
+        "cantidad": "2 rebanadas o 1 bollo integral"
+      },
+      {
+        "item": "huevo",
+        "cantidad": "1 pieza"
+      },
+      {
+        "item": "claras de huevo (de cartón)",
+        "cantidad": "100 ml"
+      },
+      {
+        "item": "jamón de pavo",
+        "cantidad": "3 rebanadas"
+      },
+      {
+        "item": "queso amarillo light en rebanada",
+        "cantidad": "1 rebanada light"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "aparte, con canela"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Engrasa con spray un aro de metal o la tapa de un frasco de boca ancha y ponlo en el sartén a fuego medio-bajo.",
+      "Bate huevo con claras y sal, vierte dentro del aro, tapa el sartén y deja 4 min hasta que esté firme. Saca el aro con pinzas.",
+      "Dora el jamón 30 s por lado.",
+      "Arma: pan, huevo, jamón, queso, pan. Tápalo 1 min en el sartén para fundir el queso.",
+      "Acompaña con el yogur griego con canela."
+    ],
+    "seVe": "Sándwich redondo con un disco de huevo perfecto, queso amarillo escurriendo por los lados y pan tostado.",
+    "tips": [
+      "Para congelar: envuelve cada sándwich en papel encerado y bolsa ziploc; recalienta envuelto en servilleta 1.5 min en microondas.",
+      "Sin aro: haz el huevo cuadrado en sartén y dóblalo al tamaño del pan."
+    ],
+    "tags": [
+      "meal-prep",
+      "congelable",
+      "sin-horno"
+    ]
+  },
+  {
+    "id": "r012",
+    "name": "Tacos de claras con chorizo de pavo y nopales",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "Tendencia #tacosfit",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "15 min",
+    "porciones": 1,
+    "kcal": 570,
+    "proteinaG": 49,
+    "carbosG": 53,
+    "grasaG": 20,
+    "ingredientes": [
+      {
+        "item": "claras de huevo (de cartón)",
+        "cantidad": "250 ml"
+      },
+      {
+        "item": "huevo",
+        "cantidad": "1 pieza"
+      },
+      {
+        "item": "chorizo de pavo",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "nopales picados",
+        "cantidad": "120 g"
+      },
+      {
+        "item": "tortilla de maíz",
+        "cantidad": "3 tortillas"
+      },
+      {
+        "item": "salsa verde o roja de frasco o casera",
+        "cantidad": "50 g"
+      },
+      {
+        "item": "aguacate",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Lava los nopales picados en un colador hasta que dejen de soltar baba.",
+      "Sartén a fuego medio-alto, sin aceite: cocina los nopales 6-8 min moviendo hasta que cambien a verde olivo y ya no se vea baba.",
+      "Agrega el chorizo de pavo desmoronado 2 min hasta que suelte color rojo.",
+      "Baja a medio, vierte claras y huevo batidos con sal y revuelve 2-3 min hasta que cuajen.",
+      "Sirve en tortillas calientes con salsa y aguacate."
+    ],
+    "seVe": "Huevo revuelto teñido de naranja por el chorizo con cuadritos verde oscuro de nopal, en tortillas con salsa y rebanadas de aguacate.",
+    "tips": [
+      "El chorizo de pavo (Chimex, FUD) tiene la mitad de grasa que el de cerdo; 40 g dan todo el sabor.",
+      "Nopales ya picados vienen en bolsa en Walmart y mercados."
+    ],
+    "tags": [
+      "mexicana",
+      "sin-horno",
+      "picante"
+    ]
+  },
+  {
+    "id": "r013",
+    "name": "Smoothie bowl de mango con yogur y granola",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "Tendencia #smoothiebowl",
+      "plataforma": "Instagram",
+      "url": ""
+    },
+    "tiempo": "8 min",
+    "porciones": 1,
+    "kcal": 470,
+    "proteinaG": 48,
+    "carbosG": 53,
+    "grasaG": 8,
+    "ingredientes": [
+      {
+        "item": "mango",
+        "cantidad": "150 g congelado"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "200 g"
+      },
+      {
+        "item": "proteína whey (vainilla o chocolate)",
+        "cantidad": "1 scoop vainilla"
+      },
+      {
+        "item": "bebida de almendra sin azúcar",
+        "cantidad": "60 ml"
+      },
+      {
+        "item": "granola",
+        "cantidad": "25 g"
+      },
+      {
+        "item": "fresas",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "coco rallado",
+        "cantidad": "1 cdita"
+      },
+      {
+        "item": "limón",
+        "cantidad": "unas gotas"
+      }
+    ],
+    "pasos": [
+      "Licúa mango congelado, yogur, proteína y leche. Usa el pulso y empuja con una cuchara: debe quedar espeso como helado, no líquido.",
+      "Si no avanza, agrega 1 cda de leche a la vez.",
+      "Sirve en bowl frío y alisa la superficie.",
+      "Decora en líneas: granola, fresas rebanadas y coco."
+    ],
+    "seVe": "Bowl amarillo intenso de textura de nieve, con franjas de granola dorada, fresas rojas en abanico y coco blanco.",
+    "tips": [
+      "Compra el mango en temporada en el mercado, pícalo y congélalo en bolsas de 150 g.",
+      "Error común: poner mucha leche y que quede licuado. Menos líquido, más paciencia."
+    ],
+    "tags": [
+      "dulce",
+      "sin-coccion",
+      "tropical"
+    ]
+  },
+  {
+    "id": "r014",
+    "name": "Pan francés proteico con frutos rojos",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "Tendencia #proteinfrenchtoast",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "12 min",
+    "porciones": 1,
+    "kcal": 495,
+    "proteinaG": 56,
+    "carbosG": 55,
+    "grasaG": 5,
+    "ingredientes": [
+      {
+        "item": "pan integral de caja",
+        "cantidad": "3 rebanadas"
+      },
+      {
+        "item": "claras de huevo (de cartón)",
+        "cantidad": "150 ml"
+      },
+      {
+        "item": "proteína whey (vainilla o chocolate)",
+        "cantidad": "2/3 scoop vainilla"
+      },
+      {
+        "item": "leche descremada o deslactosada light",
+        "cantidad": "50 ml"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "frutos rojos congelados",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "canela y vainilla",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Bate claras, proteína, leche, canela y vainilla con tenedor hasta que no haya grumos.",
+      "Remoja cada rebanada 10 s por lado. No más o se rompe.",
+      "Sartén a fuego medio con spray: cocina 2-3 min por lado hasta que esté dorado y firme al tocar.",
+      "Sirve con el yogur y los frutos rojos calentados en microondas como salsa."
+    ],
+    "seVe": "Rebanadas doradas con canela, apiladas en diagonal, con yogur blanco y salsa morada brillante escurriendo.",
+    "tips": [
+      "Pan del día anterior absorbe mejor sin deshacerse.",
+      "Si queda aguado por dentro, fuego más bajo y tapa 1 min."
+    ],
+    "tags": [
+      "dulce",
+      "sin-horno",
+      "rapida"
+    ]
+  },
+  {
+    "id": "r015",
+    "name": "Quesadilla de huevo con el truco de la tortilla (egg wrap hack)",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "Tendencia #tortillahack",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "10 min",
+    "porciones": 1,
+    "kcal": 520,
+    "proteinaG": 47,
+    "carbosG": 36,
+    "grasaG": 20,
+    "ingredientes": [
+      {
+        "item": "huevo",
+        "cantidad": "2 piezas"
+      },
+      {
+        "item": "claras de huevo (de cartón)",
+        "cantidad": "120 ml"
+      },
+      {
+        "item": "tortilla de harina integral grande",
+        "cantidad": "1 grande"
+      },
+      {
+        "item": "jamón de pavo",
+        "cantidad": "50 g"
+      },
+      {
+        "item": "queso mozzarella light rallado",
+        "cantidad": "25 g"
+      },
+      {
+        "item": "salsa verde o roja de frasco o casera",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "pico de gallo (jitomate, cebolla, cilantro, chile)",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      },
+      {
+        "item": "sal, pimienta y ajo en polvo",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Bate huevos, claras y sal. Sartén del tamaño de la tortilla a fuego medio con spray.",
+      "Vierte el huevo y, de inmediato, pon la tortilla encima y presiónala para que se pegue al huevo.",
+      "Cuando el huevo esté firme (2-3 min), voltea todo: la tortilla queda abajo.",
+      "Pon jamón y queso en una mitad, dobla y deja 1 min por lado hasta que el queso se derrita.",
+      "Corta en triángulos y sirve con salsa y pico de gallo."
+    ],
+    "seVe": "Media luna dorada con una capa amarilla de huevo pegada a la tortilla y queso estirándose al partirla.",
+    "tips": [
+      "Es el hack viral de TikTok: todo en un solo sartén y en 10 min.",
+      "Usa sartén antiadherente o el huevo se pega antes de que pongas la tortilla."
+    ],
+    "tags": [
+      "mexicana",
+      "sin-horno",
+      "rapida",
+      "viral"
+    ]
+  },
+  {
+    "id": "r016",
+    "name": "Pollo peri peri con arroz picante",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "@jalalsamfit (Jalal)",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 585,
+    "proteinaG": 56,
+    "carbosG": 61,
+    "grasaG": 11,
+    "ingredientes": [
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "200 g"
+      },
+      {
+        "item": "arroz cocido",
+        "cantidad": "180 g"
+      },
+      {
+        "item": "pimiento morrón",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "3 cdas para salsa"
+      },
+      {
+        "item": "aceite de oliva o aguacate",
+        "cantidad": "1 cdita"
+      },
+      {
+        "item": "paprika ahumada, ajo, orégano, chile de árbol en polvo, limón",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Corta el pollo en tiras y mézclalo con paprika, ajo, orégano, chile en polvo, sal y el jugo de 1/2 limón. Deja 5 min.",
+      "Sartén a fuego medio-alto con el aceite. Cocina el pollo 3 min por lado sin moverlo para que se dore. Por dentro debe verse blanco, sin rosa. Saca.",
+      "En el mismo sartén saltea pimiento y cebolla 3 min. Agrega el arroz ya cocido, 1 cdita de paprika y chile al gusto y mezcla 2 min hasta que el arroz quede naranja.",
+      "Mezcla el yogur con limón, ajo y una pizca de chile para la salsa.",
+      "Sirve el arroz, encima el pollo y la salsa en hilo."
+    ],
+    "seVe": "Arroz anaranjado con tiras de pimiento rojo, pollo dorado casi tostado en las orillas y un chorro de salsa blanca cremosa.",
+    "tips": [
+      "Meal prep: 4 tuppers con arroz, pollo y la salsa aparte en frasquito.",
+      "Usa arroz del día anterior: se fríe mejor y no se pega.",
+      "El pollo se seca si lo cortas muy delgado; tiras de 2 cm de ancho."
+    ],
+    "tags": [
+      "meal-prep",
+      "sin-horno",
+      "picante"
+    ]
+  },
+  {
+    "id": "r017",
+    "name": "Burritos de res con queso congelables",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "@stealthhealthlife (Stealth Health)",
+      "plataforma": "Instagram",
+      "url": "https://stealthhealthlife.substack.com/p/the-original-beefy-cheesy-burritos"
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 590,
+    "proteinaG": 51,
+    "carbosG": 57,
+    "grasaG": 16,
+    "ingredientes": [
+      {
+        "item": "carne molida de res 95/5",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "tortilla de harina integral grande",
+        "cantidad": "1 grande"
+      },
+      {
+        "item": "arroz cocido",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "frijoles negros cocidos o refritos sin manteca",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "queso mozzarella light rallado",
+        "cantidad": "20 g"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "2 cdas"
+      },
+      {
+        "item": "salsa verde o roja de frasco o casera",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "comino, chile en polvo, ajo",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Sartén a fuego medio-alto sin aceite. Dora la carne 6-7 min, rompiéndola con la espátula, hasta que no quede nada rosa y empiece a pegarse un poco.",
+      "Agrega comino, chile en polvo, ajo, sal y la salsa. Cocina 2 min hasta que el líquido se reduzca.",
+      "Calienta la tortilla. Pon arroz, frijoles, carne, queso y yogur en línea al centro.",
+      "Dobla los lados y enrolla apretado. Dóralo en el sartén 1 min por lado con la unión hacia abajo primero."
+    ],
+    "seVe": "Burrito gordo, dorado, al partirlo carne jugosa rojiza, arroz blanco, queso derretido estirándose.",
+    "tips": [
+      "La gracia del original: haz 6-8, envuélvelos en aluminio y congélalos. Saca uno, quítale el aluminio y microondas 2-3 min en servilleta húmeda.",
+      "Carne 95/5 en Walmart o pide al carnicero bola molida dos veces.",
+      "No pongas salsa de más: congelado se humedece la tortilla."
+    ],
+    "tags": [
+      "mexicana",
+      "meal-prep",
+      "congelable",
+      "sin-horno"
+    ]
+  },
+  {
+    "id": "r018",
+    "name": "Burrito cheeseburger",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "@stealthhealthlife (Stealth Health)",
+      "plataforma": "Instagram",
+      "url": "https://stealthhealthlife.substack.com/p/cheeseburger-burritos"
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 560,
+    "proteinaG": 48,
+    "carbosG": 51,
+    "grasaG": 16,
+    "ingredientes": [
+      {
+        "item": "carne molida de res 95/5",
+        "cantidad": "160 g"
+      },
+      {
+        "item": "tortilla de harina integral grande",
+        "cantidad": "1 grande"
+      },
+      {
+        "item": "papa",
+        "cantidad": "en cubitos"
+      },
+      {
+        "item": "queso amarillo light en rebanada",
+        "cantidad": "1 rebanada light"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "lechuga romana",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "pepinillos, mostaza y cátsup light",
+        "cantidad": "1 cda de cada uno"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Pon los cubitos de papa en un bowl con 1 cda de agua, tapa y microondas 4 min. Luego dóralos en sartén con spray 5 min hasta que tengan orillas crujientes.",
+      "En el mismo sartén dora la carne con la cebolla picada 6 min, sal y pimienta.",
+      "Mezcla mostaza y cátsup con la carne fuera del fuego.",
+      "Rellena la tortilla con carne, papas, queso, pepinillos y lechuga. Enrolla y dora 1 min por lado."
+    ],
+    "seVe": "Burrito dorado que al partirlo parece hamburguesa: carne, queso amarillo fundido, papitas doradas y pepinillos verdes.",
+    "tips": [
+      "Para congelar, omite la lechuga y ponla al servir.",
+      "Agrega 1 cda de yogur griego con mostaza y pepinillo picado como \"salsa Big Mac\"."
+    ],
+    "tags": [
+      "meal-prep",
+      "congelable",
+      "sin-horno"
+    ]
+  },
+  {
+    "id": "r019",
+    "name": "Pollo tikka masala ligero con arroz",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "@stealthhealthlife (Stealth Health)",
+      "plataforma": "Instagram",
+      "url": "https://stealthhealthlife.substack.com/p/high-protein-chicken-tikka-masala"
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 590,
+    "proteinaG": 60,
+    "carbosG": 58,
+    "grasaG": 11,
+    "ingredientes": [
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "200 g"
+      },
+      {
+        "item": "arroz cocido",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "puré de tomate",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "50 g"
+      },
+      {
+        "item": "aceite de oliva o aguacate",
+        "cantidad": "1 cdita"
+      },
+      {
+        "item": "garam masala o curry en polvo, comino, paprika, jengibre y ajo",
+        "cantidad": "1 cda en total"
+      },
+      {
+        "item": "cilantro",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Corta el pollo en cubos y mézclalo con 3 cdas del yogur y la mitad de las especias. Deja 5 min.",
+      "Sartén a fuego medio-alto con aceite: dora el pollo 5 min hasta que esté dorado por fuera. Saca.",
+      "En el mismo sartén sofríe la cebolla picada 3 min, agrega el resto de especias 30 s (que huelan) y el puré de tomate. Hierve suave 5 min.",
+      "Apaga el fuego, espera 1 min y mezcla el resto del yogur (si lo pones hirviendo se corta). Regresa el pollo y calienta 2 min a fuego bajo.",
+      "Sirve sobre el arroz con cilantro."
+    ],
+    "seVe": "Salsa naranja cremosa cubriendo cubos de pollo dorado, arroz blanco al lado y hojitas verdes de cilantro.",
+    "tips": [
+      "Curry en polvo y garam masala los encuentras en Walmart (sección internacional) o tiendas naturistas.",
+      "Rinde perfecto para 4 tuppers: congela la salsa con pollo y haz arroz fresco."
+    ],
+    "tags": [
+      "meal-prep",
+      "sin-horno",
+      "internacional"
+    ]
+  },
+  {
+    "id": "r020",
+    "name": "Butter chicken ligero",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "@stealthhealthlife (Stealth Health)",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 580,
+    "proteinaG": 59,
+    "carbosG": 58,
+    "grasaG": 10,
+    "ingredientes": [
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "200 g"
+      },
+      {
+        "item": "arroz cocido",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "puré de tomate",
+        "cantidad": "120 g"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "leche descremada o deslactosada light",
+        "cantidad": "60 ml"
+      },
+      {
+        "item": "mantequilla",
+        "cantidad": "1 cdita (5 g)"
+      },
+      {
+        "item": "curry, paprika, garam masala, ajo, jengibre",
+        "cantidad": "1 cda total"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "40 g"
+      }
+    ],
+    "pasos": [
+      "Cubos de pollo con sal y la mitad de las especias. Sartén a fuego medio-alto, dóralos 5 min con la mantequilla. Saca.",
+      "Sofríe cebolla 3 min, agrega el resto de especias 30 s y el puré de tomate. Hierve 4 min.",
+      "Baja el fuego al mínimo, agrega leche y, fuera del fuego, el yogur. Mezcla hasta que quede una salsa rosada cremosa.",
+      "Regresa el pollo 2 min a fuego bajo y sirve con arroz."
+    ],
+    "seVe": "Salsa anaranjado-rosado brillante y espesa, pollo en cubos bañado, arroz blanco esponjoso.",
+    "tips": [
+      "Fue tan viral que hay gente que lo comió diario por meses en TikTok; es de los mejores para meal prep.",
+      "Si la salsa se corta (grumitos blancos), el yogur entró muy caliente: licúala 10 s y listo."
+    ],
+    "tags": [
+      "meal-prep",
+      "sin-horno",
+      "internacional"
+    ]
+  },
+  {
+    "id": "r021",
+    "name": "Bowl de tinga de pollo con arroz y frijoles",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Tendencia #tingafit",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 625,
+    "proteinaG": 57,
+    "carbosG": 72,
+    "grasaG": 11,
+    "ingredientes": [
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "180 g cocido y deshebrado"
+      },
+      {
+        "item": "puré de tomate",
+        "cantidad": "120 g"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "1/2 en julianas"
+      },
+      {
+        "item": "chiles chipotles adobados",
+        "cantidad": "1-2 chiles"
+      },
+      {
+        "item": "arroz cocido",
+        "cantidad": "120 g"
+      },
+      {
+        "item": "frijoles negros cocidos o refritos sin manteca",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "aguacate",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "2 cdas"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Si no tienes pollo cocido: hierve la pechuga 18 min en agua con sal, ajo y cebolla, y deshébrala con 2 tenedores.",
+      "Sartén a fuego medio con spray: acitrona la cebolla 5 min hasta que esté transparente.",
+      "Licúa el puré de tomate con los chipotles y un poco de su adobo. Vierte al sartén, hierve 3 min.",
+      "Agrega el pollo y mezcla 3 min hasta que se pinte todo de rojo.",
+      "Arma el bowl: arroz, frijoles, tinga, aguacate y yogur."
+    ],
+    "seVe": "Bowl dividido en tercios: arroz blanco, frijoles negros brillantes y tinga roja con cebolla, con abanico de aguacate y un punto blanco de yogur al centro.",
+    "tips": [
+      "La tinga dura 4 días en refri y se congela perfecto.",
+      "Sirve la misma tinga en tostadas horneadas para la cena."
+    ],
+    "tags": [
+      "mexicana",
+      "meal-prep",
+      "sin-horno",
+      "picante"
+    ]
+  },
+  {
+    "id": "r022",
+    "name": "Tacos al pastor de lomo de cerdo en sartén",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Tendencia #pastorfit",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 585,
+    "proteinaG": 46,
+    "carbosG": 69,
+    "grasaG": 15,
+    "ingredientes": [
+      {
+        "item": "lomo de cerdo",
+        "cantidad": "180 g en bisteces delgados"
+      },
+      {
+        "item": "tortilla de maíz",
+        "cantidad": "4 tortillas"
+      },
+      {
+        "item": "piña",
+        "cantidad": "en cubitos"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "chile guajillo hidratado, achiote, vinagre, ajo, comino",
+        "cantidad": "1/2 sobre de adobo de pastor o casero"
+      },
+      {
+        "item": "salsa verde o roja de frasco o casera",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "cilantro y limón",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Unta los bisteces con el adobo de pastor (o licúa 2 guajillos remojados, 1 cda de achiote, vinagre y ajo). Deja 10 min.",
+      "Sartén o comal a fuego ALTO. Cocina los bisteces 2 min por lado; deben quedar con orillas casi quemadas.",
+      "Pícalos finito en la tabla y regrésalos al sartén con la piña 2 min.",
+      "Calienta tortillas y sirve con cebolla, cilantro, salsa y limón."
+    ],
+    "seVe": "Carne roja con orillas tostadas, picada fina, con cubos de piña caramelizada, sobre tortillas con verde de cilantro y blanco de cebolla.",
+    "tips": [
+      "El adobo en sobre de pastor se vende en Walmart; revisa que no tenga azúcar como primer ingrediente.",
+      "Haz 600 g de carne marinada y congélala en porciones."
+    ],
+    "tags": [
+      "mexicana",
+      "sin-horno",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "r023",
+    "name": "Bowl hot honey de res, camote y cottage",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Tendencia #hothoneybowl",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 530,
+    "proteinaG": 50,
+    "carbosG": 50,
+    "grasaG": 14,
+    "ingredientes": [
+      {
+        "item": "carne molida de res 95/5",
+        "cantidad": "160 g"
+      },
+      {
+        "item": "camote",
+        "cantidad": "1 camote chico"
+      },
+      {
+        "item": "queso cottage bajo en grasa",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "aguacate",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "miel de abeja",
+        "cantidad": "2 cditas"
+      },
+      {
+        "item": "chile de árbol en polvo o salsa Valentina",
+        "cantidad": "1 cdita"
+      },
+      {
+        "item": "paprika, ajo, comino",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Pela el camote y córtalo en cubos de 2 cm. Microondas tapado con 2 cdas de agua 5 min. Luego dóralos en sartén con spray 5 min hasta que tengan orillas caramelizadas.",
+      "En el mismo sartén dora la carne con paprika, ajo, comino y sal 6 min.",
+      "Mezcla la miel con el chile en polvo y un chorrito de limón: ese es tu hot honey.",
+      "Arma el bowl: camote, carne, cottage frío a un lado, aguacate y baña todo con el hot honey."
+    ],
+    "seVe": "Bowl colorido: cubos naranjas brillantes, carne dorada, montoncito blanco de cottage y aguacate verde, todo con hilos de miel roja picosa.",
+    "tips": [
+      "Fue la receta más buscada en Google de 2025; el contraste dulce, picante, frío y caliente es lo que engancha.",
+      "Meal prep: camote y carne juntos, cottage y aguacate al servir."
+    ],
+    "tags": [
+      "viral",
+      "meal-prep",
+      "sin-horno",
+      "dulce-picante"
+    ]
+  },
+  {
+    "id": "r024",
+    "name": "Pasta Alfredo de cottage con pollo",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Tendencia #cottagecheesealfredo",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 640,
+    "proteinaG": 69,
+    "carbosG": 64,
+    "grasaG": 10,
+    "ingredientes": [
+      {
+        "item": "pasta seca",
+        "cantidad": "65 g"
+      },
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "queso cottage bajo en grasa",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "queso parmesano rallado",
+        "cantidad": "1 cda"
+      },
+      {
+        "item": "leche descremada o deslactosada light",
+        "cantidad": "60 ml"
+      },
+      {
+        "item": "brócoli",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "ajo picado",
+        "cantidad": "1 diente"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      },
+      {
+        "item": "sal, pimienta y ajo en polvo",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Hierve agua con sal y cuece la pasta según el paquete. 3 min antes del final agrega el brócoli al mismo agua.",
+      "Mientras, corta el pollo en cubos y dóralo en sartén con spray, sal y ajo 6-7 min.",
+      "Licúa cottage, parmesano, leche, ajo y pimienta hasta que quede liso como crema.",
+      "Escurre pasta y brócoli, regrésalos al sartén con el pollo a fuego BAJO, agrega la salsa y mezcla 1 min. Solo que se caliente, si hierve se grumea."
+    ],
+    "seVe": "Pasta cubierta de salsa blanca sedosa, cubos dorados de pollo y arbolitos verde brillante de brócoli, con pimienta negra arriba.",
+    "tips": [
+      "El cottage licuado sabe a Alfredo y tiene 4 veces menos grasa.",
+      "Si la salsa queda espesa al recalentar, agrega leche."
+    ],
+    "tags": [
+      "italiana",
+      "sin-horno",
+      "meal-prep",
+      "viral"
+    ]
+  },
+  {
+    "id": "r025",
+    "name": "Arroz frito con pollo y huevo",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Tendencia #friedricemealprep",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "15 min",
+    "porciones": 1,
+    "kcal": 600,
+    "proteinaG": 57,
+    "carbosG": 54,
+    "grasaG": 15,
+    "ingredientes": [
+      {
+        "item": "arroz cocido",
+        "cantidad": "160 g frío del día anterior"
+      },
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "160 g"
+      },
+      {
+        "item": "huevo",
+        "cantidad": "1 pieza"
+      },
+      {
+        "item": "claras de huevo (de cartón)",
+        "cantidad": "60 ml"
+      },
+      {
+        "item": "verduras congeladas mixtas",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "salsa de soya baja en sodio",
+        "cantidad": "1.5 cdas"
+      },
+      {
+        "item": "aceite de oliva o aguacate",
+        "cantidad": "1 cdita"
+      },
+      {
+        "item": "cebollín",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Pica el pollo en cubitos y dóralo en sartén grande o wok a fuego alto con el aceite 5 min. Saca.",
+      "Mete las verduras congeladas directo 3 min.",
+      "Haz un hueco en el centro, vierte huevo y claras batidas y revuelve ahí 1 min hasta cuajar.",
+      "Agrega el arroz frío, el pollo y la soya. Mezcla a fuego alto 3 min, dejando que el arroz se pegue un poco y se tueste."
+    ],
+    "seVe": "Arroz suelto color café dorado con chícharos y zanahoria, trozos de huevo amarillo y pollo, con cebollín verde arriba.",
+    "tips": [
+      "El arroz recién hecho se hace masa; usa arroz frío de refri.",
+      "Soya baja en sodio: la normal te infla."
+    ],
+    "tags": [
+      "asiatica",
+      "sin-horno",
+      "meal-prep",
+      "rapida"
+    ]
+  },
+  {
+    "id": "r026",
+    "name": "Salmón en sartén con arroz, pepino y aguacate (salmon rice bowl)",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "@emilymariko (Emily Mariko)",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "15 min",
+    "porciones": 1,
+    "kcal": 615,
+    "proteinaG": 38,
+    "carbosG": 49,
+    "grasaG": 28,
+    "ingredientes": [
+      {
+        "item": "filete de salmón",
+        "cantidad": "160 g"
+      },
+      {
+        "item": "arroz cocido",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "pepino",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "aguacate",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "salsa de soya baja en sodio",
+        "cantidad": "1 cda"
+      },
+      {
+        "item": "mayonesa light",
+        "cantidad": "1/2 cda mezclada con sriracha"
+      },
+      {
+        "item": "alga nori",
+        "cantidad": "2 hojas"
+      },
+      {
+        "item": "ajonjolí",
+        "cantidad": "una pizca"
+      }
+    ],
+    "pasos": [
+      "Seca el salmón con papel y salpimienta. Sartén antiadherente a fuego medio-alto sin aceite, con la piel abajo, 4 min sin moverlo.",
+      "Voltea y cocina 2-3 min más. Está listo cuando se separa en láminas con un tenedor y el centro pasó de naranja translúcido a rosa opaco.",
+      "Desmenuza el salmón sobre el arroz caliente, agrega soya y la mayo con sriracha. Mezcla.",
+      "Sirve con pepino y aguacate a un lado. Come con trocitos de alga como mini tacos."
+    ],
+    "seVe": "Bowl de arroz blanco con salmón rosado desmenuzado, rayas naranjas de mayo picante, rodajas verdes de pepino y aguacate, ajonjolí y alga oscura.",
+    "tips": [
+      "Es el bowl viral original: el truco del hielo para recalentar arroz (ponle un cubo encima y microondas 1 min) también vino de ahí.",
+      "El salmón es más caro; cámbialo por atún en agua para un día barato."
+    ],
+    "tags": [
+      "asiatica",
+      "viral",
+      "sin-horno",
+      "rapida"
+    ]
+  },
+  {
+    "id": "r027",
+    "name": "Picadillo de res con papa y zanahoria",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Tendencia #picadillofit",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 565,
+    "proteinaG": 46,
+    "carbosG": 71,
+    "grasaG": 11,
+    "ingredientes": [
+      {
+        "item": "carne molida de res 95/5",
+        "cantidad": "170 g"
+      },
+      {
+        "item": "papa",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "zanahoria",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "puré de tomate",
+        "cantidad": "120 g"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "tortilla de maíz",
+        "cantidad": "2 tortillas"
+      },
+      {
+        "item": "ajo, comino, laurel",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Pica papa y zanahoria en cubos chicos (1 cm). Microondas tapado con 2 cdas de agua 4 min.",
+      "Sartén a fuego medio-alto: dora la carne con cebolla y ajo 6 min, rompiéndola bien.",
+      "Agrega papa, zanahoria, puré de tomate, 1/4 taza de agua, comino y laurel. Tapa y hierve suave 6 min hasta que la papa esté suave al picarla.",
+      "Sirve con tortillas calientes."
+    ],
+    "seVe": "Guisado rojizo espeso con cubitos naranjas y amarillos, carne suelta, servido en plato hondo con tortillas al lado.",
+    "tips": [
+      "Clásico de casa que rinde mucho: haz 4 porciones de golpe.",
+      "Sirve encima de lechuga para la cena con menos carbos."
+    ],
+    "tags": [
+      "mexicana",
+      "meal-prep",
+      "sin-horno"
+    ]
+  },
+  {
+    "id": "r028",
+    "name": "Pollo a la naranja crujiente sin freír",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Tendencia #orangechicken",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 580,
+    "proteinaG": 54,
+    "carbosG": 76,
+    "grasaG": 6,
+    "ingredientes": [
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "200 g"
+      },
+      {
+        "item": "arroz cocido",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "jugo de naranja natural",
+        "cantidad": "jugo de 1 naranja"
+      },
+      {
+        "item": "salsa de soya baja en sodio",
+        "cantidad": "1 cda"
+      },
+      {
+        "item": "miel de abeja",
+        "cantidad": "1 cdita"
+      },
+      {
+        "item": "fécula de maíz",
+        "cantidad": "1 cda (10 g)"
+      },
+      {
+        "item": "brócoli",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      },
+      {
+        "item": "jengibre y ajo",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Corta el pollo en cubos, sálalo y revuélvelo con la mitad de la fécula hasta que quede cubierto.",
+      "Sartén a fuego medio-alto con spray: dora los cubos 6-7 min volteando hasta que estén dorados y crujientes por fuera. En air fryer: 200 °C 10 min.",
+      "Mezcla jugo de naranja, soya, miel, ajo, jengibre y el resto de fécula. Vierte al sartén y hierve 1-2 min hasta que se vuelva una salsa brillante y espesa.",
+      "Revuelve el pollo en la salsa y sirve con arroz y brócoli cocido en microondas 3 min."
+    ],
+    "seVe": "Cubos de pollo glaseados naranja brillante, pegajosos, con ajonjolí, junto a arroz blanco y brócoli verde.",
+    "tips": [
+      "Si la salsa no espesa, hierve 1 min más; la fécula necesita hervir.",
+      "Es un \"fakeaway\": sabe a Panda Express con la mitad de calorías."
+    ],
+    "tags": [
+      "asiatica",
+      "sin-horno",
+      "dulce"
+    ]
+  },
+  {
+    "id": "r029",
+    "name": "Enchiladas verdes de pollo en sartén",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Tendencia #enchiladasfit",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 560,
+    "proteinaG": 56,
+    "carbosG": 58,
+    "grasaG": 12,
+    "ingredientes": [
+      {
+        "item": "tortilla de maíz",
+        "cantidad": "3 tortillas"
+      },
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "160 g cocido y deshebrado"
+      },
+      {
+        "item": "salsa verde o roja de frasco o casera",
+        "cantidad": "200 g"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "queso mozzarella light rallado",
+        "cantidad": "25 g"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "20 g"
+      },
+      {
+        "item": "lechuga romana",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Calienta la salsa verde en un sartén amplio hasta que hierva.",
+      "Pasa cada tortilla 10 s por el comal caliente para que no se rompa, rellénala de pollo y enróllala.",
+      "Acomoda las enchiladas dentro del sartén con salsa, bañalas con más salsa, pon el queso encima y TAPA 4 min a fuego bajo hasta que el queso se derrita.",
+      "Sirve con yogur como crema, cebolla y lechuga."
+    ],
+    "seVe": "Tres rollos bañados en salsa verde brillante con queso blanco fundido, hilos de yogur, aros de cebolla y lechuga crujiente al lado.",
+    "tips": [
+      "Sin horno: el sartén tapado gratina igual.",
+      "Si las tortillas se rompen, caliéntalas más; frías truenan."
+    ],
+    "tags": [
+      "mexicana",
+      "sin-horno",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "r030",
+    "name": "Burrito bowl estilo Chipotle",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Tendencia #chipotlebowl",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 620,
+    "proteinaG": 58,
+    "carbosG": 71,
+    "grasaG": 11,
+    "ingredientes": [
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "180 g"
+      },
+      {
+        "item": "arroz cocido",
+        "cantidad": "130 g"
+      },
+      {
+        "item": "frijoles negros cocidos o refritos sin manteca",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "granos de elote",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "pico de gallo (jitomate, cebolla, cilantro, chile)",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "lechuga romana",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "aguacate",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "chipotle en polvo, comino, ajo, cilantro, limón",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Unta el pollo con chipotle en polvo, comino, ajo, sal y limón. Cocínalo en sartén con spray a fuego medio-alto 5-6 min por lado hasta que no se vea rosa al cortarlo. Reposa 3 min y córtalo en cubos.",
+      "Mezcla el arroz caliente con cilantro picado y jugo de limón.",
+      "Calienta frijoles y elote 1 min en microondas.",
+      "Arma en filas: arroz, frijoles, pollo, elote, pico, lechuga, aguacate y yogur."
+    ],
+    "seVe": "Bowl con filas de colores: blanco con verde (arroz cilantro), negro, pollo dorado, amarillo del elote, rojo del pico y verde de la lechuga.",
+    "tips": [
+      "El arroz con cilantro y limón es lo que lo hace sentir de restaurante.",
+      "Meal prep: arma 4 bowls sin lechuga, pico ni yogur; ponlos al momento."
+    ],
+    "tags": [
+      "mexicana",
+      "meal-prep",
+      "sin-horno"
+    ]
+  },
+  {
+    "id": "r031",
+    "name": "Albóndigas en chipotle con arroz",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Tendencia #albondigasfit",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 510,
+    "proteinaG": 48,
+    "carbosG": 53,
+    "grasaG": 11,
+    "ingredientes": [
+      {
+        "item": "carne molida de res 95/5",
+        "cantidad": "170 g"
+      },
+      {
+        "item": "claras de huevo (de cartón)",
+        "cantidad": "2 cdas"
+      },
+      {
+        "item": "avena en hojuelas",
+        "cantidad": "1 cda"
+      },
+      {
+        "item": "puré de tomate",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "chiles chipotles adobados",
+        "cantidad": "1 chile"
+      },
+      {
+        "item": "arroz cocido",
+        "cantidad": "120 g"
+      },
+      {
+        "item": "calabacita",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "ajo, comino, hierbabuena",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Mezcla carne, claras, avena, sal, comino y hierbabuena picada con la mano. Forma 6-7 bolitas del tamaño de una nuez grande.",
+      "Licúa el puré de tomate con chipotle, ajo y 1/2 taza de agua. Hiérvelo en una olla mediana.",
+      "Mete las albóndigas crudas al caldillo hirviendo, agrega la calabacita en cubos, tapa y cocina 12 min a fuego medio-bajo. Parte una: no debe estar rosa al centro.",
+      "Sirve con arroz."
+    ],
+    "seVe": "Bolitas cafés en caldillo rojo-anaranjado ahumado con cubos verdes de calabacita, junto a arroz blanco.",
+    "tips": [
+      "Congela las albóndigas en su caldillo en porciones.",
+      "Si se desbaratan, al caldo le faltaba hervor cuando entraron."
+    ],
+    "tags": [
+      "mexicana",
+      "meal-prep",
+      "sin-horno",
+      "picante"
+    ]
+  },
+  {
+    "id": "r032",
+    "name": "Pollo \"marry me\" con champiñones y arroz",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Tendencia #marrymechicken",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 550,
+    "proteinaG": 61,
+    "carbosG": 53,
+    "grasaG": 9,
+    "ingredientes": [
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "200 g"
+      },
+      {
+        "item": "arroz cocido",
+        "cantidad": "140 g"
+      },
+      {
+        "item": "champiñones",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "puré de tomate",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "leche descremada o deslactosada light",
+        "cantidad": "100 ml"
+      },
+      {
+        "item": "queso parmesano rallado",
+        "cantidad": "1 cda"
+      },
+      {
+        "item": "espinaca",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "ajo, orégano, chile quebrado",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Abre la pechuga en 2 filetes delgados (como libro). Sal, pimienta y orégano.",
+      "Sartén a fuego medio-alto con spray: 4 min por lado hasta que esté dorada. Saca.",
+      "Saltea champiñones y ajo 3 min. Agrega puré de tomate, leche y parmesano; mueve 2 min a fuego medio hasta que espese un poco.",
+      "Agrega la espinaca y regresa el pollo 2 min para que se bañe en la salsa.",
+      "Sirve con arroz."
+    ],
+    "seVe": "Filetes dorados en salsa rosada cremosa con champiñones y espinaca, arroz blanco al lado.",
+    "tips": [
+      "Versión ligera del viral: sin crema espesa y sin tomates deshidratados en aceite.",
+      "Usa leche deslactosada light si te cae pesada la normal."
+    ],
+    "tags": [
+      "italiana",
+      "sin-horno",
+      "viral"
+    ]
+  },
+  {
+    "id": "r033",
+    "name": "Pasta boloñesa proteica",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Tendencia #bolognesefit",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 620,
+    "proteinaG": 56,
+    "carbosG": 68,
+    "grasaG": 13,
+    "ingredientes": [
+      {
+        "item": "pasta seca",
+        "cantidad": "65 g"
+      },
+      {
+        "item": "carne molida de res 95/5",
+        "cantidad": "160 g"
+      },
+      {
+        "item": "puré de tomate",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "zanahoria",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "queso cottage bajo en grasa",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "queso parmesano rallado",
+        "cantidad": "2 cditas"
+      },
+      {
+        "item": "ajo, orégano, albahaca",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Cuece la pasta en agua con sal según el paquete.",
+      "Sartén a fuego medio-alto: dora la carne con cebolla y zanahoria rallada 6 min.",
+      "Agrega puré, ajo, orégano y 1/4 taza de agua. Hierve suave 8 min hasta que espese.",
+      "Fuera del fuego mezcla el cottage en la salsa: queda más cremosa y no se nota.",
+      "Mezcla con la pasta y termina con parmesano y albahaca."
+    ],
+    "seVe": "Pasta cubierta de salsa roja espesa con carne, parmesano blanco espolvoreado y hojas de albahaca.",
+    "tips": [
+      "La salsa se congela increíble; haz 4 porciones.",
+      "Pasta de lenteja o garbanzo (Walmart) suma 10 g de proteína extra."
+    ],
+    "tags": [
+      "italiana",
+      "meal-prep",
+      "sin-horno"
+    ]
+  },
+  {
+    "id": "r034",
+    "name": "Bowl de bistec encebollado con frijoles y arroz",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Tendencia #bistecencebollado",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "15 min",
+    "porciones": 1,
+    "kcal": 630,
+    "proteinaG": 52,
+    "carbosG": 66,
+    "grasaG": 17,
+    "ingredientes": [
+      {
+        "item": "bistec de res (bola o aguayón)",
+        "cantidad": "180 g"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "arroz cocido",
+        "cantidad": "120 g"
+      },
+      {
+        "item": "frijoles negros cocidos o refritos sin manteca",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "salsa verde o roja de frasco o casera",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "aguacate",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Sal y pimienta a los bisteces. Sartén a fuego ALTO con spray: 1.5-2 min por lado. Saca y córtalos en tiras.",
+      "Mismo sartén, fuego medio: cebolla en julianas 5 min hasta que esté suave y dorada. Agrega 2 cdas de agua y raspa el fondo para levantar el sabor.",
+      "Regresa la carne 1 min.",
+      "Sirve con arroz, frijoles, salsa y aguacate."
+    ],
+    "seVe": "Tiras de carne dorada entre cebolla caramelizada brillante, arroz, frijoles negros y salsa roja.",
+    "tips": [
+      "No sobrecocines el bistec o queda chicloso: fuego alto y poco tiempo.",
+      "Pídele al carnicero \"bistec delgadito de bola\"."
+    ],
+    "tags": [
+      "mexicana",
+      "sin-horno",
+      "rapida"
+    ]
+  },
+  {
+    "id": "r035",
+    "name": "Big Mac wrap fold",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "@recipesbyvictoria (Victoria Minell)",
+      "plataforma": "Instagram",
+      "url": ""
+    },
+    "tiempo": "15 min",
+    "porciones": 1,
+    "kcal": 465,
+    "proteinaG": 47,
+    "carbosG": 31,
+    "grasaG": 15,
+    "ingredientes": [
+      {
+        "item": "carne molida de res 95/5",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "tortilla de harina integral grande",
+        "cantidad": "1 grande"
+      },
+      {
+        "item": "queso amarillo light en rebanada",
+        "cantidad": "1 rebanada light"
+      },
+      {
+        "item": "lechuga romana",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "15 g"
+      },
+      {
+        "item": "pepinillos",
+        "cantidad": "4 rodajas"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "2 cdas"
+      },
+      {
+        "item": "mostaza",
+        "cantidad": "1 cdita"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Dora la carne en sartén a fuego medio-alto 6 min con sal, pimienta y cebolla en polvo.",
+      "Salsa: mezcla el yogur con mostaza, pepinillo picado y una pizca de paprika.",
+      "Haz un corte desde el centro de la tortilla hasta el borde. Imagina 4 cuadrantes: 1) carne, 2) queso, 3) lechuga y cebolla, 4) pepinillos y salsa.",
+      "Dobla cuadrante por cuadrante hasta formar un triángulo de 4 capas.",
+      "Dóralo en sartén con spray 2 min por lado, presionando con la espátula."
+    ],
+    "seVe": "Triángulo dorado y crujiente; al partirlo se ven capas de carne, queso derretido, lechuga y salsa rosa.",
+    "tips": [
+      "El \"wrap fold\" fue de lo más viral de 2023-2024; cualquier relleno sirve.",
+      "Usa tortilla de harina integral; la de maíz se rompe al doblar."
+    ],
+    "tags": [
+      "viral",
+      "sin-horno",
+      "rapida"
+    ]
+  },
+  {
+    "id": "r036",
+    "name": "Fajitas de pollo con pimientos",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "Tendencia #fajitas",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 445,
+    "proteinaG": 50,
+    "carbosG": 45,
+    "grasaG": 7,
+    "ingredientes": [
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "180 g"
+      },
+      {
+        "item": "pimiento morrón",
+        "cantidad": "1 rojo y 1/2 verde"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "tortilla de maíz",
+        "cantidad": "2 tortillas"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "salsa verde o roja de frasco o casera",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "comino, paprika, ajo, chile en polvo, limón",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Corta pollo, pimientos y cebolla en tiras. Mezcla el pollo con las especias, sal y limón.",
+      "Sartén a fuego ALTO con spray: pollo 5-6 min hasta dorado. Saca.",
+      "Mismo sartén: pimientos y cebolla 4 min. Deben quedar con manchas tostadas pero todavía firmes.",
+      "Regresa el pollo 1 min y sirve con tortillas, yogur y salsa."
+    ],
+    "seVe": "Tiras rojas, verdes y blancas con orillas tostadas mezcladas con pollo dorado, humeando; tortillas y salsa al lado.",
+    "tips": [
+      "Para cena más ligera: sirve en hojas de lechuga en vez de tortillas (-130 kcal).",
+      "No llenes el sartén: si está muy lleno se cuece en vez de dorarse."
+    ],
+    "tags": [
+      "mexicana",
+      "sin-horno",
+      "rapida"
+    ]
+  },
+  {
+    "id": "r037",
+    "name": "Camarones al ajillo con calabacitas",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "Tendencia #camaronesalajillo",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "15 min",
+    "porciones": 1,
+    "kcal": 375,
+    "proteinaG": 54,
+    "carbosG": 20,
+    "grasaG": 10,
+    "ingredientes": [
+      {
+        "item": "camarón crudo pelado",
+        "cantidad": "250 g"
+      },
+      {
+        "item": "calabacita",
+        "cantidad": "200 g"
+      },
+      {
+        "item": "aceite de oliva o aguacate",
+        "cantidad": "1.5 cditas"
+      },
+      {
+        "item": "ajo",
+        "cantidad": "4 dientes en láminas"
+      },
+      {
+        "item": "chile guajillo en aros",
+        "cantidad": "1"
+      },
+      {
+        "item": "tortilla de maíz",
+        "cantidad": "1 tortilla"
+      },
+      {
+        "item": "limón y perejil",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Corta las calabacitas en medias lunas y saltéalas en sartén a fuego medio-alto con spray 4 min. Saca.",
+      "Mismo sartén, fuego medio: aceite, ajo y guajillo 1 min hasta que el ajo esté dorado claro (no café, amarga).",
+      "Sube a alto y agrega los camarones secos con sal. 1.5-2 min por lado: listos cuando se ponen rosas y forman una C. Si forman una O, se pasaron.",
+      "Regresa las calabacitas, exprime limón y perejil."
+    ],
+    "seVe": "Camarones rosas brillantes curvados entre calabacitas verdes, láminas doradas de ajo y aros rojos de chile.",
+    "tips": [
+      "Camarón congelado pelado del Walmart sale más barato; descongélalo en agua fría 10 min.",
+      "En Cancún, compra camarón fresco en el mercado 28."
+    ],
+    "tags": [
+      "mar",
+      "sin-horno",
+      "rapida",
+      "bajo-en-carbos"
+    ]
+  },
+  {
+    "id": "r038",
+    "name": "Tacos de pescado estilo Baja sin freír",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "Tendencia #fishtacos",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "15 min",
+    "porciones": 1,
+    "kcal": 465,
+    "proteinaG": 51,
+    "carbosG": 45,
+    "grasaG": 10,
+    "ingredientes": [
+      {
+        "item": "filete de tilapia o basa",
+        "cantidad": "200 g"
+      },
+      {
+        "item": "tortilla de maíz",
+        "cantidad": "3 tortillas"
+      },
+      {
+        "item": "col morada rallada",
+        "cantidad": "1 taza"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "50 g"
+      },
+      {
+        "item": "chiles chipotles adobados",
+        "cantidad": "1/2 chile"
+      },
+      {
+        "item": "aguacate",
+        "cantidad": "25 g"
+      },
+      {
+        "item": "paprika, ajo, comino, limón",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Seca el pescado con papel y úntale paprika, ajo, comino y sal.",
+      "Sartén a fuego medio-alto con spray: 3 min por lado. Está listo cuando se desmorona en láminas blancas con un tenedor.",
+      "Licúa o machaca el yogur con chipotle y limón: tu salsa \"baja\".",
+      "Arma: tortilla, col, pescado en trozos, salsa, aguacate y limón."
+    ],
+    "seVe": "Tacos con pescado blanco dorado por fuera, col morada vibrante, salsa naranja cremosa y aguacate.",
+    "tips": [
+      "La tilapia es barata y ligera; basa o huachinango también sirven.",
+      "Voltea el pescado una sola vez o se deshace."
+    ],
+    "tags": [
+      "mar",
+      "mexicana",
+      "sin-horno",
+      "rapida"
+    ]
+  },
+  {
+    "id": "r039",
+    "name": "Chili con carne proteico",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "Tendencia #chilimealprep",
+      "plataforma": "YouTube",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 485,
+    "proteinaG": 54,
+    "carbosG": 41,
+    "grasaG": 12,
+    "ingredientes": [
+      {
+        "item": "carne molida de res 95/5",
+        "cantidad": "160 g"
+      },
+      {
+        "item": "frijoles negros cocidos o refritos sin manteca",
+        "cantidad": "100 g de frijol bayo o negro"
+      },
+      {
+        "item": "puré de tomate",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "pimiento morrón",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "queso mozzarella light rallado",
+        "cantidad": "15 g"
+      },
+      {
+        "item": "comino, chile en polvo, paprika, ajo, orégano",
+        "cantidad": "1 cda total"
+      }
+    ],
+    "pasos": [
+      "Olla mediana a fuego medio-alto: dora la carne con cebolla y pimiento picados 6 min.",
+      "Agrega especias 30 s hasta que huelan, luego puré de tomate, frijoles y 1/2 taza de agua.",
+      "Hierve suave 10 min con la tapa a medias, moviendo de vez en cuando, hasta que espese.",
+      "Sirve con yogur y queso encima."
+    ],
+    "seVe": "Plato hondo de guiso rojo espeso con frijoles y carne, cucharada blanca de yogur y queso derretido arriba.",
+    "tips": [
+      "Es de los mejores para meal prep: sabe mejor al día siguiente y se congela 2 meses.",
+      "Si te quedas con hambre, agrega 1 tortilla tostada en trozos encima."
+    ],
+    "tags": [
+      "meal-prep",
+      "congelable",
+      "sin-horno"
+    ]
+  },
+  {
+    "id": "r040",
+    "name": "Tostadas de ceviche de pescado",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "Tendencia #cevichefit",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 450,
+    "proteinaG": 45,
+    "carbosG": 40,
+    "grasaG": 13,
+    "ingredientes": [
+      {
+        "item": "filete de tilapia o basa",
+        "cantidad": "200 g muy fresca"
+      },
+      {
+        "item": "tostada horneada",
+        "cantidad": "3 tostadas horneadas"
+      },
+      {
+        "item": "jitomate",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "pepino",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "aguacate",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "mayonesa light",
+        "cantidad": "1/2 cda"
+      },
+      {
+        "item": "limón",
+        "cantidad": "5-6"
+      },
+      {
+        "item": "cilantro, chile serrano, salsa Valentina",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Corta el pescado en cubos de 1 cm, ponlo en un bowl de vidrio y cúbrelo con el jugo de limón y sal.",
+      "Refrigera 15-20 min moviendo a la mitad. Listo cuando el pescado se ve blanco opaco por fuera y por dentro.",
+      "Escurre casi todo el limón y mezcla con jitomate, cebolla, pepino, cilantro y chile picados.",
+      "Unta una capa delgadita de mayo en las tostadas, sirve el ceviche y corona con aguacate y salsa."
+    ],
+    "seVe": "Tostadas con montaña de ceviche blanco con rojo, verde y blanco picadito, rebanadas de aguacate y gotas rojas de salsa.",
+    "tips": [
+      "Para Cancún es lo más fresco que hay; compra el pescado del día en el mercado.",
+      "Versión con camarón cocido: 2 min en agua hirviendo, luego a hielo y mezcla."
+    ],
+    "tags": [
+      "mar",
+      "mexicana",
+      "sin-coccion",
+      "tropical"
+    ]
+  },
+  {
+    "id": "r041",
+    "name": "Ensalada de atún a la mexicana con tostadas",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "Tendencia #atunfit",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "8 min",
+    "porciones": 1,
+    "kcal": 470,
+    "proteinaG": 61,
+    "carbosG": 37,
+    "grasaG": 9,
+    "ingredientes": [
+      {
+        "item": "atún en agua (drenado)",
+        "cantidad": "2 latas drenadas"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "pico de gallo (jitomate, cebolla, cilantro, chile)",
+        "cantidad": "120 g"
+      },
+      {
+        "item": "pepino",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "granos de elote",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "tostada horneada",
+        "cantidad": "2 tostadas horneadas"
+      },
+      {
+        "item": "aguacate",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "limón, chile chipotle en polvo",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Escurre muy bien el atún apretando la tapa de la lata.",
+      "Mezcla el atún con yogur, limón, sal y chipotle en polvo hasta que quede cremoso.",
+      "Agrega pico de gallo, pepino picado y elote.",
+      "Sirve sobre las tostadas o con ellas al lado, con aguacate."
+    ],
+    "seVe": "Montaña de atún rosado claro con puntos rojos, verdes y amarillos, sobre tostadas doradas con aguacate.",
+    "tips": [
+      "El yogur griego reemplaza la mayonesa: misma cremosidad, cero culpa.",
+      "Atún en agua, no en aceite: la diferencia son ~150 kcal por lata."
+    ],
+    "tags": [
+      "mexicana",
+      "sin-coccion",
+      "rapida",
+      "mar"
+    ]
+  },
+  {
+    "id": "r042",
+    "name": "Rollitos crujientes de papel de arroz con pollo",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "@recipesbyvictoria (Victoria Minell)",
+      "plataforma": "Instagram",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 380,
+    "proteinaG": 44,
+    "carbosG": 34,
+    "grasaG": 7,
+    "ingredientes": [
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "160 g cocido y deshebrado"
+      },
+      {
+        "item": "hojas de papel de arroz",
+        "cantidad": "3 hojas"
+      },
+      {
+        "item": "zanahoria",
+        "cantidad": "rallada"
+      },
+      {
+        "item": "lechuga romana",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "queso mozzarella light rallado",
+        "cantidad": "15 g"
+      },
+      {
+        "item": "salsa de soya baja en sodio",
+        "cantidad": "1 cda"
+      },
+      {
+        "item": "pepino",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "salsa sriracha",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Mezcla el pollo con 1/2 cda de soya y sriracha.",
+      "Moja una hoja de papel de arroz 5 s en agua tibia (todavía tiesa, se ablanda sola) y ponla en una tabla.",
+      "Pon pollo, zanahoria, lechuga y un poco de queso en el tercio de abajo. Dobla los lados y enrolla apretado. Repite.",
+      "Sartén antiadherente a fuego medio con spray: 3 min por lado hasta que el papel esté dorado y crujiente.",
+      "Sirve con el resto de la soya con sriracha para remojar y pepino al lado."
+    ],
+    "seVe": "Rollitos dorados translúcidos con burbujas crujientes, dejando ver el naranja de la zanahoria, con salsa oscura para remojar.",
+    "tips": [
+      "El papel de arroz lo hay en Walmart y Chedraui (sección asiática).",
+      "Si se rompen: las mojaste de más. Si se pegan al sartén: falta spray."
+    ],
+    "tags": [
+      "asiatica",
+      "viral",
+      "sin-horno"
+    ]
+  },
+  {
+    "id": "r043",
+    "name": "Caldo tlalpeño de pollo",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "Tendencia #caldotlalpeno",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 455,
+    "proteinaG": 52,
+    "carbosG": 28,
+    "grasaG": 15,
+    "ingredientes": [
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "180 g"
+      },
+      {
+        "item": "zanahoria",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "calabacita",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "granos de elote",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "garbanzo cocido",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "chiles chipotles adobados",
+        "cantidad": "1 chile"
+      },
+      {
+        "item": "aguacate",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "queso panela",
+        "cantidad": "25 g"
+      },
+      {
+        "item": "cebolla, ajo, epazote, limón",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "En una olla hierve 3 tazas de agua con cebolla, ajo y sal. Mete la pechuga entera 15 min a fuego medio.",
+      "Saca la pechuga y deshébrala. Al caldo agrega zanahoria y calabacita en cubos, elote, garbanzo, chipotle y epazote. 8 min hasta que la zanahoria esté suave.",
+      "Regresa el pollo 1 min.",
+      "Sirve en plato hondo con aguacate en cubos, panela y limón."
+    ],
+    "seVe": "Caldo rojizo humeante con verduras de colores, pollo deshebrado, cubos verdes de aguacate y queso blanco.",
+    "tips": [
+      "Para bajar tiempo: usa pollo ya cocido y caldo de pollo en caja; 10 min.",
+      "Ideal en días que llegas con mucha hambre: el volumen llena."
+    ],
+    "tags": [
+      "mexicana",
+      "sopa",
+      "meal-prep",
+      "sin-horno"
+    ]
+  },
+  {
+    "id": "r044",
+    "name": "Pizza de tortilla en sartén con pollo",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "Tendencia #tortillapizza",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "12 min",
+    "porciones": 1,
+    "kcal": 450,
+    "proteinaG": 45,
+    "carbosG": 35,
+    "grasaG": 14,
+    "ingredientes": [
+      {
+        "item": "tortilla de harina integral grande",
+        "cantidad": "1 grande"
+      },
+      {
+        "item": "puré de tomate",
+        "cantidad": "3 cdas"
+      },
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "120 g cocido en cubitos"
+      },
+      {
+        "item": "queso mozzarella light rallado",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "champiñones",
+        "cantidad": "50 g"
+      },
+      {
+        "item": "pimiento morrón",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "orégano, ajo, chile quebrado",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Sartén grande a fuego medio-bajo. Pon la tortilla sola 1 min para que se endurezca un poco.",
+      "Unta el puré de tomate con orégano y ajo, pon el queso, el pollo, champiñones y pimiento.",
+      "Tapa y deja 5-6 min hasta que el queso esté derretido y la base suene crujiente al golpearla con la espátula.",
+      "Corta en 4 con tijeras o cuchillo."
+    ],
+    "seVe": "Pizza delgada con base dorada crujiente, queso derretido con manchas, pollo, champiñón y morrón de colores.",
+    "tips": [
+      "En air fryer: 190 °C 5 min, queda más crujiente.",
+      "Rebanadas de jamón de pavo o pepperoni de pavo funcionan igual."
+    ],
+    "tags": [
+      "italiana",
+      "sin-horno",
+      "rapida",
+      "viral"
+    ]
+  },
+  {
+    "id": "r045",
+    "name": "Lettuce wraps de pollo estilo asiático",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "Tendencia #lettucewraps",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "15 min",
+    "porciones": 1,
+    "kcal": 445,
+    "proteinaG": 53,
+    "carbosG": 34,
+    "grasaG": 10,
+    "ingredientes": [
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "200 g molido o picado finito"
+      },
+      {
+        "item": "lechuga romana",
+        "cantidad": "6 hojas grandes"
+      },
+      {
+        "item": "zanahoria",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "pimiento morrón",
+        "cantidad": "50 g"
+      },
+      {
+        "item": "salsa de soya baja en sodio",
+        "cantidad": "20 g"
+      },
+      {
+        "item": "crema de cacahuate natural",
+        "cantidad": "1/2 cda"
+      },
+      {
+        "item": "arroz cocido",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "jengibre, ajo, limón, sriracha, cebollín",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Sartén a fuego alto con spray: dora el pollo 5 min rompiéndolo en trocitos.",
+      "Agrega ajo, jengibre, pimiento y zanahoria picados 2 min.",
+      "Mezcla soya, crema de cacahuate, limón y sriracha con 1 cda de agua. Vierte y mueve 1 min.",
+      "Sirve el relleno en hojas de lechuga como tacos, con un poco de arroz abajo, y cebollín."
+    ],
+    "seVe": "Hojas de lechuga verde crujiente llenas de pollo glaseado café brillante con trocitos naranjas y rojos.",
+    "tips": [
+      "Las hojas de lechuga orejona o romana sirven de \"tortilla\" y son casi cero calorías.",
+      "Usa el arroz solo si llegas con hambre; sin arroz baja ~100 kcal."
+    ],
+    "tags": [
+      "asiatica",
+      "sin-horno",
+      "rapida",
+      "bajo-en-carbos"
+    ]
+  },
+  {
+    "id": "r046",
+    "name": "Ensalada César proteica con aderezo de yogur",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "Tendencia #caesarsaladfit",
+      "plataforma": "Instagram",
+      "url": ""
+    },
+    "tiempo": "15 min",
+    "porciones": 1,
+    "kcal": 415,
+    "proteinaG": 58,
+    "carbosG": 20,
+    "grasaG": 11,
+    "ingredientes": [
+      {
+        "item": "pechuga de pollo sin piel",
+        "cantidad": "180 g"
+      },
+      {
+        "item": "lechuga romana",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "queso parmesano rallado",
+        "cantidad": "15 g"
+      },
+      {
+        "item": "pan integral de caja",
+        "cantidad": "1 rebanada en cubos"
+      },
+      {
+        "item": "mostaza, limón, ajo, salsa inglesa",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Abre la pechuga en 2 filetes, salpimienta y cocina en sartén con spray 4 min por lado. Reposa 3 min y corta en tiras.",
+      "En el mismo sartén tuesta los cubos de pan con spray y ajo en polvo 3 min hasta que crujan.",
+      "Aderezo: yogur, la mitad del parmesano, mostaza, limón, ajo y unas gotas de salsa inglesa. Si está muy espeso, 1 cda de agua.",
+      "Revuelve la lechuga con el aderezo, encima pollo, crutones y el resto del parmesano."
+    ],
+    "seVe": "Lechuga verde brillante bañada en aderezo blanco, tiras de pollo dorado en abanico, crutones dorados y parmesano rallado.",
+    "tips": [
+      "El aderezo dura 5 días en frasco; prepara doble.",
+      "Pon el aderezo justo antes de comer o la lechuga se marchita."
+    ],
+    "tags": [
+      "ensalada",
+      "sin-horno",
+      "rapida"
+    ]
+  },
+  {
+    "id": "r047",
+    "name": "Bowl shawarma de pollo con tzatziki",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "Tendencia #shawarmabowl",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "20 min",
+    "porciones": 1,
+    "kcal": 450,
+    "proteinaG": 47,
+    "carbosG": 34,
+    "grasaG": 14,
+    "ingredientes": [
+      {
+        "item": "muslo de pollo sin piel ni hueso",
+        "cantidad": "180 g"
+      },
+      {
+        "item": "arroz cocido",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "pepino",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "jitomate",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "cebolla",
+        "cantidad": "20 g"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "comino, paprika, cúrcuma, canela, ajo, limón",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "Corta el muslo en tiras y úntalo con comino, paprika, cúrcuma, una pizca de canela, ajo, sal y limón.",
+      "Sartén a fuego medio-alto con spray: 4-5 min por lado hasta que tenga orillas tostadas oscuras.",
+      "Tzatziki: ralla la mitad del pepino, exprímelo con las manos y mézclalo con el yogur, ajo, limón y sal.",
+      "Bowl: arroz, pollo, el resto del pepino y jitomate en cubos, cebolla morada y tzatziki."
+    ],
+    "seVe": "Pollo amarillo-dorado con orillas tostadas, ensalada roja y verde picada, montón de tzatziki blanco con pepino.",
+    "tips": [
+      "El muslo sin piel queda más jugoso que la pechuga para este tipo de guiso; si quieres menos grasa, usa pechuga.",
+      "Exprime bien el pepino o el tzatziki queda aguado."
+    ],
+    "tags": [
+      "mediterranea",
+      "sin-horno",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "r048",
+    "name": "Sushi bowl de atún y surimi",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "@recipesbyvictoria (Victoria Minell)",
+      "plataforma": "Instagram",
+      "url": ""
+    },
+    "tiempo": "10 min",
+    "porciones": 1,
+    "kcal": 425,
+    "proteinaG": 46,
+    "carbosG": 42,
+    "grasaG": 8,
+    "ingredientes": [
+      {
+        "item": "atún en agua (drenado)",
+        "cantidad": "1.5 latas drenadas"
+      },
+      {
+        "item": "surimi (barritas de cangrejo)",
+        "cantidad": "50 g"
+      },
+      {
+        "item": "arroz cocido",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "pepino",
+        "cantidad": "80 g"
+      },
+      {
+        "item": "aguacate",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "mayonesa light",
+        "cantidad": "1/2 cda"
+      },
+      {
+        "item": "salsa de soya baja en sodio",
+        "cantidad": "15 g"
+      },
+      {
+        "item": "sriracha, ajonjolí, alga nori",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Desmenuza el surimi y mézclalo con el atún, mayo, sriracha y 1 cdita de soya.",
+      "Calienta el arroz y agrégale unas gotas de vinagre de arroz o limón.",
+      "Arma: arroz, mezcla de atún, pepino en rodajas y aguacate.",
+      "Termina con soya, ajonjolí y nori en tiras. Come con trocitos de alga."
+    ],
+    "seVe": "Bowl con arroz blanco, mezcla rosada cremosa con rayas naranjas de sriracha, pepino verde, aguacate y ajonjolí.",
+    "tips": [
+      "Inspirado en el \"sushi bake\" viral, pero sin horno y en 10 min.",
+      "El surimi tiene algo de azúcar; no pases de 50 g."
+    ],
+    "tags": [
+      "asiatica",
+      "sin-coccion",
+      "rapida",
+      "mar"
+    ]
+  },
+  {
+    "id": "r049",
+    "name": "Tacos de lechuga con carne molida y pico",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "Tendencia #lettucetacos",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "12 min",
+    "porciones": 1,
+    "kcal": 425,
+    "proteinaG": 47,
+    "carbosG": 25,
+    "grasaG": 15,
+    "ingredientes": [
+      {
+        "item": "carne molida de res 95/5",
+        "cantidad": "170 g"
+      },
+      {
+        "item": "lechuga romana",
+        "cantidad": "6 hojas"
+      },
+      {
+        "item": "pico de gallo (jitomate, cebolla, cilantro, chile)",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "aguacate",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "frijoles negros cocidos o refritos sin manteca",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "comino, chile en polvo, ajo",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Sartén a fuego medio-alto sin aceite: dora la carne 6 min con comino, chile, ajo y sal.",
+      "Calienta frijoles 1 min en microondas.",
+      "Rellena cada hoja de lechuga con frijol, carne, pico, aguacate y yogur."
+    ],
+    "seVe": "Hojas verdes crujientes como barquitos con carne dorada, pico rojo, aguacate y punto blanco de yogur.",
+    "tips": [
+      "Cena perfecta cuando ya comiste carbos en el día.",
+      "Lechuga orejona: hojas grandes y firmes."
+    ],
+    "tags": [
+      "mexicana",
+      "sin-horno",
+      "rapida",
+      "bajo-en-carbos"
+    ]
+  },
+  {
+    "id": "r050",
+    "name": "Helado proteico de yogur sin máquina (estilo Ninja Creami)",
+    "slot": "snack",
+    "fuente": {
+      "creador": "Tendencia #ninjacreami",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "5 min + congelar",
+    "porciones": 1,
+    "kcal": 200,
+    "proteinaG": 32,
+    "carbosG": 12,
+    "grasaG": 2,
+    "ingredientes": [
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "proteína whey (vainilla o chocolate)",
+        "cantidad": "2/3 scoop"
+      },
+      {
+        "item": "bebida de almendra sin azúcar",
+        "cantidad": "60 ml"
+      },
+      {
+        "item": "frutos rojos congelados",
+        "cantidad": "50 g"
+      },
+      {
+        "item": "endulzante sin calorías",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Mezcla yogur, proteína, leche y endulzante. Vierte en un tupper plano o en charolas de hielo.",
+      "Congela mínimo 4 h.",
+      "Saca 5 min antes, mete los cubos a la licuadora o procesador con los frutos rojos y pulsa, empujando con cuchara, hasta textura de helado (1-2 min).",
+      "Come de inmediato."
+    ],
+    "seVe": "Bola de helado rosado cremoso con trocitos morados de fruta, que se sostiene en la cuchara.",
+    "tips": [
+      "El truco viral de la Ninja Creami sin la máquina: congelar en cubos y procesar.",
+      "Si queda muy duro, agrega 1 cda de leche y pulsa otra vez."
+    ],
+    "tags": [
+      "dulce",
+      "postre",
+      "sin-coccion",
+      "viral"
+    ]
+  },
+  {
+    "id": "r051",
+    "name": "Mousse de chocolate con yogur griego",
+    "slot": "snack",
+    "fuente": {
+      "creador": "Tendencia #proteinpudding",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "3 min",
+    "porciones": 1,
+    "kcal": 170,
+    "proteinaG": 30,
+    "carbosG": 10,
+    "grasaG": 2,
+    "ingredientes": [
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "170 g"
+      },
+      {
+        "item": "proteína whey (vainilla o chocolate)",
+        "cantidad": "1/2 scoop chocolate"
+      },
+      {
+        "item": "cacao en polvo sin azúcar",
+        "cantidad": "1 cdita"
+      },
+      {
+        "item": "endulzante y pizca de sal",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Mezcla todo con tenedor o batidor 1 min hasta que quede liso y brillante.",
+      "Refrigera 10 min si lo quieres más firme."
+    ],
+    "seVe": "Mousse café oscuro brillante, espeso, con remolinos de cuchara arriba.",
+    "tips": [
+      "La pizca de sal resalta el chocolate; no te la saltes.",
+      "Ponle 5 g de chocolate amargo rallado para textura (+30 kcal)."
+    ],
+    "tags": [
+      "dulce",
+      "postre",
+      "sin-coccion",
+      "rapida"
+    ]
+  },
+  {
+    "id": "r052",
+    "name": "Cookie dough de cottage",
+    "slot": "snack",
+    "fuente": {
+      "creador": "Tendencia #cottagecheesecookiedough",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "5 min",
+    "porciones": 1,
+    "kcal": 235,
+    "proteinaG": 31,
+    "carbosG": 12,
+    "grasaG": 7,
+    "ingredientes": [
+      {
+        "item": "queso cottage bajo en grasa",
+        "cantidad": "120 g"
+      },
+      {
+        "item": "proteína whey (vainilla o chocolate)",
+        "cantidad": "1/2 scoop vainilla"
+      },
+      {
+        "item": "crema de cacahuate en polvo (tipo PB2)",
+        "cantidad": "1 cda"
+      },
+      {
+        "item": "chocolate amargo 70 %",
+        "cantidad": "1 cda en trocitos"
+      },
+      {
+        "item": "vainilla y endulzante",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Licúa o machaca el cottage hasta que esté totalmente liso (sin grumitos).",
+      "Mezcla con proteína, PB2, vainilla y endulzante hasta tener una masa espesa.",
+      "Agrega el chocolate picado y refrigera 10 min."
+    ],
+    "seVe": "Masa beige espesa tipo galleta cruda con chispas oscuras de chocolate, servida en bolitas.",
+    "tips": [
+      "Si no tienes licuadora, compra cottage \"estilo cremoso\" o pásalo por un colador.",
+      "Muy viral en 2024-2025: sabe a masa de galleta y tiene 20+ g de proteína."
+    ],
+    "tags": [
+      "dulce",
+      "postre",
+      "sin-coccion",
+      "viral"
+    ]
+  },
+  {
+    "id": "r053",
+    "name": "Gelatina proteica de yogur",
+    "slot": "snack",
+    "fuente": {
+      "creador": "Tendencia #yogurtjello",
+      "plataforma": "TikTok",
+      "url": "https://canadiangrocer.com/high-protein-few-ingredient-recipes-driving-tiktok-food-trends"
+    },
+    "tiempo": "10 min + cuajar",
+    "porciones": 1,
+    "kcal": 140,
+    "proteinaG": 21,
+    "carbosG": 11,
+    "grasaG": 1,
+    "ingredientes": [
+      {
+        "item": "gelatina light sin azúcar (sobre)",
+        "cantidad": "1/2 sobre"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "200 g"
+      },
+      {
+        "item": "fresas",
+        "cantidad": "50 g"
+      }
+    ],
+    "pasos": [
+      "Disuelve la gelatina en 1/2 taza de agua hirviendo, moviendo 1 min hasta que no queden granitos.",
+      "Espera 5 min a que se entibie, luego mezcla el yogur con batidor hasta que quede rosa parejo.",
+      "Pon fresas picadas en vasitos, vierte la mezcla y refrigera 2 h."
+    ],
+    "seVe": "Vasitos de gelatina rosa pastel opaca y cremosa con fresas visibles.",
+    "tips": [
+      "Si mezclas el yogur con la gelatina hirviendo se corta; deja entibiar.",
+      "Haz 4 vasitos para la semana."
+    ],
+    "tags": [
+      "dulce",
+      "postre",
+      "meal-prep",
+      "viral"
+    ]
+  },
+  {
+    "id": "r054",
+    "name": "Mug cake proteico de chocolate en microondas",
+    "slot": "snack",
+    "fuente": {
+      "creador": "@remingtonjames (Remington James)",
+      "plataforma": "YouTube",
+      "url": ""
+    },
+    "tiempo": "5 min",
+    "porciones": 1,
+    "kcal": 210,
+    "proteinaG": 34,
+    "carbosG": 14,
+    "grasaG": 3,
+    "ingredientes": [
+      {
+        "item": "proteína whey (vainilla o chocolate)",
+        "cantidad": "1 scoop chico"
+      },
+      {
+        "item": "avena en hojuelas",
+        "cantidad": "1 cda molida"
+      },
+      {
+        "item": "claras de huevo (de cartón)",
+        "cantidad": "60 ml"
+      },
+      {
+        "item": "cacao en polvo sin azúcar",
+        "cantidad": "1 cdita"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "para servir"
+      },
+      {
+        "item": "polvo para hornear",
+        "cantidad": "1/2 cdita"
+      },
+      {
+        "item": "endulzante",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "aceite en spray",
+        "cantidad": "2 disparos"
+      }
+    ],
+    "pasos": [
+      "En una taza grande con spray mezcla proteína, avena, cacao, polvo para hornear y endulzante.",
+      "Agrega las claras y mezcla hasta tener una masa lisa.",
+      "Microondas 60-75 s. Debe crecer y quedar firme arriba pero húmedo al centro. Si te pasas, queda de hule.",
+      "Deja reposar 1 min y sirve con yogur encima."
+    ],
+    "seVe": "Pastelito esponjoso café oscuro que sobresale de la taza, con una cucharada blanca de yogur derritiéndose.",
+    "tips": [
+      "Prueba primero 60 s: cada microondas es distinto.",
+      "Whey con algo de caseína queda más esponjoso."
+    ],
+    "tags": [
+      "dulce",
+      "postre",
+      "sin-horno",
+      "rapida"
+    ]
+  },
+  {
+    "id": "r055",
+    "name": "Yogurt bark congelado de frutos rojos",
+    "slot": "snack",
+    "fuente": {
+      "creador": "Tendencia #yogurtbark",
+      "plataforma": "Instagram",
+      "url": ""
+    },
+    "tiempo": "10 min + congelar",
+    "porciones": 1,
+    "kcal": 235,
+    "proteinaG": 29,
+    "carbosG": 18,
+    "grasaG": 5,
+    "ingredientes": [
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "200 g"
+      },
+      {
+        "item": "proteína whey (vainilla o chocolate)",
+        "cantidad": "1/3 scoop"
+      },
+      {
+        "item": "frutos rojos congelados",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "chocolate amargo 70 %",
+        "cantidad": "derretido"
+      },
+      {
+        "item": "endulzante",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Mezcla yogur, proteína y endulzante.",
+      "Extiende en una charola o plato con papel encerado, de 1 cm de grosor.",
+      "Distribuye los frutos rojos y salpica el chocolate derretido con cuchara.",
+      "Congela 2 h y rompe en pedazos irregulares."
+    ],
+    "seVe": "Placas blancas irregulares tipo corteza con frutos morados incrustados y rayas de chocolate oscuro.",
+    "tips": [
+      "Guárdalo en bolsa ziploc en el congelador; aguanta 2 semanas.",
+      "Sácalo 3 min antes de comer para que no esté tan duro."
+    ],
+    "tags": [
+      "dulce",
+      "postre",
+      "meal-prep",
+      "viral"
+    ]
+  },
+  {
+    "id": "r056",
+    "name": "Dip de cottage con jícama y pepino",
+    "slot": "snack",
+    "fuente": {
+      "creador": "Tendencia #cottagecheesedip",
+      "plataforma": "TikTok",
+      "url": "https://canadiangrocer.com/high-protein-few-ingredient-recipes-driving-tiktok-food-trends"
+    },
+    "tiempo": "5 min",
+    "porciones": 1,
+    "kcal": 185,
+    "proteinaG": 20,
+    "carbosG": 20,
+    "grasaG": 2,
+    "ingredientes": [
+      {
+        "item": "queso cottage bajo en grasa",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "jícama",
+        "cantidad": "120 g"
+      },
+      {
+        "item": "pepino",
+        "cantidad": "120 g"
+      },
+      {
+        "item": "ajo, limón, chile en polvo, cilantro",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Licúa el cottage con ajo, limón y sal hasta que esté liso.",
+      "Pasa a un bowl y mezcla cilantro picado. Espolvorea chile en polvo.",
+      "Corta jícama y pepino en bastones para remojar."
+    ],
+    "seVe": "Bowl de dip blanco cremoso con polvo rojo de chile y hojitas verdes, rodeado de bastones blancos y verdes.",
+    "tips": [
+      "Ponle Tajín a los bastones y queda muy mexicano.",
+      "Dura 4 días en refri."
+    ],
+    "tags": [
+      "mexicana",
+      "sin-coccion",
+      "salado",
+      "viral"
+    ]
+  },
+  {
+    "id": "r057",
+    "name": "Proffee: malteada de café con proteína",
+    "slot": "snack",
+    "fuente": {
+      "creador": "Tendencia #proffee",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "3 min",
+    "porciones": 1,
+    "kcal": 150,
+    "proteinaG": 25,
+    "carbosG": 4,
+    "grasaG": 4,
+    "ingredientes": [
+      {
+        "item": "proteína whey (vainilla o chocolate)",
+        "cantidad": "1 scoop vainilla o chocolate"
+      },
+      {
+        "item": "bebida de almendra sin azúcar",
+        "cantidad": "200 ml"
+      },
+      {
+        "item": "café frío o espresso",
+        "cantidad": "1 taza"
+      },
+      {
+        "item": "hielo",
+        "cantidad": "1 taza"
+      }
+    ],
+    "pasos": [
+      "Licúa café frío, proteína, leche y hielo 30 s hasta que haga espuma.",
+      "Sirve en vaso alto."
+    ],
+    "seVe": "Vaso alto color caramelo con espuma clara arriba y hielo.",
+    "tips": [
+      "Prepara café del día anterior en el refri.",
+      "Sirve como pre-entreno si entrenas en la tarde."
+    ],
+    "tags": [
+      "bebida",
+      "sin-coccion",
+      "rapida",
+      "viral"
+    ]
+  },
+  {
+    "id": "r058",
+    "name": "Huevos rellenos con yogur y chipotle",
+    "slot": "snack",
+    "fuente": {
+      "creador": "Tendencia #deviledeggs",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "15 min",
+    "porciones": 1,
+    "kcal": 130,
+    "proteinaG": 18,
+    "carbosG": 3,
+    "grasaG": 6,
+    "ingredientes": [
+      {
+        "item": "huevo",
+        "cantidad": "3 piezas"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "40 g"
+      },
+      {
+        "item": "chiles chipotles adobados",
+        "cantidad": "un poco de adobo"
+      },
+      {
+        "item": "mostaza, paprika, cebollín",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Pon los huevos en agua fría, hierve y desde que hierve cuenta 10 min. Pásalos a agua con hielo 5 min.",
+      "Pélalos, pártelos a la mitad y saca 2 de las 3 yemas (la tercera se queda en la mezcla).",
+      "Machaca una yema con yogur, adobo, mostaza y sal.",
+      "Rellena las claras con la mezcla y espolvorea paprika y cebollín."
+    ],
+    "seVe": "Mitades blancas con relleno naranja cremoso, polvo rojo de paprika y verde de cebollín.",
+    "tips": [
+      "Hierve 10 huevos el domingo: snacks listos toda la semana.",
+      "Las yemas que sobran puedes dárselas a alguien o al perro; o cómelas si te dan las calorías."
+    ],
+    "tags": [
+      "salado",
+      "meal-prep",
+      "sin-horno"
+    ]
+  },
+  {
+    "id": "r059",
+    "name": "Paletas de mango con yogur y proteína",
+    "slot": "snack",
+    "fuente": {
+      "creador": "Tendencia #proteinpopsicles",
+      "plataforma": "Instagram",
+      "url": ""
+    },
+    "tiempo": "10 min + congelar",
+    "porciones": 1,
+    "kcal": 240,
+    "proteinaG": 33,
+    "carbosG": 23,
+    "grasaG": 2,
+    "ingredientes": [
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "200 g"
+      },
+      {
+        "item": "mango",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "proteína whey (vainilla o chocolate)",
+        "cantidad": "1/2 scoop vainilla"
+      },
+      {
+        "item": "chile en polvo y limón",
+        "cantidad": "opcional"
+      }
+    ],
+    "pasos": [
+      "Licúa yogur, mango y proteína hasta que quede liso.",
+      "Vierte en moldes de paleta o vasitos con un palito.",
+      "Congela 4 h. Para sacarlas, pasa el molde 10 s bajo agua tibia.",
+      "Opcional: chile en polvo y limón por fuera."
+    ],
+    "seVe": "Paletas amarillo pastel cremosas, con polvo rojo de chile en la punta.",
+    "tips": [
+      "Perfecto para el calor de Cancún.",
+      "Moldes de paleta en Walmart o en el mercado por ~$40."
+    ],
+    "tags": [
+      "dulce",
+      "postre",
+      "tropical",
+      "meal-prep"
+    ]
+  },
+  {
+    "id": "r060",
+    "name": "Clusters de fresa, yogur y chocolate",
+    "slot": "snack",
+    "fuente": {
+      "creador": "Tendencia #strawberryclusters",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "10 min + congelar",
+    "porciones": 1,
+    "kcal": 220,
+    "proteinaG": 24,
+    "carbosG": 19,
+    "grasaG": 6,
+    "ingredientes": [
+      {
+        "item": "fresas",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "yogur griego natural sin azúcar 0 %",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "proteína whey (vainilla o chocolate)",
+        "cantidad": "1/3 scoop"
+      },
+      {
+        "item": "chocolate amargo 70 %",
+        "cantidad": "10 g"
+      }
+    ],
+    "pasos": [
+      "Pica las fresas en cubitos y mézclalas con yogur y proteína.",
+      "Haz montoncitos con cuchara sobre papel encerado y congela 1 h.",
+      "Derrite el chocolate en microondas en tandas de 20 s, moviendo entre cada una.",
+      "Baña los clusters con el chocolate y congela 15 min más."
+    ],
+    "seVe": "Montoncitos irregulares rosa y blanco con fresas visibles, cubiertos con capa de chocolate brillante que truena al morder.",
+    "tips": [
+      "De lo más viral de 2024; sabe a postre de tienda.",
+      "Guárdalos congelados en bolsa; sácalos 5 min antes."
+    ],
+    "tags": [
+      "dulce",
+      "postre",
+      "viral"
+    ]
+  },
+  {
+    "id": "r061",
+    "name": "Edamames con limón, sal y Tajín",
+    "slot": "snack",
+    "fuente": {
+      "creador": "Tendencia #edamamesnack",
+      "plataforma": "TikTok",
+      "url": ""
+    },
+    "tiempo": "5 min",
+    "porciones": 1,
+    "kcal": 180,
+    "proteinaG": 18,
+    "carbosG": 14,
+    "grasaG": 8,
+    "ingredientes": [
+      {
+        "item": "edamames sin vaina (congelados)",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "limón, sal de grano y Tajín",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Pon los edamames congelados en un bowl con 2 cdas de agua, tapa y microondas 3 min.",
+      "Escurre, exprime limón y espolvorea sal y Tajín."
+    ],
+    "seVe": "Bowl de frijolitos verde brillante con polvo rojo de Tajín y gajos de limón.",
+    "tips": [
+      "Los venden congelados en Walmart y Costco; también con vaina, que te hace comer más lento.",
+      "Snack salado para cuando se te antojan papitas."
+    ],
+    "tags": [
+      "salado",
+      "sin-horno",
+      "rapida",
+      "mexicana"
+    ]
+  }
+]
