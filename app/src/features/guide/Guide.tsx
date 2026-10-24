@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
-import { bloques, guia } from '../../content'
+import { bloques, entreno, guia } from '../../content'
+import { EQUIPOS, SessionView, useEquipo } from '../training/Training'
+import Recipes from './Recipes'
 import type { Grade as G } from '../../content/types'
 import { db, getSetting, requestPersist, setSetting } from '../../db'
 import { Btn, Card, Chips, Grade, Kicker, Screen } from '../../ui'
@@ -135,6 +137,7 @@ function Food() {
         ))}
       </div>
       <p className="text-[14.5px] leading-relaxed text-dim">{guia.estrategia}</p>
+      <section><Kicker>Recetas de TikTok y Reels</Kicker><div className="mt-3"><Recipes /></div></section>
       <section>
         <Kicker>Menús</Kicker>
         <div className="mt-2 mb-3 flex gap-2">
@@ -145,6 +148,10 @@ function Food() {
             <Card key={i}>
               <div className="flex items-baseline justify-between gap-2"><div className="text-[15.5px]">{x.name}</div>{x.kcal ? <div className="shrink-0 font-mono text-[11px] text-faint">{x.kcal} kcal · {x.proteinG} g</div> : null}</div>
               <p className="mt-1 text-[13.5px] leading-relaxed text-dim">{x.items}</p>
+              {x.seVe && <p className="mt-2 text-[12.5px] italic leading-relaxed text-faint">{x.seVe}</p>}
+              {x.pasos && x.pasos.length > 0 && (
+                <ol className="mt-2 space-y-1.5 border-t border-line pt-2">{x.pasos.map((p, j) => <li key={j} className="flex gap-2 text-[13px] leading-relaxed"><span className="text-sun">{j + 1}</span>{p}</li>)}</ol>
+              )}
             </Card>
           ))}
         </div>
@@ -172,30 +179,48 @@ function Food() {
   )
 }
 
+const DAYS = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado']
+
 function Training() {
+  const [eq, setEq] = useEquipo()
+  const [open, setOpen] = useState<string | null>(null)
+  const prog = entreno.programas[eq]
   return (
     <div className="space-y-8">
+      <div className="flex rounded-full border border-line p-1">
+        {EQUIPOS.map((e) => (
+          <button key={e.v} onClick={() => setEq(e.v)} className={`flex-1 rounded-full py-2 text-[13px] ${eq === e.v ? 'bg-paper text-ink' : 'text-dim'}`}>{e.l}</button>
+        ))}
+      </div>
+      <p className="-mt-5 text-[12.5px] text-faint">Lo que elijas aquí es lo que te muestra el bloque de Entrenamiento cada mañana.</p>
+      {prog?.fases.map((f) => (
+        <section key={f.weeks}>
+          <Kicker>Semanas {f.weeks}</Kicker>
+          <p className="mt-1 mb-3 text-[13.5px] leading-relaxed text-dim">{f.nota}</p>
+          <div className="divide-y divide-line rounded-2xl border border-line">
+            {[1, 2, 3, 4, 5, 6, 0].map((d) => {
+              const ses = f.dias[String(d)]
+              if (!ses) return null
+              const k = `${f.weeks}-${d}`
+              return (
+                <div key={k}>
+                  <button onClick={() => setOpen(open === k ? null : k)} className="flex w-full items-center justify-between px-4 py-3 text-left">
+                    <div><div className="font-mono text-[10.5px] uppercase tracking-wider text-faint">{DAYS[d]}</div><div className="text-[15px]">{ses.title}</div></div>
+                    <span className="text-faint">{open === k ? '−' : '+'}</span>
+                  </button>
+                  {open === k && <div className="px-4 pb-4"><SessionView sesion={ses} /></div>}
+                </div>
+              )
+            })}
+          </div>
+        </section>
+      ))}
       <section>
-        <Kicker>12 semanas</Kicker>
+        <Kicker>Progresión del plan</Kicker>
         <ol className="mt-2 divide-y divide-line">
           {guia.progresion.map((p) => <li key={p.week} className="flex gap-4 py-2.5"><span className="w-6 shrink-0 font-serif text-[22px] leading-none">{p.week}</span><span className="text-[13.5px] leading-relaxed text-dim">{p.text}</span></li>)}
         </ol>
       </section>
-      {guia.workouts.map((w) => (
-        <section key={w.id}>
-          <Kicker>{w.where === 'gym' ? 'Gimnasio' : 'En casa'}</Kicker>
-          <div className="font-serif text-[26px]">{w.name}</div>
-          <div className="mb-2 text-[13px] text-faint">{w.focus}</div>
-          <div className="divide-y divide-line rounded-xl border border-line">
-            {w.exercises.map((e, i) => (
-              <div key={i} className="flex justify-between gap-3 px-3 py-2.5">
-                <div><div className="text-[14.5px]">{e.name}</div>{e.alt && <div className="text-[12px] text-faint">sin gym: {e.alt}</div>}</div>
-                <div className="shrink-0 text-right font-mono text-[11px] text-dim">{e.sets} × {e.reps}<div className="text-faint">{e.rest}</div></div>
-              </div>
-            ))}
-          </div>
-        </section>
-      ))}
     </div>
   )
 }

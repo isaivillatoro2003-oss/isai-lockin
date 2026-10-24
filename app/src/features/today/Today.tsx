@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
-import { db, now, setStatus, type Status } from '../../db'
-import { ARRIVAL, CAT_LABEL, TEMPLATES, currentBlock, defaultTemplate, type Block } from '../../domain/schedule'
+import { addWater, db, getSetting, now, setStatus, toggleWater, waterKey, type Status, type Water } from '../../db'
+import { ARRIVAL, CAT_LABEL, TEMPLATES, currentBlock, defaultTemplate, waterGoal, type Block } from '../../domain/schedule'
 import { computeStreak, dayPct } from '../../domain/streak'
 import { addDays, clock, dur, fromMin, longDate, partnerHm, PARTNER_TZ, toMin } from '../../domain/time'
 import { useClock } from '../../hooks'
@@ -36,6 +36,7 @@ export default function Today() {
   const logs = useLiveQuery(() => db.logs.where('date').equals(day).toArray(), [day]) ?? []
   const streak = useLiveQuery(computeStreak, [logs.length, logs.map((l) => l.status).join()]) ?? 0
   const status = useMemo(() => new Map(logs.map((l) => [l.blockId, l.status])), [logs])
+  const water = useLiveQuery(() => getSetting<Water>(waterKey(day), { done: [], extra: 0 }), [day]) ?? { done: [], extra: 0 }
 
   const idx = isToday ? currentBlock(tpl.blocks, nowMin) : -1
   const cur = idx >= 0 ? tpl.blocks[idx] : null
@@ -72,6 +73,8 @@ export default function Today() {
         <Stat k="Hoy" v={String(Math.round(pct * 100))} unit="%" bar={pct} />
         <Stat k={fast.open ? 'Comer' : 'Ayuno'} v={fast.label.replace(/^(Ayuno|Ventana abierta) ?/, '') || 'abierta'} unit={fast.sub} small />
       </div>
+
+      <WaterBar day={day} blocks={tpl.blocks} water={water} />
 
       {/* Ahora */}
       {cur && (
@@ -117,7 +120,14 @@ export default function Today() {
                 <div className="font-mono text-[10.5px] text-faint">
                   {CAT_LABEL[b.cat]} · {dur(b.dur)}{b.cat === 'novia' && ` · ${partnerHm(b.start)} en Beirut`}{s === 'minima' && ' · mínima'}
                 </div>
+                {b.extras && <div className="mt-0.5 truncate text-[11.5px] text-faint">{b.extras.join(' · ')}</div>}
               </button>
+              {b.water ? (
+                <button onClick={() => toggleWater(day, b.id)} aria-label="agua"
+                  className={`my-2 shrink-0 self-center rounded-full border px-2 py-1 font-mono text-[10px] tnum transition ${water.done.includes(b.id) ? 'border-blue bg-blue/20 text-blue' : 'border-line text-faint'}`}>
+                  {b.water} ml
+                </button>
+              ) : null}
               <Check s={s} color={CAT_COLOR[b.cat]} onClick={() => mark(b, s ? null : 'hecho')} />
             </li>
           )
@@ -140,6 +150,26 @@ export default function Today() {
           ))}
         </div>
       </Sheet>
+    </div>
+  )
+}
+
+function WaterBar({ day, blocks, water }: { day: string; blocks: Block[]; water: Water }) {
+  const goal = waterGoal(blocks)
+  const drunk = blocks.filter((b) => water.done.includes(b.id)).reduce((s, b) => s + (b.water ?? 0), 0) + water.extra
+  const p = goal ? Math.min(1, drunk / goal) : 0
+  return (
+    <div className="mb-6 flex items-center gap-3 rounded-2xl border border-line px-4 py-3">
+      <div className="min-w-0 flex-1">
+        <div className="flex items-baseline justify-between">
+          <span className="font-mono text-[10.5px] uppercase tracking-[0.18em] text-blue">Agua</span>
+          <span className="font-mono text-[11px] text-dim tnum">{(drunk / 1000).toFixed(1)} de {(goal / 1000).toFixed(1)} L</span>
+        </div>
+        <div className="mt-2 h-[3px] overflow-hidden rounded-full bg-line">
+          <div className="h-full rounded-full bg-blue transition-all duration-500" style={{ width: `${p * 100}%` }} />
+        </div>
+      </div>
+      <button onClick={() => addWater(day, 250)} className="rounded-full border border-line px-3 py-1.5 font-mono text-[11px] text-dim">+250</button>
     </div>
   )
 }

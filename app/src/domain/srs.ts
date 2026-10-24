@@ -2,9 +2,21 @@ import { createEmptyCard, fsrs, Rating, type Card as FCard, type Grade } from 't
 import { db, now, uid, type CardStateRow } from '../db'
 import ar from '../content/ar.json'
 import fr from '../content/fr.json'
+import { more } from '../content'
 import type { Card, LangPack } from '../content/types'
 
-export const PACKS = { ar: ar as LangPack, fr: fr as LangPack }
+/** Paquete base + ampliación (más unidades y tarjetas), ordenado por unidad. */
+function merge(base: LangPack, l: 'ar' | 'fr'): LangPack {
+  const seen = new Set(base.units.map((u) => u.n))
+  return {
+    ...base,
+    units: [...base.units, ...more[l].units.filter((u) => !seen.has(u.n))].sort((a, b) => a.n - b.n),
+    cards: [...base.cards, ...more[l].cards],
+  }
+}
+export const PACKS = { ar: merge(ar as LangPack, 'ar'), fr: merge(fr as LangPack, 'fr') }
+export const lessonFor = (l: Lang, unit: number) => more[l].lessons.find((x) => x.unit === unit)
+export const stories = (l: Lang) => [...more[l].stories].sort((a, b) => a.level - b.level)
 export type Lang = 'ar' | 'fr'
 
 const ALL = new Map<string, Card>()

@@ -4,6 +4,7 @@ import type { Card } from '../../content/types'
 import { Rating, allCards, cardById, check, review, variants, type Lang } from '../../domain/srs'
 import { speak } from '../../domain/speech'
 import { Btn, Kicker } from '../../ui'
+import SpeakCheck from './SpeakCheck'
 
 export type Mode = 'review' | 'new' | 'lesson' | 'listen'
 type Ex = { kind: 'elegir' | 'escuchar' | 'escribir' | 'ordenar'; card: Card; options?: string[] }
@@ -107,6 +108,7 @@ function NewCard({ card, lang, accent, onDone }: { card: Card; lang: Lang; accen
       <Kicker color={accent}>Nueva</Kicker>
       <div className="mt-2 mb-8 text-[20px] text-dim">{card.es}</div>
       <Big card={card} lang={lang} />
+      <SpeakCheck lang={lang} t={main(card.t)} script={card.script} />
       <div className="mt-auto flex items-center gap-3 pt-10">
         <Speaker card={card} lang={lang} />
         <Btn kind="line" onClick={() => go(Rating.Easy)}>Ya la sé</Btn>
@@ -126,6 +128,7 @@ function ReviewCard({ card, lang, accent, onDone }: { card: Card; lang: Lang; ac
       <Kicker color={accent}>{listen ? 'Escucha: ¿qué significa?' : '¿Cómo se dice?'}</Kicker>
       {listen && !shown ? <div className="mt-6"><Speaker card={card} lang={lang} /></div> : <div className="mt-2 mb-8 text-[24px] leading-snug">{card.es}</div>}
       {shown && (listen ? <><div className="mt-6 mb-6 text-[22px]">{card.es}</div><Big card={card} lang={lang} /></> : <Big card={card} lang={lang} />)}
+      {shown && <SpeakCheck lang={lang} t={main(card.t)} script={card.script} />}
       <div className="mt-auto pt-10">
         {!shown ? (
           <Btn className="w-full" onClick={() => { setShown(true); if (!listen) speak(card, lang) }}>Mostrar</Btn>

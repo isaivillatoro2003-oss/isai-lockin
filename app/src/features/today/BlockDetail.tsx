@@ -1,11 +1,32 @@
 import { useState } from 'react'
 import { db, now, uid, type Status } from '../../db'
-import { bloques, guia, workout } from '../../content'
+import { bloques, guia } from '../../content'
 import type { BlockGuide } from '../../content/types'
-import { CAT_LABEL, planWeek, workoutsFor, type Block } from '../../domain/schedule'
+import { CAT_LABEL, type Block } from '../../domain/schedule'
 import { dur, fromMin, partnerHm, toMin } from '../../domain/time'
 import { useNav } from '../../hooks'
-import { Btn, CAT_COLOR, Grade, Kicker, NumberInput } from '../../ui'
+import { Btn, CAT_COLOR, Grade, Kicker, NumberInput, Sheet } from '../../ui'
+import { TodayWorkout } from '../training/Training'
+import { RecipeCard, RecipeDetail, suggestions } from '../guide/Recipes'
+import type { Receta } from '../../content/types'
+
+function MealIdeas({ title, date, onLog }: { title: string; date: string; onLog: () => void }) {
+  const slot = (title.includes('1') ? 'comida1' : title.includes('2') ? 'comida2' : 'comida3') as Receta['slot']
+  const ideas = suggestions(slot, date)
+  const [open, setOpen] = useState<Receta | null>(null)
+  return (
+    <div>
+      <Btn kind="line" className="w-full" onClick={onLog}>Registrar o fotografiar la comida</Btn>
+      {ideas.length > 0 && (
+        <div className="mt-5">
+          <Kicker>Ideas para hoy</Kicker>
+          <div className="mt-2 grid gap-2">{ideas.map((r) => <RecipeCard key={r.id} r={r} onOpen={() => setOpen(r)} />)}</div>
+        </div>
+      )}
+      <Sheet open={!!open} onClose={() => setOpen(null)}>{open && <RecipeDetail r={open} />}</Sheet>
+    </div>
+  )
+}
 
 function GuideView({ g, color }: { g: BlockGuide; color: string }) {
   return (
@@ -58,6 +79,12 @@ export default function BlockDetail({ b, date, status, onMark, onClose }: {
       <h2 className="mt-2 font-serif text-[36px] leading-[1.02]">{b.title}</h2>
       {b.cat === 'novia' && <div className="mt-1 font-mono text-[11px] text-dim">{partnerHm(b.start)} en Beirut</div>}
       {b.detail && <p className="mt-3 text-[15px] leading-relaxed text-dim">{b.detail}</p>}
+      {(b.water || b.extras) && (
+        <div className="mt-3 flex flex-wrap gap-1.5">
+          {b.water ? <span className="rounded-full border border-blue/50 px-2.5 py-1 text-[12px] text-blue">Toma {b.water} ml de agua</span> : null}
+          {b.extras?.map((x) => <span key={x} className="rounded-full border border-line px-2.5 py-1 text-[12px] text-dim">{x}</span>)}
+        </div>
+      )}
 
       <div className="mt-5 grid grid-cols-3 gap-2">
         {(['hecho', 'minima', 'saltado'] as Status[]).map((s) => (
@@ -70,7 +97,7 @@ export default function BlockDetail({ b, date, status, onMark, onClose }: {
       </div>
 
       <div className="mt-5">
-        {b.link === 'workout' && <WorkoutView date={date} />}
+        {b.link === 'workout' && <TodayWorkout date={date} />}
         {b.link === 'glow-am' && <Steps title="Rutina de mañana" steps={guia.glow.am} />}
         {b.link === 'glow-pm' && <Steps title="Rutina de noche" steps={guia.glow.pm} />}
         {(b.link === 'weigh' || b.link === 'measure') && <QuickWeight date={date} />}
@@ -80,8 +107,8 @@ export default function BlockDetail({ b, date, status, onMark, onClose }: {
         {(b.link === 'lesson-ar' || b.link === 'lesson-fr') && (
           <Btn kind="line" className="w-full" onClick={() => open({ tab: 'idiomas', sub: b.link!.slice(7) })}>Ver unidades y recursos</Btn>
         )}
-        {b.link === 'speak-ar' && <Btn kind="line" className="w-full" onClick={() => open({ tab: 'idiomas', sub: 'ella' })}>Frases para ella</Btn>}
-        {b.link === 'meal' && <Btn kind="line" className="w-full" onClick={() => open({ tab: 'cuerpo', sub: 'comidas' })}>Registrar comida</Btn>}
+        {b.link === 'speak-ar' && <Btn kind="line" className="w-full" onClick={() => open({ tab: 'idiomas', sub: 'ella' })}>Frases para Pam</Btn>}
+        {b.link === 'meal' && <MealIdeas title={b.title} date={date} onLog={() => open({ tab: 'cuerpo', sub: 'comidas' })} />}
         {b.link === 'journal' && <Btn kind="line" className="w-full" onClick={() => open({ tab: 'diario' })}>Abrir diario</Btn>}
         {b.link === 'measure' && <Btn kind="line" className="mt-2 w-full" onClick={() => open({ tab: 'cuerpo', sub: 'fotos' })}>Fotos de la semana</Btn>}
       </div>
@@ -108,50 +135,6 @@ function Steps({ title, steps }: { title: string; steps: { step: string; how: st
           </li>
         ))}
       </ol>
-    </div>
-  )
-}
-
-function WorkoutView({ date }: { date: string }) {
-  const [casa, setCasa] = useState(false)
-  const wk = planWeek(date)
-  const ids = workoutsFor(date)
-  const prog = guia.progresion.find((p) => p.week === String(wk))
-  const gym = ids.some((id) => workout(id)?.where === 'gym')
-  return (
-    <div>
-      <div className="mb-3 flex items-center justify-between">
-        <Kicker>Semana {wk} de 12</Kicker>
-        {gym && (
-          <button onClick={() => setCasa(!casa)} className="rounded-full border border-line px-3 py-1 font-mono text-[10.5px] uppercase tracking-wider text-dim">
-            {casa ? 'Sin gym' : 'Gym'} ⇄
-          </button>
-        )}
-      </div>
-      {prog && <p className="mb-4 text-[13px] leading-relaxed text-dim">{prog.text}</p>}
-      {ids.map((id) => {
-        const w = workout(id)
-        if (!w) return null
-        return (
-          <div key={id} className="mb-4">
-            <div className="font-serif text-[24px]">{w.name}</div>
-            <div className="mb-2 text-[13px] text-faint">{w.focus}</div>
-            <div className="divide-y divide-line rounded-xl border border-line">
-              {w.exercises.map((e, i) => (
-                <div key={i} className="flex items-start justify-between gap-3 px-3 py-2.5">
-                  <div className="min-w-0">
-                    <div className="text-[14.5px]">{casa && e.alt ? e.alt : e.name}</div>
-                    {e.notes && <div className="text-[12px] leading-snug text-faint">{e.notes}</div>}
-                  </div>
-                  <div className="shrink-0 text-right font-mono text-[11px] text-dim tnum">
-                    {e.sets} × {e.reps}<div className="text-faint">{e.rest}</div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )
-      })}
     </div>
   )
 }

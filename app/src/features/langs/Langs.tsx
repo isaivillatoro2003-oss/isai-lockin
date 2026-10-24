@@ -2,14 +2,16 @@ import { useEffect, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../../db'
 import { guia } from '../../content'
-import { PACKS, allCards, dueCount, dueIds, newIds, type Lang } from '../../domain/srs'
+import { PACKS, allCards, dueCount, dueIds, lessonFor, newIds, stories, type Lang } from '../../domain/srs'
 import { hasVoice, speak } from '../../domain/speech'
 import { useNav } from '../../hooks'
 import { Btn, Card, Chips, Kicker, Screen, Sheet } from '../../ui'
 import Session, { type Mode } from './Session'
 import ForHer from './ForHer'
+import LessonView, { StoryView } from './LessonView'
+import type { Story } from '../../content/types'
 
-type View = 'ruta' | 'ella' | 'claves' | 'recursos'
+type View = 'ruta' | 'historias' | 'ella' | 'claves' | 'recursos'
 
 export default function Langs() {
   const { nav } = useNav()
@@ -80,7 +82,8 @@ export default function Langs() {
 
       <Chips value={view} onChange={setView} options={[
         { v: 'ruta', l: 'Unidades' },
-        ...(lang === 'ar' ? [{ v: 'ella' as View, l: 'Frases para ella' }] : []),
+        { v: 'historias', l: 'Historias' },
+        { v: 'ella', l: 'Para Pam' },
         { v: 'claves', l: lang === 'ar' ? 'Arabizi' : 'Trampas y chat' },
         { v: 'recursos', l: 'Recursos' },
       ]} />
@@ -109,7 +112,8 @@ export default function Langs() {
         </ol>
       )}
 
-      {view === 'ella' && <ForHer />}
+      {view === 'historias' && <Stories lang={lang} />}
+      {view === 'ella' && <ForHer lang={lang} />}
       {view === 'claves' && (lang === 'ar' ? <Alphabet /> : <FrenchKeys />)}
       {view === 'recursos' && <Resources lang={lang} />}
 
@@ -121,10 +125,18 @@ export default function Langs() {
               <Kicker>Unidad {u.n}{u.grammar ? ` · ${u.grammar}` : ''}</Kicker>
               <h2 className="mt-1 font-serif text-[34px] leading-tight">{u.title}</h2>
               <p className="mb-4 text-[14px] text-dim">{u.goal}</p>
-              <div className="mb-5 flex gap-2">
-                <Btn className="flex-1" onClick={() => { setUnit(null); setSession({ mode: 'lesson', ids: u.cards.map((c) => c.id), title: u.title }) }}>Lección</Btn>
-                <Btn kind="line" onClick={() => { setUnit(null); setSession({ mode: 'listen', ids: u.cards.map((c) => c.id), title: u.title }) }}>Escuchar</Btn>
-              </div>
+              {(() => {
+                const practice = () => { setUnit(null); setSession({ mode: 'lesson', ids: u.cards.map((c) => c.id), title: u.title }) }
+                const listen = () => { setUnit(null); setSession({ mode: 'listen', ids: u.cards.map((c) => c.id), title: u.title }) }
+                const lesson = lessonFor(lang, u.n)
+                return lesson ? <LessonView lesson={lesson} lang={lang} onPractice={practice} onListen={listen} /> : (
+                  <div className="mb-5 flex gap-2">
+                    <Btn className="flex-1" onClick={practice}>Practicar</Btn>
+                    <Btn kind="line" onClick={listen}>Escuchar</Btn>
+                  </div>
+                )
+              })()}
+              <div className="mt-6 mb-1"><Kicker>Frases de la unidad · {u.cards.length}</Kicker></div>
               <ul className="divide-y divide-line">
                 {u.cards.map((c) => (
                   <li key={c.id} onClick={() => speak(c, lang)} className="flex cursor-pointer items-baseline justify-between gap-3 py-2.5">
@@ -141,6 +153,26 @@ export default function Langs() {
         })()}
       </Sheet>
     </Screen>
+  )
+}
+
+function Stories({ lang }: { lang: Lang }) {
+  const [open, setOpen] = useState<Story | null>(null)
+  const list = stories(lang)
+  return (
+    <div>
+      <p className="mb-4 text-[14px] leading-relaxed text-dim">Historias cortas graduadas: léelas, escúchalas y contesta. Es la forma más rápida de entender sin traducir en la cabeza.</p>
+      {!list.length && <p className="py-6 text-center text-[13.5px] text-faint">Las historias se están escribiendo.</p>}
+      <div className="grid gap-2">
+        {list.map((s) => (
+          <Card key={s.id} onClick={() => setOpen(s)}>
+            <div className="flex items-baseline justify-between"><span className="text-[15.5px]">{s.title}</span><span className="font-mono text-[10.5px] text-faint">nivel {s.level}</span></div>
+            <div className="mt-0.5 text-[12.5px] text-faint">{s.lines.length} líneas · {s.questions.length} preguntas</div>
+          </Card>
+        ))}
+      </div>
+      <Sheet open={!!open} onClose={() => setOpen(null)}>{open && <StoryView story={open} lang={lang} onClose={() => setOpen(null)} />}</Sheet>
+    </div>
   )
 }
 

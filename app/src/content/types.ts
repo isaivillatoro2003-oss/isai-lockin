@@ -14,6 +14,39 @@ export interface LangPack {
   chatAbbr?: { short: string; full: string; es: string }[]
 }
 
+export interface Line { who?: string; t: string; es: string; pron?: string; script?: string }
+export interface Lesson {
+  unit: number; title: string; explain: string[]
+  table?: { head: string[]; rows: string[][] }
+  examples: Line[]; dialogue: Line[]; practice: string[]
+}
+export interface Story {
+  id: string; title: string; level: number; lines: Line[]
+  questions: { q: string; options: string[]; answer: number }[]
+}
+export interface MorePack { units: Unit[]; cards: Card[]; lessons: Lesson[]; stories: Story[] }
+
+export type Equipo = 'nada' | 'mancuernas' | 'gym'
+export interface Ejercicio {
+  name: string; img: string[]; equipo: string; musculos: string
+  como: string[]; errores: string[]; facil: string; dificil: string
+}
+export interface Sesion {
+  title: string; tipo: string; explica: string
+  calentamiento: string[]; bloques: { ex: string; series: number | string; reps: string; descanso: string; nota?: string }[]; enfriamiento: string[]
+}
+export interface Entreno {
+  ejercicios: Record<string, Ejercicio>
+  programas: Record<Equipo, { name: string; fases: { weeks: string; nota: string; dias: Record<string, Sesion> }[] }>
+}
+
+export interface Receta {
+  id: string; name: string; slot: 'comida1' | 'comida2' | 'comida3' | 'snack'
+  fuente: { creador: string; plataforma: string; url: string }
+  tiempo: string; porciones: number; kcal: number; proteinaG: number; carbosG: number; grasaG: number
+  ingredientes: { item: string; cantidad: string }[]; pasos: string[]; seVe: string; tips: string[]; tags: string[]
+}
+
 export interface Exercise { name: string; sets: string; reps: string; rest: string; notes?: string; alt?: string }
 export interface Workout { id: string; name: string; where: string; focus: string; exercises: Exercise[] }
 export interface Step { step: string; how: string; product?: string; min?: number }
@@ -33,7 +66,7 @@ export interface Guia {
   estrategia: string
   workouts: Workout[]
   progresion: { week: string; text: string }[]
-  menus: Record<string, { name: string; items: string; kcal?: number; proteinG?: number }[]>
+  menus: Record<string, { name: string; items: string; kcal?: number; proteinG?: number; pasos?: string[]; seVe?: string }[]>
   super: { cat: string; items: string[] }[]
   evitar: string[]
   saciedad: string[]

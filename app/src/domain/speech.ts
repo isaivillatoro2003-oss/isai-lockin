@@ -35,6 +35,33 @@ export function speak(card: Pick<Card, 't' | 'script'>, lang: 'ar' | 'fr', rate 
   synth.speak(u)
 }
 
+type Rec = { lang: string; interimResults: boolean; maxAlternatives: number; start(): void; stop(): void
+  onresult: ((e: { results: ArrayLike<ArrayLike<{ transcript: string }>> }) => void) | null
+  onerror: ((e: { error: string }) => void) | null; onend: (() => void) | null }
+
+export const canRecognize = () => typeof window !== 'undefined' && !!((window as unknown as Record<string, unknown>).SpeechRecognition || (window as unknown as Record<string, unknown>).webkitSpeechRecognition)
+
+/**
+ * Escucha una frase con el reconocedor del teléfono y devuelve lo que entendió.
+ * En iPhone usa el dictado de Safari: necesita internet y permiso de micrófono.
+ */
+export function recognize(lang: 'ar' | 'fr') {
+  const W = window as unknown as Record<string, new () => Rec>
+  const R = W.SpeechRecognition || W.webkitSpeechRecognition
+  if (!R) return Promise.reject(new Error('Este navegador no reconoce voz. Usa Safari en el iPhone.'))
+  return new Promise<string>((resolve, reject) => {
+    const r = new R()
+    r.lang = lang === 'ar' ? 'ar-LB' : 'fr-FR'
+    r.interimResults = false
+    r.maxAlternatives = 1
+    let text = ''
+    r.onresult = (e) => { text = Array.from(e.results).map((x) => x[0].transcript).join(' ') }
+    r.onerror = (e) => { if (e.error !== 'no-speech') reject(new Error(`No pude escucharte (${e.error}).`)) }
+    r.onend = () => resolve(text)
+    r.start()
+  })
+}
+
 export async function startRecording() {
   const stream = await navigator.mediaDevices.getUserMedia({ audio: true })
   const rec = new MediaRecorder(stream)

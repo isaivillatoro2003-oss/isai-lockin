@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db, now, uid, type MealRow, type MetricRow, type PhotoRow } from '../../db'
+import { checkFood, photoToBase64 } from '../../ai'
 import { addDays, clock, longDate } from '../../domain/time'
 import { useNav } from '../../hooks'
 import { Btn, Card, Chips, Empty, Kicker, NumberInput, Screen, Sheet } from '../../ui'
@@ -349,6 +350,8 @@ function MealCard({ day, def, row }: { day: string; def: (typeof SLOTS)[number];
     const min = clock().min
     const out = min < 10 * 60 || min >= 18 * 60
     const rec: MealRow = {
+      ...(row?.photo ? { photo: row.photo } : {}),
+      ...(row?.ai ? { ai: row.ai } : {}),
       id: row?.id ?? uid(), date: day, slot: def.slot, time: row?.time ?? (def.time || clock().hm),
       text: text.trim(), tags, updatedAt: now(),
       ...(rating ? { rating } : {}),
@@ -388,6 +391,57 @@ function MealCard({ day, def, row }: { day: string; def: (typeof SLOTS)[number];
       </div>
       {state === 'guardado' && <p className="mt-2 font-mono text-[10.5px] text-faint">guardado</p>}
       {state === 'fuera' && <p className="mt-2 font-mono text-[10.5px] text-bad">guardado · fuera de la ventana</p>}
+      <FoodPhoto day={day} def={def} row={row} onPlato={(p) => { if (!text.trim()) setText(p) }} />
     </Card>
+  )
+}
+
+const VERDICT = { bien: ['Va bien', '#9cb380'], regular: ['Regular', '#e9a640'], mal: ['No encaja', '#c9705a'] } as const
+
+/** Foto del plato + análisis con IA: macros estimados y si encaja en el plan. */
+function FoodPhoto({ day, def, row, onPlato }: { day: string; def: (typeof SLOTS)[number]; row?: MealRow; onPlato: (p: string) => void }) {
+  const [busy, setBusy] = useState(false)
+  const [err, setErr] = useState('')
+  const url = useMemo(() => (row?.photo ? URL.createObjectURL(row.photo) : null), [row?.photo])
+  useEffect(() => () => { if (url) URL.revokeObjectURL(url) }, [url])
+
+  const pick = async (file: File) => {
+    setBusy(true); setErr('')
+    try {
+      const b64 = await photoToBase64(file)
+      const blob = await (await fetch(`data:image/jpeg;base64,${b64}`)).blob()
+      const base: MealRow = row ?? { id: uid(), date: day, slot: def.slot, time: def.time || clock().hm, text: '', tags: [], updatedAt: now() }
+      await db.meals.put({ ...base, photo: blob, updatedAt: now() })
+      const ai = await checkFood(b64, 'image/jpeg', def.name, clock().hm)
+      await db.meals.put({ ...base, photo: blob, ai, text: base.text || ai.plato, updatedAt: now() })
+      onPlato(ai.plato)
+    } catch (e) {
+      setErr(e instanceof Error ? e.message : 'No se pudo analizar.')
+    } finally { setBusy(false) }
+  }
+
+  const ai = row?.ai
+  return (
+    <div className="mt-4 border-t border-line pt-4">
+      {url && <img src={url} alt="" className="mb-3 aspect-[4/3] w-full rounded-xl object-cover" />}
+      <label className={`flex cursor-pointer items-center justify-center gap-2 rounded-full border border-line py-2.5 text-[13.5px] text-dim ${busy ? 'opacity-50' : ''}`}>
+        {busy ? 'Analizando el plato…' : url ? 'Cambiar foto y analizar' : 'Foto y análisis del plato'}
+        <input type="file" accept="image/*" capture="environment" className="hidden" disabled={busy}
+          onChange={(e) => { const f = e.target.files?.[0]; if (f) pick(f); e.target.value = '' }} />
+      </label>
+      {err && <p className="mt-2 text-[12.5px] text-bad">{err}</p>}
+      {ai && (
+        <div className="mt-3">
+          <div className="flex items-center justify-between">
+            <span className="text-[14px]" style={{ color: VERDICT[ai.veredicto][1] }}>{VERDICT[ai.veredicto][0]}</span>
+            <span className="font-mono text-[11px] text-dim tnum">{Math.round(ai.kcal)} kcal · {Math.round(ai.proteinaG)} g prot</span>
+          </div>
+          <p className="mt-1 text-[13.5px] leading-relaxed">{ai.resumen}</p>
+          {ai.bien.map((x, i) => <p key={`b${i}`} className="mt-1 text-[12.5px] text-ok">+ {x}</p>)}
+          {ai.mejorar.map((x, i) => <p key={`m${i}`} className="mt-1 text-[12.5px] text-dim">→ {x}</p>)}
+          <p className="mt-2 font-mono text-[10px] text-faint">Estimación por foto: puede fallar ±20 %</p>
+        </div>
+      )}
+    </div>
   )
 }
