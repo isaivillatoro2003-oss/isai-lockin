@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
-import { errorMessage, runAi } from './_core'
+import { errorMessage, runAi } from './_core.js'
 
 /** Función de Vercel: POST /api/ai */
 export default async function handler(req: VercelRequest, res: VercelResponse) {

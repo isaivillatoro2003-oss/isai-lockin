@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
-import { checkKey, messageOf, runSync, statusOf } from './_sync'
+import { checkKey, messageOf, runSync, statusOf } from './_sync.js'
 
 /** Función de Vercel: POST /api/sync */
 export default async function handler(req: VercelRequest, res: VercelResponse) {
