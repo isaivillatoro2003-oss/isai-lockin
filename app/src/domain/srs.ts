@@ -63,6 +63,12 @@ export async function newIds(l: Lang) {
   return PACKS[l].cards.filter((c) => !seen.has(c.id)).sort((a, b) => a.unit - b.unit || a.rank - b.rank).slice(0, left).map((c) => c.id)
 }
 
+/** Siguientes tarjetas sin ver, sin tope diario: para los días que quieres avanzar más. */
+export async function moreIds(l: Lang, n = 10) {
+  const seen = new Set((await db.cardStates.where('lang').equals(l).toArray()).map((r) => r.cardId))
+  return PACKS[l].cards.filter((c) => !seen.has(c.id)).sort((a, b) => a.unit - b.unit || a.rank - b.rank).slice(0, n).map((c) => c.id)
+}
+
 export { Rating }
 
 /* Corrector tolerante de Arabizi (sección 6.4): normaliza antes de comparar. */

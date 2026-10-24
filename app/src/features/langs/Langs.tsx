@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../../db'
 import { guia } from '../../content'
-import { PACKS, allCards, dueCount, dueIds, lessonFor, newIds, stories, type Lang } from '../../domain/srs'
+import { PACKS, allCards, dueCount, dueIds, lessonFor, moreIds, newIds, stories, type Lang } from '../../domain/srs'
 import { hasVoice, speak } from '../../domain/speech'
 import { useNav } from '../../hooks'
 import { Btn, Card, Chips, Kicker, Screen, Sheet } from '../../ui'
@@ -71,8 +71,10 @@ export default function Langs() {
           <div className="mt-1 font-mono text-[10.5px] text-faint">{fresh.length ? 'para hoy' : 'cupo cumplido'}</div>
         </Card>
       </div>
-      <div className="mb-6 flex justify-between font-mono text-[10.5px] text-faint">
-        <span>{known.size} de {total} vistas</span><span>{mature} maduras</span>
+      <div className="mb-6 flex items-center justify-between font-mono text-[10.5px] text-faint">
+        <span>{known.size} de {total} vistas · {mature} maduras</span>
+        <button onClick={() => moreIds(lang).then((ids) => ids.length && setSession({ mode: 'new', ids, title: 'Extra' }))}
+          className="rounded-full border border-line px-3 py-1 text-dim">+10 nuevas</button>
       </div>
       {!hasVoice(lang) && (
         <p className="mb-5 rounded-xl border border-line px-4 py-3 text-[13px] leading-relaxed text-dim">
