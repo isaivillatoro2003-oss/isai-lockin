@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { NavCtx, type Nav, type Tab } from './hooks'
 import { requestPersist, seedHabits } from './db'
+import { startAutoSync } from './sync'
 import Today from './features/today/Today'
 import Body from './features/body/Body'
 import Langs from './features/langs/Langs'
@@ -20,6 +21,7 @@ export default function App() {
   const go = (n: Nav) => { setNav(n); window.scrollTo({ top: 0 }) }
 
   useEffect(() => { seedHabits(); requestPersist() }, [])
+  useEffect(() => startAutoSync(), [])
 
   return (
     <NavCtx.Provider value={{ nav, go }}>

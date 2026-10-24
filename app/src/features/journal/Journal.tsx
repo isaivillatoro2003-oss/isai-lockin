@@ -1,3 +1,4 @@
+import ProgressGrid from './ProgressGrid'
 import { useEffect, useRef, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db, now, uid, type HabitRow, type JournalRow } from '../../db'
@@ -16,6 +17,7 @@ export default function Journal() {
 
   return (
     <Screen title="Diario" kicker={longDate(today)}>
+      <ProgressGrid />
       {loaded && <Entry key={today} date={today} initial={loaded.row} />}
       {weekday(today) === 0 && <WeekSummary today={today} />}
       <Habits today={today} />

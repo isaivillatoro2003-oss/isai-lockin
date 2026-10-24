@@ -3,6 +3,8 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { bloques, entreno, guia } from '../../content'
 import { EQUIPOS, SessionView, useEquipo } from '../training/Training'
 import Recipes from './Recipes'
+import { lastSyncAt, setSyncKey, syncKey, syncNow } from '../../sync'
+import { buildIcs } from '../../domain/ics'
 import type { Grade as G } from '../../content/types'
 import { db, getSetting, requestPersist, setSetting } from '../../db'
 import { Btn, Card, Chips, Grade, Kicker, Screen } from '../../ui'
@@ -270,7 +272,59 @@ function Health() {
   )
 }
 
-const blobToData = (b: Blob) => new Promise<string>((r) => { const f = new FileReader(); f.onload = () => r(f.result as string); f.readAsDataURL(b) })
+function SyncCard() {
+  const [key, setKey] = useState(syncKey() ?? '')
+  const [msg, setMsg] = useState('')
+  const [busy, setBusy] = useState(false)
+  const [at, setAt] = useState(lastSyncAt())
+  const go = async () => {
+    setBusy(true); setMsg('')
+    try {
+      if (key.trim() !== syncKey()) setSyncKey(key)
+      const r = await syncNow()
+      setAt(lastSyncAt())
+      setMsg(`Listo: subí ${r.sent} y bajé ${r.got} cambios.`)
+    } catch (e) { setMsg(e instanceof Error ? e.message : 'No se pudo sincronizar.') } finally { setBusy(false) }
+  }
+  return (
+    <Card>
+      <Kicker>Sincronizar compu y teléfono</Kicker>
+      <p className="mt-2 text-[14px] leading-relaxed text-dim">
+        Con la clave, tus datos se guardan en tu nube privada y se sincronizan solos al abrir la app, cada minuto y al salir. Pon la misma clave en cada dispositivo.
+      </p>
+      <input value={key} onChange={(e) => setKey(e.target.value)} placeholder="Clave de sincronización" autoCapitalize="off" autoCorrect="off" spellCheck={false}
+        className="mt-3 w-full rounded-xl border border-line bg-ink px-4 py-3 font-mono text-[14px] outline-none placeholder:text-faint" />
+      <div className="mt-3 flex items-center gap-3">
+        <Btn disabled={busy || !key.trim()} onClick={go}>{busy ? 'Sincronizando…' : 'Sincronizar ahora'}</Btn>
+        <span className="font-mono text-[10.5px] text-faint">{at ? `última: ${new Date(at).toLocaleString('es-MX', { dateStyle: 'short', timeStyle: 'short' })}` : 'nunca'}</span>
+      </div>
+      {msg && <p className="mt-2 text-[12.5px] text-dim">{msg}</p>}
+    </Card>
+  )
+}
+
+function AlarmsCard() {
+  const download = (core: boolean) => {
+    const url = URL.createObjectURL(new Blob([buildIcs(core)], { type: 'text/calendar' }))
+    const a = document.createElement('a')
+    a.href = url; a.download = core ? 'lockin-avisos-clave.ics' : 'lockin-todos-los-bloques.ics'; a.click()
+  }
+  return (
+    <Card>
+      <Kicker>Avisos en el iPhone</Kicker>
+      <p className="mt-2 text-[14px] leading-relaxed text-dim">
+        Descarga tu horario como calendario y ábrelo en el iPhone: te avisa al inicio de cada bloque aunque la app esté cerrada. Cubre el jet lag y 12 semanas.
+      </p>
+      <div className="mt-3 flex flex-wrap gap-2">
+        <Btn onClick={() => download(true)}>Solo lo clave</Btn>
+        <Btn kind="line" onClick={() => download(false)}>Todos los bloques</Btn>
+      </div>
+      <p className="mt-2 text-[12px] text-faint">"Solo lo clave" avisa en lo que cuenta para la racha y en las llamadas con Pam.</p>
+    </Card>
+  )
+}
+
+const blobToData =(b: Blob) => new Promise<string>((r) => { const f = new FileReader(); f.onload = () => r(f.result as string); f.readAsDataURL(b) })
 const dataToBlob = async (d: string) => (await fetch(d)).blob()
 
 function Data() {
@@ -310,10 +364,12 @@ function Data() {
 
   return (
     <div className="space-y-6">
+      <SyncCard />
+      <AlarmsCard />
       <Card>
-        <Kicker>Dónde viven tus datos</Kicker>
+        <Kicker>En este dispositivo</Kicker>
         <p className="mt-2 text-[14px] leading-relaxed text-dim">
-          Por ahora se guardan en este dispositivo, también sin internet. Cuando la app esté terminada y en Vercel, se sincronizarán solos entre tu compu y tu teléfono.
+          Todo se guarda aquí primero, también sin internet, y se sube a tu nube privada cuando hay conexión.
         </p>
         <div className="mt-3 font-mono text-[11px] text-faint">Almacenamiento persistente: {persisted ? 'concedido' : 'sin confirmar'}</div>
         {!persisted && <Btn kind="line" className="mt-3" onClick={async () => setSetting('persisted', await requestPersist())}>Pedir que no se borre</Btn>}

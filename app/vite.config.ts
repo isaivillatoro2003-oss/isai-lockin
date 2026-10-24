@@ -20,13 +20,27 @@ function aiDevApi(): Plugin {
         const { runAi, errorMessage } = await server.ssrLoadModule('/api/_core.ts')
         try { send(200, await runAi(JSON.parse(raw))) } catch (e) { send(500, { error: errorMessage(e) }) }
       })
+      server.middlewares.use('/api/sync', async (req, res) => {
+        const send = (code: number, body: unknown) => {
+          res.statusCode = code
+          res.setHeader('Content-Type', 'application/json')
+          res.end(JSON.stringify(body))
+        }
+        let raw = ''
+        for await (const chunk of req) raw += chunk
+        const { runSync, checkKey, statusOf, messageOf } = await server.ssrLoadModule('/api/_sync.ts')
+        try {
+          checkKey(req.headers['x-sync-key'] as string | undefined)
+          send(200, await runSync(JSON.parse(raw)))
+        } catch (e) { send(statusOf(e), { error: messageOf(e) }) }
+      })
     },
   }
 }
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
-  for (const k of ["GEMINI_API_KEY", "GEMINI_MODEL"]) if (env[k]) process.env[k] = env[k]
+  for (const k of ["GEMINI_API_KEY", "GEMINI_MODEL", "SYNC_KEY", "BLOB_READ_WRITE_TOKEN"]) if (env[k]) process.env[k] = env[k]
   return {
     server: { host: true, port: 5180 },
     plugins: [
@@ -45,13 +59,17 @@ export default defineConfig(({ mode }) => {
           display: 'standalone',
           orientation: 'portrait',
           start_url: '/',
-          icons: [{ src: 'icon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any maskable' }],
+          icons: [
+            { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
+            { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' },
+            { src: 'icon.svg', sizes: 'any', type: 'image/svg+xml' },
+          ],
         },
         workbox: {
-          globPatterns: ['**/*.{js,css,html,svg,woff2,json}'],
+          globPatterns: ['**/*.{js,css,html,svg,png,woff2,json,jpg}'],
           maximumFileSizeToCacheInBytes: 8_000_000,
+          navigateFallback: 'index.html',
           navigateFallbackDenylist: [/^\/api\//],
-          runtimeCaching: [{ urlPattern: /\/ex\/.*\.jpg$/, handler: 'CacheFirst', options: { cacheName: 'ejercicios' } }],
         },
       }),
     ],

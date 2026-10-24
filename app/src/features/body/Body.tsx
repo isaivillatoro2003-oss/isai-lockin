@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
-import { db, now, uid, type MealRow, type MetricRow, type PhotoRow } from '../../db'
+import { db, now, remove, uid, type MealRow, type MetricRow, type PhotoRow } from '../../db'
 import { checkFood, photoToBase64 } from '../../ai'
 import { addDays, clock, longDate } from '../../domain/time'
 import { useNav } from '../../hooks'
@@ -121,7 +121,7 @@ function MetricPanel({ type, unit, label }: { type: 'peso' | 'cintura'; unit: st
             <span className="font-mono text-[12px] text-dim">{longDate(r.date)}</span>
             <span className="flex items-center gap-4">
               <span className="font-serif text-[22px] tnum">{r.value.toFixed(1)} <span className="font-mono text-[10.5px] text-faint">{unit}</span></span>
-              <button onClick={() => db.metrics.delete(r.id)} className="font-mono text-[10.5px] uppercase tracking-wider text-faint">borrar</button>
+              <button onClick={() => remove('metrics', r.id)} className="font-mono text-[10.5px] uppercase tracking-wider text-faint">borrar</button>
             </span>
           </div>
         ))}
@@ -277,7 +277,7 @@ function Photos() {
             {urls[view.id] && <img src={urls[view.id]} alt={view.pose} className="mt-3 max-h-[60vh] w-full rounded-xl object-contain" />}
             <div className="mt-4 flex gap-2">
               <Btn kind="line" className="flex-1" onClick={() => setView(null)}>Cerrar</Btn>
-              <Btn kind="ghost" className="text-bad" onClick={async () => { await db.photos.delete(view.id); setView(null) }}>Borrar</Btn>
+              <Btn kind="ghost" className="text-bad" onClick={async () => { await remove('photos', view.id); setView(null) }}>Borrar</Btn>
             </div>
           </div>
         )}
@@ -343,7 +343,7 @@ function MealCard({ day, def, row }: { day: string; def: (typeof SLOTS)[number];
   const save = async () => {
     const empty = !text.trim() && tags.length === 0 && !rating
     if (empty) {
-      if (row) await db.meals.delete(row.id)
+      if (row) await remove('meals', row.id)
       setState('')
       return
     }

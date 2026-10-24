@@ -48,6 +48,7 @@ class LockinDB extends Dexie {
   recordings!: Table<RecordingRow, string>
   phrases!: Table<PhraseRow, string>
   settings!: Table<SettingRow, string>
+  tombstones!: Table<TombstoneRow, string>
 
   constructor() {
     super('lockin')
@@ -67,12 +68,27 @@ class LockinDB extends Dexie {
       phrases: 'id',
       settings: 'key',
     })
+    // v2: registro de borrados para que la sincronización también borre en el otro dispositivo.
+    this.version(2).stores({ tombstones: 'id, updatedAt' })
   }
 }
+
+export interface TombstoneRow { id: string; table: string; pk: string; updatedAt: number }
 
 export const db = new LockinDB()
 export const uid = () => crypto.randomUUID()
 export const now = () => Date.now()
+
+/** Tablas que se sincronizan entre dispositivos. */
+export const SYNCED = ['days', 'logs', 'metrics', 'photos', 'meals', 'journal', 'habits', 'relapses', 'cardStates', 'reviews', 'lessons', 'recordings', 'phrases', 'settings'] as const
+
+/** Borra y deja constancia para que el borrado viaje al otro dispositivo. */
+export async function remove(table: (typeof SYNCED)[number], pk: string) {
+  await db.transaction('rw', db.table(table), db.tombstones, async () => {
+    await db.table(table).delete(pk)
+    await db.tombstones.put({ id: `${table}|${pk}`, table, pk, updatedAt: now() })
+  })
+}
 
 export async function getSetting<T>(key: string, fallback: T): Promise<T> {
   const r = await db.settings.get(key)
@@ -94,7 +110,7 @@ export async function addWater(date: string, ml: number) {
 
 export async function setStatus(date: string, blockId: string, status: Status | null) {
   const id = `${date}|${blockId}`
-  if (!status) return db.logs.delete(id)
+  if (!status) return remove('logs', id)
   return db.logs.put({ id, date, blockId, status, at: now(), updatedAt: now() })
 }
 
@@ -107,7 +123,7 @@ export function seedHabits() {
     const all = await db.habits.toArray()
     const keep = new Map<string, (typeof all)[number]>()
     for (const h of all.sort((a, b) => a.cleanSince.localeCompare(b.cleanSince))) {
-      if (keep.has(h.name)) await db.habits.delete(h.id)
+      if (keep.has(h.name)) await remove('habits', h.id)
       else keep.set(h.name, h)
     }
     for (const name of HABITS) {

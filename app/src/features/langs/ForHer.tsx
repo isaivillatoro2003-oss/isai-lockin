@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
-import { db, now, uid } from '../../db'
+import { db, now, remove, uid } from '../../db'
 import { translate, type Translation } from '../../ai'
 import { allCards } from '../../domain/srs'
 import { speak, startRecording } from '../../domain/speech'
@@ -96,7 +96,7 @@ export default function ForHer({ lang }: { lang: 'ar' | 'fr' }) {
               <div className="mt-2">
                 {p.chat && <div className="font-mono text-[12.5px] text-dim">WhatsApp: {p.chat}</div>}
                 <SpeakCheck lang={lang} t={p.t} script={p.script} />
-                <button onClick={() => db.phrases.delete(p.id)} className="mt-3 text-[12px] text-faint">Borrar</button>
+                <button onClick={() => remove('phrases', p.id)} className="mt-3 text-[12px] text-faint">Borrar</button>
               </div>
             )}
           </li>
