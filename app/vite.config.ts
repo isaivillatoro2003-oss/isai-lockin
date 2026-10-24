@@ -26,7 +26,7 @@ function aiDevApi(): Plugin {
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
-  if (env.ANTHROPIC_API_KEY) process.env.ANTHROPIC_API_KEY = env.ANTHROPIC_API_KEY
+  for (const k of ["GEMINI_API_KEY", "GEMINI_MODEL"]) if (env[k]) process.env[k] = env[k]
   return {
     server: { host: true, port: 5180 },
     plugins: [

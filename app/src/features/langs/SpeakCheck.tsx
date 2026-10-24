@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { checkSpeech, type SpeakCheck as Result } from '../../ai'
 import { canRecognize, recognize } from '../../domain/speech'
+import { localSpeechScore } from '../../domain/srs'
 
 /** "Dilo tú": escucha tu pronunciación y la califica contra la frase objetivo. */
 export default function SpeakCheck({ lang, t, script }: { lang: 'ar' | 'fr'; t: string; script?: string }) {
@@ -15,7 +16,17 @@ export default function SpeakCheck({ lang, t, script }: { lang: 'ar' | 'fr'; t: 
     try {
       const heard = await recognize(lang)
       setState('checking')
-      setRes(await checkSpeech(lang, t, heard, script))
+      try {
+        setRes(await checkSpeech(lang, t, heard, script))
+      } catch {
+        // Sin IA (sin internet o sin cuota): calificación local comparando con la frase.
+        const score = localSpeechScore(lang, heard, t, script)
+        setRes({
+          score, heard,
+          feedback: score >= 4 ? 'Se entendió casi igual a la frase.' : score >= 3 ? 'Se entendió en parte; repite más lento y marcando cada sonido.' : 'No se reconoció bien; escucha el audio otra vez y repite por partes.',
+          tips: ['Revisión sin IA: compara lo que el teléfono entendió con la frase.'],
+        })
+      }
     } catch (e) {
       setErr(e instanceof Error ? e.message : 'Algo falló.')
     } finally {

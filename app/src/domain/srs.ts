@@ -98,6 +98,25 @@ function lev(a: string, b: string) {
   return d[b.length]
 }
 
+/* Árabe en alfabeto árabe: sin vocales marcadas y con letras que el dictado confunde unificadas. */
+const normScript = (s: string) => s
+  .replace(/[ً-ْٰـ]/g, '')
+  .replace(/[إأآٱ]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه').replace(/ؤ/g, 'و').replace(/ئ/g, 'ي')
+  .replace(/[^ء-ي\s]/g, '').replace(/\s+/g, ' ').trim()
+
+/**
+ * Pronunciación sin IA: compara lo que entendió el dictado del teléfono con la frase objetivo.
+ * Devuelve 1 a 5 según qué tan parecido es (5 = idéntico).
+ */
+export function localSpeechScore(lang: Lang, heard: string, t: string, script?: string) {
+  const [a, targets] = lang === 'ar' && script
+    ? [normScript(heard), [normScript(script)]]
+    : [normFr(heard), variants(t).map(lang === 'ar' ? normAr : normFr)]
+  if (!a) return 1
+  const sim = Math.max(...targets.map((b) => 1 - lev(a, b) / Math.max(a.length, b.length, 1)))
+  return sim >= 0.9 ? 5 : sim >= 0.75 ? 4 : sim >= 0.55 ? 3 : sim >= 0.35 ? 2 : 1
+}
+
 /** Las variantes del campo t vienen separadas por " / ". */
 export const variants = (t: string) => t.replace(/\([^)]*\)/g, '').split('/').map((x) => x.trim()).filter(Boolean)
 
