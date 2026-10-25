@@ -1,4 +1,4 @@
-import type { Card } from '../content/types'
+import { audioUrl, spokenText, type Speakable } from './audioKey'
 
 let voices: SpeechSynthesisVoice[] = []
 function load() { voices = window.speechSynthesis?.getVoices() ?? [] }
@@ -9,7 +9,7 @@ if (typeof window !== 'undefined' && window.speechSynthesis) {
 
 const PREF: Record<string, string[]> = { ar: ['ar-LB', 'ar-SY', 'ar-JO', 'ar-PS', 'ar'], fr: ['fr-FR', 'fr'] }
 
-export function voiceFor(lang: 'ar' | 'fr') {
+function voiceFor(lang: 'ar' | 'fr') {
   if (!voices.length) load()
   for (const p of PREF[lang]) {
     const v = voices.find((x) => x.lang.replace('_', '-').toLowerCase().startsWith(p.toLowerCase()))
@@ -18,21 +18,60 @@ export function voiceFor(lang: 'ar' | 'fr') {
   return null
 }
 
-export const hasVoice = (lang: 'ar' | 'fr') => !!voiceFor(lang)
-
-/** El TTS no lee Arabizi: en árabe usa el campo script. */
-export function speak(card: Pick<Card, 't' | 'script'>, lang: 'ar' | 'fr', rate = 0.85) {
+/** Respaldo: la voz del sistema, solo si falta el MP3 (por ejemplo, traducciones nuevas de la IA). */
+function system(text: string, lang: 'ar' | 'fr') {
   const synth = window.speechSynthesis
-  if (!synth) return
-  const text = lang === 'ar' ? (card.script ?? '').replace(/\([^)]*\)/g, '') : card.t.replace(/\([^)]*\)/g, '').split('/')[0]
-  if (!text.trim()) return
+  if (!synth) return Promise.resolve()
   synth.cancel()
-  const u = new SpeechSynthesisUtterance(text)
-  const v = voiceFor(lang)
-  if (v) u.voice = v
-  u.lang = v?.lang ?? (lang === 'ar' ? 'ar' : 'fr-FR')
-  u.rate = rate
-  synth.speak(u)
+  return new Promise<void>((resolve) => {
+    const u = new SpeechSynthesisUtterance(text)
+    const v = voiceFor(lang)
+    if (v) u.voice = v
+    u.lang = v?.lang ?? (lang === 'ar' ? 'ar' : 'fr-FR')
+    u.rate = 0.85
+    u.onend = u.onerror = () => resolve()
+    synth.speak(u)
+  })
+}
+
+/* Un solo elemento de audio: en iPhone, una vez que suena con un toque, puede volver a sonar sin otro toque. */
+let player: HTMLAudioElement | null = null
+let turn = 0
+
+export function stopSpeaking() {
+  turn++
+  player?.pause()
+  window.speechSynthesis?.cancel()
+}
+
+/**
+ * Lee en voz alta con el MP3 pregenerado (voz neuronal de Edge). En árabe lee el campo script.
+ * Termina cuando acaba el audio, así se pueden encadenar líneas.
+ */
+export function speak(item: Speakable, lang: 'ar' | 'fr') {
+  const text = spokenText(item, lang)
+  const url = audioUrl(item, lang)
+  if (!text || !url) return Promise.resolve()
+  stopSpeaking()
+  const mine = turn
+  player ??= new Audio()
+  const a = player
+  return new Promise<void>((resolve) => {
+    let settled = false
+    const finish = (useSystem: boolean) => {
+      if (settled) return
+      settled = true
+      a.onended = a.onerror = null
+      if (useSystem && mine === turn) system(text, lang).then(resolve)
+      else resolve()
+    }
+    const done = () => finish(false)
+    const fallback = () => finish(true)
+    a.onended = done
+    a.onerror = fallback
+    a.src = url
+    a.play().catch((e: unknown) => (e instanceof DOMException && e.name === 'AbortError' ? done() : fallback()))
+  })
 }
 
 type Rec = { lang: string; interimResults: boolean; maxAlternatives: number; start(): void; stop(): void

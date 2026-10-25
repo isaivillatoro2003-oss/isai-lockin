@@ -476,9 +476,9 @@
    "rank": 14,
    "unit": 1,
    "es": "bien, gracias a Dios",
-   "t": "l7amdella",
-   "pron": "lHamdel·la",
-   "script": "الحمدلله",
+   "t": "al7amdulillah",
+   "pron": "alHamdulil·lah",
+   "script": "الحمد لله",
    "g": "n",
    "alt": "",
    "tags": [
@@ -7538,7 +7538,7 @@
    "rank": 62,
    "unit": 19,
    "es": "ojalá",
-   "t": "nchalla / nshalla / isa",
+   "t": "inshallah",
    "pron": "inshal·lah",
    "script": "إن شاء الله",
    "g": "n",
@@ -7546,7 +7546,7 @@
    "tags": [
     "whatsapp"
    ],
-   "note": "abreviatura de inshallah"
+   "note": "también en chat se escribe completo"
   },
   {
    "id": "ar-x063",
@@ -7688,15 +7688,15 @@
    "rank": 72,
    "unit": 19,
    "es": "bien, gracias a Dios",
-   "t": "7md / l7md",
-   "pron": "lHamdel·la",
-   "script": "الحمدلله",
+   "t": "al7amdulillah",
+   "pron": "alHamdulil·lah",
+   "script": "الحمد لله",
    "g": "n",
    "alt": "",
    "tags": [
     "whatsapp"
    ],
-   "note": "abreviatura de l7amdella"
+   "note": "también en chat se escribe completo"
   },
   {
    "id": "ar-x073",

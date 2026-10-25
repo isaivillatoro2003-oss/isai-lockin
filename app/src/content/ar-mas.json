@@ -195,9 +195,9 @@
    "rank": 1007,
    "unit": 1,
    "es": "bien, gracias a Dios",
-   "t": "mni7 el7amdella",
-   "pron": "mniH elHamdella",
-   "script": "منيح الحمدلله",
+   "t": "mni7 al7amdulillah",
+   "pron": "mniH alHamdulil·lah",
+   "script": "منيح الحمد لله",
    "g": "n",
    "alt": "",
    "tags": [
@@ -5414,11 +5414,11 @@
    "rank": 1337,
    "unit": 11,
    "es": "estoy bien, gracias a Dios",
-   "t": "ana mni7, l7amdella",
-   "pron": "ana mniH, lHamdella",
-   "script": "أنا منيح الحمدلله",
+   "t": "ana mni7, al7amdulillah",
+   "pron": "ana mniH, alHamdulil·lah",
+   "script": "أنا منيح الحمد لله",
    "g": "m",
-   "alt": "ana mni7a, l7amdella",
+   "alt": "ana mni7a, al7amdulillah",
    "tags": [
     "adjetivo",
     "sentimiento"
@@ -9453,9 +9453,9 @@
    "rank": 1597,
    "unit": 19,
    "es": "ojalá (abreviado)",
-   "t": "nchalla",
+   "t": "inshallah",
    "pron": "inshal·lah",
-   "script": "نشالله",
+   "script": "إن شاء الله",
    "g": "n",
    "alt": "",
    "tags": [
@@ -12104,9 +12104,9 @@
    "rank": 1768,
    "unit": 22,
    "es": "estoy bien, gracias a Dios",
-   "t": "ana mni7 w l7amdella",
-   "pron": "ana mniH w lHamdella",
-   "script": "أنا منيح والحمدلله",
+   "t": "ana mni7 w al7amdulillah",
+   "pron": "ana mniH w alHamdulil·lah",
+   "script": "أنا منيح والحمد لله",
    "g": "n",
    "alt": "",
    "tags": [
@@ -35306,7 +35306,7 @@
     "En árabe libanés casi todo lo que le dices a una persona cambia según sea hombre o mujer. Esto parece raro viniendo del español, pero en español pasa con adjetivos (contento/contenta). Aquí pasa con el saludo mismo: a un hombre le dices kifak (¿cómo estás?) y a una mujer kifik. La diferencia es una sola vocal: -ak para hombre, -ik para mujer. Con Pam siempre usarás -ik.",
     "Los saludos de Beirut mezclan tres idiomas en una sola frase. La frase emblema es Hi, kifik, ça va?, inglés, árabe y francés en tres palabras. Para ti es una ventaja: bonjour, bonsoir, merci y ça va ya los sabes del francés o del portugués, y se usan tal cual. Los jóvenes dicen hi o hiii más que marhaba, que suena un poco más formal.",
     "El saludo árabe de siempre es marhaba, y su respuesta es marhabtein (dos marhabas). Ahla w sahla es 'bienvenido' y también 'hola'; se responde ahlen fik (a hombre) o ahlen fiki (a mujer). Por la mañana: sabah el kheir y la respuesta sabah el nour. Por la tarde: masa el kheir y masa el nour. Si lo escribes con la respuesta correcta, ya estás hablando.",
-    "Para preguntar cómo está alguien: kifak/kifik, o shu el akhbar (¿qué noticias?), o shu 7alak/7alik. La respuesta estándar es mni7 (hombre) o mni7a (mujer), y casi siempre se agrega l7amdella (gracias a Dios), que es como un 'bien, gracias' automático. Si estás cansado: ta3ban (hombre) o ta3bane (mujer). Y siempre devuelves la pregunta con w inta? (¿y tú?, hombre) o w inti? (mujer).",
+    "Para preguntar cómo está alguien: kifak/kifik, o shu el akhbar (¿qué noticias?), o shu 7alak/7alik. La respuesta estándar es mni7 (hombre) o mni7a (mujer), y casi siempre se agrega al7amdulillah (gracias a Dios), que es como un 'bien, gracias' automático. Si estás cansado: ta3ban (hombre) o ta3bane (mujer). Y siempre devuelves la pregunta con w inta? (¿y tú?, hombre) o w inti? (mujer).",
     "Para despedirte hay tres niveles. Entre amigos: yalla bye, yalla bye bye, o ciao. Un poco más cálido: ma3 el salame (con la paz). Por la noche: tesba7 3a kheir (que amanezcas bien) a un hombre y tesba7i 3a kheir a una mujer, y la respuesta es w inta men ahlo / w inti men ahlo (y tú también). Con Pam puedes añadir bisous o b7ebbik.",
     "Un detalle de cortesía libanesa: antes de entrar en el asunto, siempre se pregunta cómo está el otro. Saludar de forma seca, directo al grano, suena frío. Dos minutos de ahla, kifak, shu el akhbar, kifik el ahl (¿cómo está tu familia?) son parte de la conversación y no una pérdida de tiempo."
    ],
@@ -35370,10 +35370,10 @@
      "pron": "kifak? mniH?"
     },
     {
-     "t": "mni7a, l7amdella",
+     "t": "mni7a, al7amdulillah",
      "es": "bien, gracias a Dios (ella)",
-     "script": "منيحة، الحمدلله",
-     "pron": "mniHa, lHamdella"
+     "script": "منيحة، الحمد لله",
+     "pron": "mniHa, alHamdulil·lah"
     },
     {
      "t": "sabah el kheir",
@@ -35434,10 +35434,10 @@
     },
     {
      "who": "Pam",
-     "t": "Hi habibi! Mni7a, l7amdella. W inta?",
+     "t": "Hi habibi! Mni7a, al7amdulillah. W inta?",
      "es": "¡Hola cariño! Bien, gracias a Dios. ¿Y tú?",
-     "script": "هاي حبيبي! منيحة، الحمدلله. وإنت؟",
-     "pron": "Hi habibi! MniHa, lHamdella. W inta?"
+     "script": "هاي حبيبي! منيحة، الحمد لله. وإنت؟",
+     "pron": "Hi habibi! MniHa, alHamdulil·lah. W inta?"
     },
     {
      "who": "Isaí",
@@ -35497,7 +35497,7 @@
     "Sí y no son fáciles pero tienen matices. Eh es 'sí' coloquial; na3am es más formal. La2 es 'no' y se dice casi con un chasquido de lengua o con la cabeza hacia arriba. Akid es 'claro', tab3an es 'por supuesto', yimkin es 'quizás' y ma3leh es 'no importa'. Tayyeb significa 'ok, vale, bueno', y es la muletilla más usada después de yalla.",
     "Para pedir disculpas: sorry (inglés, el más usado), pardon (francés) o 3an iznak (con tu permiso, a hombre) y 3an iznik (a mujer). Para llamar la atención de alguien con cortesía, law samaht (si me permites) o min fadlak (por favor, a hombre) y min fadlik (a mujer). Para ofrecer algo se dice tfaddal (a hombre) o tfaddali (a mujer): 'adelante, sírvete, aquí tienes'.",
     "Rechazar es una ciencia. Si alguien te ofrece comida y dices 'no gracias' en seco, parece grosería. Lo educado es decir la2 shukran, mashkour (gracias, estoy bien) y a veces dar una excusa como 'ya comí'. Pero ojo: en una casa libanesa te van a insistir tres veces. La regla es rechazar una vez, aceptar a la segunda. Si es la mamá de Pam, acepta a la primera y elogia la comida.",
-    "Y una fórmula que usarás todos los días: l7amdella (gracias a Dios) en vez de 'bien'. Y inshallah (si Dios quiere) para cualquier plan futuro, incluso en broma. 'Nos vemos mañana, inshallah' no significa que haya duda, es solo cortesía cultural."
+    "Y una fórmula que usarás todos los días: al7amdulillah (gracias a Dios) en vez de 'bien'. Y inshallah (si Dios quiere) para cualquier plan futuro, incluso en broma. 'Nos vemos mañana, inshallah' no significa que haya duda, es solo cortesía cultural."
    ],
    "examples": [
     {
@@ -38638,10 +38638,10 @@
     },
     {
      "who": "Isaí",
-     "t": "Hi habibte, l7amdella. Wenik?",
+     "t": "Hi habibte, al7amdulillah. Wenik?",
      "es": "Hola mi amor, bien gracias a Dios. ¿Dónde estás?",
-     "script": "هاي حبيبتي، الحمدلله. وينك؟",
-     "pron": "Hi habibte, lHamdella. Wenik?"
+     "script": "هاي حبيبتي، الحمد لله. وينك؟",
+     "pron": "Hi habibte, alHamdulil·lah. Wenik?"
     },
     {
      "who": "Pam",
@@ -38697,7 +38697,7 @@
    "title": "WhatsApp y slang: chatear como nativo",
    "explain": [
     "El árabe de WhatsApp es otro registro: más corto, con muchos números, sin vocales y con cientos de variantes. Nadie corrige tu ortografía, porque no existe una oficial. Si escribes 'kifak', 'kifek' o 'keefak', todos entienden. Lo importante es que la palabra suene bien cuando la lees en voz alta, igual que cuando en español chateas 'q onda' o 'xq'.",
-    "Las abreviaturas más útiles: kfk (¿cómo estás?), mrc (gracias), hl2 (ahora), b3dn (después), bdk (¿quieres?), ma b3rf (no sé), nchalla (ojalá), y3ne (o sea). Del francés llegan mdr y ptdr (jajaja), tkt (no te preocupes), jsp (no sé) y stp (por favor). Del inglés, lo de siempre: lol, omg, idk, brb.",
+    "Las abreviaturas más útiles: kfk (¿cómo estás?), mrc (gracias), hl2 (ahora), b3dn (después), bdk (¿quieres?), ma b3rf (no sé), y3ne (o sea). Del francés llegan mdr y ptdr (jajaja), tkt (no te preocupes), jsp (no sé) y stp (por favor). Del inglés, lo de siempre: lol, omg, idk, brb.",
     "El slang de jóvenes tiene un tono que conviene dominar: 'yalla' sirve para casi todo (vamos, ya, apúrate, ok). 'Khayye' o 'khayyo' es como 'bro' y se usa entre hombres. 'Habibi' y 'habibte' son cariño pero también 'amigo', así que no siempre es romántico. '3anjad?' es '¿en serio?' y 'wallah' es 'lo juro'.",
     "Cuidado con las groserías. 'Khara' o 'sharmouta' se usan, pero no las uses tú con Pam ni con su familia. Escúchalas para entender, no para decirlas. Lo mismo con 'tfeh' (qué asco): es fuerte.",
     "Un truco práctico: cada noche escríbele a Pam diez mensajes solo en Arabizi. Ella corrige con una palabra. Tú guardas cada corrección como tarjeta. En un mes tu chat ya no se va a ver como de extranjero."
@@ -38738,11 +38738,6 @@
       "ma b3rf",
       "ma ba3ref",
       "no sé"
-     ],
-     [
-      "nchalla",
-      "inshallah",
-      "ojalá"
      ],
      [
       "tkt",
@@ -38819,10 +38814,10 @@
      "pron": "mdr, ktir helo"
     },
     {
-     "t": "nchalla bshufik bokra",
+     "t": "inshallah bshufik bokra",
      "es": "ojalá te vea mañana",
-     "script": "إنشالله بشوفك بكرا",
-     "pron": "nshalla bshufik bokra"
+     "script": "إن شاء الله بشوفك بكرا",
+     "pron": "inshallah bshufik bokra"
     }
    ],
    "dialogue": [
@@ -38837,7 +38832,7 @@
      "who": "Isaí",
      "t": "cc habibte, l7md. w ente?",
      "es": "hola amor, bien gracias a Dios. ¿y tú?",
-     "script": "هاي حبيبتي، الحمدلله. وانتِ؟",
+     "script": "هاي حبيبتي، الحمد لله. وانتِ؟",
      "pron": "cc habibte, lHmd. w ente?"
     },
     {
@@ -38849,10 +38844,10 @@
     },
     {
      "who": "Isaí",
-     "t": "la2, b3dn. nchalla bshufik bokra.",
+     "t": "la2, b3dn. inshallah bshufik bokra.",
      "es": "no, después. Ojalá te vea mañana.",
-     "script": "لأ، بعدين. إنشالله بشوفك بكرا.",
-     "pron": "la', bʕdn. nshalla bshufik bokra."
+     "script": "لأ، بعدين. إن شاء الله بشوفك بكرا.",
+     "pron": "la', bʕdn. inshallah bshufik bokra."
     },
     {
      "who": "Pam",
@@ -39279,7 +39274,7 @@
     "El adjetivo cambia según quién habla. Hombre: ta3ben, za3lan, farhan, mestghreb. Mujer: ta3bane, za3lane, farhane, mestghrbe. Cuando hables de Pam, usa la forma femenina: 'hiyye za3lane'. Cuando le hables a ella, igual: 'inti za3lane?'. Si lo olvidas, te entenderán, pero suena a extranjero.",
     "Para decir 'estoy sintiendo algo ahora mismo' usa 3am: 'ana 3am bes7ar' no, aquí es más natural 'ana mekhtnek' o 'ana mesh mni7'. Para estados que duran un rato, usa el adjetivo solo. Para procesos que están cambiando, usa 3am + verbo: 'ana 3am bte3ab' (me estoy cansando).",
     "El intensificador universal es 'ktir' (mucho, muy): ktir za3lan, ktir farhan. Para suavizar usa 'shway' (un poco): shway ta3ben. Para negar: 'mesh' antes del adjetivo: mesh farhan, mesh mni7. Y para preguntar con cariño: 'shu fi?' (¿qué pasa?), 'shu bik?' (¿qué te pasa?), 'ok inta?' (¿estás bien?).",
-    "Un tip social: los libaneses preguntan '¿cómo estás?' y esperan 'l7amdella' como respuesta automática. Si de verdad te pasa algo, hay que subirlo con 'bas...' (pero...). Pam sabrá que hay algo cuando digas 'l7amdella, bas...'."
+    "Un tip social: los libaneses preguntan '¿cómo estás?' y esperan 'al7amdulillah' como respuesta automática. Si de verdad te pasa algo, hay que subirlo con 'bas...' (pero...). Pam sabrá que hay algo cuando digas 'al7amdulillah, bas...'."
    ],
    "table": {
     "head": [
@@ -39392,10 +39387,10 @@
      "pron": "Ana ktir waHid"
     },
     {
-     "t": "L7amdella, bas ana ta3ben",
+     "t": "Al7amdulillah, bas ana ta3ben",
      "es": "Bien gracias, pero estoy cansado",
-     "script": "الحمدلله، بس أنا تعبان",
-     "pron": "LHamdella, bas ana taʕben"
+     "script": "الحمد لله، بس أنا تعبان",
+     "pron": "AlHamdulil·lah, bas ana taʕben"
     }
    ],
    "dialogue": [
@@ -39459,7 +39454,7 @@
    "practice": [
     "Cada mañana escríbele a Pam cómo te sientes con una frase y un adjetivo (ana ktir ...).",
     "Haz tarjetas con los 8 adjetivos de la tabla, forma masculina y femenina.",
-    "Practica 'l7amdella, bas...' cuando de verdad te pase algo."
+    "Practica 'al7amdulillah, bas...' cuando de verdad te pase algo."
    ]
   },
   {
@@ -40070,11 +40065,6 @@
       "vi la story"
      ],
      [
-      "dar like",
-      "dar like",
-      "dar like"
-     ],
-     [
       "seguir",
       "follow",
       "seguir"
@@ -40588,10 +40578,10 @@
     },
     {
      "who": "Pam",
-     "t": "Nchalla ykoun ktir 7elo.",
+     "t": "Inshallah ykoun ktir 7elo.",
      "es": "Ojalá sea muy bonito.",
-     "script": "إنشالله يكون كتير حلو.",
-     "pron": "Nshalla ykun ktir Helo."
+     "script": "إن شاء الله يكون كتير حلو.",
+     "pron": "Inshallah ykun ktir Helo."
     },
     {
      "who": "Isaí",

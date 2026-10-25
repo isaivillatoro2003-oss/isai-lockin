@@ -3,7 +3,7 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { db } from '../../db'
 import { guia } from '../../content'
 import { PACKS, allCards, dueCount, dueIds, lessonFor, moreIds, newIds, stories, type Lang } from '../../domain/srs'
-import { hasVoice, speak } from '../../domain/speech'
+import { speak } from '../../domain/speech'
 import { useNav } from '../../hooks'
 import { Btn, Card, Chips, Kicker, Screen, Sheet } from '../../ui'
 import Session, { type Mode } from './Session'
@@ -76,11 +76,6 @@ export default function Langs() {
         <button onClick={() => moreIds(lang).then((ids) => ids.length && setSession({ mode: 'new', ids, title: 'Extra' }))}
           className="rounded-full border border-line px-3 py-1 text-dim">+10 nuevas</button>
       </div>
-      {!hasVoice(lang) && (
-        <p className="mb-5 rounded-xl border border-line px-4 py-3 text-[13px] leading-relaxed text-dim">
-          Tu teléfono no tiene voz de {lang === 'ar' ? 'árabe' : 'francés'}. Instálala en Ajustes, Accesibilidad, Contenido leído (iPhone) o Texto a voz (Android).
-        </p>
-      )}
 
       <Chips value={view} onChange={setView} options={[
         { v: 'ruta', l: 'Unidades' },

@@ -69,7 +69,13 @@ export default defineConfig(({ mode }) => {
           globPatterns: ['**/*.{js,css,html,svg,png,woff2,json,jpg}'],
           maximumFileSizeToCacheInBytes: 8_000_000,
           navigateFallback: 'index.html',
-          navigateFallbackDenylist: [/^\/api\//],
+          navigateFallbackDenylist: [/^\/api\//, /^\/audio\//],
+          /* Las voces (miles de MP3) no van en el precache: se guardan al oírlas por primera vez. */
+          runtimeCaching: [{
+            urlPattern: ({ url }) => url.pathname.startsWith('/audio/'),
+            handler: 'CacheFirst',
+            options: { cacheName: 'voces', expiration: { maxEntries: 8000 }, cacheableResponse: { statuses: [200] }, rangeRequests: true },
+          }],
         },
       }),
     ],

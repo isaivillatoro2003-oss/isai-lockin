@@ -6,7 +6,9 @@ import { computeStreak, dayPct } from '../../domain/streak'
 import { addDays, clock, dur, fromMin, longDate, partnerHm, PARTNER_TZ, toMin } from '../../domain/time'
 import { useClock } from '../../hooks'
 import { CAT_COLOR, Kicker, Sheet } from '../../ui'
+import type { Frase } from '../../content/frases'
 import BlockDetail from './BlockDetail'
+import { frase, markWakeSeen, wakeSeen } from '../../domain/frases'
 
 const OPEN = 10 * 60, CLOSE = 18 * 60
 
@@ -49,6 +51,14 @@ export default function Today() {
 
   const mark = (b: Block, s: Status | null) => setStatus(day, b.id, s)
 
+  /* Frase al despertar (primera apertura del día o bloque Despertar) y frase cuando vas tarde en bloques núcleo. */
+  const [wakeDone, setWakeDone] = useState('')
+  const wakeOk = wakeDone === c.date || wakeSeen(c.date)
+  const late = isToday ? tpl.blocks.filter((b) => b.core && !status.get(b.id) && toMin(b.start) + b.dur <= nowMin) : []
+  const push = late.length
+    ? { kind: 'late' as const, f: frase(day, `late:${late[0].id}`) }
+    : isToday && (!wakeOk || cur?.cat === 'despertar') ? { kind: 'wake' as const, f: frase(day, 'wake') } : null
+
   return (
     <div className="safe-t px-5 pb-32">
       {/* Cabecera */}
@@ -66,6 +76,11 @@ export default function Today() {
         </div>
       </div>
       <div className="mt-1 mb-6 font-mono text-[11px] text-faint">{dayLabel(day)}</div>
+
+      {push && (
+        <Push kind={push.kind} f={push.f} late={late}
+          onGo={() => { if (push.kind === 'late') setOpen(late[0]); else { markWakeSeen(c.date); setWakeDone(c.date) } }} />
+      )}
 
       {/* Indicadores */}
       <div className="mb-6 grid grid-cols-3 gap-px overflow-hidden rounded-2xl border border-line bg-line">
@@ -228,6 +243,24 @@ function NowCard({ b, nowMin, status, onMark, onOpen }: { b: Block; nowMin: numb
             {(b.link || b.guide) && <button onClick={onOpen} className="rounded-full border border-line px-4 py-3 text-[13px] text-dim">{b.link ? 'Abrir' : 'Cómo'}</button>}
           </>
         )}
+      </div>
+    </div>
+  )
+}
+
+function Push({ kind, f, late, onGo }: { kind: 'wake' | 'late'; f: Frase; late: Block[]; onGo: () => void }) {
+  const color = kind === 'late' ? 'var(--color-bad)' : 'var(--color-sun)'
+  return (
+    <div className="relative mb-6 overflow-hidden rounded-3xl border p-5" style={{ borderColor: `color-mix(in srgb, ${color} 45%, transparent)` }}>
+      <div className="pointer-events-none absolute -top-20 -left-16 h-52 w-52 rounded-full opacity-25 blur-3xl" style={{ background: color }} />
+      <div className="pointer-events-none absolute -right-2 -bottom-16 font-serif text-[180px] leading-none opacity-[0.07]" style={{ color }}>”</div>
+      <Kicker color={color}>{kind === 'late' ? `Vas tarde · ${late.length === 1 ? late[0].title : `${late.length} bloques`}` : 'Buenos días · arranca'}</Kicker>
+      <p className="relative mt-3 font-serif text-[30px] italic leading-[1.08] tracking-tight">{f.t}</p>
+      <div className="relative mt-4 flex items-center justify-between gap-3">
+        <span className="truncate font-mono text-[10.5px] uppercase tracking-[0.16em] text-faint">{f.by === 'viral' ? 'viral' : f.by}</span>
+        <button onClick={onGo} className="shrink-0 rounded-full px-4 py-2 text-[13px] font-medium text-ink active:scale-[0.97] transition" style={{ background: color }}>
+          {kind === 'late' ? 'Recuperar' : 'Vamos'}
+        </button>
       </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 import type { Lesson, Line, Story } from '../../content/types'
-import { speak } from '../../domain/speech'
+import { speak, stopSpeaking } from '../../domain/speech'
 import { Btn, Kicker } from '../../ui'
 
 /** Línea tocable: se oye y muestra lectura y traducción. */
@@ -16,7 +16,7 @@ export function LineRow({ l, lang, showEs = true }: { l: Line; lang: 'ar' | 'fr'
   )
 }
 
-/** Reproduce un diálogo línea por línea con la voz del teléfono. */
+/** Reproduce un diálogo línea por línea. */
 function useAutoplay(lines: Line[], lang: 'ar' | 'fr') {
   const [i, setI] = useState(-1)
   const stop = useRef(false)
@@ -24,12 +24,12 @@ function useAutoplay(lines: Line[], lang: 'ar' | 'fr') {
     stop.current = false
     for (let k = 0; k < lines.length && !stop.current; k++) {
       setI(k)
-      speak(lines[k], lang)
-      await new Promise((r) => setTimeout(r, 900 + lines[k].t.length * 85))
+      await speak(lines[k], lang)
+      await new Promise((r) => setTimeout(r, 500))
     }
     setI(-1)
   }
-  return { i, play, stop: () => { stop.current = true; window.speechSynthesis?.cancel(); setI(-1) } }
+  return { i, play, stop: () => { stop.current = true; stopSpeaking(); setI(-1) } }
 }
 
 export default function LessonView({ lesson, lang, onPractice, onListen }: { lesson: Lesson; lang: 'ar' | 'fr'; onPractice: () => void; onListen: () => void }) {
