@@ -28,7 +28,10 @@ export function audioKey(text: string) {
   return a.toString(16).padStart(8, '0') + b.toString(16).padStart(8, '0')
 }
 
+/** Súbelo cuando se regeneren las voces: los MP3 se guardan con caché permanente en el teléfono. */
+const VOICES = 2 // 1 = Edge (Rami/Henri), 2 = Gemini Kore
+
 export const audioUrl = (item: Speakable, lang: 'ar' | 'fr') => {
   const text = spokenText(item, lang)
-  return text ? `/audio/${lang}/${audioKey(text)}.mp3` : null
+  return text ? `/audio/${lang}/${audioKey(text)}.mp3?v=${VOICES}` : null
 }

@@ -74,7 +74,7 @@ export default defineConfig(({ mode }) => {
           runtimeCaching: [{
             urlPattern: ({ url }) => url.pathname.startsWith('/audio/'),
             handler: 'CacheFirst',
-            options: { cacheName: 'voces', expiration: { maxEntries: 8000 }, cacheableResponse: { statuses: [200] }, rangeRequests: true },
+            options: { cacheName: 'voces-v2', expiration: { maxEntries: 8000 }, cacheableResponse: { statuses: [200] }, rangeRequests: true },
           }],
         },
       }),

@@ -9,7 +9,7 @@ Requiere: pip install edge-tts, y ffmpeg en el PATH (re-codifica a 32 kbps mono)
 import asyncio, json, os, subprocess, sys, tempfile
 import edge_tts
 
-VOICE = {'ar': 'ar-LB-RamiNeural', 'fr': 'fr-FR-HenriNeural'}
+VOICE = {'ar': 'ar-LB-RamiNeural', 'fr': 'fr-FR-HenriNeural'}  # respaldo; las voces principales salen de audio-gemini.py
 RATE = '-10%'
 ROOT = os.path.join(os.path.dirname(__file__), '..', 'public', 'audio')
 items = json.load(open(os.path.join(os.path.dirname(__file__), 'audio-list.json'), encoding='utf8'))
