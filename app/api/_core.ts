@@ -5,9 +5,12 @@ import { z } from 'zod'
  * Funciones de IA de Lock-in con Gemini (nivel gratuito de Google AI Studio).
  * Se usa igual desde el servidor de desarrollo (vite.config.ts) y desde la función de Vercel (api/ai.ts).
  * La llave vive en GEMINI_API_KEY, nunca en el navegador. GEMINI_MODEL permite cambiar de modelo sin tocar código.
+ * Respaldo opcional: NVIDIA NIM (build.nvidia.com, gratis ~40 peticiones/min) con NVIDIA_API_KEY y NVIDIA_MODEL.
+ * Solo para texto (traducir y pronunciación); si Gemini falla o no tiene llave, se intenta NVIDIA.
  */
 
 const MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash'
+const NVIDIA_MODEL = process.env.NVIDIA_MODEL || 'qwen/qwen3.5-397b-a17b'
 
 const CONTEXT = `El usuario es Isaí, mexicano, habla español, inglés y portugués. Aprende árabe libanés hablado
 (Beirut, jóvenes, 2026) escrito en Arabizi, como en WhatsApp: números por letras (2 = hamza, 3 = ayn, 5 = kha,
@@ -50,8 +53,57 @@ export type AiRequest =
 let client: GoogleGenAI | null = null
 const ai = () => (client ??= new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY }))
 
-/** Una llamada con salida JSON validada contra el esquema de zod. */
+class NvidiaError extends Error {
+  status: number
+  constructor(status: number) {
+    super(`Error de NVIDIA (${status}).`)
+    this.status = status
+  }
+}
+
+/** Respaldo por NVIDIA NIM (API compatible con OpenAI). El esquema va en el prompt y la salida se valida con zod. */
+async function askNvidia<S extends z.ZodType>(schema: S, system: string, text: string): Promise<z.infer<S>> {
+  const res = await fetch('https://integrate.api.nvidia.com/v1/chat/completions', {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${process.env.NVIDIA_API_KEY}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      model: NVIDIA_MODEL,
+      temperature: 0.4,
+      max_tokens: 2048,
+      messages: [
+        { role: 'system', content: `${CONTEXT}\n${system}\nDevuelve solo un objeto JSON que cumpla este esquema:\n${JSON.stringify(z.toJSONSchema(schema))}` },
+        { role: 'user', content: text },
+      ],
+    }),
+  })
+  if (!res.ok) throw new NvidiaError(res.status)
+  const data = await res.json() as { choices?: { message?: { content?: string } }[] }
+  const content = data.choices?.[0]?.message?.content ?? ''
+  // Algunos modelos razonan antes de responder: se toma solo el objeto JSON.
+  const json = content.replace(/<think>[\s\S]*?<\/think>/g, '').match(/\{[\s\S]*\}/)?.[0]
+  const parsed = json ? schema.safeParse(JSON.parse(json)) : null
+  if (!parsed?.success) throw new Error('No se pudo leer la respuesta.')
+  return parsed.data
+}
+
+/** Gemini primero; si falla o no tiene llave, NVIDIA (solo texto). */
 async function ask<S extends z.ZodType>(schema: S, system: string, parts: Part[]): Promise<z.infer<S>> {
+  const text = parts.every(p => p.text !== undefined) ? parts.map(p => p.text).join('\n') : null
+  const nvidia = process.env.NVIDIA_API_KEY && text !== null
+  if (!process.env.GEMINI_API_KEY) {
+    if (nvidia) return askNvidia(schema, system, text)
+    throw new Error('Falta la llave: ponla en app/.env.local (o en Vercel) como GEMINI_API_KEY.')
+  }
+  try {
+    return await askGemini(schema, system, parts)
+  } catch (e) {
+    if (!nvidia) throw e
+    return askNvidia(schema, system, text)
+  }
+}
+
+/** Una llamada con salida JSON validada contra el esquema de zod. */
+async function askGemini<S extends z.ZodType>(schema: S, system: string, parts: Part[]): Promise<z.infer<S>> {
   const res = await ai().models.generateContent({
     model: MODEL,
     contents: [{ role: 'user', parts }],
@@ -68,8 +120,6 @@ async function ask<S extends z.ZodType>(schema: S, system: string, parts: Part[]
 }
 
 export async function runAi(req: AiRequest) {
-  if (!process.env.GEMINI_API_KEY) throw new Error('Falta la llave: ponla en app/.env.local (o en Vercel) como GEMINI_API_KEY.')
-
   if (req.task === 'translate') {
     const langName = req.lang === 'ar' ? 'árabe libanés en Arabizi' : 'francés de Francia'
     const to = req.to === 'm' ? ' a un hombre' : req.to === 'f' ? ' a una mujer (por ejemplo a Pam)' : ''
@@ -94,6 +144,10 @@ export function errorMessage(e: unknown) {
     if (e.status === 429) return 'Se acabó la cuota gratis por ahora. Espera un rato o mañana.'
     if (e.status === 400 || e.status === 403) return 'La llave de Gemini no es válida o no tiene permiso.'
     return `Error de Gemini (${e.status}).`
+  }
+  if (e instanceof NvidiaError) {
+    if (e.status === 429) return 'Se acabó el límite gratis de NVIDIA por ahora. Espera un minuto.'
+    if (e.status === 401 || e.status === 403) return 'La llave de NVIDIA no es válida o no tiene permiso.'
   }
   if (e instanceof Error) return e.message
   return 'Error desconocido.'

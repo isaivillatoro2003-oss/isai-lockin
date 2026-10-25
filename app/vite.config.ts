@@ -40,7 +40,7 @@ function aiDevApi(): Plugin {
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
-  for (const k of ["GEMINI_API_KEY", "GEMINI_MODEL", "SYNC_KEY", "BLOB_READ_WRITE_TOKEN"]) if (env[k]) process.env[k] = env[k]
+  for (const k of ["GEMINI_API_KEY", "GEMINI_MODEL", "NVIDIA_API_KEY", "NVIDIA_MODEL", "SYNC_KEY", "BLOB_READ_WRITE_TOKEN"]) if (env[k]) process.env[k] = env[k]
   return {
     server: { host: true, port: 5180 },
     plugins: [
