@@ -1302,13 +1302,14 @@
       "minimo": "Acostarte a las 21:30 y quedarte a oscuras, aunque tardes."
     },
     "medicion": {
-      "que": "El domingo mides tu progreso: peso en ayunas, cintura a la altura del ombligo y 4 fotos con la misma luz y lugar.",
+      "que": "El domingo mides tu progreso: peso en ayunas, cintura a la altura del ombligo, hombros y 4 fotos con la misma luz y lugar.",
       "por": "El peso del día sube y baja por agua; una medición semanal con fotos te muestra la tendencia real y evita desanimarte.",
       "como": [
         "Peso: al despertar, después de ir al baño y antes de beber, con la misma báscula, en el mismo lugar y sin ropa.",
         "Cintura: de pie, relajado, cinta métrica a la altura del ombligo, paralela al piso, mide después de exhalar normal. Sin meter el abdomen.",
         "Fotos: frente, perfil izquierdo, perfil derecho y espalda, con el mismo fondo, luz y distancia. Mismo calzón o short.",
-        "Guárdalo todo en la app. Mira el promedio de tus últimos 7 días (la media móvil), no el número de hoy."
+        "Guárdalo todo en la app. Mira el promedio de tus últimos 7 días (la media móvil), no el número de hoy.",
+        "Hombros: de pie, brazos relajados a los lados, cinta alrededor de la parte más ancha de los hombros (pasa por los deltoides y la espalda). Exhala normal. Con cintura y hombros la app calcula tu proporción hombros / cintura (meta 1.6)."
       ],
       "tips": [
         {
@@ -1776,6 +1777,56 @@
         }
       ],
       "minimo": "30 minutos de caminata rápida."
+    },
+    "matcha": {
+      "que": "Tu primera bebida del día: 1 porción de matcha (1 cucharadita, 2 g) batida en 150 a 200 ml de agua caliente, en lugar del café. Mientras lo tomas revisas el día en la app: qué bloques tocan y las 3 cosas más importantes.",
+      "por": "El matcha es la hoja entera molida: trae unas 3 veces más catequinas que el té verde en bolsita, más cafeína (60 a 70 mg por 2 g) y L-teanina, que da concentración tranquila sin el bajón del café. Tiene 2 a 3 kcal, así que no rompe el ayuno 16:8.",
+      "como": [
+        "Pon 1 cucharadita rasa (2 g) de matcha en un tazón pequeño y cierne con un colador si tiene grumos.",
+        "Calienta el agua a 70 a 80 °C (cuando ya sale vapor pero no burbujea). Con agua hirviendo se amarga.",
+        "Agrega 150 a 200 ml y bate en forma de \"M\" con un batidor de bambú o un espumador hasta que haga espuma fina.",
+        "Tómalo solo, o con leche de almendra sin azúcar (cuenta las calorías). Nunca uses mezclas de \"matcha latte\" con azúcar.",
+        "Siéntate con la libreta o la app, revisa el checklist del día y elige las 3 cosas más importantes. Una siempre es un idioma. Ponte la ropa de entreno."
+      ],
+      "tips": [
+        {
+          "text": "Compra matcha 100 % puro japonés. El grado culinario basta, no necesitas el ceremonial.",
+          "grade": "B"
+        },
+        {
+          "text": "Segunda porción opcional: 30 a 60 minutos antes del cardio o 1 hora después de comer (no junto a la comida: los taninos bajan la absorción de hierro).",
+          "grade": "B"
+        },
+        {
+          "text": "Máximo 3 porciones al día (6 g) y nada después de las 14:00, para no afectar el sueño. Te levantas a las 5:00.",
+          "grade": "B"
+        },
+        {
+          "text": "Su efecto en la grasa es chico (cerca de 1 kg en 12 semanas). Ayuda más por reemplazar el café con azúcar y por la energía para el cardio.",
+          "grade": "B"
+        },
+        {
+          "text": "Cápsulas de extracto de té verde (EGCG): no. Pueden dañar el hígado. Toma el matcha en taza.",
+          "grade": "D"
+        }
+      ],
+      "minimo": "Una porción de matcha y mirar las 3 prioridades del día."
+    },
+    "matcha-2": {
+      "que": "Segunda porción de matcha del día, opcional, a media mañana o tarde temprano.",
+      "por": "Te da energía estable y concentración sin el bajón del café. Tomarlo lejos de la comida cuida la absorción del hierro.",
+      "como": [
+        "Prepáralo igual: 1 cucharadita (2 g) en 150 a 200 ml de agua a 70 a 80 °C.",
+        "Tómalo 1 hora después de comer, o 30 a 60 minutos antes de caminar o hacer cardio.",
+        "No lo tomes junto con la comida: los taninos del té bajan la absorción de hierro."
+      ],
+      "tips": [
+        {
+          "text": "Máximo 3 porciones al día en total (6 g) y nada después de las 14:00.",
+          "grade": "B"
+        }
+      ],
+      "minimo": "Saltártela. Es opcional."
     }
   },
   "glosario": [
@@ -2224,9 +2275,9 @@
     },
     {
       "item": "Bandas de resistencia",
-      "why": "Si no tienes gimnasio, sirven para remos y empujes en casa; son baratas y ligeras.",
+      "why": "Si no tienes gimnasio, sirven para remos y empujes en casa; son baratas y ligeras. Sirven para asistir dominadas, hacer elevaciones laterales y pallof press (forma en V).",
       "grade": "A",
-      "prioridad": 3,
+      "prioridad": 2,
       "donde": "Walmart, Decathlon, Amazon México"
     },
     {
@@ -2235,6 +2286,41 @@
       "grade": "B",
       "prioridad": 3,
       "donde": "Farmacias, Amazon México"
+    },
+    {
+      "item": "Barra de dominadas de puerta",
+      "why": "Dominadas y remos colgados para ensanchar la espalda (forma en V) sin gimnasio. Es barata y se instala en el marco de la puerta.",
+      "grade": "B",
+      "prioridad": 2,
+      "donde": "Amazon México, Mercado Libre, Decathlon"
+    },
+    {
+      "item": "Matcha 100 % puro japonés (grado culinario)",
+      "why": "Reemplaza al café por la mañana. 30 g alcanzan para unas 15 porciones.",
+      "grade": "B",
+      "prioridad": 2,
+      "donde": "Amazon México, tiendas de té, Mercado Libre"
+    },
+    {
+      "item": "Batidor de bambú (chasen) o espumador de mano",
+      "why": "Para disolver el matcha sin grumos.",
+      "grade": "C",
+      "prioridad": 3,
+      "donde": "Amazon México, Mercado Libre"
+    },
+    {
+      "item": "Charola para horno y papel para hornear",
+      "why": "Para las recetas de charola: la carne y la verdura se doran con 80 a 90 % menos aceite y casi nada que lavar.",
+      "grade": "B",
+      "prioridad": 2,
+      "donde": "Walmart, Chedraui, Amazon México"
+    },
+    {
+      "item": "Aceite en spray (o brocha de silicón)",
+      "why": "1 cucharada de aceite son 120 kcal; con spray o brocha usas una fracción.",
+      "grade": "B",
+      "prioridad": 2,
+      "donde": "Walmart, Chedraui"
     }
   ]
 }

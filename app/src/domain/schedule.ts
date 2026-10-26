@@ -38,7 +38,8 @@ const EXTRAS: Record<string, string[]> = {
   '05:00': ['Pizca de sal en el agua', 'Pesarte'],
   '05:05': ['Protector solar SPF 50', 'Limpiar la lengua'],
   '06:05': ['Sin lentes de sol', 'Audio de árabe'],
-  '06:45': ['Electrolitos sin azúcar', 'Café antes si lo necesitas'],
+  '06:45': ['Electrolitos sin azúcar', 'Cero bebidas con azúcar'],
+  '11:30': ['Matcha 2 (opcional, 1 h después de comer)'],
   '07:50': ['Solo agua fría', 'Hidratante después'],
   '08:10': ['Teléfono en modo avión'],
   '09:40': ['Agua antes de comer: llena'],
@@ -79,7 +80,7 @@ const normalRows: Row[] = [
   ['05:05', 10, 'Cara y dientes (mañana)', 'glow', { ...C, guide: 'glow-am', detail: 'Lengua, dientes, hilo, limpiar cara, hidratante y protector solar.', link: 'glow-am' }],
   ['05:15', 30, 'Tarjetas de árabe', 'ar', { ...C, guide: 'tarjetas-ar', detail: 'Repaso de las que tocan hoy + 18 frases nuevas, aquí en la app.', link: 'anki-ar' }],
   ['05:45', 15, 'Buenos días a Pam', 'novia', { guide: 'novia-am', detail: 'Llamada o voice notes. Intenta 3 frases en árabe.' }],
-  ['06:00', 5, 'Café negro', 'libre', { guide: 'cafe', detail: 'Ropa de entreno puesta. Revisa el día.' }],
+  ['06:00', 5, 'Matcha', 'libre', { guide: 'matcha', detail: '1 cucharadita en agua a 70 a 80 °C, sin azúcar. Ropa de entreno puesta. Revisa el día.' }],
   ['06:05', 35, 'Caminata al amanecer', 'caminata', { ...C, guide: 'caminata-sol', detail: 'Luz de sol en los ojos, sin lentes. Audio de árabe en los audífonos.' }],
   ['06:45', 60, 'Entrenamiento', 'ejercicio', { ...C, guide: 'entreno', link: 'workout' }],
   ['07:50', 20, 'Ducha fría + piel', 'glow', { guide: 'ducha-fria', detail: '1 a 2 min de agua fría al final.' }],
@@ -123,7 +124,7 @@ const sabadoRows: Row[] = normalRows.map((r): Row => {
 
 const descansoRows: Row[] = [
   ['05:00', 30, 'Despertar', 'despertar', { ...C, guide: 'despertar', detail: 'Margen de 30 min. Agua con sal.' }],
-  ['05:30', 15, 'Medición semanal', 'glow', { ...C, guide: 'medicion', detail: 'Peso en ayunas, cintura en el ombligo, 4 fotos con la misma luz.', link: 'measure' }],
+  ['05:30', 15, 'Medición semanal', 'glow', { ...C, guide: 'medicion', detail: 'Peso en ayunas, cintura en el ombligo, hombros, 4 fotos con la misma luz.', link: 'measure' }],
   ['05:45', 30, 'Tarjetas árabe + francés', 'ar', { ...C, guide: 'tarjetas-ar', link: 'anki-ar' }],
   ['06:15', 75, 'Caminata larga al amanecer', 'caminata', { ...C, guide: 'caminata-larga', detail: 'Sin prisa.' }],
   ['07:30', 30, 'Ducha + rutina semanal de piel', 'glow', { guide: 'ducha-fria', link: 'glow-am' }],

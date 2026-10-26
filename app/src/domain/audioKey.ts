@@ -29,7 +29,7 @@ export function audioKey(text: string) {
 }
 
 /** Súbelo cuando se regeneren las voces: los MP3 se guardan con caché permanente en el teléfono. */
-const VOICES = 3 // 1 = Edge (Rami/Henri), 2+ = Gemini Kore; súbelo en cada tanda nueva
+const VOICES = 4 // 1 = Edge masculina, 2-3 = Gemini Kore, 4 = Kore + Layla/Denise interinas (Edge femenina); súbelo en cada tanda nueva
 
 export const audioUrl = (item: Speakable, lang: 'ar' | 'fr') => {
   const text = spokenText(item, lang)

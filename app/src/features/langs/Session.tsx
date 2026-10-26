@@ -3,7 +3,7 @@ import { db, now } from '../../db'
 import type { Card } from '../../content/types'
 import { Rating, allCards, cardById, check, review, variants, type Lang } from '../../domain/srs'
 import { speak } from '../../domain/speech'
-import { Btn, Kicker } from '../../ui'
+import { Btn, CloseX, Kicker } from '../../ui'
 import SpeakCheck from './SpeakCheck'
 
 export type Mode = 'review' | 'new' | 'lesson' | 'listen'
@@ -32,8 +32,8 @@ export default function Session({ lang, mode, ids, title, onExit }: { lang: Lang
 
   return (
     <div className="safe-t flex min-h-dvh flex-col px-5 pb-28">
-      <div className="mb-8 flex items-center gap-4">
-        <button onClick={onExit} className="text-[22px] text-dim" aria-label="cerrar">×</button>
+      <div className="mb-8 flex items-center gap-4 pr-14">
+        <CloseX onClose={onExit} />
         <div className="h-[3px] flex-1 overflow-hidden rounded-full bg-line">
           <div className="h-full rounded-full transition-all duration-500" style={{ width: `${(Math.min(i, total) / total) * 100}%`, background: accent }} />
         </div>

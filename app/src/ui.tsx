@@ -7,6 +7,17 @@ export const CAT_COLOR: Record<Cat, string> = {
   diario: '#d9b98c', libre: '#8f8673', sueno: '#5f7590',
 }
 
+/** Botón X fijo arriba a la derecha para salir de cualquier pantalla secundaria (equivale a volver). */
+export function CloseX({ onClose }: { onClose: () => void }) {
+  return (
+    <button onClick={onClose} aria-label="Cerrar"
+      style={{ top: 'calc(max(env(safe-area-inset-top), 12px) + 4px)', right: 'max(env(safe-area-inset-right), 16px)' }}
+      className="fixed z-[60] grid h-11 w-11 place-items-center rounded-full border border-line bg-raised/90 text-paper shadow-lg backdrop-blur-xl active:scale-95">
+      <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round"><path d="M6 6l12 12M18 6 6 18" /></svg>
+    </button>
+  )
+}
+
 export function Kicker({ children, color }: { children: ReactNode; color?: string }) {
   return (
     <div className="font-mono text-[10.5px] uppercase tracking-[0.18em] text-dim" style={color ? { color } : undefined}>
@@ -73,6 +84,7 @@ export function Sheet({ open, onClose, children }: { open: boolean; onClose: () 
   if (!show) return null
   return (
     <div className="fixed inset-0 z-50" onTransitionEnd={() => !open && setShow(false)}>
+      {open && <CloseX onClose={onClose} />}
       <div onClick={onClose} className={`absolute inset-0 bg-black/60 transition-opacity duration-300 ${open ? 'opacity-100' : 'opacity-0'}`} />
       <div className={`safe-b absolute inset-x-0 bottom-0 max-h-[88vh] overflow-y-auto rounded-t-3xl border-t border-line bg-raised px-5 pt-3 transition-transform duration-300 ease-out ${open ? 'translate-y-0' : 'translate-y-full'}`}
         onTransitionEnd={(e) => { if (e.target === e.currentTarget && !open) setShow(false) }}>

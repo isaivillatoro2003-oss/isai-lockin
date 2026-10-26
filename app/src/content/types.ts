@@ -45,6 +45,8 @@ export interface Receta {
   fuente: { creador: string; plataforma: string; url: string }
   tiempo: string; porciones: number; kcal: number; proteinaG: number; carbosG: number; grasaG: number
   ingredientes: { item: string; cantidad: string }[]; pasos: string[]; seVe: string; tips: string[]; tags: string[]
+  /** Cómo hacerla en horno, si se puede. */
+  horno?: string
 }
 
 export interface Exercise { name: string; sets: string; reps: string; rest: string; notes?: string; alt?: string }

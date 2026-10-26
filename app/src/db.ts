@@ -7,7 +7,7 @@ export type Status = 'hecho' | 'minima' | 'saltado'
 
 export interface DayRow { date: string; templateId: string; updatedAt: number }
 export interface LogRow { id: string; date: string; blockId: string; status: Status; at: number; updatedAt: number }
-export interface MetricRow { id: string; date: string; type: 'peso' | 'cintura'; value: number; updatedAt: number }
+export interface MetricRow { id: string; date: string; type: 'peso' | 'cintura' | 'hombros'; value: number; updatedAt: number }
 export interface PhotoRow { id: string; date: string; pose: 'frente' | 'perfil' | 'espalda' | 'cara'; blob: Blob; updatedAt: number }
 export interface MealRow {
   id: string; date: string; slot: 1 | 2 | 3 | 4; time: string; text: string; tags: string[]; rating?: 1 | 2 | 3; updatedAt: number

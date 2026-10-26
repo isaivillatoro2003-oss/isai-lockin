@@ -45,7 +45,7 @@ export function stopSpeaking() {
 }
 
 /**
- * Lee en voz alta con el MP3 pregenerado (voz neuronal de Edge). En árabe lee el campo script.
+ * Lee en voz alta con el MP3 pregenerado (voz de Gemini Kore; las que faltan usan Edge Layla/Denise mientras tanto, y si no hay audio, la voz del sistema como respaldo). En árabe lee el campo script.
  * Termina cuando acaba el audio, así se pueden encadenar líneas.
  */
 export function speak(item: Speakable, lang: 'ar' | 'fr') {

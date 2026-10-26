@@ -6,8 +6,8 @@ import { addDays, clock, longDate } from '../../domain/time'
 import { useNav } from '../../hooks'
 import { Btn, Card, Chips, Empty, Kicker, NumberInput, Screen, Sheet } from '../../ui'
 
-type Sub = 'peso' | 'cintura' | 'fotos' | 'comidas'
-const SUBS: Sub[] = ['peso', 'cintura', 'fotos', 'comidas']
+type Sub = 'peso' | 'cintura' | 'hombros' | 'fotos' | 'comidas'
+const SUBS: Sub[] = ['peso', 'cintura', 'hombros', 'fotos', 'comidas']
 const MONTHS = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic']
 const shortDate = (d: string) => `${+d.slice(8, 10)} ${MONTHS[+d.slice(5, 7) - 1]}`
 const dayNum = (d: string) => Math.round(Date.parse(d + 'T12:00:00Z') / 864e5)
@@ -20,17 +20,48 @@ export default function Body() {
   return (
     <Screen title="Cuerpo" kicker="Lo que se mide mejora">
       <Chips<Sub> value={sub} onChange={setSub} options={[
-        { v: 'peso', l: 'Peso' }, { v: 'cintura', l: 'Cintura' }, { v: 'fotos', l: 'Fotos' }, { v: 'comidas', l: 'Comidas' },
+        { v: 'peso', l: 'Peso' }, { v: 'cintura', l: 'Cintura' }, { v: 'hombros', l: 'Hombros' }, { v: 'fotos', l: 'Fotos' }, { v: 'comidas', l: 'Comidas' },
       ]} />
       {sub === 'peso' && <MetricPanel type="peso" unit="kg" label="Peso" />}
-      {sub === 'cintura' && <MetricPanel type="cintura" unit="cm" label="Cintura" />}
+      {sub === 'cintura' && <><VRatio /><MetricPanel type="cintura" unit="cm" label="Cintura" /></>}
+      {sub === 'hombros' && <><VRatio /><MetricPanel type="hombros" unit="cm" label="Hombros" /></>}
       {sub === 'fotos' && <Photos />}
       {sub === 'comidas' && <Meals />}
     </Screen>
   )
 }
 
-/* ───────────── Peso y cintura ───────────── */
+/* ───────────── Proporción hombros / cintura (forma en V) ───────────── */
+
+const V_GOAL = 1.6
+
+function VRatio() {
+  const sh = useLiveQuery(() => db.metrics.where('type').equals('hombros').sortBy('date'), []) ?? []
+  const wa = useLiveQuery(() => db.metrics.where('type').equals('cintura').sortBy('date'), []) ?? []
+  const s = sh[sh.length - 1]?.value, w = wa[wa.length - 1]?.value
+  const ratio = s && w ? s / w : null
+  const pct = ratio ? Math.min(100, (ratio / V_GOAL) * 100) : 0
+  return (
+    <Card className="mb-5">
+      <Kicker>Forma en V · hombros / cintura</Kicker>
+      <div className="mt-2 flex items-end gap-3">
+        <div className="font-serif text-[52px] leading-[0.9] tnum">{ratio ? ratio.toFixed(2) : '—'}</div>
+        <div className="pb-1 font-mono text-[12px] text-dim">meta {V_GOAL.toFixed(1)}</div>
+      </div>
+      <div className="mt-3 h-[3px] overflow-hidden rounded-full bg-line"><div className="h-full rounded-full bg-sun" style={{ width: `${pct}%` }} /></div>
+      <p className="mt-3 text-[13px] leading-relaxed text-dim">
+        {ratio
+          ? `Con hombros de ${s.toFixed(1)} cm, tu cintura ideal sería de ${(s / V_GOAL).toFixed(1)} cm (hoy ${w.toFixed(1)}).`
+          : 'Registra cintura y hombros (una vez por semana) para ver tu proporción.'}
+      </p>
+      <p className="mt-2 text-[12px] leading-relaxed text-faint">
+        Es el índice "Adonis": la circunferencia de hombros dividida entre la cintura. 1.6 es la proporción que los escultores griegos usaban como ideal. Es una guía visual, no una regla médica.
+      </p>
+    </Card>
+  )
+}
+
+/* ───────────── Peso, cintura y hombros ───────────── */
 
 interface Pt { date: string; x: number; v: number; ma: number }
 
@@ -42,12 +73,12 @@ function withAverage(rows: MetricRow[]): Pt[] {
   })
 }
 
-function MetricPanel({ type, unit, label }: { type: 'peso' | 'cintura'; unit: string; label: string }) {
+function MetricPanel({ type, unit, label }: { type: MetricRow['type']; unit: string; label: string }) {
   const rows = useLiveQuery(() => db.metrics.where('type').equals(type).sortBy('date'), [type]) ?? []
   const [val, setVal] = useState('')
   const today = clock().date
   const todayRow = rows.find((r) => r.date === today)
-  const weekly = type === 'cintura'
+  const weekly = type !== 'peso'
   const pts = useMemo(() => withAverage(rows), [rows])
 
   const last = pts[pts.length - 1]

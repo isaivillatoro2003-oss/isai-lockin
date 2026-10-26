@@ -7,17 +7,17 @@
   "macros": {
     "kcal": 1950,
     "proteinG": 180,
-    "grasaG": 58,
-    "carbosG": 170,
-    "nota": "Proteína: 165 a 200 g al día (es la primera meta que cumples cada día). Grasa: 55 a 60 g, nunca menos de 45 g. Carbohidratos (tortilla, arroz, papa, avena, fruta): 160 a 180 g, y más cerca de la hora del entreno. Fibra (frijoles, avena, verduras): 35 a 45 g, subiéndola poco a poco. Agua: 3.5 a 4.5 litros. Si quieres bajar más rápido: 1,700 a 1,800 kcal. El mínimo sin médico es 1,500 kcal y nunca menos de 1,300."
+    "grasaG": 70,
+    "carbosG": 140,
+    "nota": "Rango de calorías: 1,900 a 1,950 kcal al día. Proteína: 165 a 200 g (es la primera meta que cumples cada día). Grasa: 65 a 75 g, nunca menos de 45 g; es grasa buena (aguacate, aceite de oliva en poca cantidad, huevo, pescado). Carbohidratos: unos 140 g, repartidos así: la mayoría en la comida de después de entrenar (Comida 1) y al mediodía (Comida 2), y casi ninguno en la cena. Elige carbohidratos con fibra: frijol, avena, tortilla de maíz, papa o camote y fruta entera. Cero bebidas con azúcar. Fibra (frijoles, avena, verduras): 35 a 45 g, subiéndola poco a poco. Agua: 3.5 a 4.5 litros. Si quieres bajar más rápido: 1,700 a 1,800 kcal. El mínimo sin médico es 1,500 kcal y nunca menos de 1,300."
   },
-  "estrategia": "Comes 1,950 kcal cada día, siempre la misma cantidad, que es menos de lo que tu cuerpo gasta; por eso bajas grasa. Y comes 180 g de proteína todos los días para no perder músculo. Solo comes entre las 10:00 y las 18:00 (son 8 horas de comida y 16 de ayuno; este plan se llama 16:8 y es flexible). Lo que manda son las calorías; la ventana solo evita que piques de noche. Los domingos de las semanas 2, 4, 6 y 10 haces un día de recarga: subes a unas 2,600 kcal, con más carbohidratos y nada más. En Navidad y Año Nuevo comes lo que tu cuerpo gasta (unas 2,800 kcal) para no subir ni bajar. Cero alcohol.",
+  "estrategia": "Comes entre 1,900 y 1,950 kcal cada día, siempre parecido, que es menos de lo que tu cuerpo gasta; por eso bajas grasa. Y comes 180 g de proteína todos los días para no perder músculo. Tu cuerpo es endomorfo: tiende a guardar grasa, sobre todo en el abdomen. Es una etiqueta útil, no ciencia dura; lo que sí sirve es tratarlo como sensible a los carbohidratos. Por eso comes unos 140 g de carbohidratos (antes 170) y 70 g de grasa buena (antes 58): los carbohidratos van sobre todo en la comida de después de entrenar y al mediodía, siempre de fuentes con fibra (frijol, avena, tortilla de maíz, papa o camote, fruta entera). La cena es proteína, verduras y grasa buena, con carbohidratos mínimos. Cero bebidas con azúcar. Solo comes entre las 10:00 y las 18:00 (son 8 horas de comida y 16 de ayuno; este plan se llama 16:8 y es flexible). Lo que manda son las calorías; la ventana solo evita que piques de noche. Los domingos de las semanas 2, 4, 6 y 10 haces un día de recarga: subes a unas 2,600 kcal, con más carbohidratos y nada más. En Navidad y Año Nuevo comes lo que tu cuerpo gasta (unas 2,800 kcal) para no subir ni bajar. Cero alcohol. Tu meta prioritaria de forma es la V: cintura muy delgada con espalda y hombros anchos (mira la sección Forma en V en Tips).",
   "workouts": [
     {
       "id": "A",
       "name": "Fuerza A (cuerpo completo)",
       "where": "gym",
-      "focus": "Semanas 1 a 4. Cuerpo completo A, lunes, miércoles y viernes, alternando con B. Cuando llegues al máximo de repeticiones en todas las series con buena técnica, sube el peso. Deja 1 a 3 repeticiones sin hacer al final de cada serie, para no llegar al límite.",
+      "focus": "Semanas 1 a 4. Cuerpo completo A, lunes, miércoles y viernes, alternando con B. Cuando llegues al máximo de repeticiones en todas las series con buena técnica, sube el peso. Deja 1 a 3 repeticiones sin hacer al final de cada serie, para no llegar al límite. Incluye bloque Forma en V (hombros y espalda).",
       "exercises": [
         {
           "name": "Sentadilla goblet o prensa",
@@ -66,6 +66,22 @@
           "rest": "60 s",
           "notes": "",
           "alt": ""
+        },
+        {
+          "name": "Elevaciones laterales (volumen alto)",
+          "sets": "4",
+          "reps": "15-20",
+          "rest": "45 s",
+          "notes": "Forma en V: sube peso poco a poco, baja lento. 3 a 4 días por semana.",
+          "alt": "Botellas de agua, mochila o banda de resistencia"
+        },
+        {
+          "name": "Press inclinado con mancuernas",
+          "sets": "3",
+          "reps": "8-12",
+          "rest": "90 s",
+          "notes": "Forma en V: hombro y parte alta del pecho.",
+          "alt": "Pike push-ups (flexiones con cadera arriba)"
         }
       ]
     },
@@ -73,7 +89,7 @@
       "id": "B",
       "name": "Fuerza B (cuerpo completo)",
       "where": "gym",
-      "focus": "Semanas 1 a 4. Cuerpo completo B, alterna con A.",
+      "focus": "Semanas 1 a 4. Cuerpo completo B, alterna con A. Incluye bloque Forma en V (hombros y espalda).",
       "exercises": [
         {
           "name": "Prensa o sentadilla en máquina Smith (barra guiada)",
@@ -109,11 +125,11 @@
         },
         {
           "name": "Elevaciones laterales",
-          "sets": "3",
-          "reps": "15",
+          "sets": "4",
+          "reps": "15-20",
           "rest": "60 s",
-          "notes": "",
-          "alt": ""
+          "notes": "Forma en V: volumen alto, 3 a 4 días por semana.",
+          "alt": "Botellas de agua, mochila o banda de resistencia"
         },
         {
           "name": "Insecto muerto (dead bug)",
@@ -129,7 +145,7 @@
       "id": "C",
       "name": "Torso 1 (lunes)",
       "where": "gym",
-      "focus": "Semanas 5 a 12. Torso y pierna en días separados: lunes, martes, jueves y viernes. En las semanas 8 y 12 baja el volumen para descansar.",
+      "focus": "Semanas 5 a 12. Torso y pierna en días separados: lunes, martes, jueves y viernes. En las semanas 8 y 12 baja el volumen para descansar. Incluye bloque Forma en V (hombros y espalda).",
       "exercises": [
         {
           "name": "Press banca (barra o mancuerna)",
@@ -165,11 +181,11 @@
         },
         {
           "name": "Elevaciones laterales",
-          "sets": "3",
-          "reps": "12-15",
+          "sets": "4",
+          "reps": "15-20",
           "rest": "60 s",
-          "notes": "",
-          "alt": ""
+          "notes": "Forma en V: volumen alto, 3 a 4 días por semana.",
+          "alt": "Botellas de agua, mochila o banda de resistencia"
         },
         {
           "name": "Bíceps + tríceps (superserie)",
@@ -241,7 +257,7 @@
       "id": "E",
       "name": "Torso 2 (jueves)",
       "where": "gym",
-      "focus": "Semanas 5-12.",
+      "focus": "Semanas 5-12. Incluye bloque Forma en V (hombros y espalda).",
       "exercises": [
         {
           "name": "Press militar",
@@ -290,6 +306,14 @@
           "rest": "60 s",
           "notes": "Con la polea a la altura de la cara, jala la cuerda hacia tu frente abriendo los codos. Fortalece la espalda alta.",
           "alt": "Jalar una liga hacia la cara con los codos abiertos"
+        },
+        {
+          "name": "Elevaciones laterales (volumen alto)",
+          "sets": "4",
+          "reps": "15-20",
+          "rest": "45 s",
+          "notes": "Forma en V: sube peso poco a poco, baja lento. 3 a 4 días por semana.",
+          "alt": "Botellas de agua, mochila o banda de resistencia"
         }
       ]
     },
@@ -297,7 +321,7 @@
       "id": "F",
       "name": "Pierna 2 (viernes)",
       "where": "gym",
-      "focus": "Semanas 5-12.",
+      "focus": "Semanas 5-12. Incluye bloque Forma en V (hombros y espalda).",
       "exercises": [
         {
           "name": "Prensa",
@@ -346,6 +370,22 @@
           "rest": "60 s",
           "notes": "Camina con una pesa pesada en cada mano, con el pecho abierto.",
           "alt": "Caminata con garrafones"
+        },
+        {
+          "name": "Elevaciones laterales (volumen alto)",
+          "sets": "4",
+          "reps": "15-20",
+          "rest": "45 s",
+          "notes": "Forma en V: sube peso poco a poco, baja lento. 3 a 4 días por semana.",
+          "alt": "Botellas de agua, mochila o banda de resistencia"
+        },
+        {
+          "name": "Dominadas o jalón al pecho",
+          "sets": "4",
+          "reps": "6-10",
+          "rest": "2 min",
+          "notes": "Forma en V: abre la espalda (dorsal ancho).",
+          "alt": "Barra de puerta, o remo con banda/mochila; banda de asistencia si no sale una"
         }
       ]
     },
@@ -353,7 +393,7 @@
       "id": "CASA",
       "name": "Fuerza en casa (sin gimnasio)",
       "where": "casa",
-      "focus": "Mismos días y progresión que en el gimnasio. Lo que necesitas: una mochila con libros o garrafones de agua, 2 o 3 ligas de resistencia y, si quieres, una barra para la puerta. Cuando hagas más de 20 repeticiones limpias, pasa a la versión más difícil o ponle más peso a la mochila.",
+      "focus": "Mismos días y progresión que en el gimnasio. Lo que necesitas: una mochila con libros o garrafones de agua, 2 o 3 ligas de resistencia y, si quieres, una barra para la puerta. Cuando hagas más de 20 repeticiones limpias, pasa a la versión más difícil o ponle más peso a la mochila. Incluye bloque Forma en V (hombros y espalda).",
       "exercises": [
         {
           "name": "Sentadilla con mochila",
@@ -410,6 +450,30 @@
           "rest": "60 s",
           "notes": "Estáticas, caminando, con mochila",
           "alt": ""
+        },
+        {
+          "name": "Elevaciones laterales (volumen alto)",
+          "sets": "4",
+          "reps": "15-20",
+          "rest": "45 s",
+          "notes": "Forma en V: sube peso poco a poco, baja lento. 3 a 4 días por semana.",
+          "alt": "Botellas de agua, mochila o banda de resistencia"
+        },
+        {
+          "name": "Pike push-ups",
+          "sets": "3",
+          "reps": "hasta 15 limpias",
+          "rest": "90 s",
+          "notes": "Forma en V: hombro en casa, sin peso.",
+          "alt": "Con pies elevados en una silla"
+        },
+        {
+          "name": "Dominadas o jalón al pecho",
+          "sets": "4",
+          "reps": "6-10",
+          "rest": "2 min",
+          "notes": "Forma en V: abre la espalda (dorsal ancho).",
+          "alt": "Barra de puerta, o remo con banda/mochila; banda de asistencia si no sale una"
         }
       ]
     },
@@ -489,7 +553,7 @@
       "id": "CORE",
       "name": "Abdomen y centro del cuerpo (core)",
       "where": "casa",
-      "focus": "Los abdominales no queman la panza (A), pero te dan fuerza, control y mejor postura. Hazlos al final de las pesas.",
+      "focus": "Los abdominales no queman la panza (A), pero te dan fuerza, control y mejor postura. Hazlos al final de las pesas. Para la forma en V, prefiere plancha, dead bug, pallof y rueda; evita oblicuos con peso pesado.",
       "exercises": [
         {
           "name": "Plancha",
@@ -879,7 +943,11 @@
         "Gelatina light (sin azúcar)",
         "Gelatina light",
         "Chía",
-        "Psyllium (fibra en polvo; Metamucil sin azúcar)"
+        "Psyllium (fibra en polvo; Metamucil sin azúcar)",
+        "Matcha 100 % puro japonés (grado culinario), 30 g",
+        "Leche de almendra sin azúcar, 1 L",
+        "Papel para hornear",
+        "Aceite en spray"
       ]
     },
     {
@@ -888,7 +956,11 @@
         "Báscula de cocina (Walmart, ~$150-250)",
         "Báscula de baño, ideal si también estima grasa",
         "Cinta métrica",
-        "Tuppers para 2-3 días"
+        "Tuppers para 2-3 días",
+        "Batidor de bambú (chasen) o espumador para el matcha",
+        "Charola para horno",
+        "Barra de dominadas de puerta",
+        "Bandas de resistencia"
       ]
     }
   ],
@@ -1215,9 +1287,9 @@
     },
     {
       "area": "cuerpo",
-      "title": "No comer carbohidratos en la noche",
-      "text": "Lo que importa es el total del día. En tu plan igual cierras la cocina a las 17:00.",
-      "grade": "C"
+      "title": "Carbohidratos en la última comida del día",
+      "text": "Lo que más importa es el total del día. Pero tu cuerpo es sensible a los carbohidratos, así que sí conviene dejarlos para después del entreno y el mediodía: tu última comida (17:05) es proteína, verduras y grasa buena, con carbohidratos mínimos. Cierras la cocina a las 18:00.",
+      "grade": "B"
     },
     {
       "area": "cuerpo",
@@ -1299,14 +1371,8 @@
     },
     {
       "area": "cuerpo",
-      "title": "Té verde",
-      "text": "El efecto es chico (cerca de 1 kg en 12 semanas). Toma de 2 a 4 tazas al día. No tomes cápsulas de extracto concentrado (EGCG), porque pueden dañar el hígado.",
-      "grade": "B"
-    },
-    {
-      "area": "cuerpo",
       "title": "Cápsulas de extracto de té verde (EGCG)",
-      "text": "Se ha reportado daño al hígado con más de 800 mg al día. Toma el té, no la pastilla.",
+      "text": "Se ha reportado daño al hígado con más de 800 mg al día. Toma el matcha en taza, no la pastilla.",
       "grade": "D"
     },
     {
@@ -1332,6 +1398,120 @@
       "title": "Creatina",
       "text": "Da más fuerza y músculo aunque comas menos. Puede subir 1 a 2 kg la primera semana por agua dentro del músculo; no es grasa ni se nota como hinchazón.",
       "grade": "A"
+    },
+    {
+      "area": "cuerpo",
+      "title": "Tipo de cuerpo endomorfo: úsalo como guía, no como destino",
+      "text": "Los somatotipos (endomorfo, mesomorfo, ectomorfo) son una etiqueta útil, no ciencia dura. Tu cuerpo tiende a guardar grasa, sobre todo en el abdomen. Lo que sí sirve es tratarlo como sensible a los carbohidratos: unos 140 g al día, la mayoría después de entrenar y al mediodía, siempre con fibra (frijol, avena, tortilla de maíz, papa o camote, fruta entera). Cena con proteína, verduras y grasa buena. Cero bebidas con azúcar.",
+      "grade": "C"
+    },
+    {
+      "area": "cuerpo",
+      "title": "Carbohidratos donde más rinden",
+      "text": "La comida de después de entrenar (Comida 1) y la del mediodía (Comida 2) llevan casi todos tus carbohidratos, porque ahí los músculos los usan. En la cena casi no hay. Elige fuentes con fibra, que llenan y suben menos el azúcar en sangre.",
+      "grade": "B"
+    },
+    {
+      "area": "cuerpo",
+      "title": "Matcha: por qué reemplaza al café y al té verde",
+      "text": "El matcha es la hoja entera molida, por eso trae unas 3 veces más catequinas (antioxidantes del té) que el té verde en bolsita. Tiene más cafeína (60 a 70 mg por 2 g) y L-teanina, un aminoácido que da concentración tranquila sin el bajón del café. Su efecto directo sobre la grasa es chico (cerca de 1 kg en 12 semanas); ayuda más por reemplazar el café con azúcar o leche y por la energía que da para el cardio.",
+      "grade": "B"
+    },
+    {
+      "area": "cuerpo",
+      "title": "Matcha: cómo prepararlo",
+      "text": "1 porción = 1 cucharadita (2 g) batida en 150 a 200 ml de agua a 70 a 80 °C. No uses agua hirviendo: se amarga. Tómalo solo, o con leche de almendra sin azúcar (cuenta las calorías). Nunca uses mezclas de \"matcha latte\" con azúcar. Compra matcha 100 % puro japonés; el grado culinario basta.",
+      "grade": "B"
+    },
+    {
+      "area": "cuerpo",
+      "title": "Matcha: cuándo tomarlo",
+      "text": "1.ª porción al despertar, en lugar del café (tiene 2 a 3 kcal, no rompe el ayuno 16:8). 2.ª porción 30 a 60 minutos antes del cardio o 1 hora después de comer; no junto a la comida, porque los taninos bajan la absorción de hierro. Máximo 3 porciones al día (6 g). Nada después de las 14:00 para no afectar el sueño: te levantas a las 5:00.",
+      "grade": "B"
+    },
+    {
+      "area": "forma",
+      "title": "Tu meta prioritaria: la forma en V",
+      "text": "Cintura muy delgada con espalda y hombros anchos. Se logra con dos cosas a la vez: achicar la cintura (bajar grasa y desinflamar) y ensanchar la parte de arriba (hombros y espalda). En la app, Cuerpo guarda tu cintura y tus hombros y calcula la proporción hombros / cintura. La meta es 1.6.",
+      "grade": "A"
+    },
+    {
+      "area": "forma",
+      "title": "Lo que achica la cintura: bajar grasa",
+      "text": "Es lo principal. La cintura baja cuando bajas grasa de todo el cuerpo (déficit de calorías, proteína alta, pesas y caminar). No existe un ejercicio que queme solo la grasa de la panza.",
+      "grade": "A"
+    },
+    {
+      "area": "forma",
+      "title": "Desinflamar: sal estable, fibra gradual, cero alcohol",
+      "text": "Come siempre una cantidad parecida de sal (no una semana mucha y otra poca), sube la fibra poco a poco para no inflamarte y no tomes alcohol. Puedes perder 1 a 3 cm de cintura sin que sea grasa.",
+      "grade": "B"
+    },
+    {
+      "area": "forma",
+      "title": "Vacío abdominal (stomach vacuum)",
+      "text": "En ayunas, de pie o en cuatro apoyos: saca todo el aire, mete el ombligo hacia la columna como si quisieras tocarla y aguanta 20 a 30 segundos respirando corto con el pecho. Haz 3 a 5 series. Entrena el músculo transverso (la faja natural del abdomen) y la postura. No quema grasa, pero es gratis y lleva 3 minutos: hazlo.",
+      "grade": "C"
+    },
+    {
+      "area": "forma",
+      "title": "No cargues pesado los oblicuos",
+      "text": "Flexiones laterales con mancuerna y giros rusos con disco pueden engrosar los costados y hacer la cintura más ancha. Evítalos con peso pesado. Para el centro del cuerpo usa plancha, dead bug (insecto muerto), pallof press (resistir un giro con banda) y rueda abdominal.",
+      "grade": "C"
+    },
+    {
+      "area": "forma",
+      "title": "Core que sí: plancha, dead bug, pallof y rueda",
+      "text": "Fortalecen sin engrosar la cintura: plancha 3 × 30 a 45 s, dead bug 3 × 10 por lado, pallof press con banda 3 × 10 por lado y rueda abdominal 3 × 8 a 12 (desde las rodillas al inicio).",
+      "grade": "B"
+    },
+    {
+      "area": "forma",
+      "title": "Hombros anchos: elevaciones laterales con mucho volumen",
+      "text": "El deltoides lateral es el que más ensancha. Haz elevaciones laterales 4 series de 15 a 20 repeticiones, 3 a 4 días a la semana. Si no hay gimnasio sirven botellas de agua, una mochila o una banda de resistencia. Sube el peso poco a poco y baja lento.",
+      "grade": "A"
+    },
+    {
+      "area": "forma",
+      "title": "Espalda ancha: dominadas o jalón y remos",
+      "text": "El dorsal ancho es lo que abre la espalda en forma de V. Haz dominadas (o jalón al pecho) y remos. Si no puedes hacer una dominada, usa banda de asistencia o negativas (subir con ayuda y bajar en 4 segundos).",
+      "grade": "A"
+    },
+    {
+      "area": "forma",
+      "title": "Pecho y hombro: press inclinado y pike push-ups",
+      "text": "El press inclinado con mancuernas y los pike push-ups (flexiones con la cadera arriba, en forma de V invertida) trabajan hombro y parte alta del pecho. Los pike son la versión de casa del press militar.",
+      "grade": "A"
+    },
+    {
+      "area": "forma",
+      "title": "Compra una barra de dominadas de puerta y bandas",
+      "text": "Son baratas y reemplazan al gimnasio para espalda y hombros. La barra de puerta sirve para dominadas y remos colgados; las bandas, para asistir dominadas, hacer elevaciones laterales y pallof press.",
+      "grade": "B"
+    },
+    {
+      "area": "forma",
+      "title": "Mide hombros y la proporción hombros / cintura",
+      "text": "Mide la circunferencia de los hombros (la parte más ancha, pasando por los deltoides, con los brazos relajados) una vez por semana junto con la cintura. Dividir hombros entre cintura da tu proporción. La meta 1.6 se conoce como el índice \"Adonis\" (la proporción que los escultores griegos usaban como ideal). Es una guía visual, no una regla médica.",
+      "grade": "B"
+    },
+    {
+      "area": "horno",
+      "title": "El horno sí es saludable y te conviene",
+      "text": "1 cucharada de aceite = 120 kcal. En horno a 200 a 220 °C, con papel para hornear y aceite en spray (o 1 cucharadita untada con brocha), la comida se dora igual con 80 a 90 % menos aceite. Por eso las recetas \"En horno\" te ahorran calorías sin perder sabor.",
+      "grade": "A"
+    },
+    {
+      "area": "horno",
+      "title": "No quemes ni carbonices la carne",
+      "text": "Lo negro y quemado tiene compuestos dañinos. Saca la carne cuando esté dorada, no oscura. Marinar con limón y especias ayuda a reducirlos y da más sabor. Usa papel para hornear para que no gotee grasa en el fondo caliente.",
+      "grade": "B"
+    },
+    {
+      "area": "horno",
+      "title": "Meal prep en charola",
+      "text": "Pon la proteína y la verdura juntas en una charola con papel para hornear. En 25 a 35 minutos tienes comida para varios días con una sola cosa que lavar. Mira las recetas de charola (etiqueta \"horno\") en Comida.",
+      "grade": "B"
     },
     {
       "area": "desinflamar",

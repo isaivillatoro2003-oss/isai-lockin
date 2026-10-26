@@ -70,7 +70,8 @@
       "meal-prep",
       "sin-horno",
       "congelable"
-    ]
+    ],
+    "horno": "Hornea los burritos armados a 200 °C, 12 a 15 minutos, sobre papel para hornear, con un poco de aceite en spray por fuera. Salen dorados sin sartén."
   },
   {
     "id": "r002",
@@ -142,7 +143,8 @@
       "mexicana",
       "sin-horno",
       "picante"
-    ]
+    ],
+    "horno": "Corta las tortillas en triángulos y hornéalas a 200 °C, 10 a 12 minutos, volteándolas a la mitad: totopos sin freír. Calienta el pollo en la salsa y arma."
   },
   {
     "id": "r003",
@@ -487,7 +489,8 @@
       "mexicana",
       "sin-horno",
       "rapida"
-    ]
+    ],
+    "horno": "Pon los molletes en charola y gratínalos a 200 °C, 6 a 8 minutos, hasta que el queso burbujee y se dore."
   },
   {
     "id": "r008",
@@ -608,7 +611,8 @@
       "espanola",
       "sin-horno",
       "meal-prep"
-    ]
+    ],
+    "horno": "Vierte la mezcla en un molde con papel para hornear y hornea a 180 °C, 25 a 30 minutos, hasta que el centro cuaje."
   },
   {
     "id": "r010",
@@ -741,7 +745,8 @@
       "meal-prep",
       "congelable",
       "sin-horno"
-    ]
+    ],
+    "horno": "Hornea el huevo en un molde de muffin a 180 °C, 12 minutos, y arma los sándwiches. Congelan mejor así."
   },
   {
     "id": "r012",
@@ -808,7 +813,8 @@
       "mexicana",
       "sin-horno",
       "picante"
-    ]
+    ],
+    "horno": "Hornea el chorizo de pavo y los nopales en charola a 220 °C, 15 minutos, moviendo a la mitad. Menos grasa y más dorado."
   },
   {
     "id": "r013",
@@ -940,7 +946,8 @@
       "dulce",
       "sin-horno",
       "rapida"
-    ]
+    ],
+    "horno": "Hornea las rebanadas remojadas en charola con papel, a 190 °C, 10 a 12 minutos, volteando a la mitad."
   },
   {
     "id": "r015",
@@ -1012,7 +1019,8 @@
       "sin-horno",
       "rapida",
       "viral"
-    ]
+    ],
+    "horno": "Dora la quesadilla en charola a 220 °C, 6 a 8 minutos, volteando una vez."
   },
   {
     "id": "r016",
@@ -1076,7 +1084,8 @@
       "meal-prep",
       "sin-horno",
       "picante"
-    ]
+    ],
+    "horno": "Perfecto para horno: pollo marinado en charola a 220 °C, 22 a 25 minutos, volteando a la mitad. Cocina el arroz aparte."
   },
   {
     "id": "r017",
@@ -1144,7 +1153,8 @@
       "meal-prep",
       "congelable",
       "sin-horno"
-    ]
+    ],
+    "horno": "Hornea los burritos a 200 °C, 15 minutos, sobre papel para hornear con aceite en spray por encima."
   },
   {
     "id": "r018",
@@ -1210,7 +1220,8 @@
       "meal-prep",
       "congelable",
       "sin-horno"
-    ]
+    ],
+    "horno": "Hornea los burritos a 200 °C, 12 a 15 minutos hasta que doren."
   },
   {
     "id": "r019",
@@ -1277,7 +1288,8 @@
       "meal-prep",
       "sin-horno",
       "internacional"
-    ]
+    ],
+    "horno": "Marina el pollo en cubos y hornéalo en charola a 220 °C, 18 a 20 minutos; luego mézclalo con la salsa caliente."
   },
   {
     "id": "r020",
@@ -1343,7 +1355,8 @@
       "meal-prep",
       "sin-horno",
       "internacional"
-    ]
+    ],
+    "horno": "Hornea el pollo marinado en cubos a 220 °C, 18 a 20 minutos y agrégalo a la salsa al final."
   },
   {
     "id": "r021",
@@ -1415,7 +1428,8 @@
       "meal-prep",
       "sin-horno",
       "picante"
-    ]
+    ],
+    "horno": "Hornea la pechuga con cebolla y jitomate a 200 °C, 25 minutos; deshébrala y mézclala con la salsa de chipotle."
   },
   {
     "id": "r022",
@@ -1477,7 +1491,8 @@
       "mexicana",
       "sin-horno",
       "meal-prep"
-    ]
+    ],
+    "horno": "Hornea el lomo marinado en tiras, en charola, a 220 °C, 18 a 20 minutos, con rodajas de piña. Voltea a la mitad."
   },
   {
     "id": "r023",
@@ -1544,7 +1559,8 @@
       "meal-prep",
       "sin-horno",
       "dulce-picante"
-    ]
+    ],
+    "horno": "Hornea el camote en cubos a 220 °C, 25 minutos, con aceite en spray; la res se hace en sartén o también en charola, 10 minutos."
   },
   {
     "id": "r024",
@@ -1682,7 +1698,8 @@
       "sin-horno",
       "meal-prep",
       "rapida"
-    ]
+    ],
+    "horno": "Hornea el pollo en cubos a 220 °C, 18 minutos antes de mezclarlo con el arroz."
   },
   {
     "id": "r026",
@@ -1749,7 +1766,8 @@
       "viral",
       "sin-horno",
       "rapida"
-    ]
+    ],
+    "horno": "Hornea el salmón a 200 °C, 12 a 15 minutos sobre papel para hornear."
   },
   {
     "id": "r027",
@@ -1811,7 +1829,8 @@
       "mexicana",
       "meal-prep",
       "sin-horno"
-    ]
+    ],
+    "horno": "Hornea la papa y la zanahoria en cubos a 220 °C, 25 a 30 minutos; mézclalas con la carne ya guisada."
   },
   {
     "id": "r028",
@@ -1881,7 +1900,8 @@
       "asiatica",
       "sin-horno",
       "dulce"
-    ]
+    ],
+    "horno": "Hornea el pollo empanizado con avena a 220 °C, 18 a 20 minutos, volteándolo a la mitad: crujiente sin freír. Baña con la salsa al final."
   },
   {
     "id": "r029",
@@ -1947,7 +1967,8 @@
       "mexicana",
       "sin-horno",
       "meal-prep"
-    ]
+    ],
+    "horno": "Rellena y enrolla las enchiladas en un molde y gratínalas a 200 °C, 10 a 12 minutos."
   },
   {
     "id": "r030",
@@ -2021,7 +2042,8 @@
       "mexicana",
       "meal-prep",
       "sin-horno"
-    ]
+    ],
+    "horno": "Hornea el pollo y las verduras en una sola charola a 220 °C, 20 a 25 minutos."
   },
   {
     "id": "r031",
@@ -2088,7 +2110,8 @@
       "meal-prep",
       "sin-horno",
       "picante"
-    ]
+    ],
+    "horno": "Hornea las albóndigas a 200 °C, 18 a 20 minutos en charola; luego pásalas a la salsa de chipotle 3 minutos."
   },
   {
     "id": "r032",
@@ -2159,7 +2182,8 @@
       "italiana",
       "sin-horno",
       "viral"
-    ]
+    ],
+    "horno": "Hornea las pechugas a 200 °C, 20 a 25 minutos y báñalas con la salsa al servir."
   },
   {
     "id": "r033",
@@ -2288,7 +2312,8 @@
       "mexicana",
       "sin-horno",
       "rapida"
-    ]
+    ],
+    "horno": "Hornea el bistec en tiras con cebolla en charola a 230 °C, 10 a 12 minutos. No lo pases de dorado."
   },
   {
     "id": "r035",
@@ -2425,7 +2450,8 @@
       "mexicana",
       "sin-horno",
       "rapida"
-    ]
+    ],
+    "horno": "Hornea el pollo, los pimientos y la cebolla en una charola a 230 °C, 18 a 20 minutos, moviendo a la mitad."
   },
   {
     "id": "r037",
@@ -2492,7 +2518,8 @@
       "sin-horno",
       "rapida",
       "bajo-en-carbos"
-    ]
+    ],
+    "horno": "Hornea los camarones con calabacitas a 220 °C, 8 a 10 minutos. Si se ponen duros, se pasaron."
   },
   {
     "id": "r038",
@@ -2559,7 +2586,8 @@
       "mexicana",
       "sin-horno",
       "rapida"
-    ]
+    ],
+    "horno": "Hornea el pescado con especias a 200 °C, 12 a 15 minutos y desmenúzalo para los tacos."
   },
   {
     "id": "r039",
@@ -2834,7 +2862,8 @@
       "asiatica",
       "viral",
       "sin-horno"
-    ]
+    ],
+    "horno": "Hornea los rollitos en charola a 200 °C, 10 a 12 minutos, volteando una vez, con aceite en spray."
   },
   {
     "id": "r043",
@@ -2968,7 +2997,8 @@
       "sin-horno",
       "rapida",
       "viral"
-    ]
+    ],
+    "horno": "Hornea la tortilla con la cobertura a 220 °C, 6 a 8 minutos hasta que el queso burbujee."
   },
   {
     "id": "r045",
@@ -3039,7 +3069,8 @@
       "sin-horno",
       "rapida",
       "bajo-en-carbos"
-    ]
+    ],
+    "horno": "Hornea el pollo molido o en cubos en charola a 220 °C, 15 minutos y sírvelo en las hojas."
   },
   {
     "id": "r046",
@@ -3167,7 +3198,8 @@
       "mediterranea",
       "sin-horno",
       "meal-prep"
-    ]
+    ],
+    "horno": "Hornea el pollo marinado en tiras a 230 °C, 18 a 20 minutos para que quede dorado como shawarma."
   },
   {
     "id": "r048",
@@ -3296,7 +3328,8 @@
       "sin-horno",
       "rapida",
       "bajo-en-carbos"
-    ]
+    ],
+    "horno": "Dora la carne molida en charola a 220 °C, 12 a 15 minutos, desbaratándola a la mitad. Escurre la grasa."
   },
   {
     "id": "r050",
@@ -3914,5 +3947,471 @@
       "rapida",
       "mexicana"
     ]
+  },
+  {
+    "id": "r062",
+    "name": "Charola de huevo al horno con chorizo de pavo, nopales y frijoles",
+    "slot": "comida1",
+    "fuente": {
+      "creador": "Lock-in (receta propia)",
+      "plataforma": "Lock-in",
+      "url": ""
+    },
+    "tiempo": "30 min",
+    "porciones": 1,
+    "kcal": 555,
+    "proteinaG": 51,
+    "carbosG": 52,
+    "grasaG": 17,
+    "ingredientes": [
+      {
+        "item": "huevo",
+        "cantidad": "2 piezas"
+      },
+      {
+        "item": "claras líquidas",
+        "cantidad": "150 ml"
+      },
+      {
+        "item": "chorizo de pavo",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "nopales limpios en cubos",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "jitomate y cebolla picados",
+        "cantidad": "½ pieza de cada uno"
+      },
+      {
+        "item": "chile serrano",
+        "cantidad": "1 pieza (opcional)"
+      },
+      {
+        "item": "frijoles de olla",
+        "cantidad": "½ taza (90 g)"
+      },
+      {
+        "item": "tortillas de maíz",
+        "cantidad": "2 piezas"
+      },
+      {
+        "item": "aceite en spray y papel para hornear",
+        "cantidad": "1 poco"
+      }
+    ],
+    "pasos": [
+      "Calienta el horno a 200 °C y forra una charola con papel para hornear.",
+      "Reparte el chorizo desmoronado, los nopales, el jitomate, la cebolla y el chile en la charola. Rocía aceite en spray.",
+      "Hornea 12 minutos, hasta que los nopales estén suaves y el chorizo dorado.",
+      "Bate los huevos con las claras y una pizca de sal. Viértelos sobre la charola.",
+      "Hornea 8 a 10 minutos más, hasta que el huevo cuaje pero se vea húmedo y brilloso.",
+      "Calienta las tortillas 20 segundos por lado y los frijoles 1 minuto en el microondas. Sirve todo junto."
+    ],
+    "seVe": "Una charola con huevo amarillo claro cuajado, cubos verdes de nopal, puntos rojos de chorizo y jitomate. Al lado, 2 tortillas y frijoles oscuros.",
+    "tips": [
+      "Es comida de después de entrenar: aquí van tus carbohidratos del día (tortilla y frijol).",
+      "Los nopales sueltan baba; hornéalos primero y quedan secos y firmes.",
+      "Duplica la charola para dos días y guarda el segundo en el refrigerador hasta 3 días."
+    ],
+    "tags": [
+      "horno",
+      "meal-prep",
+      "mexicana",
+      "post-entreno",
+      "endomorfo"
+    ],
+    "horno": "Esta receta es de horno completa: sigue los pasos tal cual. Papel para hornear y aceite en spray (o 1 cucharadita untada con brocha)."
+  },
+  {
+    "id": "r063",
+    "name": "Pollo al pastor en charola con piña y cebolla",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Lock-in (receta propia)",
+      "plataforma": "Lock-in",
+      "url": ""
+    },
+    "tiempo": "35 min + marinar",
+    "porciones": 1,
+    "kcal": 525,
+    "proteinaG": 51,
+    "carbosG": 42,
+    "grasaG": 17,
+    "ingredientes": [
+      {
+        "item": "pechuga de pollo cruda en tiras",
+        "cantidad": "200 g"
+      },
+      {
+        "item": "chile guajillo remojado",
+        "cantidad": "2 piezas"
+      },
+      {
+        "item": "achiote",
+        "cantidad": "1 cucharada"
+      },
+      {
+        "item": "ajo",
+        "cantidad": "1 diente"
+      },
+      {
+        "item": "vinagre de manzana",
+        "cantidad": "1 cucharada"
+      },
+      {
+        "item": "piña natural en cuñas",
+        "cantidad": "100 g"
+      },
+      {
+        "item": "cebolla en gajos",
+        "cantidad": "¼ de pieza"
+      },
+      {
+        "item": "tortillas de maíz",
+        "cantidad": "2 piezas"
+      },
+      {
+        "item": "aguacate",
+        "cantidad": "¼ de pieza (40 g)"
+      },
+      {
+        "item": "cilantro y limón",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "aceite en spray o aceite",
+        "cantidad": "1 cucharadita"
+      }
+    ],
+    "pasos": [
+      "Licúa el chile guajillo remojado con achiote, ajo, vinagre, sal y un chorrito del agua del remojo.",
+      "Marina el pollo con esa mezcla 30 minutos o toda la noche en el refrigerador.",
+      "Calienta el horno a 220 °C. Pon el pollo, la piña y la cebolla en una charola con papel para hornear y rocía aceite.",
+      "Hornea 18 a 20 minutos, volteando a la mitad, hasta que el pollo esté dorado (no negro) y la piña caramelizada.",
+      "Calienta las tortillas, corta el pollo y sirve con piña, cebolla, cilantro, limón y el aguacate."
+    ],
+    "seVe": "Tiras de pollo rojo anaranjado, doradas, con cuñas de piña caramelizada y cebolla en una charola. Tortillas calientes y aguacate al lado.",
+    "tips": [
+      "Marinar con chile y vinagre ayuda a que se queme menos la carne.",
+      "Si te sobra marinada, congélala en cubos para la próxima charola.",
+      "Tus carbohidratos del mediodía: tortilla y piña (fruta entera)."
+    ],
+    "tags": [
+      "horno",
+      "meal-prep",
+      "mexicana",
+      "alta-proteina",
+      "endomorfo"
+    ],
+    "horno": "Esta receta es de horno completa: sigue los pasos tal cual. Papel para hornear y aceite en spray (o 1 cucharadita untada con brocha)."
+  },
+  {
+    "id": "r064",
+    "name": "Bistec magro en charola con camote y rajas de poblano",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Lock-in (receta propia)",
+      "plataforma": "Lock-in",
+      "url": ""
+    },
+    "tiempo": "35 min",
+    "porciones": 1,
+    "kcal": 540,
+    "proteinaG": 48,
+    "carbosG": 41,
+    "grasaG": 20,
+    "ingredientes": [
+      {
+        "item": "bistec magro de res (aguayón o sirloin)",
+        "cantidad": "180 g"
+      },
+      {
+        "item": "camote en cubos",
+        "cantidad": "150 g"
+      },
+      {
+        "item": "chile poblano en rajas",
+        "cantidad": "2 piezas"
+      },
+      {
+        "item": "cebolla en gajos",
+        "cantidad": "¼ de pieza"
+      },
+      {
+        "item": "queso panela en cubos",
+        "cantidad": "30 g"
+      },
+      {
+        "item": "ajo en polvo, orégano, sal y pimienta",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "limón",
+        "cantidad": "1 pieza"
+      },
+      {
+        "item": "aceite de oliva",
+        "cantidad": "1 cucharadita"
+      }
+    ],
+    "pasos": [
+      "Calienta el horno a 220 °C y forra una charola con papel para hornear.",
+      "Mezcla el camote con la cucharadita de aceite y sal. Hornéalo solo 12 minutos.",
+      "Sazona el bistec con ajo en polvo, orégano, sal, pimienta y limón.",
+      "Agrega a la charola el bistec, las rajas y la cebolla. Hornea 10 a 12 minutos más, hasta que la carne esté dorada por fuera y rosada o cocida por dentro, como te guste.",
+      "Deja reposar la carne 3 minutos, córtala en tiras y sirve con el queso panela encima."
+    ],
+    "seVe": "Tiras de carne dorada junto a cubos naranjas de camote y rajas verdes de poblano. Cubitos blancos de panela encima.",
+    "tips": [
+      "El camote es carbohidrato con fibra: es el de tu comida del mediodía.",
+      "No pases la carne de dorada. Lo negro tiene compuestos dañinos.",
+      "Para meal prep, guarda la carne y el camote por separado."
+    ],
+    "tags": [
+      "horno",
+      "meal-prep",
+      "mexicana",
+      "alta-proteina",
+      "endomorfo"
+    ],
+    "horno": "Esta receta es de horno completa: sigue los pasos tal cual. Papel para hornear y aceite en spray (o 1 cucharadita untada con brocha)."
+  },
+  {
+    "id": "r065",
+    "name": "Pollo pibil ligero en charola con frijol y cebolla morada",
+    "slot": "comida2",
+    "fuente": {
+      "creador": "Lock-in (receta propia)",
+      "plataforma": "Lock-in",
+      "url": ""
+    },
+    "tiempo": "40 min + marinar",
+    "porciones": 1,
+    "kcal": 505,
+    "proteinaG": 50,
+    "carbosG": 41,
+    "grasaG": 16,
+    "ingredientes": [
+      {
+        "item": "muslo de pollo sin piel y deshuesado",
+        "cantidad": "230 g"
+      },
+      {
+        "item": "pasta de achiote",
+        "cantidad": "1 cucharada"
+      },
+      {
+        "item": "jugo de naranja agria (o naranja con limón)",
+        "cantidad": "50 ml"
+      },
+      {
+        "item": "ajo",
+        "cantidad": "2 dientes"
+      },
+      {
+        "item": "comino y orégano",
+        "cantidad": "1 pizca"
+      },
+      {
+        "item": "cebolla morada en rodajas finas",
+        "cantidad": "50 g"
+      },
+      {
+        "item": "limón",
+        "cantidad": "½ pieza"
+      },
+      {
+        "item": "frijoles de olla",
+        "cantidad": "½ taza (90 g)"
+      },
+      {
+        "item": "tortilla de maíz",
+        "cantidad": "1 pieza"
+      },
+      {
+        "item": "hoja de plátano o papel para hornear",
+        "cantidad": "1 trozo"
+      },
+      {
+        "item": "chile habanero",
+        "cantidad": "al gusto (con cuidado)"
+      }
+    ],
+    "pasos": [
+      "Disuelve el achiote en el jugo de naranja con ajo, comino, orégano y sal. Marina el pollo 1 hora o toda la noche.",
+      "Mezcla la cebolla morada con el jugo de limón y una pizca de sal. Déjala 15 minutos para que se vuelva rosa y suave.",
+      "Calienta el horno a 190 °C. Envuelve el pollo con su marinada en la hoja de plátano o el papel para hornear y ponlo en la charola.",
+      "Hornea 30 a 35 minutos, hasta que el pollo esté suave y se deshaga con un tenedor.",
+      "Deshebra el pollo y sírvelo con la cebolla morada, los frijoles calientes y la tortilla."
+    ],
+    "seVe": "Pollo desmenuzado de color rojo anaranjado con cebolla morada rosa encima. Frijoles oscuros y una tortilla al lado.",
+    "tips": [
+      "Comida muy de tu zona: Cancún y Yucatán. Casi sin aceite.",
+      "Envolver evita que se reseque y no necesitas grasa para cocinarlo.",
+      "Usa habanero solo si aguantas: unas rodajas finas bastan."
+    ],
+    "tags": [
+      "horno",
+      "meal-prep",
+      "mexicana",
+      "yucateca",
+      "endomorfo"
+    ],
+    "horno": "Esta receta es de horno completa: sigue los pasos tal cual. Papel para hornear y aceite en spray (o 1 cucharadita untada con brocha)."
+  },
+  {
+    "id": "r066",
+    "name": "Pescado a la veracruzana en charola",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "Lock-in (receta propia)",
+      "plataforma": "Lock-in",
+      "url": ""
+    },
+    "tiempo": "30 min",
+    "porciones": 1,
+    "kcal": 405,
+    "proteinaG": 44,
+    "carbosG": 18,
+    "grasaG": 17,
+    "ingredientes": [
+      {
+        "item": "filete de pescado blanco crudo (mojarra, robalo o sierra)",
+        "cantidad": "220 g"
+      },
+      {
+        "item": "jitomate en cubos",
+        "cantidad": "2 piezas"
+      },
+      {
+        "item": "cebolla picada",
+        "cantidad": "¼ de pieza"
+      },
+      {
+        "item": "aceitunas",
+        "cantidad": "6 piezas"
+      },
+      {
+        "item": "alcaparras",
+        "cantidad": "1 cucharada"
+      },
+      {
+        "item": "chile güero",
+        "cantidad": "1 pieza"
+      },
+      {
+        "item": "calabacita en medias lunas",
+        "cantidad": "1 pieza (100 g)"
+      },
+      {
+        "item": "aguacate",
+        "cantidad": "¼ de pieza (40 g)"
+      },
+      {
+        "item": "aceite de oliva",
+        "cantidad": "1 cucharadita"
+      },
+      {
+        "item": "limón, laurel y orégano",
+        "cantidad": "al gusto"
+      }
+    ],
+    "pasos": [
+      "Calienta el horno a 200 °C.",
+      "En una charola con papel para hornear mezcla el jitomate, la cebolla, la calabacita, las aceitunas, las alcaparras, el chile, el laurel, el orégano, sal y el aceite de oliva.",
+      "Hornea 10 minutos para que suelten jugo.",
+      "Acomoda el pescado sobre las verduras, rocíalo con limón y sal. Hornea 12 a 15 minutos, hasta que la carne esté blanca y se separe en hojuelas.",
+      "Sirve con el aguacate en rebanadas."
+    ],
+    "seVe": "Un filete blanco sobre una cama roja de jitomate con puntos verdes de aceituna y calabacita. Aguacate al lado.",
+    "tips": [
+      "Cena ideal: proteína, verduras y grasa buena, con carbohidratos mínimos.",
+      "Si el pescado es delgado, bastan 10 minutos; no lo seques.",
+      "Las aceitunas y alcaparras traen sal: no agregues mucha más."
+    ],
+    "tags": [
+      "horno",
+      "mar",
+      "mexicana",
+      "bajo-en-carbos",
+      "cena",
+      "endomorfo"
+    ],
+    "horno": "Esta receta es de horno completa: sigue los pasos tal cual. Papel para hornear y aceite en spray (o 1 cucharadita untada con brocha)."
+  },
+  {
+    "id": "r067",
+    "name": "Pechuga rellena de espinaca y panela en charola",
+    "slot": "comida3",
+    "fuente": {
+      "creador": "Lock-in (receta propia)",
+      "plataforma": "Lock-in",
+      "url": ""
+    },
+    "tiempo": "35 min",
+    "porciones": 1,
+    "kcal": 400,
+    "proteinaG": 52,
+    "carbosG": 10,
+    "grasaG": 16,
+    "ingredientes": [
+      {
+        "item": "pechuga de pollo cruda",
+        "cantidad": "180 g"
+      },
+      {
+        "item": "espinaca fresca",
+        "cantidad": "60 g"
+      },
+      {
+        "item": "queso panela",
+        "cantidad": "50 g"
+      },
+      {
+        "item": "ajo en polvo, pimentón y pimienta",
+        "cantidad": "al gusto"
+      },
+      {
+        "item": "jitomate, pepino y lechuga para la ensalada",
+        "cantidad": "1 plato"
+      },
+      {
+        "item": "limón",
+        "cantidad": "1 pieza"
+      },
+      {
+        "item": "aceite de oliva",
+        "cantidad": "1 cucharadita"
+      },
+      {
+        "item": "palillos de dientes",
+        "cantidad": "2 o 3"
+      }
+    ],
+    "pasos": [
+      "Calienta el horno a 200 °C y forra una charola con papel para hornear.",
+      "Abre la pechuga a la mitad como libro, sin cortarla del todo. Si queda gruesa, aplánala con la palma.",
+      "Rellena con la espinaca y la panela en tiras. Cierra y sujeta con los palillos.",
+      "Sazona por fuera con ajo en polvo, pimentón, sal, pimienta y la cucharadita de aceite.",
+      "Hornea 22 a 25 minutos, hasta que no esté rosada por dentro (74 °C si tienes termómetro).",
+      "Deja reposar 3 minutos, corta en rodajas y sirve con la ensalada y limón."
+    ],
+    "seVe": "Rodajas de pollo dorado con un centro verde de espinaca y queso blanco derretido. Ensalada fresca al lado.",
+    "tips": [
+      "Cena baja en carbohidratos y muy alta en proteína.",
+      "Haz 3 a la vez para meal prep: duran 3 días en el refrigerador.",
+      "Para más sabor marina la pechuga con limón y especias 20 minutos antes."
+    ],
+    "tags": [
+      "horno",
+      "meal-prep",
+      "bajo-en-carbos",
+      "cena",
+      "alta-proteina",
+      "endomorfo"
+    ],
+    "horno": "Esta receta es de horno completa: sigue los pasos tal cual. Papel para hornear y aceite en spray (o 1 cucharadita untada con brocha)."
   }
 ]

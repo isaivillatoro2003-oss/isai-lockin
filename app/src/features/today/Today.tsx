@@ -150,6 +150,8 @@ export default function Today() {
       </ol>
       <p className="mt-6 text-center font-mono text-[10.5px] text-faint">El punto ámbar marca lo que cuenta para la racha</p>
 
+      <ReloadApp />
+
       <Sheet open={!!open} onClose={() => setOpen(null)}>
         {open && <BlockDetail b={open} date={day} status={status.get(open.id)} onMark={(s) => { mark(open, s); if (s) setOpen(null) }} onClose={() => setOpen(null)} />}
       </Sheet>
@@ -262,6 +264,29 @@ function Push({ kind, f, late, onGo }: { kind: 'wake' | 'late'; f: Frase; late: 
           {kind === 'late' ? 'Recuperar' : 'Vamos'}
         </button>
       </div>
+    </div>
+  )
+}
+
+/** Activa la versión nueva si hay una esperando y recarga. No borra datos locales. */
+function ReloadApp() {
+  const [busy, setBusy] = useState(false)
+  const reload = async () => {
+    setBusy(true)
+    try {
+      const reg = await navigator.serviceWorker?.getRegistration()
+      await reg?.update().catch(() => {})
+      reg?.waiting?.postMessage({ type: 'SKIP_WAITING' })
+    } catch { /* sin service worker: solo recarga */ }
+    setTimeout(() => window.location.reload(), 300)
+  }
+  return (
+    <div className="mt-8 flex justify-center">
+      <button onClick={reload} disabled={busy}
+        className="inline-flex items-center gap-2 rounded-full border border-line px-5 py-3 font-mono text-[12px] uppercase tracking-wider text-dim active:scale-95">
+        <svg viewBox="0 0 24 24" className={`h-4 w-4 ${busy ? 'animate-spin' : ''}`} fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round"><path d="M20 12a8 8 0 1 1-2.3-5.7M20 4v4h-4" /></svg>
+        Recargar app
+      </button>
     </div>
   )
 }

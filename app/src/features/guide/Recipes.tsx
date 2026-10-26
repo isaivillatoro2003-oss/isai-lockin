@@ -5,6 +5,8 @@ import { Card, Kicker, Sheet } from '../../ui'
 
 const SLOT: Record<Receta['slot'], string> = { comida1: 'Comida 1', comida2: 'Comida 2', comida3: 'Comida 3', snack: 'Snack' }
 
+const own = (r: Receta) => r.fuente.creador.startsWith('Lock-in')
+
 export function RecipeCard({ r, onOpen }: { r: Receta; onOpen: () => void }) {
   return (
     <Card onClick={onOpen}>
@@ -13,7 +15,7 @@ export function RecipeCard({ r, onOpen }: { r: Receta; onOpen: () => void }) {
         <div className="shrink-0 font-mono text-[10.5px] text-faint">{r.tiempo}</div>
       </div>
       <div className="mt-1 font-mono text-[11px] text-dim tnum">{r.kcal} kcal · {r.proteinaG} g proteína</div>
-      <div className="mt-1 text-[12px] text-faint">{r.fuente.creador} · {r.fuente.plataforma}</div>
+      <div className="mt-1 text-[12px] text-faint">{own(r) ? r.fuente.creador : `${r.fuente.creador} · ${r.fuente.plataforma}`}{r.tags.includes('horno') && ' · horno'}</div>
     </Card>
   )
 }
@@ -35,9 +37,10 @@ export function RecipeDetail({ r }: { r: Receta }) {
       <div className="mt-5"><Kicker>Paso a paso</Kicker>
         <ol className="mt-2 space-y-3">{r.pasos.map((x, i) => <li key={i} className="flex gap-3 text-[14.5px] leading-relaxed"><span className="w-4 shrink-0 font-serif text-[18px] text-sun">{i + 1}</span>{x}</li>)}</ol>
       </div>
+      {r.horno && <div className="mt-5 rounded-xl border border-line px-4 py-3"><Kicker>En horno</Kicker><p className="mt-1 text-[14px] leading-relaxed text-dim">{r.horno}</p></div>}
       {r.tips.length > 0 && <div className="mt-5"><Kicker>Tips</Kicker><ul className="mt-2 space-y-1.5">{r.tips.map((x, i) => <li key={i} className="text-[13.5px] text-dim">· {x}</li>)}</ul></div>}
       <p className="mt-5 text-[12px] text-faint">
-        Idea de {r.fuente.creador} ({r.fuente.plataforma}){r.fuente.url && <> · <a href={r.fuente.url} target="_blank" rel="noreferrer" className="underline">ver video</a></>}
+        {own(r) ? 'Receta propia de Lock-in' : <>Idea de {r.fuente.creador} ({r.fuente.plataforma})</>}{r.fuente.url && <> · <a href={r.fuente.url} target="_blank" rel="noreferrer" className="underline">ver video</a></>}
       </p>
     </div>
   )
