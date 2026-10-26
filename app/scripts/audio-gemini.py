@@ -8,7 +8,7 @@ Uso (desde app/):
   GEMINI_API_KEY=... python scripts/audio-gemini.py [ar|fr] [--limit N] [--batch 24] [--out DIR]
 Lo ya hecho queda en scripts/audio-gemini-done-<lang>.json y no se vuelve a pedir.
 """
-import argparse, base64, json, os, re, subprocess, sys, tempfile, time, urllib.error, urllib.request
+import argparse, base64, json, math, os, re, shutil, subprocess, sys, tempfile, time, urllib.error, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 MODEL = 'gemini-3.8-flash-tts'
@@ -59,24 +59,73 @@ def request(lang, lines, key):
             raise SystemExit(f'Respuesta inválida: {e}')
 
 
-def split(pcm_path, n):
-    """Busca los n-1 silencios más largos y devuelve n tramos (inicio, fin) en segundos."""
+def silences(pcm_path, min_len=0.22):
     out = subprocess.run(['ffmpeg', '-v', 'info', '-f', 's16le', '-ar', '24000', '-ac', '1', '-i', pcm_path,
-                          '-af', 'silencedetect=noise=-40dB:d=0.45', '-f', 'null', '-'],
+                          '-af', f'silencedetect=noise=-40dB:d={min_len}', '-f', 'null', '-'],
                          capture_output=True, text=True).stderr
     starts = [float(x) for x in re.findall(r'silence_start: ([\d.]+)', out)]
     ends = [float(x) for x in re.findall(r'silence_end: ([\d.]+)', out)]
     total = os.path.getsize(pcm_path) / 48000
-    gaps = [(e - s, s, e) for s, e in zip(starts, ends) if s > 0.05 and e < total - 0.05]
+    return [(s, e) for s, e in zip(starts, ends) if s > 0.05 and e < total - 0.05], total
+
+
+def weight(text):
+    """Duración relativa esperada de una frase: letras más un fijo por arranque y pausa interna por coma."""
+    return len(text) + 4 + 6 * len(re.findall(r'[،,؟?!.]\s', text))
+
+
+def split(pcm_path, items):
+    """Elige los n-1 silencios que mejor reparten el audio según el largo de cada frase.
+
+    Programación dinámica: premia silencios largos y castiga tramos cuya duración no cuadra
+    con la esperada. Así una coma dentro de una frase no se toma por el cambio de línea.
+    Devuelve los tramos (inicio, fin) o None si ni el mejor reparto es creíble.
+    """
+    n = len(items)
+    gaps, total = silences(pcm_path)
+    if n == 1:
+        return [(0.0, total)]
     if len(gaps) < n - 1:
         return None
-    cut = sorted(sorted(gaps, reverse=True)[:n - 1], key=lambda g: g[1])
-    bounds, t = [], 0.0
-    for _, s, e in cut:
-        bounds.append((t, s))
-        t = e
-    bounds.append((t, total))
-    return bounds
+    w = [weight(it['text']) for it in items]
+    speech = total - sum(sorted((e - s for s, e in gaps), reverse=True)[:n - 1])
+    exp = [speech * x / sum(w) for x in w]
+    pts = [(0.0, 0.0)] + gaps + [(total, total)]  # (inicio silencio, fin silencio); extremos ficticios
+    m = len(pts)
+    INF = float('inf')
+
+    def seg_cost(i, j, k):  # tramo k entre el silencio i y el j
+        dur = pts[j][0] - pts[i][1]
+        if dur <= 0.15:
+            return INF
+        return math.log(dur / exp[k]) ** 2
+
+    def gap_bonus(j):
+        return min(pts[j][1] - pts[j][0], 2.0)
+
+    best = [[INF] * m for _ in range(n + 1)]
+    back = [[-1] * m for _ in range(n + 1)]
+    best[0][0] = 0.0
+    for k in range(1, n + 1):
+        for j in range(1, m):
+            if (k < n) == (j == m - 1):
+                continue
+            for i in range(j):
+                if best[k - 1][i] == INF:
+                    continue
+                c = best[k - 1][i] + seg_cost(i, j, k - 1) - (1.5 * gap_bonus(j) if j < m - 1 else 0)
+                if c < best[k][j]:
+                    best[k][j], back[k][j] = c, i
+    if best[n][m - 1] == INF:
+        return None
+    idx, j = [], m - 1
+    for k in range(n, 0, -1):
+        idx.append(j)
+        j = back[k][j]
+    idx = [0] + idx[::-1]
+    bounds = [(pts[idx[k]][1], pts[idx[k + 1]][0]) for k in range(n)]
+    ok = all(abs(math.log((e - s) / x)) < math.log(2.6) for (s, e), x in zip(bounds, exp))
+    return bounds if ok else None
 
 
 def encode(pcm_path, start, end, dst):
@@ -85,14 +134,6 @@ def encode(pcm_path, start, end, dst):
                     '-ss', f'{start:.3f}', '-to', f'{end:.3f}',
                     '-af', 'silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse,apad=pad_dur=0.15',
                     '-ac', '1', '-ar', '24000', '-b:a', '40k', dst], check=True)
-
-
-def plausible(bounds, items):
-    """Descarta cortes donde una frase corta salió muy larga o al revés (señal de que se movió un corte)."""
-    secs = [e - s for s, e in bounds]
-    chars = [len(it['text']) for it in items]
-    rate = sum(secs) / max(1, sum(chars))
-    return all(0.35 < s / max(0.4, c * rate) < 2.8 for s, c in zip(secs, chars))
 
 
 def main():
@@ -116,13 +157,17 @@ def main():
     print(f'{a.lang}: {len(todo)} por generar', flush=True)
     queue = [todo[i:i + a.batch] for i in range(0, len(todo), a.batch)]
     made = 0
+    tmp_keep = os.path.join(tempfile.gettempdir(), 'lockin-audio-dudosos')
+    os.makedirs(tmp_keep, exist_ok=True)
     with tempfile.TemporaryDirectory() as tmp:
         while queue:
             group = queue.pop(0)
             pcm = os.path.join(tmp, 'b.pcm')
             open(pcm, 'wb').write(request(a.lang, [x['text'] for x in group], key))
-            bounds = split(pcm, len(group)) if len(group) > 1 else [(0, os.path.getsize(pcm) / 48000)]
-            if bounds is None or (len(group) > 1 and not plausible(bounds, group)):
+            bounds = split(pcm, group)
+            if bounds is None:
+                shutil.copy(pcm, os.path.join(tmp_keep, f'dudoso-{time.time():.0f}.pcm'))
+                json.dump([x['text'] for x in group], open(os.path.join(tmp_keep, f'dudoso-{time.time():.0f}.json'), 'w', encoding='utf8'), ensure_ascii=False)
                 print(f'  cortes dudosos en un lote de {len(group)}: lo parto', flush=True)
                 if len(group) > 1:
                     half = len(group) // 2
