@@ -263,8 +263,8 @@ function Photos() {
               className={`rounded-full py-2 text-[13px] transition ${pose === p.v ? 'bg-paper text-ink' : 'border border-line text-dim'}`}>{p.l}</button>
           ))}
         </div>
-        <input ref={input} type="file" accept="image/*" capture="environment" className="hidden" onChange={(e) => onFile(e.target.files?.[0])} />
-        <Btn className="mt-3 w-full" onClick={() => input.current?.click()} disabled={busy}>{busy ? 'Procesando…' : `Tomar foto de ${pose}`}</Btn>
+        <input ref={input} type="file" accept="image/*" className="hidden" onChange={(e) => onFile(e.target.files?.[0])} />
+        <Btn className="mt-3 w-full" onClick={() => input.current?.click()} disabled={busy}>{busy ? 'Procesando…' : `Subir o tomar foto de ${pose}`}</Btn>
         {err && <p className="mt-2 font-mono text-[11px] text-bad">{err}</p>}
         <p className="mt-2 font-mono text-[10.5px] text-faint">Misma luz, misma distancia, misma hora</p>
       </Card>
