@@ -5,7 +5,7 @@ export interface Translation {
   words: { t: string; es: string }[]; alternatives: { t: string; when: string }[]; note: string
 }
 export interface FoodCheck {
-  plato: string; kcal: number; proteinaG: number; carbosG: number; grasaG: number
+  plato: string; entendi?: string; kcal: number; proteinaG: number; carbosG: number; grasaG: number
   veredicto: 'bien' | 'regular' | 'mal'; resumen: string; bien: string[]; mejorar: string[]
 }
 export interface SpeakCheck { score: number; heard: string; feedback: string; tips: string[] }
@@ -23,7 +23,16 @@ async function call<T>(body: unknown): Promise<T> {
 }
 
 export const translate = (text: string, lang: 'ar' | 'fr', to?: 'm' | 'f') => call<Translation>({ task: 'translate', text, lang, to })
-export const checkFood = (image: string, mime: string, slot: string, time: string) => call<FoodCheck>({ task: 'food', image, mime, slot, time })
+export interface FoodInput { image?: string; mime?: string; audio?: string; audioMime?: string; desc?: string; slot: string; time: string; plan: string }
+export const checkFood = (input: FoodInput) => call<FoodCheck>({ task: 'food', ...input })
+
+/** Blob a base64 sin prefijo (para mandar audio a la IA). */
+export const blobToBase64 = (b: Blob) => new Promise<string>((resolve, reject) => {
+  const r = new FileReader()
+  r.onload = () => resolve(String(r.result).split(',')[1] ?? '')
+  r.onerror = () => reject(new Error('No se pudo leer el audio.'))
+  r.readAsDataURL(b)
+})
 export const checkSpeech = (lang: 'ar' | 'fr', target: string, heard: string, script?: string) =>
   call<SpeakCheck>({ task: 'speak', lang, target, heard, script })
 

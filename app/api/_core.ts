@@ -9,7 +9,7 @@ import { z } from 'zod'
  * Solo para texto (traducir y pronunciación); si Gemini falla o no tiene llave, se intenta NVIDIA.
  */
 
-const MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash'
+const MODEL = process.env.GEMINI_MODEL || 'gemini-3.8-flash' // 2.5 ya no está disponible para llaves nuevas
 const NVIDIA_MODEL = process.env.NVIDIA_MODEL || 'qwen/qwen3.5-397b-a17b'
 
 const CONTEXT = `El usuario es Isaí, mexicano, habla español, inglés y portugués. Aprende árabe libanés hablado
@@ -30,7 +30,8 @@ export const TranslateOut = z.object({
 })
 
 export const FoodOut = z.object({
-  plato: z.string(),
+  plato: z.string().describe('Nombre corto del plato'),
+  entendi: z.string().describe('Qué entendiste que comió, con ingredientes y cantidades, en una o dos frases. Si mandó audio, aquí va lo que dijo, limpio'),
   kcal: z.number(), proteinaG: z.number(), carbosG: z.number(), grasaG: z.number(),
   veredicto: z.enum(['bien', 'regular', 'mal']),
   resumen: z.string().describe('Una frase directa sobre si encaja en su plan'),
@@ -47,7 +48,7 @@ export const SpeakOut = z.object({
 
 export type AiRequest =
   | { task: 'translate'; text: string; lang: 'ar' | 'fr'; to?: 'm' | 'f' }
-  | { task: 'food'; image: string; mime: string; slot: string; time: string }
+  | { task: 'food'; image?: string; mime?: string; audio?: string; audioMime?: string; desc?: string; slot: string; time: string; plan: string }
   | { task: 'speak'; lang: 'ar' | 'fr'; target: string; script?: string; heard: string }
 
 let client: GoogleGenAI | null = null
@@ -129,9 +130,21 @@ export async function runAi(req: AiRequest) {
   }
 
   if (req.task === 'food') {
+    if (!req.image && !req.audio && !req.desc?.trim()) throw new Error('Manda una foto, escribe qué comiste o graba un audio.')
+    const parts: Part[] = []
+    if (req.image) parts.push({ inlineData: { mimeType: req.mime || 'image/jpeg', data: req.image } })
+    if (req.audio) parts.push({ inlineData: { mimeType: req.audioMime || 'audio/mp4', data: req.audio } })
+    parts.push({ text: [
+      `Esta es mi ${req.slot}, a las ${req.time}.`,
+      req.image ? 'La foto es solo para que te des una idea del plato y las porciones.' : 'No hay foto.',
+      req.audio ? 'En el audio te explico qué comí y cómo lo preparé.' : '',
+      req.desc?.trim() ? `Lo que comí, en mis palabras: ${req.desc.trim()}` : '',
+    ].filter(Boolean).join('\n') })
     return ask(FoodOut,
-      'Isaí mide 1.73 m, pesa ~100 kg y baja grasa: ~1,950 kcal y ~180 g de proteína al día, en 3 comidas entre 10:00 y 18:00. Estima con honestidad la comida de la foto (porciones visibles) y dile si encaja en su plan.',
-      [{ inlineData: { mimeType: req.mime, data: req.image } }, { text: `Esta es mi ${req.slot}, a las ${req.time}.` }])
+      `Analizas las comidas de Isaí: 1.73 m, ~100 kg, cuerpo endomorfo, bajando grasa. Su plan: ${req.plan}. Come en una ventana de 10:00 a 18:00. ` +
+      'Lo que él describe (texto o audio) manda sobre la foto: ingredientes, cantidades, aceite y forma de cocinar. Si algo no se ve o no lo dice, supón porciones normales y dilo. ' +
+      'Estima con honestidad kcal y macros de esta comida y dile si encaja en su plan del día.',
+      parts)
   }
 
   return ask(SpeakOut,

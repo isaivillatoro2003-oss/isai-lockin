@@ -1,6 +1,9 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
 import { errorMessage, runAi } from './_core.js'
 
+/** Un análisis de comida con foto y audio tarda ~10 s; margen para audios largos. */
+export const maxDuration = 60
+
 /** Función de Vercel: POST /api/ai */
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Solo POST' })

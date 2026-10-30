@@ -1,7 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { db, now, remove, uid, type MealRow, type MetricRow, type PhotoRow } from '../../db'
-import { checkFood, photoToBase64 } from '../../ai'
+import { blobToBase64, checkFood, photoToBase64 } from '../../ai'
+import { guia } from '../../content'
+import { startRecording } from '../../domain/speech'
 import { addDays, clock, longDate } from '../../domain/time'
 import { useNav } from '../../hooks'
 import { Btn, Card, Chips, Empty, Kicker, NumberInput, Screen, Sheet } from '../../ui'
@@ -383,6 +385,7 @@ function MealCard({ day, def, row }: { day: string; def: (typeof SLOTS)[number];
     const rec: MealRow = {
       ...(row?.photo ? { photo: row.photo } : {}),
       ...(row?.ai ? { ai: row.ai } : {}),
+      ...(row?.desc ? { desc: row.desc } : {}),
       id: row?.id ?? uid(), date: day, slot: def.slot, time: row?.time ?? (def.time || clock().hm),
       text: text.trim(), tags, updatedAt: now(),
       ...(rating ? { rating } : {}),
@@ -422,29 +425,83 @@ function MealCard({ day, def, row }: { day: string; def: (typeof SLOTS)[number];
       </div>
       {state === 'guardado' && <p className="mt-2 font-mono text-[10.5px] text-faint">guardado</p>}
       {state === 'fuera' && <p className="mt-2 font-mono text-[10.5px] text-bad">guardado · fuera de la ventana</p>}
-      <FoodPhoto day={day} def={def} row={row} onPlato={(p) => { if (!text.trim()) setText(p) }} />
+      <MealAnalysis day={day} def={def} row={row} onPlato={(p) => { if (!text.trim()) setText(p) }} />
     </Card>
   )
 }
 
 const VERDICT = { bien: ['Va bien', '#9cb380'], regular: ['Regular', '#e9a640'], mal: ['No encaja', '#c9705a'] } as const
 
-/** Foto del plato + análisis con IA: macros estimados y si encaja en el plan. */
-function FoodPhoto({ day, def, row, onPlato }: { day: string; def: (typeof SLOTS)[number]; row?: MealRow; onPlato: (p: string) => void }) {
+const PLAN = `${guia.macros.kcal} kcal, ${guia.macros.proteinG} g de proteína, ${guia.macros.carbosG} g de carbohidratos y ${guia.macros.grasaG} g de grasa al día. ${guia.macros.nota ?? ''}`
+const MAX_REC = 180
+
+/**
+ * Análisis de la comida con IA. La foto (de la galería o la cámara) solo da una idea;
+ * lo que él cuenta, escrito o en audio, manda: ingredientes, cantidades y cómo lo preparó.
+ */
+function MealAnalysis({ day, def, row, onPlato }: { day: string; def: (typeof SLOTS)[number]; row?: MealRow; onPlato: (p: string) => void }) {
+  const [desc, setDesc] = useState(row?.desc ?? '')
+  const [audio, setAudio] = useState<Blob | null>(null)
+  const [rec, setRec] = useState<{ stop: () => Promise<Blob>; since: number } | null>(null)
+  const [secs, setSecs] = useState(0)
   const [busy, setBusy] = useState(false)
   const [err, setErr] = useState('')
   const url = useMemo(() => (row?.photo ? URL.createObjectURL(row.photo) : null), [row?.photo])
   useEffect(() => () => { if (url) URL.revokeObjectURL(url) }, [url])
+  const audioUrl = useMemo(() => (audio ? URL.createObjectURL(audio) : null), [audio])
+  useEffect(() => () => { if (audioUrl) URL.revokeObjectURL(audioUrl) }, [audioUrl])
 
-  const pick = async (file: File) => {
-    setBusy(true); setErr('')
+  const base = (): MealRow => row ?? { id: uid(), date: day, slot: def.slot, time: def.time || clock().hm, text: '', tags: [], updatedAt: now() }
+
+  const pickPhoto = async (file: File) => {
+    setErr('')
     try {
       const b64 = await photoToBase64(file)
       const blob = await (await fetch(`data:image/jpeg;base64,${b64}`)).blob()
-      const base: MealRow = row ?? { id: uid(), date: day, slot: def.slot, time: def.time || clock().hm, text: '', tags: [], updatedAt: now() }
-      await db.meals.put({ ...base, photo: blob, updatedAt: now() })
-      const ai = await checkFood(b64, 'image/jpeg', def.name, clock().hm)
-      await db.meals.put({ ...base, photo: blob, ai, text: base.text || ai.plato, updatedAt: now() })
+      await db.meals.put({ ...base(), photo: blob, updatedAt: now() })
+    } catch { setErr('No pude abrir esa foto.') }
+  }
+
+  const stopRec = async () => {
+    if (!rec) return
+    const r = rec
+    setRec(null)
+    const blob = await r.stop()
+    if (blob.size > 0) setAudio(blob)
+  }
+  const toggleRec = async () => {
+    if (rec) return stopRec()
+    setErr('')
+    try {
+      const stop = await startRecording()
+      setAudio(null); setSecs(0)
+      setRec({ stop, since: Date.now() })
+    } catch { setErr('No tengo permiso para el micrófono.') }
+  }
+  useEffect(() => {
+    if (!rec) return
+    const t = setInterval(() => {
+      const s = Math.floor((Date.now() - rec.since) / 1000)
+      setSecs(s)
+      if (s >= MAX_REC) stopRec()
+    }, 250)
+    return () => clearInterval(t)
+  })
+
+  const ready = !!row?.photo || !!audio || !!desc.trim()
+  const analyze = async () => {
+    if (!ready || busy) return
+    setBusy(true); setErr('')
+    try {
+      const b = base()
+      const ai = await checkFood({
+        image: row?.photo ? await blobToBase64(row.photo) : undefined, mime: 'image/jpeg',
+        audio: audio ? await blobToBase64(audio) : undefined, audioMime: audio?.type.split(';')[0] || undefined,
+        desc: desc.trim() || undefined, slot: def.name, time: b.time || clock().hm, plan: PLAN,
+      })
+      const finalDesc = desc.trim() || ai.entendi || ''
+      await db.meals.put({ ...b, ai, desc: finalDesc, text: b.text || ai.plato, updatedAt: now() })
+      setDesc(finalDesc); setAudio(null)
       onPlato(ai.plato)
     } catch (e) {
       setErr(e instanceof Error ? e.message : 'No se pudo analizar.')
@@ -452,25 +509,55 @@ function FoodPhoto({ day, def, row, onPlato }: { day: string; def: (typeof SLOTS
   }
 
   const ai = row?.ai
+  const mm = `${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, '0')}`
   return (
     <div className="mt-4 border-t border-line pt-4">
-      {url && <img src={url} alt="" className="mb-3 aspect-[4/3] w-full rounded-xl object-cover" />}
-      <label className={`flex cursor-pointer items-center justify-center gap-2 rounded-full border border-line py-2.5 text-[13.5px] text-dim ${busy ? 'opacity-50' : ''}`}>
-        {busy ? 'Analizando el plato…' : url ? 'Cambiar foto y analizar' : 'Foto y análisis del plato'}
-        <input type="file" accept="image/*" capture="environment" className="hidden" disabled={busy}
-          onChange={(e) => { const f = e.target.files?.[0]; if (f) pick(f); e.target.value = '' }} />
+      <Kicker>Análisis con IA</Kicker>
+      {url && <img src={url} alt="" className="mt-3 aspect-[4/3] w-full rounded-xl object-cover" />}
+      <label className="mt-3 flex cursor-pointer items-center justify-center gap-2 rounded-full border border-line py-2.5 text-[13.5px] text-dim">
+        {url ? 'Cambiar foto' : 'Foto de la galería o cámara'}
+        <input type="file" accept="image/*" className="hidden" disabled={busy}
+          onChange={(e) => { const f = e.target.files?.[0]; if (f) pickPhoto(f); e.target.value = '' }} />
       </label>
+      <textarea value={desc} onChange={(e) => setDesc(e.target.value)} rows={3}
+        placeholder="Cuéntame qué comiste: ingredientes, cantidades, con qué lo cocinaste…"
+        className="mt-3 w-full resize-none rounded-xl border border-line bg-ink px-3 py-2.5 text-[14.5px] leading-relaxed outline-none placeholder:text-faint focus:border-dim" />
+      <div className="mt-2 flex items-center gap-2">
+        <button onClick={toggleRec} disabled={busy}
+          className={`flex shrink-0 items-center gap-2 rounded-full border px-4 py-2 text-[13px] transition ${rec ? 'border-bad text-bad' : 'border-line text-dim'}`}>
+          <span className={`h-2 w-2 rounded-full ${rec ? 'animate-pulse bg-bad' : 'bg-faint'}`} />
+          {rec ? `Detener · ${mm}` : audio ? 'Grabar otra vez' : 'Explicar con audio'}
+        </button>
+        {audio && !rec && (
+          <>
+            <audio src={audioUrl ?? undefined} controls className="h-8 min-w-0 flex-1" />
+            <button onClick={() => setAudio(null)} aria-label="borrar audio" className="px-2 text-[18px] text-faint">×</button>
+          </>
+        )}
+      </div>
+      <Btn className="mt-3 w-full" disabled={!ready || busy || !!rec} onClick={analyze}>
+        {busy ? 'Analizando…' : ai ? 'Analizar de nuevo' : 'Analizar comida'}
+      </Btn>
+      {!ready && <p className="mt-2 text-center font-mono text-[10px] text-faint">Sube una foto, escribe o graba qué comiste</p>}
       {err && <p className="mt-2 text-[12.5px] text-bad">{err}</p>}
       {ai && (
-        <div className="mt-3">
+        <div className="mt-4">
           <div className="flex items-center justify-between">
             <span className="text-[14px]" style={{ color: VERDICT[ai.veredicto][1] }}>{VERDICT[ai.veredicto][0]}</span>
-            <span className="font-mono text-[11px] text-dim tnum">{Math.round(ai.kcal)} kcal · {Math.round(ai.proteinaG)} g prot</span>
+            <span className="font-mono text-[11px] text-dim tnum">{Math.round(ai.kcal)} kcal</span>
           </div>
-          <p className="mt-1 text-[13.5px] leading-relaxed">{ai.resumen}</p>
+          <div className="mt-2 grid grid-cols-3 gap-px overflow-hidden rounded-xl border border-line bg-line text-center">
+            {([['Proteína', ai.proteinaG], ['Carbos', ai.carbosG], ['Grasa', ai.grasaG]] as const).map(([k, v]) => (
+              <div key={k} className="bg-raised py-2">
+                <div className="font-serif text-[22px] leading-none tnum">{Math.round(v)}<span className="ml-0.5 font-mono text-[10px] text-faint">g</span></div>
+                <div className="mt-1 font-mono text-[9.5px] uppercase tracking-[0.14em] text-faint">{k}</div>
+              </div>
+            ))}
+          </div>
+          <p className="mt-3 text-[13.5px] leading-relaxed">{ai.resumen}</p>
           {ai.bien.map((x, i) => <p key={`b${i}`} className="mt-1 text-[12.5px] text-ok">+ {x}</p>)}
           {ai.mejorar.map((x, i) => <p key={`m${i}`} className="mt-1 text-[12.5px] text-dim">→ {x}</p>)}
-          <p className="mt-2 font-mono text-[10px] text-faint">Estimación por foto: puede fallar ±20 %</p>
+          <p className="mt-2 font-mono text-[10px] text-faint">Estimación: puede fallar ±20 %</p>
         </div>
       )}
     </div>

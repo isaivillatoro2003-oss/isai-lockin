@@ -11,7 +11,7 @@ export interface MetricRow { id: string; date: string; type: 'peso' | 'cintura' 
 export interface PhotoRow { id: string; date: string; pose: 'frente' | 'perfil' | 'espalda' | 'cara'; blob: Blob; updatedAt: number }
 export interface MealRow {
   id: string; date: string; slot: 1 | 2 | 3 | 4; time: string; text: string; tags: string[]; rating?: 1 | 2 | 3; updatedAt: number
-  photo?: Blob; ai?: FoodCheck
+  photo?: Blob; ai?: FoodCheck; desc?: string
 }
 export interface JournalRow {
   date: string; good: string; bad: string; tomorrow: string
